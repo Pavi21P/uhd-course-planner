@@ -1,0 +1,67 @@
+{
+    "catalogYear":  "2025-2026",
+    "catalogId":  "37",
+    "retrievedOn":  "2026-09-27",
+    "method":  "connected-browser-expanded-course-panels",
+    "normalization":  "Nonbreaking spaces converted to spaces; excess whitespace trimmed. No descriptions or prerequisite clauses omitted.",
+    "sources":  [
+                    {
+                        "id":  "cs-program-37",
+                        "url":  "https://catalog.uhd.edu/preview_program.php?catoid=37\u0026poid=7111\u0026returnto=2409",
+                        "title":  "Computer Science, BS and expanded course descriptions",
+                        "catalogYear":  "2025-2026",
+                        "retrievedOn":  "2026-09-27",
+                        "role":  "catalog"
+                    }
+                ],
+    "captures":  [
+                     {
+                         "file":  "required-courses.txt",
+                         "sourceId":  "cs-program-37",
+                         "expectedCourses":  19
+                     }
+                 ],
+    "coverage":  {
+                     "requiredCsCodes":  [
+                                             "CS 1411",
+                                             "CS 2301",
+                                             "CS 2302",
+                                             "CS 2411",
+                                             "CS 3304",
+                                             "CS 3306",
+                                             "CS 3321",
+                                             "CS 4294",
+                                             "CS 4303",
+                                             "CS 4315",
+                                             "CS 4318",
+                                             "CS 4395"
+                                         ],
+                     "requiredCsCredits":  37,
+                     "supportingCodes":  [
+                                             "TCOM 3302",
+                                             "MATH 2305",
+                                             "MATH 2401",
+                                             "MATH 2402",
+                                             "MATH 2307",
+                                             "STAT 3311",
+                                             "MATH 3302"
+                                         ],
+                     "complete":  false,
+                     "remaining":  [
+                                       "Seven unresolved prerequisite statements and EET 2131/2331 references",
+                                       "Publication coverage review and offline snapshot loading",
+                                       "Partial laboratory-science pathways and lab-pair fulfillment",
+                                       "Physics duplicate-credit exclusions before importing PHYS 1307/1308 alternatives",
+                                       "92 optional core descriptions remain unimported; preserve explicit option metadata",
+                                       "Personal elective conflicts and minor overlap policies"
+                                   ]
+                 },
+    "browserCapture":  {
+                           "file":  "browser-capture.json",
+                           "expectedCourses":  60,
+                           "omittedPrerequisiteCodes":  [
+                                                            "CS 1313",
+                                                            "COMM 1304"
+                                                        ]
+                       }
+}

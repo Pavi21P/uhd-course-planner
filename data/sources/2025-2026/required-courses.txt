@@ -1,0 +1,94 @@
+TCOM 3302 - Business and Technical Writing
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): 010 core complete and 040 core complete
+Study and practice of presenting technical information, with emphasis on formal and informal writing for the workplace, including resumes, job application letters, instructions, proposals, and reports.
+---COURSE---
+MATH 2305 - Discrete Mathematical Structures
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): A grade of C or better in MATH 1404 or in MATH 1505 or placement by exam taken at UH-Downtown.
+Topics include formal logic, elementary set theory, elementary number theory, strings, lists, binary trees, recursion, analysis of algorithms, big-O notation, Boolean algebra, and graph theory.
+---COURSE---
+MATH 2401 - Calculus I
+Credits: 4 Class: 4 Lab: 0
+Prerequisite(s): A grade of C or better in MATH 1404 or in MATH 1505 or placement by exam taken at UH-Downtown.
+Functions, limits, the derivatives of algebraic and trigonometric functions, curve sketching, applications of the derivative, and an introduction to the definite and indefinite integrals of algebraic and trigonometric functions. (MATH 2413)
+---COURSE---
+MATH 2402 - Calculus II
+Credits: 4 Class: 4 Lab: 0
+Prerequisite(s): A grade of C or better in MATH 2401 or MATH 2411.
+Topics include differentiation and integration of transcendental functions, techniques of integration, improper integrals and applications of the integral, sequences and infinite series.
+---COURSE---
+MATH 2307 - Linear Algebra
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): A grade of C or better in MATH 2401 or MATH 2305 or MATH 2409.
+An introduction to the basic concepts of linear algebra including systems of linear equations, matrices, vector spaces, linear transformations, determinants, eigenvalues, eigenvectors, orthogonality and applications.
+---COURSE---
+STAT 3311 - Statistical Analysis for Natural Science
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): A grade of C or better in MATH 1404 or MATH 1505.
+Basic concepts of statistics for natural science students are considered including collection of data, descriptive statistics, probability concepts, random variables, probability distributions, expected values, point and interval estimation techniques, hypothesis testing, bivariate data, linear regression, and analysis of variance. Natural science applications are stressed and computer statistical packages are used.
+---COURSE---
+MATH 3302 - Probability and Statistics
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): A grade of C or better in MATH 2402 or MATH 2421.
+The probability and statistics useful for science and engineering applications are developed in this course. The topics include probability distributions, statistical inference, estimation, testing of hypothesis, and linear regression. Standard statistical packages are used but no computer background is necessary. Credit may not be earned for both MATH 3302 and STAT 3309.
+---COURSE---
+CS 1411 - Introduction to Computer Science with Python
+Credits: 4 Class: 4 Lab: 0
+Prerequisite(s): Credit or enrollment in MATH 1404 or MATH 1505.
+This course introduces the fundamentals of computer programming using the Python language. The course is designed as an introductory course for students with or without prior programming experience. Topics include variable declaration, control statements, functions, I/O operations, exception handling, and data structures. The course provides extensive hands-on activities on writing computer programs.
+---COURSE---
+CS 2301 - Introduction to Computer Organization
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): Grade of C or better in CS 1411 or CS 1408.
+Organization of general-purpose computers; data representation and arithmetic; instruction sets architectures and addressing modes; memory hierarchies, input/output and storage, and alternative architecture. (COSC 2425)
+---COURSE---
+CS 2302 - Digital Logic
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): Grade of C or better in CS 1411 and MATH 2305.
+Boolean expressions and theorems. Analysis and synthesis of combinational and sequential switching networks; optimization methods using random logic gates, multiplexers, decoders, registers, counters, and programmable logic devices. Exercises involve the design and simulation of digital circuits. Emphasis is on the use of Boolean Algebra, Truth Table, and Karnaugh Maps in the design, simulation, simplification, and testing of digital circuits.
+---COURSE---
+CS 2411 - Procedural and Object-Oriented Programming with C++
+Credits: 4 Class: 4 Lab: 0
+Prerequisite(s): Grade of C or better in CS 1411; credit or enrollment in MATH 2401.
+This course provides procedural and object-oriented programming foundations using C++. Topics include procedural-programming concepts such as variable declaration, data types, control statements, functions, and file operations as well as object-oriented concepts such as dynamic memory allocations, classes, and data abstractions.
+---COURSE---
+CS 3304 - Data and Information Structures
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): Grade of C or better in CS 2411 and MATH 2305.
+Development of methods for organizing and processing data sets. Types of data structures analyzed include linear lists, stacks, queues, trees, and graphs. Algorithm analysis methods are used throughout to analyze the various data structures and algorithm design alternatives.
+---COURSE---
+CS 3306 - Introduction to Theory of Computation
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): Grade of C or better in CS 2411 and MATH 2305
+An introduction to the modern theory of computing. Topics selected from abstract algebra, finite automata, regular expressions, regular languages, pushdown automata, context-free languages, and Turing machines. The capabilities and limitations of abstract computing devices are investigated from a theoretical perspective.
+---COURSE---
+CS 3321 - Software Engineering
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): C or better in CS 3304
+To provide students with the theoretical and practical understanding of the development of large software systems using the Unified Modeling Language (UML). The theoretical component is supported with readings, lectures, and class discussions. The practical components are reinforced with the development of a large-scale group project involving all phases of the software development life-cycle.
+---COURSE---
+CS 4294 - Senior Seminar
+Credits: 2 Class: 2 Lab: 0
+Prerequisite(s): COMM 1304, TCOM 3302, senior standing and department approval.
+A structured seminar: students are exposed to the world community as it relates to their major (involving a written and oral report on cultural issues as well as discussion of these topics). Ethics is discussed as it relates to the subject. In addition, students prepare a written proposal for a senior project.
+---COURSE---
+CS 4303 - Programming Language Concepts
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): Grade of C or better in CS 3304 and CS 3306.
+This course provides students with a foundation in the concepts and implementation of modern programming languages. It also covers imperative, functional, logic, and object-oriented programming paradigms. Programming assignments and/or closed labs will be conducted for syntax and semantics analysis and different paradigms.
+---COURSE---
+CS 4315 - Operating Systems
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): Grade of C or better in CS 2301 and CS 3304.
+Basic concepts of operating systems including concurrent process management, I/O device management, process scheduling, synchronization, deadlock, and memory management. UNIX used for standard examples.
+---COURSE---
+CS 4318 - Database Systems
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): Grade of C or better in CS 3304.
+An introduction to the theory of database and file structures with an emphasis on general principles and algorithmic issues as well as a conceptual overview of the design, construction and maintenance of database and file processing systems. After the various models are considered, specific attention is given to advanced topics such as data integrity, optimization, and distributed environments.
+---COURSE---
+CS 4395 - Senior Project in Computer Science
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): A grade of B or better in CS 4294, GPA of 3.0 or above, senior standing, and department approval.
+Intensive study under the guidance of a member of the Computer Science faculty which culminates in an individually researched and formally written report and oral presentation dealing with the applications of computer science in the student’s area of specialization and related to one type of business or industry in the Houston area.

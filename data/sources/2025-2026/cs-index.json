@@ -1,0 +1,288 @@
+{
+  "catalogYear": "2025-2026",
+  "catalogId": "37",
+  "retrievedOn": "2026-09-27",
+  "sourceUrl": "https://catalog.uhd.edu/content.php?filter%5B27%5D=CS&filter%5B29%5D=&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=37&expand=&navoid=2413&search_database=Filter#acalog_template_course_filter",
+  "observedResultCount": 55,
+  "observedPaginationLinkCount": 0,
+  "scope": "CS prefix listing only; presence does not establish elective eligibility or scheduled offering",
+  "courseCodes": [
+    "CS 1105",
+    "CS 1305",
+    "CS 1311",
+    "CS 1313",
+    "CS 1408",
+    "CS 1410",
+    "CS 1411",
+    "CS 1412",
+    "CS 2301",
+    "CS 2302",
+    "CS 2311",
+    "CS 2410",
+    "CS 2411",
+    "CS 3300",
+    "CS 3301",
+    "CS 3304",
+    "CS 3305",
+    "CS 3306",
+    "CS 3307",
+    "CS 3308",
+    "CS 3310",
+    "CS 3318",
+    "CS 3319",
+    "CS 3321",
+    "CS 3324",
+    "CS 3325",
+    "CS 3331",
+    "CS 3394",
+    "CS 4294",
+    "CS 4300",
+    "CS 4301",
+    "CS 4303",
+    "CS 4306",
+    "CS 4307",
+    "CS 4308",
+    "CS 4309",
+    "CS 4310",
+    "CS 4311",
+    "CS 4313",
+    "CS 4315",
+    "CS 4317",
+    "CS 4318",
+    "CS 4319",
+    "CS 4322",
+    "CS 4326",
+    "CS 4328",
+    "CS 4329",
+    "CS 4332",
+    "CS 4337",
+    "CS 4340",
+    "CS 4380",
+    "CS 4390",
+    "CS 4395",
+    "CS 4396",
+    "CS 4399"
+  ],
+  "links": [
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68775",
+      "name": "CS 1105 - Technology for Education Lab"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68776",
+      "name": "CS 1305 - Introduction to Computer Technology"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=69864",
+      "name": "CS 1311 - Introduction to Computing with Python"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70420",
+      "name": "CS 1313 - Principles of Game Design"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68778",
+      "name": "CS 1408 - Introduction to Computer Science with Visual Basic"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68779",
+      "name": "CS 1410 - CS I-Introduction to Computer Science with C++"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70537",
+      "name": "CS 1411 - Introduction to Computer Science with Python"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68780",
+      "name": "CS 1412 - Introduction to Computer Science with C#"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68781",
+      "name": "CS 2301 - Introduction to Computer Organization"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68782",
+      "name": "CS 2302 - Digital Logic"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70360",
+      "name": "CS 2311 - Data Structures and Algorithms with Python"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68783",
+      "name": "CS 2410 - CS II-Introduction to Data Structures and Algorithms"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70538",
+      "name": "CS 2411 - Procedural and Object-Oriented Programming with C++"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68784",
+      "name": "CS 3300 - Object-Oriented Programming and Concepts"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70540",
+      "name": "CS 3301 - Cryptography"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68785",
+      "name": "CS 3304 - Data and Information Structures"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70548",
+      "name": "CS 3305 - Introduction to System Administration"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68786",
+      "name": "CS 3306 - Introduction to Theory of Computation"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70554",
+      "name": "CS 3307 - Introduction to System Security"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68787",
+      "name": "CS 3308 - Numerical Methods"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70300",
+      "name": "CS 3310 - Fundamentals of Game Development"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68788",
+      "name": "CS 3318 - Introduction to Computer Security"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70374",
+      "name": "CS 3319 - Internet of Things"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70011",
+      "name": "CS 3321 - Software Engineering"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68803",
+      "name": "CS 3324 - Computer Network Architecture"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68789",
+      "name": "CS 3325 - Introduction to Wireless Networks"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70299",
+      "name": "CS 3331 - Introduction to Robotics"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68791",
+      "name": "CS 3394 - Undergraduate Research"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68793",
+      "name": "CS 4294 - Senior Seminar"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68794",
+      "name": "CS 4300 - Web Programming"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68795",
+      "name": "CS 4301 - Advanced Numerical Methods for Science and Engineering"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68796",
+      "name": "CS 4303 - Programming Language Concepts"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68797",
+      "name": "CS 4306 - Mathematical Models and Computer Simulation"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70549",
+      "name": "CS 4307 - Data Privacy and Security"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70550",
+      "name": "CS 4308 - Digital Forensics"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70551",
+      "name": "CS 4309 - Senior Project in Cybersecurity"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68798",
+      "name": "CS 4310 - Principles of Computer Graphics"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70552",
+      "name": "CS 4311 - Software Security"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70553",
+      "name": "CS 4313 - Web and Cloud Security"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68799",
+      "name": "CS 4315 - Operating Systems"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70375",
+      "name": "CS 4317 - Natural Language Processing"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68800",
+      "name": "CS 4318 - Database Systems"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68801",
+      "name": "CS 4319 - Statistical and Machine Learning"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68802",
+      "name": "CS 4322 - Theory of Algorithms"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68790",
+      "name": "CS 4326 - Network Security"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68804",
+      "name": "CS 4328 - Parallel Computing"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70301",
+      "name": "CS 4329 - Introduction to Bioinformatics"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70302",
+      "name": "CS 4332 - Artificial Intelligence"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=70376",
+      "name": "CS 4337 - Human-Computer Interaction"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68805",
+      "name": "CS 4340 - Mobile Computing"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68806",
+      "name": "CS 4380 - Field Experience"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68807",
+      "name": "CS 4390 - Special Topics in Computer Science"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68808",
+      "name": "CS 4395 - Senior Project in Computer Science"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68809",
+      "name": "CS 4396 - Senior Thesis"
+    },
+    {
+      "href": "preview_course_nopop.php?catoid=37&coid=68810",
+      "name": "CS 4399 - Directed Study in Computer Science"
+    }
+  ]
+}

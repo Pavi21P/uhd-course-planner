@@ -1,0 +1,426 @@
+{
+  "status": "incomplete",
+  "publishable": false,
+  "courseCount": 83,
+  "catalogYear": "2025-2026",
+  "retrievedOn": "2026-09-27",
+  "fingerprints": {
+    "required-courses.txt": "1ae22db3dc62c9dfd35717c3c139d3c888dbccfbf170e070d0bc9b818a726736",
+    "browser-capture.json": "fabcff35d3222700496a665352da5869a23feb272453a6df95a0121d3f42549e",
+    "requirement-pages.json": "ffa7024bd7c0ae299ab376d75e5ec805f2cc714dd3d6d7115862177a254d75bd"
+  },
+  "requiredCourseCount": 12,
+  "requiredCsCredits": 37,
+  "missingReferencedCourses": [
+    "EET 2131",
+    "EET 2331"
+  ],
+  "reviewRequired": [
+    "COMM 1304",
+    "CS 1313",
+    "CS 3308",
+    "CS 3331",
+    "CS 4306",
+    "CS 4396",
+    "STAT 3309"
+  ],
+  "reviewedOn": "2026-09-30",
+  "prerequisiteReviewIssues": [
+    {
+      "code": "COMM 1304",
+      "reason": "No prerequisite statement published in captured panel."
+    },
+    {
+      "code": "CS 1313",
+      "reason": "No prerequisite statement published in captured panel."
+    },
+    {
+      "code": "CS 3308",
+      "reason": "Mixed OR and comma-separated courses: preserve text until grouping is confirmed."
+    },
+    {
+      "code": "CS 3331",
+      "reason": "EET 2331/EET2131 alternative is absent from this edition; slash grouping is unresolved."
+    },
+    {
+      "code": "CS 4306",
+      "reason": "Mixed OR/AND without explicit grouping; preserve text until grouping is confirmed."
+    },
+    {
+      "code": "CS 4396",
+      "reason": "Permission wording refers to CS 4395; description says thesis continues that research. Timing needs clarification."
+    },
+    {
+      "code": "STAT 3309",
+      "reason": "Mixed AND/OR without explicit grouping; preserve text until grouping is confirmed."
+    }
+  ],
+  "coursePolicies": [
+    {
+      "id": "no-degree-credit-math-1300",
+      "kind": "degree-credit-exclusion",
+      "courseIds": [
+        "2025-2026:MATH 1300"
+      ],
+      "text": "MATH 1300 may not satisfy degree requirements; its published hours are not degree-applicable hours.",
+      "sourceIds": [
+        "course-37-69375"
+      ]
+    },
+    {
+      "id": "no-upper-cs-elective-3394",
+      "kind": "requirement-exclusion",
+      "courseIds": [
+        "2025-2026:CS 3394"
+      ],
+      "text": "CS 3394 cannot fulfill the upper-level CS elective requirement. Other uses are not decided by this exclusion.",
+      "sourceIds": [
+        "course-37-68791"
+      ]
+    },
+    {
+      "id": "statistics-exclusive-credit",
+      "kind": "mutually-exclusive-credit",
+      "courseIds": [
+        "2025-2026:MATH 3302",
+        "2025-2026:STAT 3309"
+      ],
+      "text": "Credit may not be earned for both MATH 3302 and STAT 3309.",
+      "sourceIds": [
+        "cs-program-37",
+        "course-37-69791"
+      ]
+    },
+    {
+      "id": "writing-use-cs-3324",
+      "kind": "conditional-writing-use",
+      "courseIds": [
+        "2025-2026:CS 3324"
+      ],
+      "text": "May fulfill the writing application requirement only with the additional conditions; ordinary enrollment alone does not establish writing credit.",
+      "sourceIds": [
+        "course-37-68803"
+      ],
+      "additionalConditions": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 4294",
+            "timing": "before"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "department approval"
+          }
+        ]
+      }
+    },
+    {
+      "id": "writing-use-cs-4301",
+      "kind": "conditional-writing-use",
+      "courseIds": [
+        "2025-2026:CS 4301"
+      ],
+      "text": "May fulfill the writing application requirement only with the additional conditions; ordinary enrollment alone does not establish writing credit.",
+      "sourceIds": [
+        "course-37-68795"
+      ],
+      "additionalConditions": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 4294",
+            "timing": "before"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "department approval"
+          }
+        ]
+      }
+    },
+    {
+      "id": "writing-use-cs-4306",
+      "kind": "conditional-writing-use",
+      "courseIds": [
+        "2025-2026:CS 4306"
+      ],
+      "text": "May fulfill the writing application requirement only with the additional conditions; ordinary enrollment alone does not establish writing credit.",
+      "sourceIds": [
+        "course-37-68797"
+      ],
+      "additionalConditions": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 4294",
+            "timing": "before"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "department approval"
+          }
+        ]
+      }
+    },
+    {
+      "id": "writing-use-cs-4328",
+      "kind": "conditional-writing-use",
+      "courseIds": [
+        "2025-2026:CS 4328"
+      ],
+      "text": "May fulfill the writing application requirement only with the additional conditions; ordinary enrollment alone does not establish writing credit.",
+      "sourceIds": [
+        "course-37-68804"
+      ],
+      "additionalConditions": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 4294",
+            "timing": "before"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "department approval"
+          }
+        ]
+      }
+    },
+    {
+      "id": "writing-use-cs-4340",
+      "kind": "conditional-writing-use",
+      "courseIds": [
+        "2025-2026:CS 4340"
+      ],
+      "text": "May fulfill the writing application requirement only with the additional conditions; ordinary enrollment alone does not establish writing credit.",
+      "sourceIds": [
+        "course-37-68805"
+      ],
+      "additionalConditions": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 4294",
+        "timing": "before"
+      }
+    },
+    {
+      "id": "repeat-cs-3394",
+      "kind": "repeatability",
+      "courseIds": [
+        "2025-2026:CS 3394"
+      ],
+      "text": "May be repeated for credit with department approval. No repeat limit or automatic duplicate-credit allowance is inferred.",
+      "sourceIds": [
+        "course-37-68791"
+      ]
+    },
+    {
+      "id": "repeat-cs-4390",
+      "kind": "repeatability",
+      "courseIds": [
+        "2025-2026:CS 4390"
+      ],
+      "text": "May be repeated for credit with department approval. No repeat limit or automatic duplicate-credit allowance is inferred.",
+      "sourceIds": [
+        "course-37-68807"
+      ]
+    },
+    {
+      "id": "exclusive-phys-2401",
+      "kind": "mutually-exclusive-credit",
+      "courseIds": [
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 1307"
+      ],
+      "text": "Credit for both PHYS 1307 and PHYS 2401 may not be applied toward a degree.",
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "lab-pair-phys-2401",
+      "kind": "laboratory-pair",
+      "courseIds": [
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 2101"
+      ],
+      "text": "Allocate PHYS 2401 with PHYS 2101 for laboratory-science planning; a lecture or laboratory alone is not a complete pair.",
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "exclusive-phys-2402",
+      "kind": "mutually-exclusive-credit",
+      "courseIds": [
+        "2025-2026:PHYS 2402",
+        "2025-2026:PHYS 1308"
+      ],
+      "text": "Credit for both PHYS 1308 and PHYS 2402 may not be applied toward a degree.",
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "lab-pair-phys-2402",
+      "kind": "laboratory-pair",
+      "courseIds": [
+        "2025-2026:PHYS 2402",
+        "2025-2026:PHYS 2102"
+      ],
+      "text": "Allocate PHYS 2402 with PHYS 2102 for laboratory-science planning; a lecture or laboratory alone is not a complete pair.",
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    }
+  ],
+  "mandatoryPrerequisiteCycles": [],
+  "degreeBudget": {
+    "degreeMinimum": 120,
+    "sections": {
+      "core": 42,
+      "writing": 3,
+      "mathematics": 17,
+      "computerScience": 55,
+      "laboratoryScience": 8
+    },
+    "sectionHours": 125,
+    "overlaps": {
+      "mathematicsCore": 3,
+      "scienceCore": 6
+    },
+    "uniqueRequirementHours": 116,
+    "freeElectiveBalance": 4,
+    "scope": "Requirement budget with catalog-specified overlaps; actual course selections, substitutions and transfer awards may change the balance. Not a personal degree audit."
+  },
+  "physicsPathBudget": {
+    "degreeMinimum": 120,
+    "sections": {
+      "core": 42,
+      "writing": 3,
+      "mathematics": 17,
+      "computerScience": 55,
+      "laboratoryScience": 10
+    },
+    "sectionHours": 127,
+    "overlaps": {
+      "mathematicsCore": 3,
+      "scienceCore": 6
+    },
+    "uniqueRequirementHours": 118,
+    "freeElectiveBalance": 2,
+    "scope": "Requirement budget with catalog-specified overlaps; actual course selections, substitutions and transfer awards may change the balance. Not a personal degree audit."
+  },
+  "requirementCount": 19,
+  "unimportedRequirementOptions": [
+    "ANTH 2302",
+    "ART 1301",
+    "ART 1302",
+    "ART 1308",
+    "ART 1310",
+    "BIOL 1301",
+    "BIOL 1302",
+    "BIOL 1303",
+    "BIOL 1304",
+    "BIOL 1310",
+    "BIOL 1312",
+    "BIOL 2306",
+    "CHEM 1305",
+    "CHEM 1307",
+    "CHEM 1308",
+    "CJ 1301",
+    "COMM 1302",
+    "COMM 1306",
+    "COMM 1309",
+    "COMM 2307",
+    "COMM 2309",
+    "COMM 2311",
+    "CRS 1301",
+    "DANC 1301",
+    "DRA 1301",
+    "DRA 1303",
+    "ECO 1305",
+    "ENG 1302",
+    "ENG 1306",
+    "ENG 2301",
+    "ENG 2302",
+    "ENG 2305",
+    "ENG 2309",
+    "ENG 2311",
+    "ENG 2312",
+    "ENG 2313",
+    "ENG 2314",
+    "GEOL 1304",
+    "GEOL 1305",
+    "GEOL 1306",
+    "GEOL 1307",
+    "GEOL 1308",
+    "GEOL 1345",
+    "HEA 2305",
+    "HIST 1305",
+    "HIST 1306",
+    "HIST 1312",
+    "HIST 1314",
+    "HIST 1315",
+    "HIST 1316",
+    "HUM 1301",
+    "HUM 1302",
+    "LANG 1303",
+    "LATS 1301",
+    "MATH 1310",
+    "MBIO 1305",
+    "MBIO 1310",
+    "MUS 2301",
+    "MUS 2302",
+    "NS 1300",
+    "PHIL 1301",
+    "PHIL 2305",
+    "PHIL 2310",
+    "PHYS 1301",
+    "PHYS 1302",
+    "PHYS 1307",
+    "PHYS 1308",
+    "POLS 2305",
+    "POLS 2306",
+    "PSY 1303",
+    "SOC 1303",
+    "SOCW 2361",
+    "SOCW 2363",
+    "SPAN 2301",
+    "SPAN 2302",
+    "STAT 1312",
+    "UHD 1301",
+    "UHD 1302",
+    "UHD 1303",
+    "UHD 1304",
+    "UHD 1305",
+    "UHD 1306",
+    "UHD 1307",
+    "UHD 1308",
+    "UHD 2301",
+    "UHD 2302",
+    "UHD 2303",
+    "UHD 2304",
+    "UHD 2305",
+    "UHD 2306",
+    "UHD 2307",
+    "UHD 2308"
+  ],
+  "cycleAuditScope": "Verified expressions only; mandatory-before edges shared by every alternative. Does not establish feasibility of all alternatives or resolve unreviewed conditions.",
+  "remaining": [
+    "Seven unresolved prerequisite statements and EET 2131/2331 references",
+    "Publication coverage review and offline snapshot loading",
+    "Partial laboratory-science pathways and lab-pair fulfillment",
+    "Physics duplicate-credit exclusions before importing PHYS 1307/1308 alternatives",
+    "92 optional core descriptions remain unimported; preserve explicit option metadata",
+    "Personal elective conflicts and minor overlap policies"
+  ]
+}

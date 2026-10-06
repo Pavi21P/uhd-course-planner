@@ -1,0 +1,573 @@
+{
+  "catalogYear": "2025-2026",
+  "catalogId": "37",
+  "retrievedOn": "2026-10-04",
+  "normalization": "Whitespace normalized from expanded official course panels. Catalog spelling retained. DATA 3394 trailing 1 retained in raw prerequisite text; no meaning inferred. DATA 4395 crosslisting retained in description. Math index is an inventory, not a blanket eligibility claim; MATH 3321/3322 are excluded from the upper-level subset.",
+  "sources": [
+    {
+      "id": "minor-course-73140",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=73140&print",
+      "title": "DATA 3394 - official course description",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70418",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70418&print",
+      "title": "DATA 4300 - official course description",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70555",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70555&print",
+      "title": "DATA 4320 - official course description",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70361",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70361&print",
+      "title": "DATA 4395 - official course description",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70556",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70556&print",
+      "title": "DATA 4419 - official course description",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70557",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70557&print",
+      "title": "MATH 3323 - official course description",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    }
+  ],
+  "courses": [
+    {
+      "id": "2025-2026:DATA 3394",
+      "catalogYear": "2025-2026",
+      "code": "DATA 3394",
+      "title": "Undergraduate Research",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Junior standing and department approval. 1",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "Junior standing"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Department approval"
+          }
+        ]
+      },
+      "description": "Individualized course designed to give students research experience and independent study skills in the context of advanced data science. Students will work under the direction of a Mathematics and Statistics faculty member.",
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-73140"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 4300",
+      "catalogYear": "2025-2026",
+      "code": "DATA 4300",
+      "title": "Ethics for Data Science",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in DATA 3401, or department approval.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:DATA 3401",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Department approval"
+          }
+        ]
+      },
+      "description": "This course will introduce the student to many of the ethical issues faced by data professionals throughout the data science pipeline. Students will develop an understanding of current ethical challenges that have emerged in the profession. Topics include: bias in machine-learning algorithms and Artifical Intelligence; invasions of privacy with data collection; unintentional discrimination from data analysis; and lack of accountability with ‘black-box’ algorithms. Using philosophical ethics as a guide, the students will learn to think critically, creatively and conscientiously about how data-driven tools should be used.",
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70418"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 4320",
+      "catalogYear": "2025-2026",
+      "code": "DATA 4320",
+      "title": "Advanced Machine Learning",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in DATA 4419 or department approval.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:DATA 4419",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Department approval"
+          }
+        ]
+      },
+      "description": "This course provides an overview of theory and applications of advanced machine learning. Topics include: Neural Networks; Deep Learning models including Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), and Generative Adversarial Networks (GAN); Attention Mechanism and Transformers; and Reinforcement Learning. Computer software tools will be used to implement machine learning models throughout the course.",
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70555"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 4395",
+      "catalogYear": "2025-2026",
+      "code": "DATA 4395",
+      "title": "Senior Project in Data Science",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Senior standing, formal approval by the prospective project advisor and the department chair.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "Senior standing"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Formal approval by the prospective project advisor and the department chair"
+          }
+        ]
+      },
+      "description": "Crosslisted: MATH 4395 and STAT 4395. A project on a statistics related topic under the guidance of a member of the Mathematics & Statistics faculty. Students will develop writing and oral presentation skills specific to statistics by submitting a written report and giving a public presentation. Students are required to select a project advisor in advance. Individual work is accompanied by regular progress reports and classroom instruction on writing and presenting papers. Examples include research, critical literature reviews and field studies. Course can be used to fulfill the writing skills requirement.",
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70361"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 4419",
+      "catalogYear": "2025-2026",
+      "code": "DATA 4419",
+      "title": "Statistical and Machine Learning",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better in DATA 3401; and a grade of C or better (or concurrent enrollment) in MATH 3323 and STAT 3333.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:DATA 3401",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 3323",
+            "timing": "before-or-concurrent",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:STAT 3333",
+            "timing": "before-or-concurrent",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "description": "The course provides rigorous mathematical theory and structure for combining statistical pattern recognition with machine learning algorithms to build predictive models on a wide range of real-life data and evaluate them using a variety of appropriate metrics. Topics include, but are not limited to, supervised and unsupervised machine learning models such as linear and polynomial regression, perceptron, logistic regression, artificial neural networks, K-nearest neighbors, decision trees, support vector machines, naïve Bayes, ensemble models, principal component analysis, clustering algorithms, and association rule mining. The models will be implemented using Python programing language and Scikit-Learn, Keras, and Tensorflow libraries.",
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70556"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3323",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3323",
+      "title": "Numerical Linear Algebra and Optimization",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 1411 and MATH 2422; or in CS 1411, MATH 2403 and MATH 2307; or department approval.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "all",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:CS 1411",
+                "timing": "before",
+                "minimumGrade": "C"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2422",
+                "timing": "before",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:CS 1411",
+                "timing": "before",
+                "minimumGrade": "C"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2403",
+                "timing": "before",
+                "minimumGrade": "C"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2307",
+                "timing": "before",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Department approval"
+          }
+        ]
+      },
+      "description": "This course introduces the numerical solution of systems of linear equations and optimization problems, as related to computational mathematics and data science. Topics include matrix factorizations LU, LDLT, Cholesky, QR, and SVD factorization, iterative methods including Jacobi, Gauss-Seidel, SOR, and conjugate gradient, eigenvalue and singular value problems, and introduction to gradient-based unconstrained optimization methods.",
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70557"
+      ]
+    }
+  ],
+  "indexes": [
+    {
+      "prefix": "DATA",
+      "sourceUrl": "https://catalog.uhd.edu/content.php?filter%5B27%5D=DATA&filter%5B29%5D=&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=37&expand=&navoid=2413&search_database=Filter#acalog_template_course_filter",
+      "observedPaginationLinkCount": 0,
+      "courses": [
+        {
+          "code": "DATA 2401",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70303"
+        },
+        {
+          "code": "DATA 3334",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70392"
+        },
+        {
+          "code": "DATA 3394",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=73140"
+        },
+        {
+          "code": "DATA 3401",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70304"
+        },
+        {
+          "code": "DATA 3402",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70305"
+        },
+        {
+          "code": "DATA 4300",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70418"
+        },
+        {
+          "code": "DATA 4320",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70555"
+        },
+        {
+          "code": "DATA 4395",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70361"
+        },
+        {
+          "code": "DATA 4419",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70556"
+        }
+      ]
+    },
+    {
+      "prefix": "MATH",
+      "sourceUrl": "https://catalog.uhd.edu/content.php?filter%5B27%5D=MATH&filter%5B29%5D=&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=37&expand=&navoid=2413&search_database=Filter#acalog_template_course_filter",
+      "observedPaginationLinkCount": 0,
+      "courses": [
+        {
+          "code": "MATH 0300",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69428"
+        },
+        {
+          "code": "MATH 1201",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69374"
+        },
+        {
+          "code": "MATH 1300",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69375"
+        },
+        {
+          "code": "MATH 1301",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69376"
+        },
+        {
+          "code": "MATH 1302",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69377"
+        },
+        {
+          "code": "MATH 1305",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69378"
+        },
+        {
+          "code": "MATH 1306",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69379"
+        },
+        {
+          "code": "MATH 1310",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69380"
+        },
+        {
+          "code": "MATH 1324",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70444"
+        },
+        {
+          "code": "MATH 1404",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69381"
+        },
+        {
+          "code": "MATH 1505",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69382"
+        },
+        {
+          "code": "MATH 2301",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69384"
+        },
+        {
+          "code": "MATH 2305",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69388"
+        },
+        {
+          "code": "MATH 2307",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69389"
+        },
+        {
+          "code": "MATH 2401",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69385"
+        },
+        {
+          "code": "MATH 2402",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69386"
+        },
+        {
+          "code": "MATH 2403",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69387"
+        },
+        {
+          "code": "MATH 2409",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69390"
+        },
+        {
+          "code": "MATH 2411",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69391"
+        },
+        {
+          "code": "MATH 2412",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69392"
+        },
+        {
+          "code": "MATH 2421",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70333"
+        },
+        {
+          "code": "MATH 2422",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70371"
+        },
+        {
+          "code": "MATH 3301",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69394"
+        },
+        {
+          "code": "MATH 3302",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69395"
+        },
+        {
+          "code": "MATH 3303",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69396"
+        },
+        {
+          "code": "MATH 3306",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69397"
+        },
+        {
+          "code": "MATH 3307",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69398"
+        },
+        {
+          "code": "MATH 3309",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69399"
+        },
+        {
+          "code": "MATH 3312",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69401"
+        },
+        {
+          "code": "MATH 3313",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69402"
+        },
+        {
+          "code": "MATH 3314",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70291"
+        },
+        {
+          "code": "MATH 3317",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70292"
+        },
+        {
+          "code": "MATH 3318",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70334"
+        },
+        {
+          "code": "MATH 3321",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69403"
+        },
+        {
+          "code": "MATH 3322",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69404"
+        },
+        {
+          "code": "MATH 3323",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70557"
+        },
+        {
+          "code": "MATH 3394",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69405"
+        },
+        {
+          "code": "MATH 3399",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69406"
+        },
+        {
+          "code": "MATH 3408",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69407"
+        },
+        {
+          "code": "MATH 4095",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70415"
+        },
+        {
+          "code": "MATH 4294",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69411"
+        },
+        {
+          "code": "MATH 4301",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69412"
+        },
+        {
+          "code": "MATH 4302",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69413"
+        },
+        {
+          "code": "MATH 4303",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69414"
+        },
+        {
+          "code": "MATH 4304",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69415"
+        },
+        {
+          "code": "MATH 4305",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69416"
+        },
+        {
+          "code": "MATH 4306",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69417"
+        },
+        {
+          "code": "MATH 4307",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69418"
+        },
+        {
+          "code": "MATH 4308",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69419"
+        },
+        {
+          "code": "MATH 4311",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70121"
+        },
+        {
+          "code": "MATH 4312",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69420"
+        },
+        {
+          "code": "MATH 4314",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69421"
+        },
+        {
+          "code": "MATH 4315",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69422"
+        },
+        {
+          "code": "MATH 4316",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70332"
+        },
+        {
+          "code": "MATH 4380",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69423"
+        },
+        {
+          "code": "MATH 4395",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69424"
+        },
+        {
+          "code": "MATH 4396",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69425"
+        },
+        {
+          "code": "MATH 4399",
+          "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69426"
+        }
+      ]
+    }
+  ]
+}

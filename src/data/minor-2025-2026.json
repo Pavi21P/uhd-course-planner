@@ -1,0 +1,2496 @@
+{
+  "version": "2025-2026-minors-2026-10-06-complete",
+  "baseDatasetVersion": "2025-2026-planning-2026-09-30",
+  "sources": [
+    {
+      "id": "minor-math-37",
+      "url": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7114&returnto=2409",
+      "title": "Mathematics Minor requirements and example sequences",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-data-37",
+      "url": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7170&returnto=2409",
+      "title": "Data Science Minor requirements",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70303",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70303&print",
+      "title": "DATA 2401 - Data Science I",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70304",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70304&print",
+      "title": "DATA 3401 - Data Science II",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70392",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70392&print",
+      "title": "DATA 3334 - Introduction to Bayesian Data Analysis",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70305",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70305&print",
+      "title": "DATA 3402 - Data Collection, Transformation and Curation",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70372",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70372&print",
+      "title": "STAT 3333 - Statistical Inference",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69399",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69399&print",
+      "title": "MATH 3309 - Number Theory",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69419",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69419&print",
+      "title": "MATH 4308 - Introduction to Graph Theory",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-73140",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=73140&print",
+      "title": "DATA 3394 - official course description",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70418",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70418&print",
+      "title": "DATA 4300 - official course description",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70555",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70555&print",
+      "title": "DATA 4320 - official course description",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70361",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70361&print",
+      "title": "DATA 4395 - official course description",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70556",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70556&print",
+      "title": "DATA 4419 - official course description",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70557",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70557&print",
+      "title": "MATH 3323 - official course description",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69384",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69384&print",
+      "title": "MATH 2301 - Introduction to Computational Mathematics",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69396",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69396&print",
+      "title": "MATH 3303 - Geometry for Teachers",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69397",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69397&print",
+      "title": "MATH 3306 - Introduction to Modern Algebra",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69398",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69398&print",
+      "title": "MATH 3307 - Analysis I",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69401",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69401&print",
+      "title": "MATH 3312 - Set Theory",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69402",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69402&print",
+      "title": "MATH 3313 - Mathematics Topics for Secondary Teachers",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70291",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70291&print",
+      "title": "MATH 3314 - Introduction to Combinatorics",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70292",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70292&print",
+      "title": "MATH 3317 - Actuarial Mathematics I",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70334",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70334&print",
+      "title": "MATH 3318 - Actuarial Mathematics II",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69403",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69403&print",
+      "title": "MATH 3321 - Math Concepts I",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69404",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69404&print",
+      "title": "MATH 3322 - Math Concepts II",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69405",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69405&print",
+      "title": "MATH 3394 - Undergraduate Research",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69406",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69406&print",
+      "title": "MATH 3399 - Directed Study in Mathematics",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69407",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69407&print",
+      "title": "MATH 3408 - Numerical Methods",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70415",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70415&print",
+      "title": "MATH 4095 - Senior Project in Mathematics Education",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69411",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69411&print",
+      "title": "MATH 4294 - Senior Seminar",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69412",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69412&print",
+      "title": "MATH 4301 - Advanced Numerical Methods for Science and Engineering",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69413",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69413&print",
+      "title": "MATH 4302 - Advanced Multivariable Calculus",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69414",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69414&print",
+      "title": "MATH 4303 - Introduction to Topology and Functional Analysis",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69415",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69415&print",
+      "title": "MATH 4304 - Introduction to Partial Differential Equations",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69416",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69416&print",
+      "title": "MATH 4305 - Complex Variables with Applications",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69417",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69417&print",
+      "title": "MATH 4306 - Modern Algebra",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69418",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69418&print",
+      "title": "MATH 4307 - Analysis II",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70121",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70121&print",
+      "title": "MATH 4311 - Operations Research",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69420",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69420&print",
+      "title": "MATH 4312 - History of Mathematics",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69421",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69421&print",
+      "title": "MATH 4314 - Differential Geometry",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69422",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69422&print",
+      "title": "MATH 4315 - Mathematical Modeling",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70332",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70332&print",
+      "title": "MATH 4316 - Decision Mathematics",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69423",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69423&print",
+      "title": "MATH 4380 - Field Experience in Mathematics",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69424",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69424&print",
+      "title": "MATH 4395 - Senior Project in Mathematics",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69425",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69425&print",
+      "title": "MATH 4396 - Senior Thesis",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69426",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69426&print",
+      "title": "MATH 4399 - Directed Study in Mathematics",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-05",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-credit-numbering-37",
+      "url": "https://catalog.uhd.edu/content.php?catoid=37&navoid=2421",
+      "title": "Course Credit and Numbering System",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-06",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70437",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70437&print",
+      "title": "STAT 2305 - Business Statistics with Applications",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-06",
+      "role": "catalog"
+    }
+  ],
+  "courses": [
+    {
+      "id": "2025-2026:DATA 2401",
+      "catalogYear": "2025-2026",
+      "code": "DATA 2401",
+      "title": "Data Science I",
+      "description": "This course is an introduction to the entire data science pipeline. Topics include, but are not limited to: data collection and transformation, exploratory data analysis, introduction to statistical software, and data visualization and presentation.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Grade of C or better in MATH 1404 or in MATH 1505.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1404",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1505",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70303"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 3401",
+      "catalogYear": "2025-2026",
+      "code": "DATA 3401",
+      "title": "Data Science II",
+      "description": "This course is an intermediate treatment of the data science pipeline. Topics include, but are not limited to: prediction, estimation and statistical inference; elementary notions of data mining; intermediate use of statistical software; introduction to relational databases and queries; and data visualization and presentation.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Grade of C or better in CS 1411, MATH 2305, and DATA 2401.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 1411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:DATA 2401",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70304"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 3334",
+      "catalogYear": "2025-2026",
+      "code": "DATA 3334",
+      "title": "Introduction to Bayesian Data Analysis",
+      "description": "This course introduces the fundamentals of Bayesian data analysis. Topics include Bayesian equivalents to classical point and interval estimation, Bayesian credible and highest posterior density regions. This course uses Markov chain Monte Carlo techniques and covers the Bayesian analogues to t-test, correlation test, proportion testing, regression, and ANOVA. After taking this course, students will have a basic understanding of the Bayesian perspectives of the frequentist techniques that they encounter in a traditional introductory statistics course. Crosslisted: STAT 3334.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "At least a grade of C in MATH 3302.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:MATH 3302",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70392"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 3402",
+      "catalogYear": "2025-2026",
+      "code": "DATA 3402",
+      "title": "Data Collection, Transformation and Curation",
+      "description": "This course provides the principles of data curation over the entire data pipeline. Specifically, the collection of data of different forms from a variety of sources, the transformation and wrangling of acquired data into forms amenable for analysis, and the preparation of data for a variety of statistical methods and models. Additionally, students will learn how to ensure the safety and consistency of data as it passes through all stages of the process.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Grade of C or better in CS 2311 and DATA 3401.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2311",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:DATA 3401",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70305"
+      ]
+    },
+    {
+      "id": "2025-2026:STAT 3333",
+      "catalogYear": "2025-2026",
+      "code": "STAT 3333",
+      "title": "Statistical Inference",
+      "description": "This course introduces the fundamentals of drawing conclusions about populations or scientific truths from sample data. Topics include point estimation (method of moments, least squares, maximum likelihood, mean-squared error, and Bayesian methods), confidence interval construction (likelihood-based, inversion methods, intervals based on pivots, Bayesian credible and highest posterior density regions, and resampling based intervals), and hypothesis testing (likelihood ratio, Bayesian, and resampling techniques). After taking this course, students will understand the broad directions of statistical inference and will make informed choices in analyzing data.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "At least a grade of C in MATH 3302",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:MATH 3302",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70372"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3309",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3309",
+      "title": "Number Theory",
+      "description": "Elementary treatment of multiplicative and additive properties of integers with application to cryptography and data storage. The course serves as a gateway to modern algebra by introducing elementary examples of abstract algebraic concepts, and covers many famous topics like perfect numbers, Chinese Remainder theorem, Golden Ratio and the Fibonacci sequence, Pythagorean triples and the Last Fermat theorem. Other topics may include: modular arithmetic, prime factorization, primality testing, public key cryptosystems, quadratic residues, continued fractions, partitions and their generating functions.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in MATH 2305 or MATH 2409.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2409",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69399"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4308",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4308",
+      "title": "Introduction to Graph Theory",
+      "description": "This course introduces some of the basic concepts in graph theory including; isomorphisms, graph invariants, spanning trees, connectivity, matchings, factors, graph coloring, and planarity. Additional topics, as time allows, may include; Ramsey theory, random graphs, extremal problems, complexity and NP-completeness.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2409 or MATH 2305, and in MATH 2307 or MATH 2422.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2409",
+                "timing": "before",
+                "minimumGrade": "C"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2305",
+                "timing": "before",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2307",
+                "timing": "before",
+                "minimumGrade": "C"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2422",
+                "timing": "before",
+                "minimumGrade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69419"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 3394",
+      "catalogYear": "2025-2026",
+      "code": "DATA 3394",
+      "title": "Undergraduate Research",
+      "description": "Individualized course designed to give students research experience and independent study skills in the context of advanced data science. Students will work under the direction of a Mathematics and Statistics faculty member.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Junior standing and department approval. 1",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "Junior standing"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Department approval"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-73140"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 4300",
+      "catalogYear": "2025-2026",
+      "code": "DATA 4300",
+      "title": "Ethics for Data Science",
+      "description": "This course will introduce the student to many of the ethical issues faced by data professionals throughout the data science pipeline. Students will develop an understanding of current ethical challenges that have emerged in the profession. Topics include: bias in machine-learning algorithms and Artifical Intelligence; invasions of privacy with data collection; unintentional discrimination from data analysis; and lack of accountability with ‘black-box’ algorithms. Using philosophical ethics as a guide, the students will learn to think critically, creatively and conscientiously about how data-driven tools should be used.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in DATA 3401, or department approval.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:DATA 3401",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Department approval"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70418"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 4320",
+      "catalogYear": "2025-2026",
+      "code": "DATA 4320",
+      "title": "Advanced Machine Learning",
+      "description": "This course provides an overview of theory and applications of advanced machine learning. Topics include: Neural Networks; Deep Learning models including Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), and Generative Adversarial Networks (GAN); Attention Mechanism and Transformers; and Reinforcement Learning. Computer software tools will be used to implement machine learning models throughout the course.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in DATA 4419 or department approval.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:DATA 4419",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Department approval"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70555"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 4395",
+      "catalogYear": "2025-2026",
+      "code": "DATA 4395",
+      "title": "Senior Project in Data Science",
+      "description": "Crosslisted: MATH 4395 and STAT 4395. A project on a statistics related topic under the guidance of a member of the Mathematics & Statistics faculty. Students will develop writing and oral presentation skills specific to statistics by submitting a written report and giving a public presentation. Students are required to select a project advisor in advance. Individual work is accompanied by regular progress reports and classroom instruction on writing and presenting papers. Examples include research, critical literature reviews and field studies. Course can be used to fulfill the writing skills requirement.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Senior standing, formal approval by the prospective project advisor and the department chair.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "Senior standing"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Formal approval by the prospective project advisor and the department chair"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70361"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 4419",
+      "catalogYear": "2025-2026",
+      "code": "DATA 4419",
+      "title": "Statistical and Machine Learning",
+      "description": "The course provides rigorous mathematical theory and structure for combining statistical pattern recognition with machine learning algorithms to build predictive models on a wide range of real-life data and evaluate them using a variety of appropriate metrics. Topics include, but are not limited to, supervised and unsupervised machine learning models such as linear and polynomial regression, perceptron, logistic regression, artificial neural networks, K-nearest neighbors, decision trees, support vector machines, naïve Bayes, ensemble models, principal component analysis, clustering algorithms, and association rule mining. The models will be implemented using Python programing language and Scikit-Learn, Keras, and Tensorflow libraries.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better in DATA 3401; and a grade of C or better (or concurrent enrollment) in MATH 3323 and STAT 3333.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:DATA 3401",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 3323",
+            "timing": "before-or-concurrent",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:STAT 3333",
+            "timing": "before-or-concurrent",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70556"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3323",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3323",
+      "title": "Numerical Linear Algebra and Optimization",
+      "description": "This course introduces the numerical solution of systems of linear equations and optimization problems, as related to computational mathematics and data science. Topics include matrix factorizations LU, LDLT, Cholesky, QR, and SVD factorization, iterative methods including Jacobi, Gauss-Seidel, SOR, and conjugate gradient, eigenvalue and singular value problems, and introduction to gradient-based unconstrained optimization methods.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 1411 and MATH 2422; or in CS 1411, MATH 2403 and MATH 2307; or department approval.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "all",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:CS 1411",
+                "timing": "before",
+                "minimumGrade": "C"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2422",
+                "timing": "before",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:CS 1411",
+                "timing": "before",
+                "minimumGrade": "C"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2403",
+                "timing": "before",
+                "minimumGrade": "C"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2307",
+                "timing": "before",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Department approval"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70557"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 2301",
+      "catalogYear": "2025-2026",
+      "code": "MATH 2301",
+      "title": "Introduction to Computational Mathematics",
+      "description": "This is a problem-solving applied mathematics and programming course that involves modeling, simulation, and visualization in a computer algebra system (CAS) to be chosen by the instructor (MATLAB, Maple, or Mathematica). No prior knowledge of a CAS is necessary. Students will be introduced to the CAS as a useful tool in computational mathematics, and will use it to implement and solve problems covering a wide range of applications.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in CS 1410 and credit or enrollment in MATH 2401.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 1410",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2401",
+            "timing": "before-or-concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69384"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3303",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3303",
+      "title": "Geometry for Teachers",
+      "description": "Topics selected from: properties of angles, lines, triangles, polygons, polyhedra, circles, similarity and congruency of triangles, area perimeter, surface area, volume geometric constructions, transformations, tessellation, investigating patterns in geometry for problem solving, the Pythagorean Theorem, the coordinate plane and an introduction to geometric proofs. The NCTM’s Principles and Standards for School Mathematics and the Texas Administrative Code (TACs), Title 19, Part II, Chapter 111 will be referenced. The use of technology is included. This course is primarily designed for students in the Teacher Preparation program.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1301 and junior standing.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1301",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "Junior standing"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69396"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3306",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3306",
+      "title": "Introduction to Modern Algebra",
+      "description": "Topics include operations on sets, groups, Abelian groups, permutation groups, subgroups, the integers modulo n, cyclic groups, direct products, cosets, quotient groups, normal subgroups, group homomorphisms and isomorphisms, and an introduction to rings. Applications will include coding, networks, minimal spanning trees and linear machines, as time permits.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2307 - Linear Algebra and MATH 2409 - Introduction to Proofs.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2307",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2409",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69397"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3307",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3307",
+      "title": "Analysis I",
+      "description": "A rigorous treatment of the elements of calculus and its foundations including techniques of proof, sets and functions, structure of the real number system, topology of reaIs, sequences, limits and continuity of functions of one real variable, differentiation and integration. Proof writing is emphasized.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in MATH 2402 and MATH 2409.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2402",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2409",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69398"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3312",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3312",
+      "title": "Set Theory",
+      "description": "Topics include sets and set operations, relations and their properties, partitions of sets and equivalence relations, axioms of set theory, partially and totally ordered sets and their properties, mappings, cardinals and ordinals.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in MATH 2305 or MATH 2409 .",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2409",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69401"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3313",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3313",
+      "title": "Mathematics Topics for Secondary Teachers",
+      "description": "Topics chosen from mathematical connections, historical perspectives, common conceptions and misconceptions, applications and technology relative to teaching and learning high school mathematics topics in algebra, discrete mathematics, geometry and calculus; problem solving theory and techniques over various topics including classic historical problems in mathematics. The NCTM’s Principles and Standards for School Mathematics and the Texas Administrative Code (TACs), Title 19, Part II, Chapter 111 will be referenced. The use of technology is included. Emphasis on conceptual understanding and developing the ability to provide both informal explanations and formal proofs.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in MATH 2401 or MATH 1306.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2401",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1306",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69402"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3314",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3314",
+      "title": "Introduction to Combinatorics",
+      "description": "An introduction to combinatorial mathematics including the following topics: the pigeonhole principle, permutations and combinations, binomial and multinomial coefficients, the principle of inclusion-exclusion, generating functions, Catalan numbers, and systems of distinct representatives.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2409 or MATH 2305 or MATH 2421 or MATH 2402 or MATH 2412",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2409",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2421",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2402",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2412",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70291"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3317",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3317",
+      "title": "Actuarial Mathematics I",
+      "description": "The purpose of this course is to develop mathematical and statistical tools to model and quantitatively assess risk based on empirical data, and to apply them to identify and calculate characteristics relevant to making insurance decisions. Terminology and contexts encountered in actuarial science will be emphasized.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2402, or MATH 2412, or MATH 2421, or STAT 3309, or STAT 3311.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2402",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2412",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2421",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:STAT 3309",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:STAT 3311",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70292"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3318",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3318",
+      "title": "Actuarial Mathematics II",
+      "description": "The goal of this course is to provide an understanding of the fundamental concepts of financial mathematics including introductory concepts of interest rates, annuity, loans, bond valuations, investment returns, cash flows, dividends, and stock valuations.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2402, or MATH 2412, or MATH 2421, or STAT 3309, or STAT 3311.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2402",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2412",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2421",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:STAT 3309",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:STAT 3311",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70334"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3321",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3321",
+      "title": "Math Concepts I",
+      "description": "Topics are chosen from problem solving, logic, numeration systems, set theory, number theory, estimation and algebraic thinking. The NCTM’s Principles and Standards for School Mathematics and the Texas Administrative Code (TACs), Title 19, Part II, Chapter 111 will be referenced. The use of technology is included.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1301. Restricted to students in Urban Education or permission of MS department chair.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1301",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "condition",
+                "category": "other",
+                "text": "Student in Urban Education"
+              },
+              {
+                "kind": "condition",
+                "category": "permission",
+                "text": "Permission of MS department chair"
+              }
+            ]
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69403"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3322",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3322",
+      "title": "Math Concepts II",
+      "description": "Topics are chosen from problem solving, proportional reasoning, probability, statistics, introductory geometry, estimation, systems of linear equations, measurement, motion geometry and symmetry. The NCTM’s Principles and Standards for School Mathematics and the Texas Administrative Code (TACs), Title 19, Part II, Chapter 111 will be referenced. The use of technology is included.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1301. Restricted to students in Urban Education or permission of MS department chair.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1301",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "condition",
+                "category": "other",
+                "text": "Student in Urban Education"
+              },
+              {
+                "kind": "condition",
+                "category": "permission",
+                "text": "Permission of MS department chair"
+              }
+            ]
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69404"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3394",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3394",
+      "title": "Undergraduate Research",
+      "description": "Individualized course designed to give students research experience and independent study skills in the context of higher mathematics. Students will work under the direction of a Mathematics & Statistics faculty member.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Junior standing and departmental approval.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "Junior standing"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Departmental approval"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69405"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3399",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3399",
+      "title": "Directed Study in Mathematics",
+      "description": "Selected topics in mathematics; intensive individual study under the guidance of a member of the Mathematics & Statistics faculty.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Formal approval by department chair and dean.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "permission",
+        "text": "Formal approval by department chair and dean"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69406"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3408",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3408",
+      "title": "Numerical Methods",
+      "description": "This computational and applied mathematics course analyzes and implements algorithms that are used in solving a variety of problems from science and engineering, including curve fitting, approximation, numerical differentiation and integration, numerical solutions of ordinary differential equations, and numerical solutions of linear systems of equations and nonlinear equations. Students are introduced to programming in a computer algebra system such as MATLAB, Maple, or Mathematica, and use it to obtain and analyze numerical solutions to such problems.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better in both MATH 2307 and MATH 2401, or MATH 2412, or MATH 2422.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in both MATH 2307 and MATH 2401, or MATH 2412, or MATH 2422."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "minor-course-69407"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4095",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4095",
+      "title": "Senior Project in Mathematics Education",
+      "description": "This is a zero-credit course for students in the BA in Mathematics with Secondary Teacher Certification program. Students are required to complete a senior project as part of their degree requirements. In the semester that they are to present their senior project, students will sign up for this course. After completion of the senior project, they will receive Satisfactory or Unsatisfactory for the project. Students do the work for their Senior Project during PED 4382 in the Urban Education department.",
+      "credits": {
+        "min": 0,
+        "max": 0
+      },
+      "prerequisiteText": "Senior Standing, PED 4382.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "Senior standing"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "PED 4382 prerequisite is not imported."
+          }
+        ]
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "minor-course-70415"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4294",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4294",
+      "title": "Senior Seminar",
+      "description": "Crosslisted: CS 4294, STAT 4294. Credit may not be earned for more than one. An intense, structured seminar. Students are exposed to the world community as it relates to their major (involving a written and oral report on cultural issues as well as discussion of these topics); ethics is discussed as it relates to the subject. In addition, students prepare a written proposal for a senior project. Attendance at departmental colloquia is also required.",
+      "credits": {
+        "min": 2,
+        "max": 2
+      },
+      "prerequisiteText": "COMM 1304, TCOM 3302, senior standing, and department approval.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:COMM 1304",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:TCOM 3302",
+            "timing": "before"
+          },
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "Senior standing"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Department approval"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69411"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4301",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4301",
+      "title": "Advanced Numerical Methods for Science and Engineering",
+      "description": "Advanced topics in numerical mathematics, including the numerical solution of ordinary and partial differential equations and advanced methods in numerical linear algebra. Programming projects are stressed that use the computer to solve physical and engineering problems. This course may be used to fulfill the writing application course requirement with additional prerequisites of CS 4294, TCOM 3302 and COMM 1304.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "MATH 3408, MATH 2403, and MATH 3301, or CS 3308, or department approval.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "MATH 3408, MATH 2403, and MATH 3301, or CS 3308, or department approval."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "minor-course-69412"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4302",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4302",
+      "title": "Advanced Multivariable Calculus",
+      "description": "Differentiability of real and vector valued functions; coordinate transformation in multiple integrals (Jacobian); line and surface integrals of real and vector-valued functions; Implicit Function Theorem; Green’s, Stoke’s and Divergence Theorems.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in MATH 2307 and MATH 2403.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2307",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2403",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69413"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4303",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4303",
+      "title": "Introduction to Topology and Functional Analysis",
+      "description": "A rigorous treatment of the basic concepts of point set topology and functional analysis including open sets, closed sets, compact sets, continuity, convergence, topological spaces, metric spaces, normed spaces, inner-product spaces, Banach and Hilbert spaces. Hanh-Banach Theorem, Open Mapping Theorem and Banach Fixed Point Theorem are discussed and proved.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in MATH 3307.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:MATH 3307",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69414"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4304",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4304",
+      "title": "Introduction to Partial Differential Equations",
+      "description": "This course addresses the fundamentals of partial differential equations. It includes method of separation of variables, Fourier series; heat, wave, and Laplace equations; Sturm-Liouville eigen values problems; Fourier and Laplace transforms; nonhomogeneous problems; Green’s functions. This course can be taken as a writing (W) course. In this case, the student should get a formal approval by the department chair and the academic advisor.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in MATH 3301.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:MATH 3301",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69415"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4305",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4305",
+      "title": "Complex Variables with Applications",
+      "description": "Analytic functions, power series, the theory of residues, conformal mapping and applications to physical problems.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2403 and MATH 3301.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2403",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 3301",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69416"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4306",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4306",
+      "title": "Modern Algebra",
+      "description": "Topics from rings, polynomial rings, integral domains, fields, fields of quotients, unique factorization domains, quotient rings, ideals of rings, principal ideal domains, Galois theory, solvability of equations by radicals, and ruler and compass constructions.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 3306 (Introduction to Modern Algebra).",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:MATH 3306",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69417"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4307",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4307",
+      "title": "Analysis II",
+      "description": "A rigorous treatment of the elements of calculus and its foundations including differentiation, Riemann integration, infinite series, sequences and series of functions, and metric spaces. Proof writing is emphasized.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in MATH 3307.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:MATH 3307",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69418"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4311",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4311",
+      "title": "Operations Research",
+      "description": "Applications of some of the most useful tools of operations research. Topics are selected from linear programming, the simplex method, the dual, the transportation model, networks, integer and dynamic programming, and other topics.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in STAT 2305 or MATH 2307 or MATH 2422 or STAT 3311.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:STAT 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2307",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2422",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:STAT 3311",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70121"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4312",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4312",
+      "title": "History of Mathematics",
+      "description": "The course traces the development of mathematics and its applications from the Greek mathematicians through the modern age including the development of computer techniques in applied mathematics. This course may be used to fulfill the writing application course requirement with additional prerequisites CS 4294 / MATH 4294, TCOM 3302 and COMM 1304.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in MATH 2401, or MATH 2411, or MATH 2421, or both MATH 1306 and department approval.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2401",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2421",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "all",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1306",
+                "timing": "before",
+                "minimumGrade": "C"
+              },
+              {
+                "kind": "condition",
+                "category": "permission",
+                "text": "Department approval"
+              }
+            ]
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69420"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4314",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4314",
+      "title": "Differential Geometry",
+      "description": "Geometry of curves and surfaces is introduced and applications are discussed. Topics are chosen from parametic equations, tangent and normal vectors, curvature and torsion, first and second fundamental forms, geodesics and isometries. Surfaces of constant curvature are discussed as models of non-Euclidean geometries.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2402 and MATH 2307.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2402",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2307",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69421"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4315",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4315",
+      "title": "Mathematical Modeling",
+      "description": "The goal of this course is to impart to students the excitement and usefulness of mathematics and computer science as fundamental tools in solving real-world problems. The course focuses on functions as models for phenomena, on the development of a repertoire of techniques to be used in modeling, and on the interpretation and validation of the mathematical model. The course will provide students in mathematics, statistics, computer science, natural science or engineering the opportunity for undergraduate research. A term project using software will be required.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 3301.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:MATH 3301",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69422"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4316",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4316",
+      "title": "Decision Mathematics",
+      "description": "Applications of some of the most useful tools of decision mathematics. Topics are selected from probabilistic models, decision models, game theory, queuing theory, PERT-CPM, inventory models, Bayesian inference and other relevant topics.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in STAT 2305 or MATH 3302 or MATH 3317.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:STAT 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 3302",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 3317",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70332"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4380",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4380",
+      "title": "Field Experience in Mathematics",
+      "description": "Selected students are placed in jobs in the local community which are related to and reinforce their academic training. Positions are full-time, salaried and last the duration of a semester. Recommended for students not already employed in their area of study. Credit hours follow UHD’s course-numbering policy; this course page omits a credit line.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "60 semester hours, department approval, and grades of B or better in 6 hours of upper level math.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "60 semester hours"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Department approval"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "Grades of B or better in 6 hours of upper level math"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69423",
+        "minor-credit-numbering-37"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4395",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4395",
+      "title": "Senior Project in Mathematics",
+      "description": "Crosslisted: CS 4395, STAT 4395. Credit may not be earned for more than one. A project on a statistics related topic under the guidance of a member of the Mathematics & Statistics faculty. Students will develop writing and oral presentation skills specific to statistics by submitting a written report and giving a public presentation. Students are required to select a project advisor in advance. Individual work is accompanied by regular progress reports and classroom instruction on writing and presenting papers. Examples include research, critical literature reviews and field studies. Course can be used to fulfill the writing skills requirement. Credit hours follow UHD’s course-numbering policy; this course page omits a credit line.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Senior standing, formal approval by the prospective project advisor and the department chair.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "Senior standing"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Formal approval by the prospective project advisor"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Formal approval by the department chair"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69424",
+        "minor-credit-numbering-37"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4396",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4396",
+      "title": "Senior Thesis",
+      "description": "Intensive study under the guidance of a member of the Mathematics & Statistics faculty which continues and expands the research carried out in MATH 4395. A formal written report and oral presentation will be required. Credit hours follow UHD’s course-numbering policy; this course page omits a credit line.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "MATH 4395 and instructor approval, or department chair approval.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "MATH 4395 and instructor approval, or department chair approval."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "minor-course-69425",
+        "minor-credit-numbering-37"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4399",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4399",
+      "title": "Directed Study in Mathematics",
+      "description": "Intensive individual study under the guidance of a member of the Mathematics & Statistics faculty. Credit hours follow UHD’s course-numbering policy; this course page omits a credit line.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Formal approval by department chair and dean.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Formal approval by department chair"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Formal approval by dean"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69426",
+        "minor-credit-numbering-37"
+      ]
+    },
+    {
+      "id": "2025-2026:STAT 2305",
+      "catalogYear": "2025-2026",
+      "code": "STAT 2305",
+      "title": "Business Statistics with Applications",
+      "description": "The application of descriptive and inferential statistical methods, including the collection, description, analysis, and summarization of business, economics, and social science data are addressed. Statistical software is used to analyze data including business applications of probability, discrete and continuous random variables, the binomial and normal distribution, sampling distributions, hypothesis tests, point and interval estimation, correlation, and simple linear regression.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1324 or department approval.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1324",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Department approval"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70437"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "id": "minor-math-calculus",
+      "programId": "minor-math",
+      "label": "Math minor: one paired calculus sequence",
+      "area": "minor",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:MATH 2401",
+        "2025-2026:MATH 2402",
+        "2025-2026:MATH 2411",
+        "2025-2026:MATH 2412",
+        "2025-2026:MATH 2421",
+        "2025-2026:MATH 2422"
+      ],
+      "optionCoverage": "open-rule",
+      "minimumCredits": 8,
+      "constraints": [
+        "Every course applied to the minor requires C or better.",
+        "At least 6 upper-level minor hours must be completed at UHD.",
+        "Major/minor overlap and transfer/residency fulfillment require review; no automatic certification.",
+        "Choose MATH 2401 AND 2402, OR MATH 2411 AND 2412, OR MATH 2421 AND 2422. Do not mix courses from different pairs."
+      ],
+      "sourceIds": [
+        "minor-math-37"
+      ]
+    },
+    {
+      "id": "minor-math-additional",
+      "programId": "minor-math",
+      "label": "Math minor: 10 additional MATH hours",
+      "area": "minor",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:MATH 2305",
+        "2025-2026:MATH 2307",
+        "2025-2026:MATH 2403",
+        "2025-2026:MATH 2409",
+        "2025-2026:MATH 3301",
+        "2025-2026:MATH 3302",
+        "2025-2026:MATH 3309",
+        "2025-2026:MATH 4308",
+        "2025-2026:MATH 3323",
+        "2025-2026:MATH 2301",
+        "2025-2026:MATH 3303",
+        "2025-2026:MATH 3306",
+        "2025-2026:MATH 3307",
+        "2025-2026:MATH 3312",
+        "2025-2026:MATH 3313",
+        "2025-2026:MATH 3314",
+        "2025-2026:MATH 3317",
+        "2025-2026:MATH 3318",
+        "2025-2026:MATH 3321",
+        "2025-2026:MATH 3322",
+        "2025-2026:MATH 3394",
+        "2025-2026:MATH 3399",
+        "2025-2026:MATH 3408",
+        "2025-2026:MATH 4294",
+        "2025-2026:MATH 4301",
+        "2025-2026:MATH 4302",
+        "2025-2026:MATH 4303",
+        "2025-2026:MATH 4304",
+        "2025-2026:MATH 4305",
+        "2025-2026:MATH 4306",
+        "2025-2026:MATH 4307",
+        "2025-2026:MATH 4311",
+        "2025-2026:MATH 4312",
+        "2025-2026:MATH 4314",
+        "2025-2026:MATH 4315",
+        "2025-2026:MATH 4316",
+        "2025-2026:MATH 4380",
+        "2025-2026:MATH 4395",
+        "2025-2026:MATH 4396",
+        "2025-2026:MATH 4399"
+      ],
+      "optionCoverage": "open-rule",
+      "minimumCredits": 10,
+      "constraints": [
+        "Every course applied to the minor requires C or better.",
+        "At least 6 upper-level minor hours must be completed at UHD.",
+        "Major/minor overlap and transfer/residency fulfillment require review; no automatic certification.",
+        "MATH 2000-level and above, excluding the six calculus sequence courses. All 47 indexed MATH records at 2000+ are imported; zero-credit MATH 4095 contributes no hours."
+      ],
+      "sourceIds": [
+        "minor-math-37"
+      ]
+    },
+    {
+      "id": "minor-math-upper",
+      "programId": "minor-math",
+      "label": "Math minor: 6 upper-level hours within those 10",
+      "area": "minor",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:MATH 3301",
+        "2025-2026:MATH 3302",
+        "2025-2026:MATH 3309",
+        "2025-2026:MATH 4308",
+        "2025-2026:MATH 3323",
+        "2025-2026:MATH 3303",
+        "2025-2026:MATH 3306",
+        "2025-2026:MATH 3307",
+        "2025-2026:MATH 3312",
+        "2025-2026:MATH 3313",
+        "2025-2026:MATH 3314",
+        "2025-2026:MATH 3317",
+        "2025-2026:MATH 3318",
+        "2025-2026:MATH 3394",
+        "2025-2026:MATH 3399",
+        "2025-2026:MATH 3408",
+        "2025-2026:MATH 4294",
+        "2025-2026:MATH 4301",
+        "2025-2026:MATH 4302",
+        "2025-2026:MATH 4303",
+        "2025-2026:MATH 4304",
+        "2025-2026:MATH 4305",
+        "2025-2026:MATH 4306",
+        "2025-2026:MATH 4307",
+        "2025-2026:MATH 4311",
+        "2025-2026:MATH 4312",
+        "2025-2026:MATH 4314",
+        "2025-2026:MATH 4315",
+        "2025-2026:MATH 4316",
+        "2025-2026:MATH 4380",
+        "2025-2026:MATH 4395",
+        "2025-2026:MATH 4396",
+        "2025-2026:MATH 4399"
+      ],
+      "optionCoverage": "open-rule",
+      "minimumCredits": 6,
+      "constraints": [
+        "Every course applied to the minor requires C or better.",
+        "At least 6 upper-level minor hours must be completed at UHD.",
+        "Major/minor overlap and transfer/residency fulfillment require review; no automatic certification.",
+        "Subset of the 10 additional hours, not another 6 hours. Exclude MATH 3321 and MATH 3322."
+      ],
+      "sourceIds": [
+        "minor-math-37"
+      ]
+    },
+    {
+      "id": "minor-data-required",
+      "programId": "minor-data",
+      "label": "Data Science minor: required foundation",
+      "area": "minor",
+      "rule": "all",
+      "courseIds": [
+        "2025-2026:CS 1411",
+        "2025-2026:DATA 2401",
+        "2025-2026:DATA 3401",
+        "2025-2026:MATH 2305"
+      ],
+      "optionCoverage": "open-rule",
+      "minimumCredits": 15,
+      "constraints": [
+        "Every course applied to the minor requires C or better.",
+        "At least 6 upper-level minor hours must be completed at UHD.",
+        "Major/minor overlap and transfer/residency fulfillment require review; no automatic certification."
+      ],
+      "sourceIds": [
+        "minor-data-37"
+      ]
+    },
+    {
+      "id": "minor-data-calculus",
+      "programId": "minor-data",
+      "label": "Data Science minor: choose one calculus course",
+      "area": "minor",
+      "rule": "choose-courses",
+      "courseIds": [
+        "2025-2026:MATH 2421",
+        "2025-2026:MATH 2402",
+        "2025-2026:MATH 2412"
+      ],
+      "optionCoverage": "open-rule",
+      "count": 1,
+      "minimumCredits": 4,
+      "constraints": [
+        "Every course applied to the minor requires C or better.",
+        "At least 6 upper-level minor hours must be completed at UHD.",
+        "Major/minor overlap and transfer/residency fulfillment require review; no automatic certification."
+      ],
+      "sourceIds": [
+        "minor-data-37"
+      ]
+    },
+    {
+      "id": "minor-data-option",
+      "programId": "minor-data",
+      "label": "Data Science minor: choose one additional course",
+      "area": "minor",
+      "rule": "choose-courses",
+      "courseIds": [
+        "2025-2026:DATA 3334",
+        "2025-2026:DATA 3402",
+        "2025-2026:MATH 3302",
+        "2025-2026:STAT 3311",
+        "2025-2026:STAT 3333",
+        "2025-2026:DATA 3394",
+        "2025-2026:DATA 4300",
+        "2025-2026:DATA 4320",
+        "2025-2026:DATA 4395",
+        "2025-2026:DATA 4419"
+      ],
+      "optionCoverage": "open-rule",
+      "count": 1,
+      "minimumCredits": 3,
+      "constraints": [
+        "Every course applied to the minor requires C or better.",
+        "At least 6 upper-level minor hours must be completed at UHD.",
+        "Major/minor overlap and transfer/residency fulfillment require review; no automatic certification.",
+        "Any additional DATA course is allowed. All seven additional DATA choices in the 2025-2026 DATA index are imported; DATA 2401 and DATA 3401 remain foundation courses, not additional choices.",
+        "Alternatively choose MATH 3302, STAT 3311, or STAT 3333.",
+        "DATA 3402 is suggested for CS majors, not mandatory."
+      ],
+      "sourceIds": [
+        "minor-data-37"
+      ]
+    }
+  ],
+  "coursePolicies": [
+    {
+      "id": "minor-seminar-exclusive-credit",
+      "kind": "mutually-exclusive-credit",
+      "courseIds": [
+        "2025-2026:CS 4294",
+        "2025-2026:MATH 4294"
+      ],
+      "text": "CS 4294, MATH 4294 and STAT 4294 are crosslisted; credit may not be earned for more than one. STAT 4294 is not imported. Selecting both imported versions counts both in catalog hours but cannot establish degree credit.",
+      "sourceIds": [
+        "minor-course-69411"
+      ]
+    },
+    {
+      "id": "minor-zero-credit-math-4095",
+      "kind": "requirement-exclusion",
+      "courseIds": [
+        "2025-2026:MATH 4095"
+      ],
+      "text": "Zero credits with Satisfactory/Unsatisfactory grading. This course contributes no hours to the minor credit minimum or its upper-level credit subset.",
+      "sourceIds": [
+        "minor-course-70415"
+      ]
+    },
+    {
+      "id": "writing-use-math-4301",
+      "kind": "conditional-writing-use",
+      "courseIds": [
+        "2025-2026:MATH 4301"
+      ],
+      "text": "Writing application use has additional prerequisites of CS 4294, TCOM 3302 and COMM 1304. Ordinary course selection does not establish writing-requirement fulfillment.",
+      "sourceIds": [
+        "minor-course-69412"
+      ],
+      "additionalConditions": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 4294",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:TCOM 3302",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:COMM 1304",
+            "timing": "before"
+          }
+        ]
+      }
+    },
+    {
+      "id": "minor-project-exclusive-credit",
+      "kind": "mutually-exclusive-credit",
+      "courseIds": [
+        "2025-2026:CS 4395",
+        "2025-2026:MATH 4395"
+      ],
+      "text": "CS 4395, MATH 4395 and STAT 4395 are crosslisted; credit may not be earned for more than one. STAT 4395 is not imported. Selecting both imported versions cannot establish degree credit. Cross-program DATA 4395 overlap still requires review.",
+      "sourceIds": [
+        "minor-course-69424"
+      ]
+    },
+    {
+      "id": "writing-use-math-4304",
+      "kind": "conditional-writing-use",
+      "courseIds": [
+        "2025-2026:MATH 4304"
+      ],
+      "text": "Writing (W) use requires formal approval by the department chair and academic advisor.",
+      "sourceIds": [
+        "minor-course-69415"
+      ],
+      "additionalConditions": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Formal approval by the department chair"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Formal approval by the academic advisor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "writing-use-math-4312",
+      "kind": "conditional-writing-use",
+      "courseIds": [
+        "2025-2026:MATH 4312"
+      ],
+      "text": "Writing application use requires the crosslisted CS 4294 / MATH 4294 seminar, TCOM 3302 and COMM 1304. Selecting this course does not establish writing fulfillment.",
+      "sourceIds": [
+        "minor-course-69420",
+        "minor-course-69411"
+      ],
+      "additionalConditions": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:CS 4294",
+                "timing": "before"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 4294",
+                "timing": "before"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:TCOM 3302",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:COMM 1304",
+            "timing": "before"
+          }
+        ]
+      }
+    }
+  ],
+  "unresolvedPrerequisites": [
+    {
+      "courseId": "2025-2026:MATH 3408",
+      "reason": "Mixed AND/OR wording does not establish which alternatives retain MATH 2307; preserve raw prerequisites until grouping is confirmed."
+    },
+    {
+      "courseId": "2025-2026:MATH 4095",
+      "reason": "PED 4382 is outside the imported catalog scope. Preserve the prerequisite text; do not infer its details or registration eligibility."
+    },
+    {
+      "courseId": "2025-2026:MATH 4301",
+      "reason": "Mixed comma-separated AND/OR wording leaves the scope of the CS 3308 alternative unclear; preserve raw prerequisites until grouping is confirmed."
+    },
+    {
+      "courseId": "2025-2026:MATH 4396",
+      "reason": "The thesis continues work in MATH 4395, but the department-chair approval alternative leaves the scope and timing of that prerequisite unclear. Preserve the raw text pending review."
+    }
+  ],
+  "coverage": {
+    "dataIndexCodes": [
+      "DATA 2401",
+      "DATA 3334",
+      "DATA 3394",
+      "DATA 3401",
+      "DATA 3402",
+      "DATA 4300",
+      "DATA 4320",
+      "DATA 4395",
+      "DATA 4419"
+    ],
+    "mathIndexCodes": [
+      "MATH 2301",
+      "MATH 2305",
+      "MATH 2307",
+      "MATH 2401",
+      "MATH 2402",
+      "MATH 2403",
+      "MATH 2409",
+      "MATH 2411",
+      "MATH 2412",
+      "MATH 2421",
+      "MATH 2422",
+      "MATH 3301",
+      "MATH 3302",
+      "MATH 3303",
+      "MATH 3306",
+      "MATH 3307",
+      "MATH 3309",
+      "MATH 3312",
+      "MATH 3313",
+      "MATH 3314",
+      "MATH 3317",
+      "MATH 3318",
+      "MATH 3321",
+      "MATH 3322",
+      "MATH 3323",
+      "MATH 3394",
+      "MATH 3399",
+      "MATH 3408",
+      "MATH 4095",
+      "MATH 4294",
+      "MATH 4301",
+      "MATH 4302",
+      "MATH 4303",
+      "MATH 4304",
+      "MATH 4305",
+      "MATH 4306",
+      "MATH 4307",
+      "MATH 4308",
+      "MATH 4311",
+      "MATH 4312",
+      "MATH 4314",
+      "MATH 4315",
+      "MATH 4316",
+      "MATH 4380",
+      "MATH 4395",
+      "MATH 4396",
+      "MATH 4399"
+    ],
+    "mathMissingCodes": []
+  },
+  "programs": [
+    {
+      "id": "minor-math",
+      "title": "Mathematics minor",
+      "totalLabel": "18 hours minimum",
+      "summary": "One paired calculus sequence (2401/2402, 2411/2412, or 2421/2422), plus 10 other MATH hours at 2000+. At least 6 of those 10 must be upper level; MATH 3321/3322 cannot fill that 6-hour subset. C or better and 6 upper-level hours at UHD. Cards include reviewed options and the CS example, not a mandatory list. All 47 indexed MATH records at 2000+ are shown, including informational zero-credit MATH 4095.",
+      "sourceId": "minor-math-37",
+      "courseIds": [
+        "2025-2026:MATH 2305",
+        "2025-2026:MATH 2307",
+        "2025-2026:MATH 2401",
+        "2025-2026:MATH 2402",
+        "2025-2026:MATH 2403",
+        "2025-2026:MATH 2409",
+        "2025-2026:MATH 2411",
+        "2025-2026:MATH 2412",
+        "2025-2026:MATH 2421",
+        "2025-2026:MATH 2422",
+        "2025-2026:MATH 3301",
+        "2025-2026:MATH 3302",
+        "2025-2026:MATH 3309",
+        "2025-2026:MATH 4308",
+        "2025-2026:MATH 3323",
+        "2025-2026:MATH 2301",
+        "2025-2026:MATH 3303",
+        "2025-2026:MATH 3306",
+        "2025-2026:MATH 3307",
+        "2025-2026:MATH 3312",
+        "2025-2026:MATH 3313",
+        "2025-2026:MATH 3314",
+        "2025-2026:MATH 3317",
+        "2025-2026:MATH 3318",
+        "2025-2026:MATH 3321",
+        "2025-2026:MATH 3322",
+        "2025-2026:MATH 3394",
+        "2025-2026:MATH 3399",
+        "2025-2026:MATH 3408",
+        "2025-2026:MATH 4095",
+        "2025-2026:MATH 4294",
+        "2025-2026:MATH 4301",
+        "2025-2026:MATH 4302",
+        "2025-2026:MATH 4303",
+        "2025-2026:MATH 4304",
+        "2025-2026:MATH 4305",
+        "2025-2026:MATH 4306",
+        "2025-2026:MATH 4307",
+        "2025-2026:MATH 4311",
+        "2025-2026:MATH 4312",
+        "2025-2026:MATH 4314",
+        "2025-2026:MATH 4315",
+        "2025-2026:MATH 4316",
+        "2025-2026:MATH 4380",
+        "2025-2026:MATH 4395",
+        "2025-2026:MATH 4396",
+        "2025-2026:MATH 4399"
+      ]
+    },
+    {
+      "id": "minor-data",
+      "title": "Data Science minor",
+      "totalLabel": "22 or 23 hours",
+      "summary": "Required: CS 1411, DATA 2401, DATA 3401, MATH 2305. Choose one of MATH 2421/2402/2412, then one additional DATA course or MATH 3302/STAT 3311/STAT 3333. DATA 3402 is suggested for CS majors. C or better and 6 upper-level hours at UHD. All seven additional DATA choices in this catalog are shown.",
+      "sourceId": "minor-data-37",
+      "courseIds": [
+        "2025-2026:CS 1411",
+        "2025-2026:DATA 2401",
+        "2025-2026:DATA 3401",
+        "2025-2026:MATH 2305",
+        "2025-2026:MATH 2421",
+        "2025-2026:MATH 2402",
+        "2025-2026:MATH 2412",
+        "2025-2026:DATA 3334",
+        "2025-2026:DATA 3402",
+        "2025-2026:MATH 3302",
+        "2025-2026:STAT 3311",
+        "2025-2026:STAT 3333",
+        "2025-2026:DATA 3394",
+        "2025-2026:DATA 4300",
+        "2025-2026:DATA 4320",
+        "2025-2026:DATA 4395",
+        "2025-2026:DATA 4419"
+      ]
+    }
+  ]
+}

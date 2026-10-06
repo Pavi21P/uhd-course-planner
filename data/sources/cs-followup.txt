@@ -1,0 +1,22 @@
+CS 1408 - Introduction to Computer Science with Visual Basic
+Credits: 4 Class: 4 Lab: 0
+Prerequisite(s): Credit or enrollment in MATH 1404 or MATH 1505 or MATH 1306; and placement in ENG 1301 or above.
+History, nature and uses of the computer; algorithms; number systems; information representation and organization with an overview of computer hardware and software, computing systems and major applications. An introduction to high-level languages and programming using Visual Basic with an emphasis on event-driven programming. Elements of the Visual Basic programming environment including objects, events, properties, user interface design and creating web-based applications are discussed. Practice with standard programming features such as control statements, subprograms, data types, arrays and input-output mechanisms.
+
+---COURSE---
+CS 3310 - Fundamentals of Game Development
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): Grade of C or better in CS 2411.
+This course provides students with a foundation in computer game development. Topics include the genres of games, principles of game design (such as character design, level design, and interface design), randomness and variety in games, AI in game programming, physics, event handling, and visual effects.
+
+---COURSE---
+CS 4300 - Web Programming
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): Grade of C or better in CS 3304.
+An introduction to Web programming using HTML, XML, JavaServer Pages, and Java Script, with an emphasis on developing and designing dynamic Web pages in the client-server model.
+
+---COURSE---
+CS 4319 - Statistical and Machine Learning
+Credits: 3 Class: 3 Lab: 0
+Prerequisite(s): A grade of C or better in CS 3304, and a grade of C or better in either STAT 3311 or MATH 3302
+This course blends the predictive perspective of statistical pattern recognition and the algorithmic perspective of machine learning. Topics include, but are not limited to: applications of appropriate machine learning algorithms in various disciplines, prediction and performance metrics, data transformations, supervised and unsupervised learning, and ensemble methods.

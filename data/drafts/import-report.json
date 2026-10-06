@@ -1,0 +1,55 @@
+{
+  "status": "incomplete",
+  "publishable": false,
+  "courseCount": 23,
+  "catalogYear": "2026-2027",
+  "retrievedOn": "2026-09-27",
+  "fingerprints": {
+    "required-courses.txt": "c5b9be9f795496564c93ec9e2f203127c417c2658ff8454255a57abd5e34f4a6",
+    "cs-followup.txt": "1ffcc91bea0e8a0e91dd95e6a0405c814347cd28fb3feffb44fd08cf7e43f48c"
+  },
+  "requiredCourseCount": 12,
+  "requiredCsCredits": 37,
+  "missingReferencedCourses": [
+    "COMM 1304",
+    "ENG 1301",
+    "MATH 1306",
+    "MATH 1404",
+    "MATH 1505",
+    "MATH 2409",
+    "MATH 2411",
+    "MATH 2421"
+  ],
+  "reviewRequired": [
+    "CS 1408",
+    "CS 1411",
+    "CS 2301",
+    "CS 2302",
+    "CS 2411",
+    "CS 3304",
+    "CS 3306",
+    "CS 3310",
+    "CS 3321",
+    "CS 4294",
+    "CS 4300",
+    "CS 4303",
+    "CS 4315",
+    "CS 4318",
+    "CS 4319",
+    "CS 4395",
+    "MATH 2305",
+    "MATH 2307",
+    "MATH 2401",
+    "MATH 2402",
+    "MATH 3302",
+    "STAT 3311",
+    "TCOM 3302"
+  ],
+  "remaining": [
+    "Referenced prerequisite courses",
+    "Full eligible CS elective list and pagination",
+    "Core and laboratory-science requirement choices",
+    "Reviewed prerequisite expressions",
+    "Degree allocation and 120-hour reconciliation"
+  ]
+}

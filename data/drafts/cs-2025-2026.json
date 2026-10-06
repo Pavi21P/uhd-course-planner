@@ -1,0 +1,3947 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "2025-2026-draft-2026-09-27",
+  "catalogYear": "2025-2026",
+  "synthetic": false,
+  "sources": [
+    {
+      "id": "cs-program-37",
+      "url": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7111&returnto=2409",
+      "title": "Computer Science, BS and expanded course descriptions",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68778",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68778",
+      "title": "CS 1408 - Introduction to Computer Science with Visual Basic",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69864",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69864",
+      "title": "CS 1311 - Introduction to Computing with Python",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70420",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70420",
+      "title": "CS 1313 - Principles of Game Design",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68779",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68779",
+      "title": "CS 1410 - CS I-Introduction to Computer Science with C++",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68780",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68780",
+      "title": "CS 1412 - Introduction to Computer Science with C#",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70360",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70360",
+      "title": "CS 2311 - Data Structures and Algorithms with Python",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68783",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68783",
+      "title": "CS 2410 - CS II-Introduction to Data Structures and Algorithms",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68784",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68784",
+      "title": "CS 3300 - Object-Oriented Programming and Concepts",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70540",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70540",
+      "title": "CS 3301 - Cryptography",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70548",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70548",
+      "title": "CS 3305 - Introduction to System Administration",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70554",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70554",
+      "title": "CS 3307 - Introduction to System Security",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68787",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68787",
+      "title": "CS 3308 - Numerical Methods",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70300",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70300",
+      "title": "CS 3310 - Fundamentals of Game Development",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68788",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68788",
+      "title": "CS 3318 - Introduction to Computer Security",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70374",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70374",
+      "title": "CS 3319 - Internet of Things",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68803",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68803",
+      "title": "CS 3324 - Computer Network Architecture",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68789",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68789",
+      "title": "CS 3325 - Introduction to Wireless Networks",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70299",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70299",
+      "title": "CS 3331 - Introduction to Robotics",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68791",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68791",
+      "title": "CS 3394 - Undergraduate Research",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68794",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68794",
+      "title": "CS 4300 - Web Programming",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68795",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68795",
+      "title": "CS 4301 - Advanced Numerical Methods for Science and Engineering",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68797",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68797",
+      "title": "CS 4306 - Mathematical Models and Computer Simulation",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70549",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70549",
+      "title": "CS 4307 - Data Privacy and Security",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70550",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70550",
+      "title": "CS 4308 - Digital Forensics",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70551",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70551",
+      "title": "CS 4309 - Senior Project in Cybersecurity",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68798",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68798",
+      "title": "CS 4310 - Principles of Computer Graphics",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70552",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70552",
+      "title": "CS 4311 - Software Security",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70553",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70553",
+      "title": "CS 4313 - Web and Cloud Security",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70375",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70375",
+      "title": "CS 4317 - Natural Language Processing",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68801",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68801",
+      "title": "CS 4319 - Statistical and Machine Learning",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68802",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68802",
+      "title": "CS 4322 - Theory of Algorithms",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68790",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68790",
+      "title": "CS 4326 - Network Security",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68804",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68804",
+      "title": "CS 4328 - Parallel Computing",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70301",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70301",
+      "title": "CS 4329 - Introduction to Bioinformatics",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70302",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70302",
+      "title": "CS 4332 - Artificial Intelligence",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70376",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70376",
+      "title": "CS 4337 - Human-Computer Interaction",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68805",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68805",
+      "title": "CS 4340 - Mobile Computing",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68806",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68806",
+      "title": "CS 4380 - Field Experience",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68807",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68807",
+      "title": "CS 4390 - Special Topics in Computer Science",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68809",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68809",
+      "title": "CS 4396 - Senior Thesis",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68810",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68810",
+      "title": "CS 4399 - Directed Study in Computer Science",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69375",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69375",
+      "title": "MATH 1300 - Intermediate Algebra",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69379",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69379",
+      "title": "MATH 1306 - Fundamentals of Calculus with Applications",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69381",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69381",
+      "title": "MATH 1404 - Precalculus Mathematics",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69382",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69382",
+      "title": "MATH 1505 - Precalculus with Trigonometry",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69387",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69387",
+      "title": "MATH 2403 - Calculus III",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69390",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69390",
+      "title": "MATH 2409 - Introduction to Proofs",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69391",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69391",
+      "title": "MATH 2411 - Calculus I for the Natural Sciences",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70333",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70333",
+      "title": "MATH 2421 - Differential and Integral Calculus with Applications",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69394",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69394",
+      "title": "MATH 3301 - Differential Equations",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69376",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69376",
+      "title": "MATH 1301 - College Algebra",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69377",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69377",
+      "title": "MATH 1302 - Plane Trigonometry",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69378",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69378",
+      "title": "MATH 1305 - Finite Mathematics with Applications",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70444",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70444",
+      "title": "MATH 1324 - Mathematics for Business and Social Sciences",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69392",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69392",
+      "title": "MATH 2412 - Calculus II for the Natural Sciences",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-70371",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70371",
+      "title": "MATH 2422 - Linear Algebra & Multivariable Calculus with Applications",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68721",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68721",
+      "title": "COMM 1304 - Introduction to Communication",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-68975",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68975",
+      "title": "ENG 1301 - Composition I",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69792",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69792",
+      "title": "STAT 3310 - Statistical Analysis for Business Applications II",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "course-37-69791",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69791",
+      "title": "STAT 3309 - Statistical Analysis for Business Applications I",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "degree-rules-37",
+      "url": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7111&returnto=2409",
+      "title": "Computer Science BS requirements",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-30",
+      "role": "catalog"
+    },
+    {
+      "id": "core-rules-37",
+      "url": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7017",
+      "title": "Common Core requirements and physics panels",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-09-30",
+      "role": "catalog"
+    }
+  ],
+  "courses": [
+    {
+      "id": "2025-2026:COMM 1304",
+      "catalogYear": "2025-2026",
+      "code": "COMM 1304",
+      "title": "Introduction to Communication",
+      "description": "An overview of skills important in developing effective communication. Students will gain experience in interpersonal, small group, and public communication. (SPCH 1311)",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "No prerequisite statement published in the captured panel; review required."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "course-37-68721"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 1311",
+      "catalogYear": "2025-2026",
+      "code": "CS 1311",
+      "title": "Introduction to Computing with Python",
+      "description": "Computational thinking involves transforming a real-world problem into a software-based approach for solving it. This course will engage students analytically in the creation of computer programs to solve a diverse set of real world problems related to kinematics, designing games, solving puzzles, searching, sorting, and basic data analysis. Using a problem solving approach, students will learn the basic process of designing algorithms as well as implementing them with a high level programming language.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "MATH 1300 or placement by exam.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1300",
+            "timing": "before"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement by exam"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-69864"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 1313",
+      "catalogYear": "2025-2026",
+      "code": "CS 1313",
+      "title": "Principles of Game Design",
+      "description": "This course provides students with a foundation in game design principles. Topics include the game history, genres of games, game design essentials (such as game platforms, character design, game complexity and challenge design, and core mechanics), and issues about online gaming.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "No prerequisite statement published in the captured panel; review required."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "course-37-70420"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 1408",
+      "catalogYear": "2025-2026",
+      "code": "CS 1408",
+      "title": "Introduction to Computer Science with Visual Basic",
+      "description": "History, nature and uses of the computer; algorithms; number systems; information representation and organization with an overview of computer hardware and software, computing systems and major applications. An introduction to high-level languages and programming using Visual Basic with an emphasis on event-driven programming. Elements of the Visual Basic programming environment including objects, events, properties, user interface design and creating web-based applications are discussed. Practice with standard programming features such as control statements, subprograms, data types, arrays and input-output mechanisms.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Credit or enrollment in MATH 1404 or MATH 1505 or MATH 1306; and placement in ENG 1301 or above.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1404",
+                "timing": "before-or-concurrent"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1505",
+                "timing": "before-or-concurrent"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1306",
+                "timing": "before-or-concurrent"
+              }
+            ]
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement in ENG 1301 or above"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68778"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 1410",
+      "catalogYear": "2025-2026",
+      "code": "CS 1410",
+      "title": "CS I-Introduction to Computer Science with C++",
+      "description": "History, nature and uses of the computer; algorithms; number systems; information representation; and organization, with an overview of computer hardware and software, computing systems and major applications. Ethical and societal issues are discussed. An introduction to high-level languages with an emphasis on programming in C++. Control statements, subprograms, data types, arrays, and streams. Closed (supervised) laboratories are conducted on: an introduction to Microsoft Windows, and a C++ programming environment; appropriate programming exercises emphasizing top-down design methodology and simple and structured data types; and key topics of the discipline and areas of application. Designed as a first course for majors in Computer Science and Mathematics (COSC 1436)",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Credit or enrollment in MATH 1404 or MATH 1505 or MATH 1306; and placement in ENG 1301 or above.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1404",
+                "timing": "before-or-concurrent"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1505",
+                "timing": "before-or-concurrent"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1306",
+                "timing": "before-or-concurrent"
+              }
+            ]
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement in ENG 1301 or above"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68779"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 1411",
+      "catalogYear": "2025-2026",
+      "code": "CS 1411",
+      "title": "Introduction to Computer Science with Python",
+      "description": "This course introduces the fundamentals of computer programming using the Python language. The course is designed as an introductory course for students with or without prior programming experience. Topics include variable declaration, control statements, functions, I/O operations, exception handling, and data structures. The course provides extensive hands-on activities on writing computer programs.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Credit or enrollment in MATH 1404 or MATH 1505.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1404",
+            "timing": "before-or-concurrent"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1505",
+            "timing": "before-or-concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 1412",
+      "catalogYear": "2025-2026",
+      "code": "CS 1412",
+      "title": "Introduction to Computer Science with C#",
+      "description": "An introduction to programming using C# for design and development Windows applications with an emphasis on event-driven programming. Topics include objects, events, code, and properties. Control statements, subprograms, data types, arrays, input-output, and user-interface designs.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Credit or enrollment in MATH 1404 or MATH 1505 or MATH 1306; and placement in ENG 1301 or above.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1404",
+                "timing": "before-or-concurrent"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1505",
+                "timing": "before-or-concurrent"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1306",
+                "timing": "before-or-concurrent"
+              }
+            ]
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement in ENG 1301 or above"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68780"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 2301",
+      "catalogYear": "2025-2026",
+      "code": "CS 2301",
+      "title": "Introduction to Computer Organization",
+      "description": "Organization of general-purpose computers; data representation and arithmetic; instruction sets architectures and addressing modes; memory hierarchies, input/output and storage, and alternative architecture. (COSC 2425)",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 1411 or CS 1408.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 1411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 1408",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 2302",
+      "catalogYear": "2025-2026",
+      "code": "CS 2302",
+      "title": "Digital Logic",
+      "description": "Boolean expressions and theorems. Analysis and synthesis of combinational and sequential switching networks; optimization methods using random logic gates, multiplexers, decoders, registers, counters, and programmable logic devices. Exercises involve the design and simulation of digital circuits. Emphasis is on the use of Boolean Algebra, Truth Table, and Karnaugh Maps in the design, simulation, simplification, and testing of digital circuits.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 1411 and MATH 2305.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 1411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 2311",
+      "catalogYear": "2025-2026",
+      "code": "CS 2311",
+      "title": "Data Structures and Algorithms with Python",
+      "description": "Identification and use of appropriate python data structures for different applications. Topics include built-in collection Python data structures such as list, dictionaries; classes and data abstraction in Python; basic data structures such as stack, queue, and linked list using Python list; built-in data structures such as data frame in external Python libraries; and recursion, search, and sorting algorithms.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade C or better in CS 1411.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 1411",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70360"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 2410",
+      "catalogYear": "2025-2026",
+      "code": "CS 2410",
+      "title": "CS II-Introduction to Data Structures and Algorithms",
+      "description": "Arrays, records (C++ structs), classes and data abstraction, object-oriented software development, pointers, dynamic data structures, linked structures, elementary and searching and sorting algorithms, recursion, an introduction to algorithm complexity analysis. (COSC 1437)",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Grade of C or better in CS 1410 and credit or enrollment in MATH 2401.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 1410",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2401",
+            "timing": "before-or-concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68783"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 2411",
+      "catalogYear": "2025-2026",
+      "code": "CS 2411",
+      "title": "Procedural and Object-Oriented Programming with C++",
+      "description": "This course provides procedural and object-oriented programming foundations using C++. Topics include procedural-programming concepts such as variable declaration, data types, control statements, functions, and file operations as well as object-oriented concepts such as dynamic memory allocations, classes, and data abstractions.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Grade of C or better in CS 1411; credit or enrollment in MATH 2401.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 1411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2401",
+            "timing": "before-or-concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3300",
+      "catalogYear": "2025-2026",
+      "code": "CS 3300",
+      "title": "Object-Oriented Programming and Concepts",
+      "description": "Provides practical guidance on the construction of object-oriented systems. The Unified Modeling Language (UML) is used as a tool for analysis and design and the JAVA language is used for implementation. Key concepts of object-oriented programming methodology are discussed.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2411.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 2411",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68784"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3301",
+      "catalogYear": "2025-2026",
+      "code": "CS 3301",
+      "title": "Cryptography",
+      "description": "This course provides an introduction to modern cryptography and data security and focuses on the fundamentals of cryptography. The course discusses asymmetric and symmetric encryption, digital signatures, hash functions, and key exchange. The course also discusses cryptographic protocols and practical applications of cryptographic techniques including secret sharing, secure multi-party computation, secure electronic voting, and cryptocurrencies.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in both MATH 2305 and CS 2411.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2411",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70540"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3304",
+      "catalogYear": "2025-2026",
+      "code": "CS 3304",
+      "title": "Data and Information Structures",
+      "description": "Development of methods for organizing and processing data sets. Types of data structures analyzed include linear lists, stacks, queues, trees, and graphs. Algorithm analysis methods are used throughout to analyze the various data structures and algorithm design alternatives.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2411 and MATH 2305.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3305",
+      "catalogYear": "2025-2026",
+      "code": "CS 3305",
+      "title": "Introduction to System Administration",
+      "description": "This course covers the most essential aspects of multiuser multitasking system administration including the configuration and administration of the various versions of UNIX, and the knowledge and skills for system analysis and troubleshooting.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in CS 2411.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 2411",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70548"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3306",
+      "catalogYear": "2025-2026",
+      "code": "CS 3306",
+      "title": "Introduction to Theory of Computation",
+      "description": "An introduction to the modern theory of computing. Topics selected from abstract algebra, finite automata, regular expressions, regular languages, pushdown automata, context-free languages, and Turing machines. The capabilities and limitations of abstract computing devices are investigated from a theoretical perspective.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2411 and MATH 2305",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3307",
+      "catalogYear": "2025-2026",
+      "code": "CS 3307",
+      "title": "Introduction to System Security",
+      "description": "This course focuses on the security aspects of systems that are composed of components and connections and use software. Students will understand the security of a system by viewing it not only as a set of components and connections, but also as a complete unit in and of itself. Students will approach system security using a holistic view.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in CS 3318.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 3318",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70554"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3308",
+      "catalogYear": "2025-2026",
+      "code": "CS 3308",
+      "title": "Numerical Methods",
+      "description": "Develop and implement algorithms used in solving a variety of problems from science and engineering, including numerical solutions of linear systems of equations and nonlinear equations, curve fitting, approximation, numerical differentiation and integration, and numerical solutions of ordinary differential equations. Computer techniques are used in obtaining and analyzing numerical solutions.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 1408 or CS 1411, MATH 2307, MATH 2402.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in CS 1408 or CS 1411, MATH 2307, MATH 2402."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "course-37-68787"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3310",
+      "catalogYear": "2025-2026",
+      "code": "CS 3310",
+      "title": "Fundamentals of Game Development",
+      "description": "This course provides students with a foundation in computer game development. Topics include the genres of games, principles of game design (such as character design, level design, and interface design), randomness and variety in games, AI in game programming, physics, event handling, and visual effects.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2411.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 2411",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70300"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3318",
+      "catalogYear": "2025-2026",
+      "code": "CS 3318",
+      "title": "Introduction to Computer Security",
+      "description": "Introduction to encryption and decryption; security mechanisms in computer programs, operating systems, databases, and networks; administration of computer security; and legal/ethical issues in computer security. Provides the foundation for further study of security issues in computer systems and applications.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2411 and MATH 2305.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68788"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3319",
+      "catalogYear": "2025-2026",
+      "code": "CS 3319",
+      "title": "Internet of Things",
+      "description": "This course covers concepts, design methods, and applications of Internet of Things. It illustrates the architecture of sensors, microcontroller systems, transmission modules, and data analytics algorithms. The sensors include accelerometers, pressure sensors, bending sensors and ultrasonic sensors. The microcontrollers include Arduino and Raspberry Pi. The course also covers the analysis of Internet of Things applications in sports, transportation, retail and healthcare.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in both CS 2301 and CS 2411.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2301",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2411",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70374"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3321",
+      "catalogYear": "2025-2026",
+      "code": "CS 3321",
+      "title": "Software Engineering",
+      "description": "To provide students with the theoretical and practical understanding of the development of large software systems using the Unified Modeling Language (UML). The theoretical component is supported with readings, lectures, and class discussions. The practical components are reinforced with the development of a large-scale group project involving all phases of the software development life-cycle.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in CS 3304",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 3304",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3324",
+      "catalogYear": "2025-2026",
+      "code": "CS 3324",
+      "title": "Computer Network Architecture",
+      "description": "Architectures and operating systems of distributed networks including data communication, local networks, public networks and design alternatives. This course may be used to fulfill the writing application curse requirement with additional prerequisites including CS 4294 and department approval.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2411 and CS 2302.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2302",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68803"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3325",
+      "catalogYear": "2025-2026",
+      "code": "CS 3325",
+      "title": "Introduction to Wireless Networks",
+      "description": "An introduction to the fundamentals of wireless communications and networks, including basic communication theory, architectures, protocols, and standards. It describes concepts, technology and applications of wireless networking as used in current and next-generation communication networks.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2411 and CS 2302.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2302",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68789"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3331",
+      "catalogYear": "2025-2026",
+      "code": "CS 3331",
+      "title": "Introduction to Robotics",
+      "description": "The course covers basic concepts of robotics technology including coordinate transformations, sensors, path planning, kinematics, feedback and feedforward control, localization, and mapping. Several advanced topics such as robotic vision and navigation are also introduced. The course focuses on the simulation and programming of mobile robot, and intelligent algorithm development.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2411, and CS 2301 or EET 2331/EET2131.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in CS 2411, and CS 2301 or EET 2331/EET2131."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "course-37-70299"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 3394",
+      "catalogYear": "2025-2026",
+      "code": "CS 3394",
+      "title": "Undergraduate Research",
+      "description": "Independent investigation of a specific topic or problem in computer science under the guidance of a faculty member. The course is designed to give students research experience and independent study skills in an area of computer science. A written report and an oral presentation are required at the end of the course. Course cannot be used to fulfill upper-level CS elective requirement for CS degree plan.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Junior standing and departmental approval. Course may be repeated for credit with department approval.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "Junior standing"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "departmental approval"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68791"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4294",
+      "catalogYear": "2025-2026",
+      "code": "CS 4294",
+      "title": "Senior Seminar",
+      "description": "A structured seminar: students are exposed to the world community as it relates to their major (involving a written and oral report on cultural issues as well as discussion of these topics). Ethics is discussed as it relates to the subject. In addition, students prepare a written proposal for a senior project.",
+      "credits": {
+        "min": 2,
+        "max": 2
+      },
+      "prerequisiteText": "COMM 1304, TCOM 3302, senior standing and department approval.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:COMM 1304",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:TCOM 3302",
+            "timing": "before"
+          },
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "senior standing"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "department approval"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4300",
+      "catalogYear": "2025-2026",
+      "code": "CS 4300",
+      "title": "Web Programming",
+      "description": "An introduction to Web programming using HTML, XML, JavaServer Pages, and Java Script, with an emphasis on developing and designing dynamic Web pages in the client-server model.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 3304.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 3304",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68794"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4301",
+      "catalogYear": "2025-2026",
+      "code": "CS 4301",
+      "title": "Advanced Numerical Methods for Science and Engineering",
+      "description": "Advanced topics in numerical mathematics, including the numerical solution of ordinary and partial differential equations and advanced methods in numerical linear algebra. Programming projects are stressed that use the computer to solve physical and engineering problems. This course may be used to fulfill the writing application course requirement with additional prerequisites including CS 4294 and department approval.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "CS 3308, MATH 2403 and MATH 3301.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3308",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2403",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 3301",
+            "timing": "before"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68795"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4303",
+      "catalogYear": "2025-2026",
+      "code": "CS 4303",
+      "title": "Programming Language Concepts",
+      "description": "This course provides students with a foundation in the concepts and implementation of modern programming languages. It also covers imperative, functional, logic, and object-oriented programming paradigms. Programming assignments and/or closed labs will be conducted for syntax and semantics analysis and different paradigms.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 3304 and CS 3306.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3304",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3306",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4306",
+      "catalogYear": "2025-2026",
+      "code": "CS 4306",
+      "title": "Mathematical Models and Computer Simulation",
+      "description": "Quantitative modeling of industrial systems, computer simulation languages; discussion of problems encountered in constructing simulation programs. This course may be used to fulfill the writing application course requirement with additional prerequisites including CS 4294 and department approval.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in MATH 3302 or STAT 3310 and CS 2411.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in MATH 3302 or STAT 3310 and CS 2411."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "course-37-68797"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4307",
+      "catalogYear": "2025-2026",
+      "code": "CS 4307",
+      "title": "Data Privacy and Security",
+      "description": "Protection of Sensitive Personal Data (SPD) and Personally Identifiable Information (PII) is vital for all organizations collecting personal data. This course discusses the importance of protecting SPD and PII, privacy tradeoffs of sharing and protecting sensitive information, privacy attacks, and privacy-enhancing technologies. The course also covers data security concepts including disk and file encryption, data erasure, data masking, database security, authentication, and access control.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in CS 3301.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 3301",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70549"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4308",
+      "catalogYear": "2025-2026",
+      "code": "CS 4308",
+      "title": "Digital Forensics",
+      "description": "This course presents an overview of the principles and practices of digital investigation. Students will learn different techniques and procedures that enable them to perform a digital investigation. This course covers the digital forensics process, tools and methods for the detection and recovery of information on hardware or hidden within other formats. Topics also include obtaining data from a digital device that has been destroyed on various platforms. This course will provide theoretical and practical knowledge, as well as current research on digital forensics. Upon completion of the course, students can apply open-source forensics tools to perform digital investigation and understand the underlying theory behind these tools.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in CS 4315.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 4315",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70550"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4309",
+      "catalogYear": "2025-2026",
+      "code": "CS 4309",
+      "title": "Senior Project in Cybersecurity",
+      "description": "Intensive group study under the guidance of a member of the Cybersecurity faculty dealing with the application of cybersecurity to a business or industry in the Houston area. Students will document their work in the form of a technical report and make an oral presentation of project results. Professional ethics and intellectual property are also discussed in the course.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in TCOM 3302, senior standing, and department approval.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:TCOM 3302",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "senior standing"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "department approval"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70551"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4310",
+      "catalogYear": "2025-2026",
+      "code": "CS 4310",
+      "title": "Principles of Computer Graphics",
+      "description": "Analytical treatment of computer graphics; input, transformation and display of graphical data; graphical algorithms and languages; emphasis on current developments.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2411 and MATH 2307.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2307",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68798"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4311",
+      "catalogYear": "2025-2026",
+      "code": "CS 4311",
+      "title": "Software Security",
+      "description": "This course focuses on the development of secure and robust software. The course discusses the software security principles, software development lifecycle and the application of security techniques in each phase of the software development lifecycle, which are requirements, design, implementation, testing, deployment, and maintenance. Analyzing code vulnerabilities, secure coding practices, penetration testing, security documentation, and software reverse engineering are also covered in the course.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in both CS 3318 and CS 3304.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3318",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3304",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70552"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4313",
+      "catalogYear": "2025-2026",
+      "code": "CS 4313",
+      "title": "Web and Cloud Security",
+      "description": "This course provides an introduction to web security and cloud security. The course discusses client-side web security including browser security, HTML security, Cross-Site Scripting (XSS) attack, Cross-Site Request Forgery (CSRF) attack, and Clickjacking attack. Server-side attacks including injection attack, XML External Entity (XXE) Attack, and Distributed denial-of-service attack (DDoS attack) are also discussed in the course. The course also covers common security threats in public cloud environments and effective strategies to implement Identity and Access Management (IAM) solutions.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in CS 3318.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 3318",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70553"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4315",
+      "catalogYear": "2025-2026",
+      "code": "CS 4315",
+      "title": "Operating Systems",
+      "description": "Basic concepts of operating systems including concurrent process management, I/O device management, process scheduling, synchronization, deadlock, and memory management. UNIX used for standard examples.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2301 and CS 3304.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2301",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3304",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4317",
+      "catalogYear": "2025-2026",
+      "code": "CS 4317",
+      "title": "Natural Language Processing",
+      "description": "This course will introduce the fundamental concepts found in Natural Language Processing. These concepts include: speech recognition, speech synthesis and the statistical models that are used to process human languages. Students will learn how to use machine learning techniques in order to solve problems in natural language processing.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in CS 3304 and MATH 2305.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3304",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70375"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4318",
+      "catalogYear": "2025-2026",
+      "code": "CS 4318",
+      "title": "Database Systems",
+      "description": "An introduction to the theory of database and file structures with an emphasis on general principles and algorithmic issues as well as a conceptual overview of the design, construction and maintenance of database and file processing systems. After the various models are considered, specific attention is given to advanced topics such as data integrity, optimization, and distributed environments.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 3304.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 3304",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4319",
+      "catalogYear": "2025-2026",
+      "code": "CS 4319",
+      "title": "Statistical and Machine Learning",
+      "description": "This course blends the predictive perspective of statistical pattern recognition and the algorithmic perspective of machine learning. Topics include, but are not limited to: applications of appropriate machine learning algorithms in various disciplines, prediction and performance metrics, data transformations, supervised and unsupervised learning, and ensemble methods.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in CS 3304, and a grade of C or better in either STAT 3311 or MATH 3302",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3304",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:STAT 3311",
+                "timing": "before",
+                "minimumGrade": "C"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 3302",
+                "timing": "before",
+                "minimumGrade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68801"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4322",
+      "catalogYear": "2025-2026",
+      "code": "CS 4322",
+      "title": "Theory of Algorithms",
+      "description": "Detailed study of the main algorithmic techniques of computer science (e.g., sorting and searching) and analysis of the operating characteristics and complexity of selected algorithms.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 3304 and CS 3306.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3304",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3306",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68802"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4326",
+      "catalogYear": "2025-2026",
+      "code": "CS 4326",
+      "title": "Network Security",
+      "description": "This course is an introduction to the fundamentals of computer network security. Topics include the rationales and necessity for securing computer networks, common security threats, methodologies for the design of network security systems, establishing security protocols and the identification of best practices of secure communications systems. In particular, this will cover an introduction to encryption and decryption, authentication, secure communication, network security protocols, firewalls and web security. This course provides the foundational knowledge for advanced study of security issues in computer networks.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in CS 3324, or concurrent enrollment in CS 3324.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3324",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3324",
+            "timing": "concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68790"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4328",
+      "catalogYear": "2025-2026",
+      "code": "CS 4328",
+      "title": "Parallel Computing",
+      "description": "Introduces fundamental concepts of parallel computers and parallel/distributed computation. Projects involving parallel algorithm design, software implementation and results analysis to solve scientific and/or engineering application problems in parallel will be assigned. This course may be used to fulfill the writing application course requirement with additional prerequisites including CS 4294 and department approval.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2301 and CS 3304.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2301",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3304",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68804"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4329",
+      "catalogYear": "2025-2026",
+      "code": "CS 4329",
+      "title": "Introduction to Bioinformatics",
+      "description": "This course will introduce students to various algorithmic principles driving bioinformatics. Algorithm design techniques such as brute force, branch and bound, greedy approach, divide and conquer technique, and dynamic programming will be discussed. Students will learn the application of these design techniques in a wide range of biological problems such as sequence alignment, sequence homology searching, motif finding, gene prediction, gene expression analysis, and repeat finding. Other relevant topics such as genomic databases and bioinformatics tools will also be integrated.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "CS 3304 or approval from the CSET department.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3304",
+            "timing": "before"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "approval from the CSET department"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70301"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4332",
+      "catalogYear": "2025-2026",
+      "code": "CS 4332",
+      "title": "Artificial Intelligence",
+      "description": "This course focuses on applications and problems in the field of modern AI techniques and algorithms for making good decisions that are widely applied on a large range of financial, biomedical, robotics, information, and industrial systems. The course covers local agents, state-space searching, computational game theory, classification problem, and knowledge representation.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 3304.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 3304",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70302"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4337",
+      "catalogYear": "2025-2026",
+      "code": "CS 4337",
+      "title": "Human-Computer Interaction",
+      "description": "This course provides an introduction to Human-Computer Interaction (HCI), a discipline concerned with the design, implementation, and evaluation of user interfaces. Topics include interaction and cognition, human-centered design, prototyping, usability and evaluation, and other related issues such as multimedia and virtual reality.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in CS 2411.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 2411",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70376"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4340",
+      "catalogYear": "2025-2026",
+      "code": "CS 4340",
+      "title": "Mobile Computing",
+      "description": "Introduction to software development for mobile devices such as smartphones and tablets. Topics include essential concepts of software development, Graphical User Interface design, hardware communication on mobile platforms, and development of practical apps for mobile devices. This course can be used to fulfill upper-level CS elective requirement for BS in CS degree plan. It may be used to fulfill the writing application course requirement (W-course) with the additional prerequisite of CS 4294.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "CS 3321",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CS 3321",
+        "timing": "before"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68805"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4380",
+      "catalogYear": "2025-2026",
+      "code": "CS 4380",
+      "title": "Field Experience",
+      "description": "Selected students are placed in jobs in the local community which are related to and reinforce their academic training. Positions are full time, salaried and last the duration of a semester. Recommended for students not already employed in their area of study.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "At least 60 semester hours, grade of B or better in CS 3304, CS 3306 and CS 2302 and approval of department chair.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "At least 60 semester hours"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3304",
+            "timing": "before",
+            "minimumGrade": "B"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 3306",
+            "timing": "before",
+            "minimumGrade": "B"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2302",
+            "timing": "before",
+            "minimumGrade": "B"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "approval of department chair"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68806"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4390",
+      "catalogYear": "2025-2026",
+      "code": "CS 4390",
+      "title": "Special Topics in Computer Science",
+      "description": "Intensive study of one or more major topics in computer science, especially with respect to a new or emerging area.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Department approval. Course may be repeated for credit with department approval.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "permission",
+        "text": "department approval"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68807"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4395",
+      "catalogYear": "2025-2026",
+      "code": "CS 4395",
+      "title": "Senior Project in Computer Science",
+      "description": "Intensive study under the guidance of a member of the Computer Science faculty which culminates in an individually researched and formally written report and oral presentation dealing with the applications of computer science in the student’s area of specialization and related to one type of business or industry in the Houston area.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of B or better in CS 4294, GPA of 3.0 or above, senior standing, and department approval.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 4294",
+            "timing": "before",
+            "minimumGrade": "B"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "GPA of 3.0 or above"
+          },
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "senior standing"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "department approval"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4396",
+      "catalogYear": "2025-2026",
+      "code": "CS 4396",
+      "title": "Senior Thesis",
+      "description": "Intensive study under the guidance of a member of the Computer Science faculty which continues and expands the research carried out in CS 4395. A formal written report and oral presentation will be required.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Approval of department chair and the student’s advisor for CS 4395.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Approval of department chair and the student’s advisor for CS 4395."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "course-37-68809"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 4399",
+      "catalogYear": "2025-2026",
+      "code": "CS 4399",
+      "title": "Directed Study in Computer Science",
+      "description": "Intensive individual study under the guidance of a member of the Computer Science faculty.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Approval of department chair and dean.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Approval of department chair"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Approval of dean"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68810"
+      ]
+    },
+    {
+      "id": "2025-2026:ENG 1301",
+      "catalogYear": "2025-2026",
+      "code": "ENG 1301",
+      "title": "Composition I",
+      "description": "English 1301 is an introduction to college-level communication with an emphasis on argumentation, which is the kind of writing/communication required most frequently in university coursework and the public sphere. This course focuses on writing as a recursive process that includes audience analysis, invention, organization, drafting, revising, and editing; oral presentation and visual analysis skills are used to reinforce composition processes.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A TSIA2 score meeting college readiness in Reading and Writing, or TSIA2 Reading and Writing complete, or TSIA2 Reading and Writing exempt. For current TSIA2 College Readiness scores, please see https://www.uhd.edu/testing/Pages/testing-tsia.aspx.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "A TSIA2 score meeting college readiness in Reading and Writing"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 Reading and Writing complete"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 Reading and Writing exempt"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-68975"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 1300",
+      "catalogYear": "2025-2026",
+      "code": "MATH 1300",
+      "title": "Intermediate Algebra",
+      "description": "A survey of pre-college algebra is intended to build and reinforce the essential algebra skills needed for MATH 1301 - College Algebra. Topics include operations with algebraic expressions, factoring, the Cartesian coordinate system, systems of 1st degree equations in two variables solved by graphical and algebraic methods, slope and distance formulas, integer and rational exponents, radicals, an introduction to quadratic equations and word problems. This course may not be used to satisfy degree requirements.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A TSIA2 score that does not meet college readiness in Mathematics, and co-enrollment in MATH 1301 or MATH 1324. Successful completion of MATH 1301 or MATH 1324 (with a C or better) will satisfy the TSI requirements for developmental mathematics. For current TSIA2 College Readiness scores, please see https://www.uhd.edu/testing/Pages/testing-tsia.aspx.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "A TSIA2 score that does not meet college readiness in Mathematics"
+          },
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1301",
+                "timing": "concurrent"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1324",
+                "timing": "concurrent"
+              }
+            ]
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-69375"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 1301",
+      "catalogYear": "2025-2026",
+      "code": "MATH 1301",
+      "title": "College Algebra",
+      "description": "College-level topics in algebra including variation, systems of equations, nonlinear inequalities, functions and their graphs, lines, quadratic equations and functions, complex numbers, polynomials, exponential and logarithmic functions, the algebra of functions, and applications related to these topics. (MATH 1314)",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1300, or TSIA2 score meeting college readiness in Mathematics, or TSIA2 MATH complete, or TSIA2 MATH exempt. For current TSIA2 College Readiness scores, please see https://www.uhd.edu/testing/Pages/testing-tsia.aspx.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1300",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 score meeting college readiness in Mathematics"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 MATH complete"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 MATH exempt"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-69376"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 1302",
+      "catalogYear": "2025-2026",
+      "code": "MATH 1302",
+      "title": "Plane Trigonometry",
+      "description": "Trigonometric functions with emphasis on fundamental identities, radian measure, graphing, inverse trigonometric functions, solving triangles and trigonometric equations, vectors and applications related to these topics. (MATH 1316)",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1301 or placement by exam taken at UH-Downtown.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1301",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement by exam taken at UH-Downtown"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-69377"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 1305",
+      "catalogYear": "2025-2026",
+      "code": "MATH 1305",
+      "title": "Finite Mathematics with Applications",
+      "description": "Graphs and functions, vectors, matrices, linear programming using the Simplex method, mathematics of finance, and an introduction to probability with applications to business, economics and the social sciences. (MATH 1324)",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1301 or placement by exam taken at UH-Downtown.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1301",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement by exam taken at UH-Downtown"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-69378"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 1306",
+      "catalogYear": "2025-2026",
+      "code": "MATH 1306",
+      "title": "Fundamentals of Calculus with Applications",
+      "description": "Functions, limits, continuity, differentiation, integration and partial derivatives. Applications of all techniques to business, economics and the social sciences are stressed. (MATH 1325)",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1301 or MATH 1305 or placement by exam taken at UH-Downtown.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1301",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1305",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement by exam taken at UH-Downtown"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-69379"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 1324",
+      "catalogYear": "2025-2026",
+      "code": "MATH 1324",
+      "title": "Mathematics for Business and Social Sciences",
+      "description": "The application of common algebraic functions, including polynomial, exponential, logarithmic, and rational, to problems in business, economics, and the social sciences are addressed. The applications include mathematics of finance, including simple and compound interest and annuities; systems of linear equations; matrices; and linear programming.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1300, or TSIA2 score meeting college readiness in Mathematics, or TSIA2 MATH complete, or TSIA2 MATH exempt. For current TSIA2 College Readiness scores, please see https://www.uhd.edu/testing/Pages/testing-tsia.aspx.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1300",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 score meeting college readiness in Mathematics"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 MATH complete"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 MATH exempt"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70444"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 1404",
+      "catalogYear": "2025-2026",
+      "code": "MATH 1404",
+      "title": "Precalculus Mathematics",
+      "description": "A thorough treatment of the elementary functions and their graphs including polynomials, rational functions, exponential functions and logarithms. Applications of the elementary functions to practical problems such as modeling are included. Topics from plane analytic geometry needed in calculus are also covered including polar coordinates, conic sections and parametric curves. Concludes with an introduction to sequences and series. (MATH 2412)",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1302 or placement by exam taken at UH-Downtown.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1302",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement by exam taken at UH-Downtown"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-69381"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 1505",
+      "catalogYear": "2025-2026",
+      "code": "MATH 1505",
+      "title": "Precalculus with Trigonometry",
+      "description": "A thorough treatment of the elementary functions and their graphs including polynomials, rational functions, exponential functions and logarithms, and trigonometric functions. Applications of the elementary functions to practical problems. Topics from trigonometry include fundamental identities, radian measure, graphing, inverse trigonometric functions, and solving triangles and trigonometric equations. Topics from plane analytic geometry needed in calculus are also covered including vectors, polar coordinates, conic sections and parametric curves. Concludes with an introduction to sequences and series.",
+      "credits": {
+        "min": 5,
+        "max": 5
+      },
+      "prerequisiteText": "A grade of B or better in MATH 1301.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:MATH 1301",
+        "timing": "before",
+        "minimumGrade": "B"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-69382"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 2305",
+      "catalogYear": "2025-2026",
+      "code": "MATH 2305",
+      "title": "Discrete Mathematical Structures",
+      "description": "Topics include formal logic, elementary set theory, elementary number theory, strings, lists, binary trees, recursion, analysis of algorithms, big-O notation, Boolean algebra, and graph theory.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1404 or in MATH 1505 or placement by exam taken at UH-Downtown.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1404",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1505",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement by exam taken at UH-Downtown"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 2307",
+      "catalogYear": "2025-2026",
+      "code": "MATH 2307",
+      "title": "Linear Algebra",
+      "description": "An introduction to the basic concepts of linear algebra including systems of linear equations, matrices, vector spaces, linear transformations, determinants, eigenvalues, eigenvectors, orthogonality and applications.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2401 or MATH 2305 or MATH 2409.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2401",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2409",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 2401",
+      "catalogYear": "2025-2026",
+      "code": "MATH 2401",
+      "title": "Calculus I",
+      "description": "Functions, limits, the derivatives of algebraic and trigonometric functions, curve sketching, applications of the derivative, and an introduction to the definite and indefinite integrals of algebraic and trigonometric functions. (MATH 2413)",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1404 or in MATH 1505 or placement by exam taken at UH-Downtown.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1404",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1505",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement by exam taken at UH-Downtown"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 2402",
+      "catalogYear": "2025-2026",
+      "code": "MATH 2402",
+      "title": "Calculus II",
+      "description": "Topics include differentiation and integration of transcendental functions, techniques of integration, improper integrals and applications of the integral, sequences and infinite series.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2401 or MATH 2411.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2401",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2411",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 2403",
+      "catalogYear": "2025-2026",
+      "code": "MATH 2403",
+      "title": "Calculus III",
+      "description": "Solid analytic geometry, partial derivatives, multiple integrals and line integrals. Applications of the calculus of functions of several variables are also considered. (MATH 2415)",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2402.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:MATH 2402",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-69387"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 2409",
+      "catalogYear": "2025-2026",
+      "code": "MATH 2409",
+      "title": "Introduction to Proofs",
+      "description": "This course is designed to introduce students to formal and informal languages of mathematics, and to ideas and techniques for analyzing, constructing, and properly writing mathematical proofs. Specific topics may include propositional and quantificational logic, analysis and synthesis of proofs, induction, sets, functions, rational and real numbers, elements of number theory and group theory. This course serves as a gateway to other proof based courses, such as analysis and abstract algebra.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2401 or MATH 2411 or MATH 2421.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2401",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2421",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-69390"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 2411",
+      "catalogYear": "2025-2026",
+      "code": "MATH 2411",
+      "title": "Calculus I for the Natural Sciences",
+      "description": "Study of the concepts of differentiation and integration with an emphasis on applications in the life sciences. Topics include elementary functions and graphing, discrete models, discrete population models, limits, continuous functions, derivatives, differentiation with biological applications, linear approximation, optimization, difference equations, stability, and integration with biological applications.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better inMATH 1404 or MATH 1505 or placement by exam taken at UH-Downtown.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1404",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1505",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement by exam taken at UH-Downtown"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-69391"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 2412",
+      "catalogYear": "2025-2026",
+      "code": "MATH 2412",
+      "title": "Calculus II for the Natural Sciences",
+      "description": "Topics include integration, approximation by Taylor series, differential equations, matrices, eigenvalues and eigenvectors, functions of several variables, partial derivatives, tangent planes and linearization, systems of difference equations, systems of linear and nonlinear differential equations, and equilibria and stability.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2411 or MATH 2401.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2401",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-69392"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 2421",
+      "catalogYear": "2025-2026",
+      "code": "MATH 2421",
+      "title": "Differential and Integral Calculus with Applications",
+      "description": "Mathematical foundations needed for data science. Introduction to limits, continuity, derivatives, monotonicity and maxima/minima or real-valued functions, concavity of real-valued functions and inflection points, integrals, areas under curves, sequences, and series. Examples from statistics and data science will be used to illustrate application of the methods. Computational software will be used throughout this course.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Grade of C or better in MATH 1404 or in MATH 1505 or placement by exam taken at UH-Downtown.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1404",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1505",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement by exam taken at UH-Downtown"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70333"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 2422",
+      "catalogYear": "2025-2026",
+      "code": "MATH 2422",
+      "title": "Linear Algebra & Multivariable Calculus with Applications",
+      "description": "This course will provide students with the mathematical foundations for advanced statistical methods, data modeling, and analysis of large data sets. Multi-dimensional problems, including partial differentiation, gradient, and directional derivative, Taylor series, maxima, minima and saddle points, Lagrange multipliers, multidimensional integration, change of variables. Systems of linear equations, vectors, linear independence, matrices, determinants, scalar and vector product applications. Matrices, eigenvalues, eigenvectors, and diagonalization. Examples from statistics and data science will be used to illustrate application of the methods. Computational software will be used throughout this course.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Grade of C or higher in either MATH 2421 or MATH 2402.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2421",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2402",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-70371"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3301",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3301",
+      "title": "Differential Equations",
+      "description": "Ordinary differential equations, with emphasis on methods of solution of first order equations, homogeneous and non-homogeneous linear equations and systems of linear equations. Power series solutions of some linear equations and elementary applications are also covered.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2412, or in MATH 2422, or in both MATH 2307 and MATH 2402.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2412",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2422",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "all",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2307",
+                "timing": "before",
+                "minimumGrade": "C"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2402",
+                "timing": "before",
+                "minimumGrade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-69394"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3302",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3302",
+      "title": "Probability and Statistics",
+      "description": "The probability and statistics useful for science and engineering applications are developed in this course. The topics include probability distributions, statistical inference, estimation, testing of hypothesis, and linear regression. Standard statistical packages are used but no computer background is necessary. Credit may not be earned for both MATH 3302 and STAT 3309.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2402 or MATH 2421.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2402",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2421",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 2101",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 2101",
+      "title": "Physics Laboratory I",
+      "description": "Topics include linear and rotational motion, collisions, simple harmonic motion and thermal properties of matter. (PHYS 2125)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in PHYS 2401.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:PHYS 2401",
+        "timing": "before-or-concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 2102",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 2102",
+      "title": "Physics Laboratory II",
+      "description": "Topics include static electric and magnetic fields and electron motion therein, DC and AC circuits including linear and nonlinear devices and properties of electromagnetic waves, and geometrical and physical optics. (PHYS 2126)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in PHYS 2402.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:PHYS 2402",
+        "timing": "before-or-concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 2401",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 2401",
+      "title": "Physics I",
+      "description": "This is the first in a two-part survey of physics for science majors using calculus. Topics include kinematics and dynamics in one, two and three dimensions, statics, dynamics, potentials, conservation of energy and momentum (linear and angular), rotational kinematics and dynamics, oscillations, gravitation, fluid mechanics, thermal properties of matter, kinetic theory of gases and the first and second law of thermodynamics. Credit for both PHYS 1307 and PHYS 2401 may not be applied toward a degree.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Credit in MATH 2402 (or MATH 2412) enrollment in PHYS 2101.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2402",
+                "timing": "before"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2412",
+                "timing": "before"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 2101",
+            "timing": "concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 2402",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 2402",
+      "title": "Physics II",
+      "description": "This is the second in a two-part survey of physics for science majors using calculus. Topics include electric charge, electric fields and potentials, Gauss’ Law, capacitors and dielectrics, AC and DC electrical circuits, magnetic fields, the Biot-Savart Law, Faraday’s Law, magnetic properties of matter, Maxwell’s equations and electromagnetic waves and optics. Credit for both PHYS 1308 and PHYS 2402 may not be applied toward a degree.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Grade of C or better in PHYS 2401 and credit or enrollment in PHYS 2102.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 2401",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 2102",
+            "timing": "before-or-concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "2025-2026:STAT 3309",
+      "catalogYear": "2025-2026",
+      "code": "STAT 3309",
+      "title": "Statistical Analysis for Business Applications I",
+      "description": "Basic concepts of statistics for business students are considered including descriptive statistics, probability concepts, random variables, probability distributions, expected values, point and interval estimations techniques and some hypothesis testing and linear regression. Applications to a variety of business problems are stressed and computer statistical packages are used. Credit cannot be given for both MATH 3302 and STAT 3309.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1305 and MATH 1306 or MATH 2401.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in MATH 1305 and MATH 1306 or MATH 2401."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "course-37-69791"
+      ]
+    },
+    {
+      "id": "2025-2026:STAT 3310",
+      "catalogYear": "2025-2026",
+      "code": "STAT 3310",
+      "title": "Statistical Analysis for Business Applications II",
+      "description": "Test of hypotheses, regression and correlation, introduction to analysis of variance, and other special topics. Applications to a variety of business problems and use of computer statistical programs.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in STAT 3309 or STAT 3311 or department approval.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:STAT 3309",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:STAT 3311",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "department approval"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "course-37-69792"
+      ]
+    },
+    {
+      "id": "2025-2026:STAT 3311",
+      "catalogYear": "2025-2026",
+      "code": "STAT 3311",
+      "title": "Statistical Analysis for Natural Science",
+      "description": "Basic concepts of statistics for natural science students are considered including collection of data, descriptive statistics, probability concepts, random variables, probability distributions, expected values, point and interval estimation techniques, hypothesis testing, bivariate data, linear regression, and analysis of variance. Natural science applications are stressed and computer statistical packages are used.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1404 or MATH 1505.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1404",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1505",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    },
+    {
+      "id": "2025-2026:TCOM 3302",
+      "catalogYear": "2025-2026",
+      "code": "TCOM 3302",
+      "title": "Business and Technical Writing",
+      "description": "Study and practice of presenting technical information, with emphasis on formal and informal writing for the workplace, including resumes, job application letters, instructions, proposals, and reports.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "010 core complete and 040 core complete",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "010 core complete"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "040 core complete"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "cs-program-37"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "id": "core-010",
+      "programId": "computer-science-bs",
+      "label": "Communication UHD Course Options - 010 (6 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:ENG 1301"
+      ],
+      "unimportedOptions": [
+        {
+          "code": "ENG 1302",
+          "title": "Composition II"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 6,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-020",
+      "programId": "computer-science-bs",
+      "label": "Mathematics UHD Course Options - 020 (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:MATH 1301",
+        "2025-2026:MATH 1324",
+        "2025-2026:MATH 2305"
+      ],
+      "unimportedOptions": [
+        {
+          "code": "MATH 1310",
+          "title": "Contemporary Mathematics"
+        },
+        {
+          "code": "STAT 1312",
+          "title": "Statistical Literacy"
+        }
+      ],
+      "optionCoverage": "open-rule",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses.",
+        "Degree page explicitly overlaps MATH 2305 with core math. Core also permits courses for which a listed math option is a prerequisite; that open rule is not exhaustively enumerated."
+      ],
+      "sourceIds": [
+        "core-rules-37",
+        "degree-rules-37"
+      ]
+    },
+    {
+      "id": "core-030",
+      "programId": "computer-science-bs",
+      "label": "Life and Physical Sciences UHD Course Options - 030 (6 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 2402"
+      ],
+      "unimportedOptions": [
+        {
+          "code": "BIOL 1301",
+          "title": "General Biology I"
+        },
+        {
+          "code": "BIOL 1302",
+          "title": "General Biology II"
+        },
+        {
+          "code": "BIOL 1303",
+          "title": "Human Anatomy and Physiology I"
+        },
+        {
+          "code": "BIOL 1304",
+          "title": "Human Anatomy and Physiology II"
+        },
+        {
+          "code": "BIOL 1310",
+          "title": "Human Biology"
+        },
+        {
+          "code": "BIOL 1312",
+          "title": "Ecology and Environmental Biology"
+        },
+        {
+          "code": "BIOL 2306",
+          "title": "Fundamentals of Nutrition"
+        },
+        {
+          "code": "CHEM 1305",
+          "title": "Introductory Chemistry"
+        },
+        {
+          "code": "CHEM 1307",
+          "title": "General Chemistry I"
+        },
+        {
+          "code": "CHEM 1308",
+          "title": "General Chemistry II"
+        },
+        {
+          "code": "GEOL 1304",
+          "title": "Introduction to Meteorology"
+        },
+        {
+          "code": "GEOL 1305",
+          "title": "Physical Geology"
+        },
+        {
+          "code": "GEOL 1306",
+          "title": "Historical Geology"
+        },
+        {
+          "code": "GEOL 1307",
+          "title": "Planet Earth"
+        },
+        {
+          "code": "GEOL 1308",
+          "title": "History of the Earth"
+        },
+        {
+          "code": "GEOL 1345",
+          "title": "Oceanography"
+        },
+        {
+          "code": "MBIO 1305",
+          "title": "Microbiology"
+        },
+        {
+          "code": "MBIO 1310",
+          "title": "Microbes and Society"
+        },
+        {
+          "code": "NS 1300",
+          "title": "Emergence of Modern Science"
+        },
+        {
+          "code": "PHYS 1301",
+          "title": "Introduction to Solar System Astronomy"
+        },
+        {
+          "code": "PHYS 1302",
+          "title": "Introduction to Stellar and Galactic Astronomy"
+        },
+        {
+          "code": "PHYS 1307",
+          "title": "General Physics I"
+        },
+        {
+          "code": "PHYS 1308",
+          "title": "General Physics II"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 6,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses.",
+        "Only six science hours overlap the degree laboratory-science requirement; course credits in excess of six remain unique earned/planned hours."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-040",
+      "programId": "computer-science-bs",
+      "label": "Language, Philosophy and Culture UHD Course Options - 040 (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "ENG 2301",
+          "title": "World Literature I"
+        },
+        {
+          "code": "ENG 2302",
+          "title": "World Literature II"
+        },
+        {
+          "code": "ENG 2305",
+          "title": "Literature and Culture"
+        },
+        {
+          "code": "ENG 2309",
+          "title": "Survey of Film: Beginnings to Present"
+        },
+        {
+          "code": "ENG 2311",
+          "title": "American Literature I"
+        },
+        {
+          "code": "ENG 2312",
+          "title": "American Literature II"
+        },
+        {
+          "code": "ENG 2313",
+          "title": "British Literature I"
+        },
+        {
+          "code": "ENG 2314",
+          "title": "British Literature II"
+        },
+        {
+          "code": "HUM 1301",
+          "title": "Ancient Western Culture"
+        },
+        {
+          "code": "HUM 1302",
+          "title": "Modern Western Culture"
+        },
+        {
+          "code": "LATS 1301",
+          "title": "Introduction to Latino Studies"
+        },
+        {
+          "code": "PHIL 1301",
+          "title": "Introduction to Philosophy"
+        },
+        {
+          "code": "PHIL 2305",
+          "title": "Contemporary Ethical Issues"
+        },
+        {
+          "code": "PHIL 2310",
+          "title": "The Meaning of Life"
+        },
+        {
+          "code": "SPAN 2301",
+          "title": "Intermediate Spanish I"
+        },
+        {
+          "code": "SPAN 2302",
+          "title": "Intermediate Spanish II"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-050",
+      "programId": "computer-science-bs",
+      "label": "Creative Arts UHD Course Options - 050 (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "ART 1301",
+          "title": "History of Art: Paleolithic to the Middle Ages"
+        },
+        {
+          "code": "ART 1302",
+          "title": "History of Art: Renaissance to Present"
+        },
+        {
+          "code": "ART 1308",
+          "title": "Art History: Introduction to World Art"
+        },
+        {
+          "code": "ART 1310",
+          "title": "Introduction to Visual Arts"
+        },
+        {
+          "code": "DANC 1301",
+          "title": "Dance in America"
+        },
+        {
+          "code": "DRA 1301",
+          "title": "Introduction to the Theater"
+        },
+        {
+          "code": "DRA 1303",
+          "title": "Introduction to Acting"
+        },
+        {
+          "code": "MUS 2301",
+          "title": "Music Appreciation: Before 1750"
+        },
+        {
+          "code": "MUS 2302",
+          "title": "Music Appreciation: After 1750"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-060",
+      "programId": "computer-science-bs",
+      "label": "American History UHD Course Options - 060 (6 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "HIST 1305",
+          "title": "United States History to 1877"
+        },
+        {
+          "code": "HIST 1306",
+          "title": "United States History after 1877"
+        },
+        {
+          "code": "HIST 1312",
+          "title": "Texas History"
+        },
+        {
+          "code": "HIST 1314",
+          "title": "Ethnic Minorities in American History"
+        },
+        {
+          "code": "HIST 1315",
+          "title": "Latino History before 1898"
+        },
+        {
+          "code": "HIST 1316",
+          "title": "Latino History since 1898"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 6,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-070",
+      "programId": "computer-science-bs",
+      "label": "Government/Political Science UHD Course Options - 070 (6 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "POLS 2305",
+          "title": "Federal Government"
+        },
+        {
+          "code": "POLS 2306",
+          "title": "Texas Government"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 6,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-080",
+      "programId": "computer-science-bs",
+      "label": "Social and Behavioral Sciences UHD Course Options - 080 (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "ANTH 2302",
+          "title": "Cultural Anthropology"
+        },
+        {
+          "code": "CJ 1301",
+          "title": "Introduction to Criminal Justice"
+        },
+        {
+          "code": "CRS 1301",
+          "title": "An Introduction to Critical Race Studies"
+        },
+        {
+          "code": "ECO 1305",
+          "title": "Contemporary Economic Issues"
+        },
+        {
+          "code": "HEA 2305",
+          "title": "Wellness Across the Lifespan"
+        },
+        {
+          "code": "LANG 1303",
+          "title": "Language and Society"
+        },
+        {
+          "code": "PSY 1303",
+          "title": "Introduction to Psychology"
+        },
+        {
+          "code": "SOC 1303",
+          "title": "Introduction to Sociology"
+        },
+        {
+          "code": "SOCW 2361",
+          "title": "Introduction to Social Work and Social Welfare"
+        },
+        {
+          "code": "SOCW 2363",
+          "title": "Introduction to Social Welfare Policy"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-090-oral",
+      "programId": "computer-science-bs",
+      "label": "Oral Communication (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:COMM 1304"
+      ],
+      "unimportedOptions": [
+        {
+          "code": "COMM 1302",
+          "title": "Mass Media"
+        },
+        {
+          "code": "COMM 1306",
+          "title": "Beginning Public Speaking"
+        },
+        {
+          "code": "COMM 1309",
+          "title": "Communication and Public Decision Making"
+        },
+        {
+          "code": "COMM 2307",
+          "title": "Intercultural Communication"
+        },
+        {
+          "code": "COMM 2309",
+          "title": "Interpersonal Communication"
+        },
+        {
+          "code": "COMM 2311",
+          "title": "Principles of Public Relations"
+        },
+        {
+          "code": "ENG 1306",
+          "title": "Workplace Presentations"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-090-seminar",
+      "programId": "computer-science-bs",
+      "label": "New Student Seminar* (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "UHD 1301",
+          "title": "First-Year Seminar-Communication"
+        },
+        {
+          "code": "UHD 1302",
+          "title": "First-Year Seminar-Mathematics"
+        },
+        {
+          "code": "UHD 1303",
+          "title": "First-Year Seminar-Life and Physical Sciences"
+        },
+        {
+          "code": "UHD 1304",
+          "title": "First-Year Seminar-Language, Philosophy and Culture"
+        },
+        {
+          "code": "UHD 1305",
+          "title": "First-Year Seminar-Creative Arts"
+        },
+        {
+          "code": "UHD 1306",
+          "title": "First-Year Seminar-American History"
+        },
+        {
+          "code": "UHD 1307",
+          "title": "First-Year Seminar-Government/Political Science"
+        },
+        {
+          "code": "UHD 1308",
+          "title": "First-Year Seminar-Social and Behavioral Sciences"
+        },
+        {
+          "code": "UHD 2301",
+          "title": "University Seminar-Communication"
+        },
+        {
+          "code": "UHD 2302",
+          "title": "University Seminar-Mathematics"
+        },
+        {
+          "code": "UHD 2303",
+          "title": "University Seminar-Life and Physical Sciences"
+        },
+        {
+          "code": "UHD 2304",
+          "title": "University Seminar-Language, Philosophy and Culture"
+        },
+        {
+          "code": "UHD 2305",
+          "title": "University Seminar -Creative Arts"
+        },
+        {
+          "code": "UHD 2306",
+          "title": "University Seminar-American History"
+        },
+        {
+          "code": "UHD 2307",
+          "title": "University Seminar-Government/Political Science"
+        },
+        {
+          "code": "UHD 2308",
+          "title": "University Seminar-Social and Behavioral Sciences"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses.",
+        "If Component Area Option is not complete at transfer: UHD 1301-1308 for fewer than 30 SCH or ENG 1301 not passed; UHD 2301-2308 for at least 30 SCH and ENG 1301 passed. First UHD semester."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "cs-required",
+      "programId": "computer-science-bs",
+      "label": "Required Computer Science courses",
+      "area": "major",
+      "rule": "all",
+      "courseIds": [
+        "2025-2026:CS 1411",
+        "2025-2026:CS 2301",
+        "2025-2026:CS 2302",
+        "2025-2026:CS 2411",
+        "2025-2026:CS 3304",
+        "2025-2026:CS 3306",
+        "2025-2026:CS 3321",
+        "2025-2026:CS 4294",
+        "2025-2026:CS 4303",
+        "2025-2026:CS 4315",
+        "2025-2026:CS 4318"
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 34,
+      "constraints": [
+        "C or better in CS courses applied to the degree."
+      ],
+      "sourceIds": [
+        "degree-rules-37"
+      ]
+    },
+    {
+      "id": "cs-writing-project",
+      "programId": "computer-science-bs",
+      "label": "Senior Project or approved writing course",
+      "area": "major",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:CS 4395",
+        "2025-2026:CS 3324",
+        "2025-2026:CS 4301",
+        "2025-2026:CS 4306",
+        "2025-2026:CS 4328",
+        "2025-2026:CS 4340"
+      ],
+      "optionCoverage": "partial",
+      "minimumCredits": 3,
+      "constraints": [
+        "CS 4395 is the named course. Alternatives require approved W-course use and their additional conditions; a catalog option is not automatic approval.",
+        "A course allocated here cannot also fill a separate CS elective slot."
+      ],
+      "sourceIds": [
+        "degree-rules-37"
+      ]
+    },
+    {
+      "id": "support-writing",
+      "programId": "computer-science-bs",
+      "label": "Business and Technical Writing",
+      "area": "supporting",
+      "rule": "all",
+      "courseIds": [
+        "2025-2026:TCOM 3302"
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [],
+      "sourceIds": [
+        "degree-rules-37"
+      ]
+    },
+    {
+      "id": "support-math",
+      "programId": "computer-science-bs",
+      "label": "Required mathematics",
+      "area": "supporting",
+      "rule": "all",
+      "courseIds": [
+        "2025-2026:MATH 2305",
+        "2025-2026:MATH 2401",
+        "2025-2026:MATH 2402",
+        "2025-2026:MATH 2307"
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 14,
+      "constraints": [
+        "C or better.",
+        "Three hours overlap core math."
+      ],
+      "sourceIds": [
+        "degree-rules-37"
+      ]
+    },
+    {
+      "id": "support-statistics",
+      "programId": "computer-science-bs",
+      "label": "Statistics option",
+      "area": "supporting",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:STAT 3311",
+        "2025-2026:MATH 3302"
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Choose one; C or better. Do not count both as required."
+      ],
+      "sourceIds": [
+        "degree-rules-37"
+      ]
+    },
+    {
+      "id": "support-science",
+      "programId": "computer-science-bs",
+      "label": "Laboratory natural sciences",
+      "area": "supporting",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 2101",
+        "2025-2026:PHYS 2402",
+        "2025-2026:PHYS 2102"
+      ],
+      "optionCoverage": "partial",
+      "minimumCredits": 8,
+      "constraints": [
+        "Eight hours of laboratory science; six overlap core science.",
+        "Physics lecture/lab pairs are one captured pathway, not the complete eligible pool. Laboratories must accompany the appropriate lecture.",
+        "PHYS 2401/2402 publish four hours each; PHYS 2101/2102 publish one each. Preserve all ten unique hours if selected."
+      ],
+      "sourceIds": [
+        "degree-rules-37"
+      ]
+    },
+    {
+      "id": "cs-elective-upper",
+      "programId": "computer-science-bs",
+      "label": "Upper-level CS electives",
+      "area": "elective",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:CS 3300",
+        "2025-2026:CS 3301",
+        "2025-2026:CS 3305",
+        "2025-2026:CS 3307",
+        "2025-2026:CS 3308",
+        "2025-2026:CS 3310",
+        "2025-2026:CS 3318",
+        "2025-2026:CS 3319",
+        "2025-2026:CS 3324",
+        "2025-2026:CS 3325",
+        "2025-2026:CS 3331",
+        "2025-2026:CS 4300",
+        "2025-2026:CS 4301",
+        "2025-2026:CS 4306",
+        "2025-2026:CS 4307",
+        "2025-2026:CS 4308",
+        "2025-2026:CS 4309",
+        "2025-2026:CS 4310",
+        "2025-2026:CS 4311",
+        "2025-2026:CS 4313",
+        "2025-2026:CS 4317",
+        "2025-2026:CS 4319",
+        "2025-2026:CS 4322",
+        "2025-2026:CS 4326",
+        "2025-2026:CS 4328",
+        "2025-2026:CS 4329",
+        "2025-2026:CS 4332",
+        "2025-2026:CS 4337",
+        "2025-2026:CS 4340",
+        "2025-2026:CS 4380",
+        "2025-2026:CS 4390",
+        "2025-2026:CS 4396",
+        "2025-2026:CS 4399"
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 15,
+      "constraints": [
+        "C or better; allocate distinct courses beyond required CS/project slots.",
+        "CS 3394 is excluded by its description; report conflict remains recorded.",
+        "Permission and repeated-study conditions remain applicable."
+      ],
+      "sourceIds": [
+        "degree-rules-37"
+      ]
+    },
+    {
+      "id": "cs-elective-additional",
+      "programId": "computer-science-bs",
+      "label": "Additional CS elective",
+      "area": "elective",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:CS 1408",
+        "2025-2026:CS 1311",
+        "2025-2026:CS 1313",
+        "2025-2026:CS 1410",
+        "2025-2026:CS 1412",
+        "2025-2026:CS 2311",
+        "2025-2026:CS 2410",
+        "2025-2026:CS 3300",
+        "2025-2026:CS 3301",
+        "2025-2026:CS 3305",
+        "2025-2026:CS 3307",
+        "2025-2026:CS 3308",
+        "2025-2026:CS 3310",
+        "2025-2026:CS 3318",
+        "2025-2026:CS 3319",
+        "2025-2026:CS 3324",
+        "2025-2026:CS 3325",
+        "2025-2026:CS 3331",
+        "2025-2026:CS 4300",
+        "2025-2026:CS 4301",
+        "2025-2026:CS 4306",
+        "2025-2026:CS 4307",
+        "2025-2026:CS 4308",
+        "2025-2026:CS 4309",
+        "2025-2026:CS 4310",
+        "2025-2026:CS 4311",
+        "2025-2026:CS 4313",
+        "2025-2026:CS 4317",
+        "2025-2026:CS 4319",
+        "2025-2026:CS 4322",
+        "2025-2026:CS 4326",
+        "2025-2026:CS 4328",
+        "2025-2026:CS 4329",
+        "2025-2026:CS 4332",
+        "2025-2026:CS 4337",
+        "2025-2026:CS 4340",
+        "2025-2026:CS 4380",
+        "2025-2026:CS 4390",
+        "2025-2026:CS 4396",
+        "2025-2026:CS 4399"
+      ],
+      "optionCoverage": "partial",
+      "minimumCredits": 3,
+      "constraints": [
+        "C or better; CS courses above CS 1305. Use distinct courses beyond the 15-hour upper-level pool.",
+        "CS 3394 withheld pending eligibility conflict resolution."
+      ],
+      "sourceIds": [
+        "degree-rules-37"
+      ]
+    },
+    {
+      "id": "free-electives",
+      "programId": "computer-science-bs",
+      "label": "Free electives to reach 120 unique hours",
+      "area": "elective",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "optionCoverage": "open-rule",
+      "minimumCredits": 0,
+      "constraints": [
+        "Dynamic balance to 120 degree-applicable unique hours; not a fixed four-hour course requirement.",
+        "Degree-credit exclusions and mutually exclusive credit apply."
+      ],
+      "sourceIds": [
+        "degree-rules-37"
+      ]
+    }
+  ]
+}

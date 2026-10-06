@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "2026-2027-draft-2026-09-27",
+  "catalogYear": "2026-2027",
+  "synthetic": false,
+  "sources": [
+    {
+      "id": "cs-program-39",
+      "url": "https://catalog.uhd.edu/preview_program.php?catoid=39&poid=7434&returnto=2508",
+      "title": "Computer Science, BS and expanded course descriptions",
+      "catalogYear": "2026-2027",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    },
+    {
+      "id": "cs-index-39",
+      "url": "https://catalog.uhd.edu/content.php?catoid=39&navoid=2512",
+      "title": "CS prefix course index and expanded descriptions",
+      "catalogYear": "2026-2027",
+      "retrievedOn": "2026-09-27",
+      "role": "catalog"
+    }
+  ],
+  "courses": [
+    {
+      "id": "2026-2027:CS 1408",
+      "catalogYear": "2026-2027",
+      "code": "CS 1408",
+      "title": "Introduction to Computer Science with Visual Basic",
+      "description": "History, nature and uses of the computer; algorithms; number systems; information representation and organization with an overview of computer hardware and software, computing systems and major applications. An introduction to high-level languages and programming using Visual Basic with an emphasis on event-driven programming. Elements of the Visual Basic programming environment including objects, events, properties, user interface design and creating web-based applications are discussed. Practice with standard programming features such as control statements, subprograms, data types, arrays and input-output mechanisms.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Credit or enrollment in MATH 1404 or MATH 1505 or MATH 1306; and placement in ENG 1301 or above.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in MATH 1404 or MATH 1505 or MATH 1306; and placement in ENG 1301 or above."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-index-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 1411",
+      "catalogYear": "2026-2027",
+      "code": "CS 1411",
+      "title": "Introduction to Computer Science with Python",
+      "description": "This course introduces the fundamentals of computer programming using the Python language. The course is designed as an introductory course for students with or without prior programming experience. Topics include variable declaration, control statements, functions, I/O operations, exception handling, and data structures. The course provides extensive hands-on activities on writing computer programs.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Credit or enrollment in MATH 1404 or MATH 1505.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in MATH 1404 or MATH 1505."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 2301",
+      "catalogYear": "2026-2027",
+      "code": "CS 2301",
+      "title": "Introduction to Computer Organization",
+      "description": "Organization of general-purpose computers; data representation and arithmetic; instruction sets architectures and addressing modes; memory hierarchies, input/output and storage, and alternative architecture. (COSC 2425)",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 1411 or CS 1408.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in CS 1411 or CS 1408."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 2302",
+      "catalogYear": "2026-2027",
+      "code": "CS 2302",
+      "title": "Digital Logic",
+      "description": "Boolean expressions and theorems. Analysis and synthesis of combinational and sequential switching networks; optimization methods using random logic gates, multiplexers, decoders, registers, counters, and programmable logic devices. Exercises involve the design and simulation of digital circuits. Emphasis is on the use of Boolean Algebra, Truth Table, and Karnaugh Maps in the design, simulation, simplification, and testing of digital circuits.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 1411 and MATH 2305.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in CS 1411 and MATH 2305."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 2411",
+      "catalogYear": "2026-2027",
+      "code": "CS 2411",
+      "title": "Procedural and Object-Oriented Programming with C++",
+      "description": "This course provides procedural and object-oriented programming foundations using C++. Topics include procedural-programming concepts such as variable declaration, data types, control statements, functions, and file operations as well as object-oriented concepts such as dynamic memory allocations, classes, and data abstractions.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Grade of C or better in CS 1411; credit or enrollment in MATH 2401.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in CS 1411; credit or enrollment in MATH 2401."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 3304",
+      "catalogYear": "2026-2027",
+      "code": "CS 3304",
+      "title": "Data and Information Structures",
+      "description": "Development of methods for organizing and processing data sets. Types of data structures analyzed include linear lists, stacks, queues, trees, and graphs. Algorithm analysis methods are used throughout to analyze the various data structures and algorithm design alternatives.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2411 and MATH 2305.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in CS 2411 and MATH 2305."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 3306",
+      "catalogYear": "2026-2027",
+      "code": "CS 3306",
+      "title": "Introduction to Theory of Computation",
+      "description": "An introduction to the modern theory of computing. Topics selected from abstract algebra, finite automata, regular expressions, regular languages, pushdown automata, context-free languages, and Turing machines. The capabilities and limitations of abstract computing devices are investigated from a theoretical perspective.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2411 and MATH 2305",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in CS 2411 and MATH 2305"
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 3310",
+      "catalogYear": "2026-2027",
+      "code": "CS 3310",
+      "title": "Fundamentals of Game Development",
+      "description": "This course provides students with a foundation in computer game development. Topics include the genres of games, principles of game design (such as character design, level design, and interface design), randomness and variety in games, AI in game programming, physics, event handling, and visual effects.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2411.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in CS 2411."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-index-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 3321",
+      "catalogYear": "2026-2027",
+      "code": "CS 3321",
+      "title": "Software Engineering",
+      "description": "To provide students with the theoretical and practical understanding of the development of large software systems using the Unified Modeling Language (UML). The theoretical component is supported with readings, lectures, and class discussions. The practical components are reinforced with the development of a large-scale group project involving all phases of the software development life-cycle.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "C or better in CS 3304",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "C or better in CS 3304"
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 4294",
+      "catalogYear": "2026-2027",
+      "code": "CS 4294",
+      "title": "Senior Seminar",
+      "description": "A structured seminar: students are exposed to the world community as it relates to their major (involving a written and oral report on cultural issues as well as discussion of these topics). Ethics is discussed as it relates to the subject. In addition, students prepare a written proposal for a senior project.",
+      "credits": {
+        "min": 2,
+        "max": 2
+      },
+      "prerequisiteText": "COMM 1304, TCOM 3302, senior standing and department approval.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "COMM 1304, TCOM 3302, senior standing and department approval."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 4300",
+      "catalogYear": "2026-2027",
+      "code": "CS 4300",
+      "title": "Web Programming",
+      "description": "An introduction to Web programming using HTML, XML, JavaServer Pages, and Java Script, with an emphasis on developing and designing dynamic Web pages in the client-server model.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 3304.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in CS 3304."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-index-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 4303",
+      "catalogYear": "2026-2027",
+      "code": "CS 4303",
+      "title": "Programming Language Concepts",
+      "description": "This course provides students with a foundation in the concepts and implementation of modern programming languages. It also covers imperative, functional, logic, and object-oriented programming paradigms. Programming assignments and/or closed labs will be conducted for syntax and semantics analysis and different paradigms.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 3304 and CS 3306.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in CS 3304 and CS 3306."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 4315",
+      "catalogYear": "2026-2027",
+      "code": "CS 4315",
+      "title": "Operating Systems",
+      "description": "Basic concepts of operating systems including concurrent process management, I/O device management, process scheduling, synchronization, deadlock, and memory management. UNIX used for standard examples.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 2301 and CS 3304.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in CS 2301 and CS 3304."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 4318",
+      "catalogYear": "2026-2027",
+      "code": "CS 4318",
+      "title": "Database Systems",
+      "description": "An introduction to the theory of database and file structures with an emphasis on general principles and algorithmic issues as well as a conceptual overview of the design, construction and maintenance of database and file processing systems. After the various models are considered, specific attention is given to advanced topics such as data integrity, optimization, and distributed environments.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in CS 3304.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in CS 3304."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 4319",
+      "catalogYear": "2026-2027",
+      "code": "CS 4319",
+      "title": "Statistical and Machine Learning",
+      "description": "This course blends the predictive perspective of statistical pattern recognition and the algorithmic perspective of machine learning. Topics include, but are not limited to: applications of appropriate machine learning algorithms in various disciplines, prediction and performance metrics, data transformations, supervised and unsupervised learning, and ensemble methods.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in CS 3304, and a grade of C or better in either STAT 3311 or MATH 3302",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in CS 3304, and a grade of C or better in either STAT 3311 or MATH 3302"
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-index-39"
+      ]
+    },
+    {
+      "id": "2026-2027:CS 4395",
+      "catalogYear": "2026-2027",
+      "code": "CS 4395",
+      "title": "Senior Project in Computer Science",
+      "description": "Intensive study under the guidance of a member of the Computer Science faculty which culminates in an individually researched and formally written report and oral presentation dealing with the applications of computer science in the student’s area of specialization and related to one type of business or industry in the Houston area.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of B or better in CS 4294, GPA of 3.0 or above, senior standing, and department approval.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of B or better in CS 4294, GPA of 3.0 or above, senior standing, and department approval."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:MATH 2305",
+      "catalogYear": "2026-2027",
+      "code": "MATH 2305",
+      "title": "Discrete Mathematical Structures",
+      "description": "Topics include formal logic, elementary set theory, elementary number theory, strings, lists, binary trees, recursion, analysis of algorithms, big-O notation, Boolean algebra, and graph theory.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1404 or in MATH 1505 or placement by exam taken at UH-Downtown.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in MATH 1404 or in MATH 1505 or placement by exam taken at UH-Downtown."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:MATH 2307",
+      "catalogYear": "2026-2027",
+      "code": "MATH 2307",
+      "title": "Linear Algebra",
+      "description": "An introduction to the basic concepts of linear algebra including systems of linear equations, matrices, vector spaces, linear transformations, determinants, eigenvalues, eigenvectors, orthogonality and applications.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2401 or MATH 2305 or MATH 2409.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in MATH 2401 or MATH 2305 or MATH 2409."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:MATH 2401",
+      "catalogYear": "2026-2027",
+      "code": "MATH 2401",
+      "title": "Calculus I",
+      "description": "Functions, limits, the derivatives of algebraic and trigonometric functions, curve sketching, applications of the derivative, and an introduction to the definite and indefinite integrals of algebraic and trigonometric functions. (MATH 2413)",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1404 or in MATH 1505 or placement by exam taken at UH-Downtown.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in MATH 1404 or in MATH 1505 or placement by exam taken at UH-Downtown."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:MATH 2402",
+      "catalogYear": "2026-2027",
+      "code": "MATH 2402",
+      "title": "Calculus II",
+      "description": "Topics include differentiation and integration of transcendental functions, techniques of integration, improper integrals and applications of the integral, sequences and infinite series.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2401 or MATH 2411.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in MATH 2401 or MATH 2411."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:MATH 3302",
+      "catalogYear": "2026-2027",
+      "code": "MATH 3302",
+      "title": "Probability and Statistics",
+      "description": "The probability and statistics useful for science and engineering applications are developed in this course. The topics include probability distributions, statistical inference, estimation, testing of hypothesis, and linear regression. Standard statistical packages are used but no computer background is necessary. Credit may not be earned for both MATH 3302 and STAT 3309.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2402 or MATH 2421.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in MATH 2402 or MATH 2421."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:STAT 3311",
+      "catalogYear": "2026-2027",
+      "code": "STAT 3311",
+      "title": "Statistical Analysis for Natural Science",
+      "description": "Basic concepts of statistics for natural science students are considered including collection of data, descriptive statistics, probability concepts, random variables, probability distributions, expected values, point and interval estimation techniques, hypothesis testing, bivariate data, linear regression, and analysis of variance. Natural science applications are stressed and computer statistical packages are used.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1404 or MATH 1505.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in MATH 1404 or MATH 1505."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    },
+    {
+      "id": "2026-2027:TCOM 3302",
+      "catalogYear": "2026-2027",
+      "code": "TCOM 3302",
+      "title": "Business and Technical Writing",
+      "description": "Study and practice of presenting technical information, with emphasis on formal and informal writing for the workplace, including resumes, job application letters, instructions, proposals, and reports.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "010 core complete and 040 core complete",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "010 core complete and 040 core complete"
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "cs-program-39"
+      ]
+    }
+  ],
+  "requirements": []
+}

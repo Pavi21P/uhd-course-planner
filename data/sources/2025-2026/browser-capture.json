@@ -1,0 +1,542 @@
+{
+  "catalogYear": "2025-2026",
+  "catalogId": "37",
+  "retrievedOn": "2026-09-27",
+  "index": {
+    "sourceUrl": "https://catalog.uhd.edu/content.php?filter%5B27%5D=CS&filter%5B29%5D=&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=37&expand=&navoid=2413&search_database=Filter#acalog_template_course_filter",
+    "observedResultCount": 55,
+    "observedPaginationLinkCount": 0,
+    "scope": "CS prefix listing only; presence does not establish elective eligibility or scheduled offering",
+    "courseCodes": [
+      "CS 1105",
+      "CS 1305",
+      "CS 1311",
+      "CS 1313",
+      "CS 1408",
+      "CS 1410",
+      "CS 1411",
+      "CS 1412",
+      "CS 2301",
+      "CS 2302",
+      "CS 2311",
+      "CS 2410",
+      "CS 2411",
+      "CS 3300",
+      "CS 3301",
+      "CS 3304",
+      "CS 3305",
+      "CS 3306",
+      "CS 3307",
+      "CS 3308",
+      "CS 3310",
+      "CS 3318",
+      "CS 3319",
+      "CS 3321",
+      "CS 3324",
+      "CS 3325",
+      "CS 3331",
+      "CS 3394",
+      "CS 4294",
+      "CS 4300",
+      "CS 4301",
+      "CS 4303",
+      "CS 4306",
+      "CS 4307",
+      "CS 4308",
+      "CS 4309",
+      "CS 4310",
+      "CS 4311",
+      "CS 4313",
+      "CS 4315",
+      "CS 4317",
+      "CS 4318",
+      "CS 4319",
+      "CS 4322",
+      "CS 4326",
+      "CS 4328",
+      "CS 4329",
+      "CS 4332",
+      "CS 4337",
+      "CS 4340",
+      "CS 4380",
+      "CS 4390",
+      "CS 4395",
+      "CS 4396",
+      "CS 4399"
+    ],
+    "links": [
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68775",
+        "name": "CS 1105 - Technology for Education Lab"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68776",
+        "name": "CS 1305 - Introduction to Computer Technology"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=69864",
+        "name": "CS 1311 - Introduction to Computing with Python"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70420",
+        "name": "CS 1313 - Principles of Game Design"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68778",
+        "name": "CS 1408 - Introduction to Computer Science with Visual Basic"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68779",
+        "name": "CS 1410 - CS I-Introduction to Computer Science with C++"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70537",
+        "name": "CS 1411 - Introduction to Computer Science with Python"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68780",
+        "name": "CS 1412 - Introduction to Computer Science with C#"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68781",
+        "name": "CS 2301 - Introduction to Computer Organization"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68782",
+        "name": "CS 2302 - Digital Logic"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70360",
+        "name": "CS 2311 - Data Structures and Algorithms with Python"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68783",
+        "name": "CS 2410 - CS II-Introduction to Data Structures and Algorithms"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70538",
+        "name": "CS 2411 - Procedural and Object-Oriented Programming with C++"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68784",
+        "name": "CS 3300 - Object-Oriented Programming and Concepts"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70540",
+        "name": "CS 3301 - Cryptography"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68785",
+        "name": "CS 3304 - Data and Information Structures"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70548",
+        "name": "CS 3305 - Introduction to System Administration"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68786",
+        "name": "CS 3306 - Introduction to Theory of Computation"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70554",
+        "name": "CS 3307 - Introduction to System Security"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68787",
+        "name": "CS 3308 - Numerical Methods"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70300",
+        "name": "CS 3310 - Fundamentals of Game Development"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68788",
+        "name": "CS 3318 - Introduction to Computer Security"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70374",
+        "name": "CS 3319 - Internet of Things"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70011",
+        "name": "CS 3321 - Software Engineering"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68803",
+        "name": "CS 3324 - Computer Network Architecture"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68789",
+        "name": "CS 3325 - Introduction to Wireless Networks"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70299",
+        "name": "CS 3331 - Introduction to Robotics"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68791",
+        "name": "CS 3394 - Undergraduate Research"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68793",
+        "name": "CS 4294 - Senior Seminar"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68794",
+        "name": "CS 4300 - Web Programming"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68795",
+        "name": "CS 4301 - Advanced Numerical Methods for Science and Engineering"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68796",
+        "name": "CS 4303 - Programming Language Concepts"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68797",
+        "name": "CS 4306 - Mathematical Models and Computer Simulation"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70549",
+        "name": "CS 4307 - Data Privacy and Security"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70550",
+        "name": "CS 4308 - Digital Forensics"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70551",
+        "name": "CS 4309 - Senior Project in Cybersecurity"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68798",
+        "name": "CS 4310 - Principles of Computer Graphics"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70552",
+        "name": "CS 4311 - Software Security"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70553",
+        "name": "CS 4313 - Web and Cloud Security"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68799",
+        "name": "CS 4315 - Operating Systems"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70375",
+        "name": "CS 4317 - Natural Language Processing"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68800",
+        "name": "CS 4318 - Database Systems"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68801",
+        "name": "CS 4319 - Statistical and Machine Learning"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68802",
+        "name": "CS 4322 - Theory of Algorithms"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68790",
+        "name": "CS 4326 - Network Security"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68804",
+        "name": "CS 4328 - Parallel Computing"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70301",
+        "name": "CS 4329 - Introduction to Bioinformatics"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70302",
+        "name": "CS 4332 - Artificial Intelligence"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=70376",
+        "name": "CS 4337 - Human-Computer Interaction"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68805",
+        "name": "CS 4340 - Mobile Computing"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68806",
+        "name": "CS 4380 - Field Experience"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68807",
+        "name": "CS 4390 - Special Topics in Computer Science"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68808",
+        "name": "CS 4395 - Senior Project in Computer Science"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68809",
+        "name": "CS 4396 - Senior Thesis"
+      },
+      {
+        "href": "preview_course_nopop.php?catoid=37&coid=68810",
+        "name": "CS 4399 - Directed Study in Computer Science"
+      }
+    ]
+  },
+  "courses": [
+    {
+      "text": "CS 1408 - Introduction to Computer Science with Visual Basic\nCredits: 4 Class: 4 Lab: 0\nPrerequisite(s): Credit or enrollment in MATH 1404 or MATH 1505 or MATH 1306; and placement in ENG 1301 or above.\nHistory, nature and uses of the computer; algorithms; number systems; information representation and organization with an overview of computer hardware and software, computing systems and major applications. An introduction to high-level languages and programming using Visual Basic with an emphasis on event-driven programming. Elements of the Visual Basic programming environment including objects, events, properties, user interface design and creating web-based applications are discussed. Practice with standard programming features such as control statements, subprograms, data types, arrays and input-output mechanisms.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68778"
+    },
+    {
+      "text": "CS 1311 - Introduction to Computing with Python\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): MATH 1300  or placement by exam.\nComputational thinking involves transforming a real-world problem into a software-based approach for solving it. This course will engage students analytically in the creation of computer programs to solve a diverse set of real world problems related to kinematics, designing games, solving puzzles, searching, sorting, and basic data analysis. Using a problem solving approach, students will learn the basic process of designing algorithms as well as implementing them with a high level programming language.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69864"
+    },
+    {
+      "text": "CS 1313 - Principles of Game Design\nCredits: 3 Class: 3 Lab: 0\nThis course provides students with a foundation in game design principles. Topics include the game history, genres of games, game design essentials (such as game platforms, character design, game complexity and challenge design, and core mechanics), and issues about online gaming.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70420"
+    },
+    {
+      "text": "CS 1410 - CS I-Introduction to Computer Science with C++\nCredits: 4 Class: 4 Lab: 0\nPrerequisite(s): Credit or enrollment in MATH 1404 or MATH 1505 or MATH 1306; and placement in ENG 1301 or above.\nHistory, nature and uses of the computer; algorithms; number systems; information representation; and organization, with an overview of computer hardware and software, computing systems and major applications. Ethical and societal issues are discussed. An introduction to high-level languages with an emphasis on programming in C++. Control statements, subprograms, data types, arrays, and streams. Closed (supervised) laboratories are conducted on: an introduction to Microsoft Windows, and a C++ programming environment; appropriate programming exercises emphasizing top-down design methodology and simple and structured data types; and key topics of the discipline and areas of application. Designed as a first course for majors in Computer Science and Mathematics (COSC 1436)",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68779"
+    },
+    {
+      "text": "CS 1412 - Introduction to Computer Science with C#\nCredits: 4 Class: 4 Lab: 0\nPrerequisite(s): Credit or enrollment in MATH 1404 or MATH 1505 or MATH 1306; and placement in ENG 1301 or above.\nAn introduction to programming using C# for design and development Windows applications with an emphasis on event-driven programming. Topics include objects, events, code, and properties. Control statements, subprograms, data types, arrays, input-output, and user-interface designs.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68780"
+    },
+    {
+      "text": "CS 2311 - Data Structures and Algorithms with Python\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Grade C or better in CS 1411.\nIdentification and use of appropriate python data structures for different applications. Topics include built-in collection Python data structures such as list, dictionaries; classes and data abstraction in Python; basic data structures such as stack, queue, and linked list using Python list; built-in data structures such as data frame in external Python libraries; and recursion, search, and sorting algorithms.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70360"
+    },
+    {
+      "text": "CS 2410 - CS II-Introduction to Data Structures and Algorithms\nCredits: 4 Class: 4 Lab: 0\nPrerequisite(s): Grade of C or better in CS 1410 and credit or enrollment in MATH 2401.\nArrays, records (C++ structs), classes and data abstraction, object-oriented software development, pointers, dynamic data structures, linked structures, elementary and searching and sorting algorithms, recursion, an introduction to algorithm complexity analysis. (COSC 1437)",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68783"
+    },
+    {
+      "text": "CS 3300 - Object-Oriented Programming and Concepts\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Grade of C or better in CS 2411.\nProvides practical guidance on the construction of object-oriented systems. The Unified Modeling Language (UML) is used as a tool for analysis and design and the JAVA language is used for implementation. Key concepts of object-oriented programming methodology are discussed.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68784"
+    },
+    {
+      "text": "CS 3301 - Cryptography\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): C or better in both MATH 2305 and CS 2411.\nThis course provides an introduction to modern cryptography and data security and focuses on the fundamentals of cryptography. The course discusses asymmetric and symmetric encryption, digital signatures, hash functions, and key exchange. The course also discusses cryptographic protocols and practical applications of cryptographic techniques including secret sharing, secure multi-party computation, secure electronic voting, and cryptocurrencies.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70540"
+    },
+    {
+      "text": "CS 3305 - Introduction to System Administration\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): C or better in CS 2411.\nThis course covers the most essential aspects of multiuser multitasking system administration including the configuration and administration of the various versions of UNIX, and the knowledge and skills for system analysis and troubleshooting.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70548"
+    },
+    {
+      "text": "CS 3307 - Introduction to System Security\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): C or better in CS 3318.\nThis course focuses on the security aspects of systems that are composed of components and connections and use software.  Students will understand the security of a system by viewing it not only as a set of components and connections, but also as a complete unit in and of itself.  Students will approach system security using a holistic view.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70554"
+    },
+    {
+      "text": "CS 3308 - Numerical Methods\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Grade of C or better in CS 1408 or CS 1411, MATH 2307, MATH 2402.\nDevelop and implement algorithms used in solving a variety of problems from science and engineering, including numerical solutions of linear systems of equations and nonlinear equations, curve fitting, approximation, numerical differentiation and integration, and numerical solutions of ordinary differential equations. Computer techniques are used in obtaining and analyzing numerical solutions.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68787"
+    },
+    {
+      "text": "CS 3310 - Fundamentals of Game Development\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Grade of C or better in CS 2411. \nThis course provides students with a foundation in computer game development. Topics include the genres of games, principles of game design (such as character design, level design, and interface design), randomness and variety in games, AI in game programming, physics, event handling, and visual effects.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70300"
+    },
+    {
+      "text": "CS 3318 - Introduction to Computer Security\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Grade of C or better in CS 2411 and MATH 2305.\nIntroduction to encryption and decryption; security mechanisms in computer programs, operating systems, databases, and networks; administration of computer security; and legal/ethical issues in computer security. Provides the foundation for further study of security issues in computer systems and applications.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68788"
+    },
+    {
+      "text": "CS 3319 - Internet of Things\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): C or better in both CS 2301  and CS 2411. \nThis course covers concepts, design methods, and applications of Internet of Things. It illustrates the architecture of sensors, microcontroller systems, transmission modules, and data analytics algorithms. The sensors include accelerometers, pressure sensors, bending sensors and ultrasonic sensors. The microcontrollers include Arduino and Raspberry Pi. The course also covers the analysis of Internet of Things applications in sports, transportation, retail and healthcare. ",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70374"
+    },
+    {
+      "text": "CS 3324 - Computer Network Architecture\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Grade of C or better in CS 2411 and CS 2302.\nArchitectures and operating systems of distributed networks including data communication, local networks, public networks and design alternatives. This course may be used to fulfill the writing application curse requirement with additional prerequisites including CS 4294 and department approval.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68803"
+    },
+    {
+      "text": "CS 3325 - Introduction to Wireless Networks\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Grade of C or better in CS 2411 and CS 2302.\nAn introduction to the fundamentals of wireless communications and networks, including basic communication theory, architectures, protocols, and standards. It describes concepts, technology and applications of wireless networking as used in current and next-generation communication networks.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68789"
+    },
+    {
+      "text": "CS 3331 - Introduction to Robotics\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Grade of C or better in CS 2411, and CS 2301 or EET 2331/EET2131. \nThe course covers basic concepts of robotics technology including coordinate transformations, sensors, path planning, kinematics, feedback and feedforward control, localization, and mapping. Several advanced topics such as robotic vision and navigation are also introduced. The course focuses on the simulation and programming of mobile robot, and intelligent algorithm development.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70299"
+    },
+    {
+      "text": "CS 3394 - Undergraduate Research\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Junior standing and departmental approval. Course may be repeated for credit with department approval.\nIndependent investigation of a specific topic or problem in computer science under the guidance of a faculty member. The course is designed to give students research experience and independent study skills in an area of computer science. A written report and an oral presentation are required at the end of the course. Course cannot be used to fulfill upper-level CS elective requirement for CS degree plan.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68791"
+    },
+    {
+      "text": "CS 4300 - Web Programming\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Grade of C or better in CS 3304.\nAn introduction to Web programming using HTML, XML, JavaServer Pages, and Java Script, with an emphasis on developing and designing dynamic Web pages in the client-server model.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68794"
+    },
+    {
+      "text": "CS 4301 - Advanced Numerical Methods for Science and Engineering\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): CS 3308, MATH 2403 and MATH 3301.\nAdvanced topics in numerical mathematics, including the numerical solution of ordinary and partial differential equations and advanced methods in numerical linear algebra. Programming projects are stressed that use the computer to solve physical and engineering problems. This course may be used to fulfill the writing application course requirement with additional prerequisites including CS 4294 and department approval.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68795"
+    },
+    {
+      "text": "CS 4306 - Mathematical Models and Computer Simulation\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Grade of C or better in MATH 3302 or STAT 3310 and CS 2411.\nQuantitative modeling of industrial systems, computer simulation languages; discussion of problems encountered in constructing simulation programs. This course may be used to fulfill the writing application course requirement with additional prerequisites including CS 4294 and department approval.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68797"
+    },
+    {
+      "text": "CS 4307 - Data Privacy and Security\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): C or better in CS 3301.\nProtection of Sensitive Personal Data (SPD) and Personally Identifiable Information (PII) is vital for all organizations collecting personal data. This course discusses the importance of protecting SPD and PII, privacy tradeoffs of sharing and protecting sensitive information, privacy attacks, and privacy-enhancing technologies. The course also covers data security concepts including disk and file encryption, data erasure, data masking, database security, authentication, and access control.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70549"
+    },
+    {
+      "text": "CS 4308 - Digital Forensics\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): C or better in CS 4315.\nThis course presents an overview of the principles and practices of digital investigation. Students will learn different techniques and procedures that enable them to perform a digital investigation. This course covers the digital forensics process, tools and methods for the detection and recovery of information on hardware or hidden within other formats. Topics also include obtaining data from a digital device that has been destroyed on various platforms. This course will provide theoretical and practical knowledge, as well as current research on digital forensics. Upon completion of the course, students can apply open-source forensics tools to perform digital investigation and understand the underlying theory behind these tools.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70550"
+    },
+    {
+      "text": "CS 4309 - Senior Project in Cybersecurity\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): C or better in TCOM 3302, senior standing, and department approval.\nIntensive group study under the guidance of a member of the Cybersecurity faculty dealing with the application of cybersecurity to a business or industry in the Houston area. Students will document their work in the form of a technical report and make an oral presentation of project results. Professional ethics and intellectual property are also discussed in the course.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70551"
+    },
+    {
+      "text": "CS 4310 - Principles of Computer Graphics\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Grade of C or better in CS 2411 and MATH 2307.\nAnalytical treatment of computer graphics; input, transformation and display of graphical data; graphical algorithms and languages; emphasis on current developments.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68798"
+    },
+    {
+      "text": "CS 4311 - Software Security\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): C or better in both CS 3318 and CS 3304.\nThis course focuses on the development of secure and robust software.  The course discusses the software security principles, software development lifecycle and the application of security techniques in each phase of the software development lifecycle, which are requirements, design, implementation, testing, deployment, and maintenance. Analyzing code vulnerabilities, secure coding practices, penetration testing, security documentation, and software reverse engineering are also covered in the course.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70552"
+    },
+    {
+      "text": "CS 4313 - Web and Cloud Security\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): C or better in CS 3318.\nThis course provides an introduction to web security and cloud security. The course discusses client-side web security including browser security, HTML security, Cross-Site Scripting (XSS) attack, Cross-Site Request Forgery (CSRF) attack, and Clickjacking attack. Server-side attacks including injection attack, XML External Entity (XXE) Attack, and Distributed denial-of-service attack (DDoS attack) are also discussed in the course. The course also covers common security threats in public cloud environments and effective strategies to implement Identity and Access Management (IAM) solutions.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70553"
+    },
+    {
+      "text": "CS 4317 - Natural Language Processing\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): C or better in CS 3304 and MATH 2305.\nThis course will introduce the fundamental concepts found in Natural Language Processing.  These concepts include: speech recognition, speech synthesis and the statistical models that are used to process human languages.  Students will learn how to use machine learning techniques in order to solve problems in natural language processing.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70375"
+    },
+    {
+      "text": "CS 4319 - Statistical and Machine Learning\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): A grade of C or better in CS 3304, and a grade of C or better in either STAT 3311 or MATH 3302\nThis course blends the predictive perspective of statistical pattern recognition and the algorithmic perspective of machine learning. Topics include, but are not limited to: applications of appropriate machine learning algorithms in various disciplines, prediction and performance metrics, data transformations, supervised and unsupervised learning, and ensemble methods.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68801"
+    },
+    {
+      "text": "CS 4322 - Theory of Algorithms\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Grade of C or better in CS 3304 and CS 3306.\nDetailed study of the main algorithmic techniques of computer science (e.g., sorting and searching) and analysis of the operating characteristics and complexity of selected algorithms.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68802"
+    },
+    {
+      "text": "CS 4326 - Network Security\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): C or better in CS 3324, or concurrent enrollment in CS 3324.\nThis course is an introduction to the fundamentals of computer network security. Topics include the rationales and necessity for securing computer networks, common security threats, methodologies for the design of network security systems, establishing security protocols and the identification of best practices of secure communications systems. In particular, this will cover an introduction to encryption and decryption, authentication, secure communication, network security protocols, firewalls and web security. This course provides the foundational knowledge for advanced study of security issues in computer networks.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68790"
+    },
+    {
+      "text": "CS 4328 - Parallel Computing\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Grade of C or better in CS 2301 and CS 3304.\nIntroduces fundamental concepts of parallel computers and parallel/distributed computation. Projects involving parallel algorithm design, software implementation and results analysis to solve scientific and/or engineering application problems in parallel will be assigned. This course may be used to fulfill the writing application course requirement with additional prerequisites including CS 4294 and department approval.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68804"
+    },
+    {
+      "text": "CS 4329 - Introduction to Bioinformatics\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): CS 3304  or approval from the CSET department.\nThis course will introduce students to various algorithmic principles driving bioinformatics. Algorithm design techniques such as brute force, branch and bound, greedy approach, divide and conquer technique, and dynamic programming will be discussed. Students will learn the application of these design techniques in a wide range of biological problems such as sequence alignment, sequence homology searching, motif finding, gene prediction, gene expression analysis, and repeat finding. Other relevant topics such as genomic databases and bioinformatics tools will also be integrated.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70301"
+    },
+    {
+      "text": "CS 4332 - Artificial Intelligence\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Grade of C or better in CS 3304.\nThis course focuses on applications and problems in the field of modern AI techniques and algorithms for making good decisions that are widely applied on a large range of financial, biomedical, robotics, information, and industrial systems. The course covers local agents, state-space searching, computational game theory, classification problem, and knowledge representation.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70302"
+    },
+    {
+      "text": "CS 4337 - Human-Computer Interaction\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): C or better in CS 2411. \nThis course provides an introduction to Human-Computer Interaction (HCI), a discipline concerned with the design, implementation, and evaluation of user interfaces. Topics include interaction and cognition, human-centered design, prototyping, usability and evaluation, and other related issues such as multimedia and virtual reality.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70376"
+    },
+    {
+      "text": "CS 4340 - Mobile Computing\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): CS 3321 \nIntroduction to software development for mobile devices such as smartphones and tablets. Topics include essential concepts of software development, Graphical User Interface design, hardware communication on mobile platforms, and development of practical apps for mobile devices. This course can be used to fulfill upper-level CS elective requirement for BS in CS degree plan. It may be used to fulfill the writing application course requirement (W-course) with the additional prerequisite of CS 4294.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68805"
+    },
+    {
+      "text": "CS 4380 - Field Experience\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): At least 60 semester hours, grade of B or better in CS 3304, CS 3306 and CS 2302 and approval of department chair.\nSelected students are placed in jobs in the local community which are related to and reinforce their academic training. Positions are full time, salaried and last the duration of a semester. Recommended for students not already employed in their area of study.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68806"
+    },
+    {
+      "text": "CS 4390 - Special Topics in Computer Science\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Department approval. Course may be repeated for credit with department approval.\nIntensive study of one or more major topics in computer science, especially with respect to a new or emerging area.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68807"
+    },
+    {
+      "text": "CS 4396 - Senior Thesis\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Approval of department chair and the student’s advisor for CS 4395.\nIntensive study under the guidance of a member of the Computer Science faculty which continues and expands the research carried out in CS 4395. A formal written report and oral presentation will be required.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68809"
+    },
+    {
+      "text": "CS 4399 - Directed Study in Computer Science\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Approval of department chair and dean.\nIntensive individual study under the guidance of a member of the Computer Science faculty.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68810"
+    },
+    {
+      "text": "MATH 1300 - Intermediate Algebra\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): A TSIA2 score that does not meet college readiness in Mathematics, and co-enrollment in MATH 1301 or MATH 1324. Successful completion of MATH 1301 or MATH 1324 (with a C or better) will satisfy the TSI requirements for developmental mathematics. For current TSIA2 College Readiness scores, please see https://www.uhd.edu/testing/Pages/testing-tsia.aspx.\nA survey of pre-college algebra is intended to build and reinforce the essential algebra skills needed for  MATH 1301 - College Algebra. Topics include operations with algebraic expressions, factoring, the Cartesian coordinate system, systems of 1st degree equations in two variables solved by graphical and algebraic methods, slope and distance formulas, integer and rational exponents, radicals, an introduction to quadratic equations and word problems. This course may not be used to satisfy degree requirements.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69375"
+    },
+    {
+      "text": "MATH 1306 - Fundamentals of Calculus with Applications\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): A grade of C or better in MATH 1301 or MATH 1305 or placement by exam taken at UH-Downtown.\nFunctions, limits, continuity, differentiation, integration and partial derivatives. Applications of all techniques to business, economics and the social sciences are stressed. (MATH 1325)",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69379"
+    },
+    {
+      "text": "MATH 1404 - Precalculus Mathematics\nCredits: 4 Class: 4 Lab: 0\nPrerequisite(s): A grade of C or better in MATH 1302 or placement by exam taken at UH-Downtown.\nA thorough treatment of the elementary functions and their graphs including polynomials, rational functions, exponential functions and logarithms. Applications of the elementary functions to practical problems such as modeling are included. Topics from plane analytic geometry needed in calculus are also covered including polar coordinates, conic sections and parametric curves. Concludes with an introduction to sequences and series. (MATH 2412)",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69381"
+    },
+    {
+      "text": "MATH 1505 - Precalculus with Trigonometry\nCredits: 5 Class: 5 Lab: 0\nPrerequisite(s): A grade of B or better in MATH 1301.\nA thorough treatment of the elementary functions and their graphs including polynomials, rational functions, exponential functions and logarithms, and trigonometric functions. Applications of the elementary functions to practical problems. Topics from trigonometry include fundamental identities, radian measure, graphing, inverse trigonometric functions, and solving triangles and trigonometric equations. Topics from plane analytic geometry needed in calculus are also covered including vectors, polar coordinates, conic sections and parametric curves. Concludes with an introduction to sequences and series.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69382"
+    },
+    {
+      "text": "MATH 2403 - Calculus III\nCredits: 4 Class: 4 Lab: 0\nPrerequisite(s): A grade of C or better in MATH 2402.\nSolid analytic geometry, partial derivatives, multiple integrals and line integrals. Applications of the calculus of functions of several variables are also considered. (MATH 2415)",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69387"
+    },
+    {
+      "text": "MATH 2409 - Introduction to Proofs\nCredits: 4 Class: 4 Lab: 0\nPrerequisite(s): A grade of C or better in MATH 2401 or MATH 2411 or MATH 2421.\nThis course is designed to introduce students to formal and informal languages of mathematics, and to ideas and techniques for analyzing, constructing, and properly writing mathematical proofs. Specific topics may include propositional and quantificational logic, analysis and synthesis of proofs, induction, sets, functions, rational and real numbers, elements of number theory and group theory. This course serves as a gateway to other proof based courses, such as analysis and abstract algebra.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69390"
+    },
+    {
+      "text": "MATH 2411 - Calculus I for the Natural Sciences\nCredits: 4 Class: 4 Lab: 0\nPrerequisite(s): A grade of C or better inMATH 1404 or MATH 1505 or placement by exam taken at UH-Downtown. \nStudy of the concepts of differentiation and integration with an emphasis on applications in the life sciences. Topics include elementary functions and graphing, discrete models, discrete population models, limits, continuous functions, derivatives, differentiation with biological applications, linear approximation, optimization, difference equations, stability, and integration with biological applications.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69391"
+    },
+    {
+      "text": "MATH 2421 - Differential and Integral Calculus with Applications\nCredits: 4 Class: 4 Lab: 0\nPrerequisite(s): Grade of C or better in MATH 1404 or in MATH 1505 or placement by exam taken at UH-Downtown.\nMathematical foundations needed for data science. Introduction to limits, continuity, derivatives, monotonicity and maxima/minima or real-valued functions, concavity of real-valued functions and inflection points, integrals, areas under curves, sequences, and series. Examples from statistics and data science will be used to illustrate application of the methods. Computational software will be used throughout this course.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70333"
+    },
+    {
+      "text": "MATH 3301 - Differential Equations\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): A grade of C or better in MATH 2412, or in MATH 2422, or in both MATH 2307 and MATH 2402.\nOrdinary differential equations, with emphasis on methods of solution of first order equations, homogeneous and non-homogeneous linear equations and systems of linear equations. Power series solutions of some linear equations and elementary applications are also covered.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69394"
+    },
+    {
+      "text": "MATH 1301 - College Algebra\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): A grade of C or better in MATH 1300, or TSIA2 score meeting college readiness in Mathematics, or TSIA2 MATH complete, or TSIA2 MATH exempt. For current TSIA2 College Readiness scores, please see https://www.uhd.edu/testing/Pages/testing-tsia.aspx.\nCollege-level topics in algebra including variation, systems of equations, nonlinear inequalities, functions and their graphs, lines, quadratic equations and functions, complex numbers, polynomials, exponential and logarithmic functions, the algebra of functions, and applications related to these topics. (MATH 1314)",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69376"
+    },
+    {
+      "text": "MATH 1302 - Plane Trigonometry\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): A grade of C or better in MATH 1301 or placement by exam taken at UH-Downtown.\nTrigonometric functions with emphasis on fundamental identities, radian measure, graphing, inverse trigonometric functions, solving triangles and trigonometric equations, vectors and applications related to these topics. (MATH 1316)",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69377"
+    },
+    {
+      "text": "MATH 1305 - Finite Mathematics with Applications\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): A grade of C or better in MATH 1301 or placement by exam taken at UH-Downtown.\nGraphs and functions, vectors, matrices, linear programming using the Simplex method, mathematics of finance, and an introduction to probability with applications to business, economics and the social sciences. (MATH 1324)",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69378"
+    },
+    {
+      "text": "MATH 1324 - Mathematics for Business and Social Sciences\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): A grade of C or better in MATH 1300, or TSIA2 score meeting college readiness in Mathematics, or TSIA2 MATH complete, or TSIA2 MATH exempt. For current TSIA2 College Readiness scores, please see https://www.uhd.edu/testing/Pages/testing-tsia.aspx.\nThe application of common algebraic functions, including polynomial, exponential, logarithmic, and rational, to problems in business, economics, and the social sciences are addressed. The applications include mathematics of finance, including simple and compound interest and annuities; systems of linear equations; matrices; and linear programming.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70444"
+    },
+    {
+      "text": "MATH 2412 - Calculus II for the Natural Sciences\nCredits: 4 Class: 4 Lab: 0\nPrerequisite(s): A grade of C or better in MATH 2411 or MATH 2401.\nTopics include integration, approximation by Taylor series, differential equations, matrices, eigenvalues and eigenvectors, functions of several variables, partial derivatives, tangent planes and linearization, systems of difference equations, systems of linear and nonlinear differential equations, and equilibria and stability.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69392"
+    },
+    {
+      "text": "MATH 2422 - Linear Algebra & Multivariable Calculus with Applications\nCredits: 4 Class: 4 Lab: 0\nPrerequisite(s): Grade of C or higher in either MATH 2421 or MATH 2402.\nThis course will provide students with the mathematical foundations for advanced statistical methods, data modeling, and analysis of large data sets. Multi-dimensional problems, including partial differentiation, gradient, and directional derivative, Taylor series, maxima, minima and saddle points, Lagrange multipliers, multidimensional integration, change of variables. Systems of linear equations, vectors, linear independence, matrices, determinants, scalar and vector product applications. Matrices, eigenvalues, eigenvectors, and diagonalization. Examples from statistics and data science will be used to illustrate application of the methods. Computational software will be used throughout this course.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70371"
+    },
+    {
+      "text": "COMM 1304 - Introduction to Communication\nCredits: 3 Class: 3 Lab: 0\nAn overview of skills important in developing effective communication. Students will gain experience in interpersonal, small group, and public communication. (SPCH 1311)",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68721"
+    },
+    {
+      "text": "ENG 1301 - Composition I\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): A TSIA2 score meeting college readiness in Reading and Writing, or TSIA2 Reading and Writing complete, or TSIA2 Reading and Writing exempt. For current TSIA2 College Readiness scores, please see https://www.uhd.edu/testing/Pages/testing-tsia.aspx.\nEnglish 1301 is an introduction to college-level communication with an emphasis on argumentation, which is the kind of writing/communication required most frequently in university coursework and the public sphere. This course focuses on writing as a recursive process that includes audience analysis, invention, organization, drafting, revising, and editing; oral presentation and visual analysis skills are used to reinforce composition processes.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68975"
+    },
+    {
+      "text": "STAT 3310 - Statistical Analysis for Business Applications II\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): A grade of C or better in STAT 3309 or STAT 3311 or department approval.\nTest of hypotheses, regression and correlation, introduction to analysis of variance, and other special topics. Applications to a variety of business problems and use of computer statistical programs.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69792"
+    },
+    {
+      "text": "STAT 3309 - Statistical Analysis for Business Applications I\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): A grade of C or better in MATH 1305 and MATH 1306 or MATH 2401.\nBasic concepts of statistics for business students are considered including descriptive statistics, probability concepts, random variables, probability distributions, expected values, point and interval estimations techniques and some hypothesis testing and linear regression. Applications to a variety of business problems are stressed and computer statistical packages are used. Credit cannot be given for both MATH 3302 and STAT 3309.",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69791"
+    }
+  ],
+  "unresolvedReferences": [
+    {
+      "codes": [
+        "EET 2331",
+        "EET 2131"
+      ],
+      "sourceUrl": "https://catalog.uhd.edu/content.php?filter%5B27%5D=EET&filter%5B29%5D=&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=37&expand=&navoid=2413&search_database=Filter#acalog_template_course_filter",
+      "observation": "The EET prefix index lists 14 courses; EET 2331 and EET 2131 are absent. EET 2332 and EET 2132 are present, but no equivalence or substitution is inferred."
+    }
+  ]
+}

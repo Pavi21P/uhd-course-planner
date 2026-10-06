@@ -1,0 +1,71 @@
+{
+    "catalogYear":  "2026-2027",
+    "catalogId":  "39",
+    "retrievedOn":  "2026-09-27",
+    "method":  "connected-browser-expanded-course-panels",
+    "normalization":  "Nonbreaking spaces converted to spaces; excess whitespace trimmed. No descriptions or prerequisite clauses omitted.",
+    "sources":  [
+                    {
+                        "id":  "cs-program-39",
+                        "url":  "https://catalog.uhd.edu/preview_program.php?catoid=39\u0026poid=7434\u0026returnto=2508",
+                        "title":  "Computer Science, BS and expanded course descriptions",
+                        "catalogYear":  "2026-2027",
+                        "retrievedOn":  "2026-09-27",
+                        "role":  "catalog"
+                    },
+                    {
+                        "id":  "cs-index-39",
+                        "url":  "https://catalog.uhd.edu/content.php?catoid=39\u0026navoid=2512",
+                        "title":  "CS prefix course index and expanded descriptions",
+                        "catalogYear":  "2026-2027",
+                        "retrievedOn":  "2026-09-27",
+                        "role":  "catalog"
+                    }
+                ],
+    "captures":  [
+                     {
+                         "file":  "required-courses.txt",
+                         "sourceId":  "cs-program-39",
+                         "expectedCourses":  19
+                     },
+                     {
+                         "file":  "cs-followup.txt",
+                         "sourceId":  "cs-index-39",
+                         "expectedCourses":  4
+                     }
+                 ],
+    "coverage":  {
+                     "requiredCsCodes":  [
+                                             "CS 1411",
+                                             "CS 2301",
+                                             "CS 2302",
+                                             "CS 2411",
+                                             "CS 3304",
+                                             "CS 3306",
+                                             "CS 3321",
+                                             "CS 4294",
+                                             "CS 4303",
+                                             "CS 4315",
+                                             "CS 4318",
+                                             "CS 4395"
+                                         ],
+                     "requiredCsCredits":  37,
+                     "supportingCodes":  [
+                                             "TCOM 3302",
+                                             "MATH 2305",
+                                             "MATH 2401",
+                                             "MATH 2402",
+                                             "MATH 2307",
+                                             "STAT 3311",
+                                             "MATH 3302"
+                                         ],
+                     "complete":  false,
+                     "remaining":  [
+                                       "Referenced prerequisite courses",
+                                       "Full eligible CS elective list and pagination",
+                                       "Core and laboratory-science requirement choices",
+                                       "Reviewed prerequisite expressions",
+                                       "Degree allocation and 120-hour reconciliation"
+                                   ]
+                 }
+}

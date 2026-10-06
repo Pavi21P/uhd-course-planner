@@ -1,0 +1,40 @@
+{
+  "name": "uhd-course-planner",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "publish:minors": "node --experimental-strip-types scripts/publish-minors.ts",
+    "publish:catalog": "node --experimental-strip-types scripts/publish-catalog.ts",
+    "reconcile:report": "node --experimental-strip-types scripts/reconcile-report.ts",
+    "typecheck:tools": "tsc -p tsconfig.tools.json",
+    "import:catalog": "node --experimental-strip-types scripts/catalog-import.ts",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "deploy:check": "npm run build",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name uhd-course-planner --branch main",
+    "cloudflare:whoami": "wrangler whoami"
+  },
+  "dependencies": {
+    "@xyflow/react": "^12.12.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "wrangler": "4.147.0"
+  },
+  "engines": {
+    "node": ">=22.23.3"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "catalogYear": "2026-2027",
+  "catalogId": "39",
+  "retrievedOn": "2026-09-27",
+  "sourceUrl": "https://catalog.uhd.edu/content.php?filter%5B27%5D=CS&filter%5B29%5D=&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=39&expand=&navoid=2512&search_database=Filter#acalog_template_course_filter",
+  "observedResultCount": 55,
+  "observedPaginationLinkCount": 0,
+  "scope": "CS prefix listing only; presence does not establish elective eligibility or scheduled offering",
+  "courseCodes": [
+    "CS 1105", "CS 1305", "CS 1311", "CS 1313", "CS 1408", "CS 1410", "CS 1411", "CS 1412",
+    "CS 2301", "CS 2302", "CS 2311", "CS 2410", "CS 2411", "CS 3300", "CS 3301", "CS 3304",
+    "CS 3305", "CS 3306", "CS 3307", "CS 3308", "CS 3310", "CS 3318", "CS 3319", "CS 3321",
+    "CS 3324", "CS 3325", "CS 3331", "CS 3394", "CS 4294", "CS 4300", "CS 4301", "CS 4303",
+    "CS 4306", "CS 4307", "CS 4308", "CS 4309", "CS 4310", "CS 4311", "CS 4313", "CS 4315",
+    "CS 4317", "CS 4318", "CS 4319", "CS 4322", "CS 4326", "CS 4328", "CS 4329", "CS 4332",
+    "CS 4337", "CS 4340", "CS 4380", "CS 4390", "CS 4395", "CS 4396", "CS 4399"
+  ]
+}

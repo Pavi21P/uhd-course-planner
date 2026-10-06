@@ -1,0 +1,323 @@
+{
+  "catalogYear": "2025-2026",
+  "catalogId": "37",
+  "retrievedOn": "2026-10-04",
+  "normalization": "Whitespace normalized; descriptions and prerequisite wording transcribed from expanded official course panels. DATA 3334 crosslisting retained in description.",
+  "sources": [
+    {
+      "id": "minor-math-37",
+      "url": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7114&returnto=2409",
+      "title": "Mathematics Minor requirements and example sequences",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-data-37",
+      "url": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7170&returnto=2409",
+      "title": "Data Science Minor requirements",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70303",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70303&print",
+      "title": "DATA 2401 - Data Science I",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70304",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70304&print",
+      "title": "DATA 3401 - Data Science II",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70392",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70392&print",
+      "title": "DATA 3334 - Introduction to Bayesian Data Analysis",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70305",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70305&print",
+      "title": "DATA 3402 - Data Collection, Transformation and Curation",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-70372",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=70372&print",
+      "title": "STAT 3333 - Statistical Inference",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69399",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69399&print",
+      "title": "MATH 3309 - Number Theory",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    },
+    {
+      "id": "minor-course-69419",
+      "url": "https://catalog.uhd.edu/preview_course.php?catoid=37&coid=69419&print",
+      "title": "MATH 4308 - Introduction to Graph Theory",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-04",
+      "role": "catalog"
+    }
+  ],
+  "rules": {
+    "math": "All hours counted toward the minor must be passed with C or better. At least 6 hours of upper-level course work in the minor must be completed at UHD. Required: MATH 2401 and 2402, or MATH 2411 and 2412, or MATH 2421 and 2422. At least 10 hours of mathematics courses (2000-level and above), excluding MATH 2401, 2402, 2411, 2412, 2421, 2422. At least 6 hours of which must be upper level mathematics courses (3000-level and above), excluding MATH 3321 and MATH 3322. Total 18 hours minimum. Computer Science example: MATH 2305, 2307, 2401, 2402, 3302, and 3309 or 4308.",
+    "data": "All hours counted toward the minor must be passed with C or better. At least 6 upper-level minor hours must be completed at UHD. Required Courses (22/23 hours): CS 1411, DATA 2401, DATA 3401, MATH 2305; MATH 2421 or MATH 2402 or MATH 2412. Choose one: any additional DATA course (examples DATA 3334, DATA 3402), MATH 3302, STAT 3311, or STAT 3333. Computer Science suggested choice: DATA 3402."
+  },
+  "courses": [
+    {
+      "id": "2025-2026:DATA 2401",
+      "catalogYear": "2025-2026",
+      "code": "DATA 2401",
+      "title": "Data Science I",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "description": "This course is an introduction to the entire data science pipeline. Topics include, but are not limited to: data collection and transformation, exploratory data analysis, introduction to statistical software, and data visualization and presentation.",
+      "prerequisiteText": "Grade of C or better in MATH 1404 or in MATH 1505.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1404",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1505",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70303"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 3401",
+      "catalogYear": "2025-2026",
+      "code": "DATA 3401",
+      "title": "Data Science II",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "description": "This course is an intermediate treatment of the data science pipeline. Topics include, but are not limited to: prediction, estimation and statistical inference; elementary notions of data mining; intermediate use of statistical software; introduction to relational databases and queries; and data visualization and presentation.",
+      "prerequisiteText": "Grade of C or better in CS 1411, MATH 2305, and DATA 2401.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 1411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:DATA 2401",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70304"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 3334",
+      "catalogYear": "2025-2026",
+      "code": "DATA 3334",
+      "title": "Introduction to Bayesian Data Analysis",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "description": "This course introduces the fundamentals of Bayesian data analysis. Topics include Bayesian equivalents to classical point and interval estimation, Bayesian credible and highest posterior density regions. This course uses Markov chain Monte Carlo techniques and covers the Bayesian analogues to t-test, correlation test, proportion testing, regression, and ANOVA. After taking this course, students will have a basic understanding of the Bayesian perspectives of the frequentist techniques that they encounter in a traditional introductory statistics course. Crosslisted: STAT 3334.",
+      "prerequisiteText": "At least a grade of C in MATH 3302.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:MATH 3302",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70392"
+      ]
+    },
+    {
+      "id": "2025-2026:DATA 3402",
+      "catalogYear": "2025-2026",
+      "code": "DATA 3402",
+      "title": "Data Collection, Transformation and Curation",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "description": "This course provides the principles of data curation over the entire data pipeline. Specifically, the collection of data of different forms from a variety of sources, the transformation and wrangling of acquired data into forms amenable for analysis, and the preparation of data for a variety of statistical methods and models. Additionally, students will learn how to ensure the safety and consistency of data as it passes through all stages of the process.",
+      "prerequisiteText": "Grade of C or better in CS 2311 and DATA 3401.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CS 2311",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:DATA 3401",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70305"
+      ]
+    },
+    {
+      "id": "2025-2026:STAT 3333",
+      "catalogYear": "2025-2026",
+      "code": "STAT 3333",
+      "title": "Statistical Inference",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "description": "This course introduces the fundamentals of drawing conclusions about populations or scientific truths from sample data. Topics include point estimation (method of moments, least squares, maximum likelihood, mean-squared error, and Bayesian methods), confidence interval construction (likelihood-based, inversion methods, intervals based on pivots, Bayesian credible and highest posterior density regions, and resampling based intervals), and hypothesis testing (likelihood ratio, Bayesian, and resampling techniques). After taking this course, students will understand the broad directions of statistical inference and will make informed choices in analyzing data.",
+      "prerequisiteText": "At least a grade of C in MATH 3302",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:MATH 3302",
+        "timing": "before",
+        "minimumGrade": "C"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-70372"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 3309",
+      "catalogYear": "2025-2026",
+      "code": "MATH 3309",
+      "title": "Number Theory",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "description": "Elementary treatment of multiplicative and additive properties of integers with application to cryptography and data storage. The course serves as a gateway to modern algebra by introducing elementary examples of abstract algebraic concepts, and covers many famous topics like perfect numbers, Chinese Remainder theorem, Golden Ratio and the Fibonacci sequence, Pythagorean triples and the Last Fermat theorem. Other topics may include: modular arithmetic, prime factorization, primality testing, public key cryptosystems, quadratic residues, continued fractions, partitions and their generating functions.",
+      "prerequisiteText": "Grade of C or better in MATH 2305 or MATH 2409.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2305",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2409",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69399"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 4308",
+      "catalogYear": "2025-2026",
+      "code": "MATH 4308",
+      "title": "Introduction to Graph Theory",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "description": "This course introduces some of the basic concepts in graph theory including; isomorphisms, graph invariants, spanning trees, connectivity, matchings, factors, graph coloring, and planarity. Additional topics, as time allows, may include; Ramsey theory, random graphs, extremal problems, complexity and NP-completeness.",
+      "prerequisiteText": "A grade of C or better in MATH 2409 or MATH 2305, and in MATH 2307 or MATH 2422.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2409",
+                "timing": "before",
+                "minimumGrade": "C"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2305",
+                "timing": "before",
+                "minimumGrade": "C"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2307",
+                "timing": "before",
+                "minimumGrade": "C"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2422",
+                "timing": "before",
+                "minimumGrade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "minor-course-69419"
+      ]
+    }
+  ]
+}
