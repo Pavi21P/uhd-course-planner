@@ -10,7 +10,9 @@ proxy. The timestamps support when these note versions were saved, not a claim
 that a Git commit was created then or that every development day is represented.
 Committer dates record the actual import. No empty activity commits were added.
 
-The note files below are byte-for-byte copies, including historical instructions
+The note files below preserve the original text, with Git normalizing Windows
+line endings to LF. The hashes identify the original local files, before line-ending
+normalization. The notes include historical instructions
 and references to the old local workspace. Use the root README for current setup.
 Their descriptions, test counts, and next steps describe the historical version.
 
