@@ -22,6 +22,7 @@ is needed. Keep using the same browser and address to return to your saved plan.
 
 - Required CS courses and prerequisites with compact AND/OR badges. Click a badge
   for course details, including minimum grades, timing, and other conditions.
+  Drag a badge independently to adjust its position; undo/redo and saving include badge moves.
   Exported pictures retain full prerequisite labels and explanations.
 - Red corner button marks a course Taken. Hide completed courses to bridge the
   visible branch; reveal them or undo to restore the original view.

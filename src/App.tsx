@@ -47,7 +47,7 @@ function LogicCard({ data }: NodeProps<LogicNode>) {
   const label = data.kind === 'all' ? 'AND' : data.kind === 'any' ? 'OR' : 'Condition'
   return <div className={`logic-card logic-${data.kind}`}>
     <Handle type="target" position={Position.Left} /><Handle type="source" position={Position.Right} />
-    <button className="nodrag nopan" title={data.title} aria-label={`${label}: ${data.title}. View prerequisite details`} onClick={data.onInfo}>{label}</button>
+    <button className="nopan" title={`${data.title}. Drag to move this badge; click for details.`} aria-label={`${label}: ${data.title}. View prerequisite details`} onClick={data.onInfo}>{label}</button>
   </div>
 }
 function TakenMarker({ data }: NodeProps<TakenNode>) {
@@ -202,6 +202,7 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
     const visible: (CourseNode | HeadingNode | LogicNode | TakenNode)[] = layout.nodes.filter(node => !completion.hidden.has(node.id)).map((node): CourseNode | HeadingNode | LogicNode => {
       const position = dragPreview[node.id] ?? plan.positions[node.id] ?? node.position
       if (node.type === 'course') return { ...node, measured: measurements[node.id], draggable: !connectionSource, className: node.id === connectionSource ? 'connection-source' : undefined, position, data: { ...node.data, option: !selectedIds.has(node.data.course.id), selected: selectedIds.has(node.data.course.id), onSelect: setPlanned, taken: taken.has(node.data.course.id), onTaken: setTaken } }
+      if (node.type === 'logic') return { ...node, measured: measurements[node.id], draggable: !connectionSource, dragHandle: '.logic-card button', position }
       return { ...node, measured: measurements[node.id], draggable: false, position }
     })
     for (const marker of completion.compact) visible.push({ id: marker.id, type: 'taken', measured: measurements[marker.id], data: { title: marker.label }, position: dragPreview[marker.originalId] ?? plan.positions[marker.originalId], draggable: false, style: { width: 258 } })
@@ -294,7 +295,8 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
     }
   }, [])
   const startBranchDrag = useCallback((_event: unknown, node: Node) => {
-    branchDrag.current = beginBranchDrag(node.id, plan.positions, [...layout.links, ...plan.customEdges])
+    // Badges are independent layout controls; course drags still carry the branch.
+    branchDrag.current = beginBranchDrag(node.id, plan.positions, node.type === 'logic' ? [] : [...layout.links, ...plan.customEdges])
     dragging.current = !!branchDrag.current
   }, [plan.positions, plan.customEdges, layout.links])
   const stopBranchDrag = useCallback((event: MouseEvent | TouchEvent, node: Node) => {
@@ -377,7 +379,7 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
       <ul className="selected-course-list">{catalog.courses.filter(course => selectedIds.has(course.id)).map(course => <li key={course.id}><button onClick={() => { setSelectedCourse(course); setSelectedNodeId(layout.nodes.find(node => node.type === 'course' && node.data.course.id === course.id)?.id ?? null) }}>{course.code}: {course.title}</button><span>{hours(course.credits)} hours{taken.has(course.id) ? ' / Taken' : ''}</span></li>)}</ul>
       {!credits.uniqueCourseCount && <p>No courses selected. Add courses from their cards or course information.</p>}
     </details>
-    <div className="workspace-bar"><div><h2>A little clarity for the road ahead.</h2><p>Drag a course to move its downstream branch, including hidden courses. Undo restores the whole branch. Double-click a course to connect it. Press Escape to cancel. AND means all inputs; OR means any input. Click a badge or course info for grades, timing, and conditions.</p></div><button onClick={() => setOverview(!overview)} aria-expanded={overview}>Requirements {overview ? '−' : '+'}</button></div>
+    <div className="workspace-bar"><div><h2>A little clarity for the road ahead.</h2><p>Drag a course to move its downstream branch, including hidden courses. Undo restores the whole branch. Double-click a course to connect it. Press Escape to cancel. AND means all inputs; OR means any input. Drag a badge to move it independently. Click a badge or course info for grades, timing, and conditions.</p></div><button onClick={() => setOverview(!overview)} aria-expanded={overview}>Requirements {overview ? '−' : '+'}</button></div>
     {overview && <section className="requirements" aria-label="Degree requirements">
       <p>The starter plan contains required courses and CS 4395. Supporting choices, electives, core options and minors are not added to the total until selected. No completed courses are assumed.</p>
       <ul>{catalog.requirements.map(group => <li key={group.id}><strong>{group.label}</strong><span>{group.id === 'free-electives' ? 'Balance to 120 hours' : `${group.minimumCredits} hours`}</span></li>)}</ul>
