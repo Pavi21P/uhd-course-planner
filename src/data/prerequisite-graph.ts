@@ -5,6 +5,7 @@ export type GraphItem = {
   id: string
   kind: 'course' | 'all' | 'any' | 'condition'
   courseId?: string
+  ownerCourseId?: string
   text: string
   planned: boolean
   position: { x: number; y: number }
@@ -35,19 +36,19 @@ export function buildPrerequisiteGraph(courses: Course[], selectedIds: string[])
     if (!course) throw new Error(`Missing prerequisite course: ${courseId}`)
     add({ id, kind: 'course', courseId, text: course.code, planned: selected.has(courseId) })
     const expression = graphPrerequisites(course)
-    if (expression) expand(expression, id, `${id}:prerequisite`, course.code)
+    if (expression) expand(expression, id, `${id}:prerequisite`, course.code, courseId)
     return id
   }
-  const expand = (expression: Prerequisite, target: string, path: string, owner: string) => {
+  const expand = (expression: Prerequisite, target: string, path: string, owner: string, ownerCourseId: string) => {
     if (expression.kind === 'none') return
     if (expression.kind === 'course') {
       const timing = { before: 'Before', 'before-or-concurrent': 'Before or concurrent', concurrent: 'Concurrent' }[expression.timing]
       link(visit(expression.courseId), target, `${timing}${expression.minimumGrade ? ` · ${expression.minimumGrade} or better` : ''}`, expression)
       return
     }
-    add({ id: path, kind: expression.kind, text: expression.kind === 'condition' ? expression.text : `${expression.kind === 'all' ? 'All of these' : 'Any one of these'} for ${owner}`, planned: false })
+    add({ id: path, kind: expression.kind, ownerCourseId, text: expression.kind === 'condition' ? expression.text : `${expression.kind === 'all' ? 'All of these' : 'Any one of these'} for ${owner}`, planned: false })
     link(path, target, expression.kind === 'condition' ? 'Condition' : expression.kind === 'all' ? 'All required' : 'One alternative')
-    if (expression.kind !== 'condition') expression.items.forEach((child, index) => expand(child, path, `${path}:${index}`, owner))
+    if (expression.kind !== 'condition') expression.items.forEach((child, index) => expand(child, path, `${path}:${index}`, owner, ownerCourseId))
   }
   ;[...selected].sort().forEach(visit)
   const nodes = [...items.values()].sort((a, b) => a.id.localeCompare(b.id))

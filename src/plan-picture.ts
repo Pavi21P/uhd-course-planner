@@ -59,7 +59,8 @@ export async function renderPlanPicture(input: PictureInput, signal?: AbortSigna
     const sourceY = source.y + source.height / 2, targetY = target.y + target.height / 2
     const [path, labelX, labelY] = getSmoothStepPath({ sourceX: source.x + source.width, sourceY, targetX: target.x, targetY, sourcePosition: Position.Right, targetPosition: Position.Left })
     ctx.font = font(11)
-    const label = typeof edge.label === 'string' ? edge.label : ''
+    // Pictures retain the detailed text because they cannot open course dialogs.
+    const label = typeof edge.data?.detailLabel === 'string' ? edge.data.detailLabel : typeof edge.label === 'string' ? edge.label : ''
     const labelWidth = ctx.measureText(label).width + 12
     return [{ path, labelX, labelY, label, labelWidth, targetX: target.x, targetY, kind: edge.className === 'completed-bridge' ? 'bridge' : edge.className === 'personal-edge' ? 'personal' : 'edge', dashed: Boolean(edge.style?.strokeDasharray) }]
   })
@@ -110,7 +111,7 @@ export async function renderPlanPicture(input: PictureInput, signal?: AbortSigna
       ctx.fillStyle = palette.muted; paragraph(ctx, String(data.subtitle), x + 16, y + 22 + titleHeight, width - 32, 13)
     } else {
       ctx.fillStyle = node.type === 'taken' ? palette.bridge : palette.accent
-      paragraph(ctx, node.type === 'taken' ? 'COMPLETED INPUT' : String(data.kind).toUpperCase(), x + 16, y + 16, width - 32, 12, true)
+      paragraph(ctx, node.type === 'taken' ? 'COMPLETED INPUT' : data.kind === 'all' ? 'AND' : data.kind === 'any' ? 'OR' : 'CONDITION', x + 16, y + 16, width - 32, 12, true)
       ctx.fillStyle = palette.text; paragraph(ctx, String(data.title), x + 16, y + 44, width - 32, 13)
     }
   }

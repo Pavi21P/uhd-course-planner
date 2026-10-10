@@ -20,7 +20,9 @@ is needed. Keep using the same browser and address to return to your saved plan.
 
 ## Features
 
-- Required CS courses and prerequisites, including ALL/ANY and concurrent conditions.
+- Required CS courses and prerequisites with compact AND/OR badges. Click a badge
+  for course details, including minimum grades, timing, and other conditions.
+  Exported pictures retain full prerequisite labels and explanations.
 - Red corner button marks a course Taken. Hide completed courses to bridge the
   visible branch; reveal them or undo to restore the original view.
 - Course information with catalog sources, credits, prerequisites, and review notes.

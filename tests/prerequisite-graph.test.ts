@@ -28,6 +28,7 @@ test('graph preserves nested AND/OR, condition alternatives, grades and concurre
   const all = graph.nodes.find(node => node.kind === 'all')!
   const any = graph.nodes.find(node => node.kind === 'any')!
   const condition = graph.nodes.find(node => node.kind === 'condition')!
+  assert.deepEqual([all.ownerCourseId, any.ownerCourseId, condition.ownerCourseId], ['C', 'C', 'C'])
   assert.ok(graph.links.some(edge => edge.source === any.id && edge.target === all.id))
   assert.ok(graph.links.some(edge => edge.source === condition.id && edge.target === any.id))
   assert.ok(graph.links.some(edge => edge.source === graphCourseId('B') && edge.target === any.id && edge.timing === 'concurrent' && edge.minimumGrade === 'C'))

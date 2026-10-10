@@ -38,7 +38,7 @@ export function ExportPicture({ input, onClose }: { input: PictureInput; onClose
   return <dialog ref={dialog} className="export-dialog" aria-labelledby="export-title" onClose={onClose} onCancel={event => { if (busy) event.preventDefault() }}>
     <div className="dialog-top"><span>YOUR COURSE PLAN</span><button autoFocus disabled={busy} aria-label="Close picture preview" onClick={onClose}>×</button></div>
     <h2 id="export-title">Save a picture</h2>
-    <p>Includes every visible course area, even outside the current view. Hidden Taken courses stay hidden. Your layout and zoom stay unchanged.</p>
+    <p>Includes all course areas, even when viewing one section. The picture keeps full prerequisite labels and explanations. Hidden Taken courses stay hidden. Your layout and zoom stay unchanged.</p>
     <p role="status">{message}</p>
     {picture && <>
       <p>{input.nodes.filter(node => node.type === 'course').length} course cards · {input.edges.length} connections · {picture.frame.pixelWidth} × {picture.frame.pixelHeight} pixels · {(picture.blob.size / 1024 / 1024).toFixed(1)} MB{picture.frame.reduced ? ' · Resolution reduced to fit the whole plan safely. Zoom into the saved image to inspect it.' : ''}</p>

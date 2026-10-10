@@ -23,7 +23,7 @@ const catalogResult = loadPlannerCatalog(catalogData, minorData)
 const initialFit = { nodes: [{ id: graphCourseId('2025-2026:CS 1411') }], padding: 0.12, maxZoom: 1 }
 type Theme = 'light' | 'dark'
 type CourseNode = Node<{ course: Course; option: boolean; selected?: boolean; onSelect?: (courseId: string, value: boolean) => void; reference?: boolean; connected?: boolean; taken?: boolean; onTaken?: (courseId: string, value: boolean) => void; onInfo: (course: Course, nodeId: string) => void }, 'course'>
-type LogicNode = Node<{ title: string; kind: string }, 'logic'>
+type LogicNode = Node<{ title: string; kind: string; onInfo: () => void }, 'logic'>
 type TakenNode = Node<{ title: string }, 'taken'>
 type HeadingNode = Node<{ title: string; subtitle: string }, 'heading'>
 const hours = (credits: Course['credits']) => credits.min === credits.max ? `${credits.min}` : `${credits.min}–${credits.max}`
@@ -44,7 +44,11 @@ function RegionHeading({ data }: NodeProps<HeadingNode>) {
   return <div className="region-heading"><h2>{data.title}</h2><p>{data.subtitle}</p></div>
 }
 function LogicCard({ data }: NodeProps<LogicNode>) {
-  return <div className={`logic-card logic-${data.kind}`}><Handle type="target" position={Position.Left} /><Handle type="source" position={Position.Right} /><strong>{data.kind === 'condition' ? 'CONDITION' : data.kind === 'all' ? 'ALL' : 'ANY'}</strong><p>{data.title}</p></div>
+  const label = data.kind === 'all' ? 'AND' : data.kind === 'any' ? 'OR' : 'Condition'
+  return <div className={`logic-card logic-${data.kind}`}>
+    <Handle type="target" position={Position.Left} /><Handle type="source" position={Position.Right} />
+    <button className="nodrag nopan" title={data.title} aria-label={`${label}: ${data.title}. View prerequisite details`} onClick={data.onInfo}>{label}</button>
+  </div>
 }
 function TakenMarker({ data }: NodeProps<TakenNode>) {
   return <div className="taken-marker"><Handle type="source" position={Position.Right} /><strong>{data.title}</strong><p>Completed input · Restore from course lookup</p></div>
@@ -112,7 +116,7 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
     const byId = new Map(catalog.courses.map(course => [course.id, course]))
     const nodes: (CourseNode | HeadingNode | LogicNode)[] = graph.nodes.map(item => item.kind === 'course'
       ? { id: item.id, type: 'course', position: item.position, data: { course: byId.get(item.courseId!)!, option: !item.planned, reference: !item.planned, connected: true, onInfo: showCourse }, style: { width: 258 } }
-      : { id: item.id, type: 'logic', position: item.position, data: { title: item.text, kind: item.kind }, style: { width: 258 } })
+      : { id: item.id, type: 'logic', position: item.position, data: { title: item.text, kind: item.kind, onInfo: () => showCourse(byId.get(item.ownerCourseId!)!, graphCourseId(item.ownerCourseId!)) }, style: { width: 258 } })
     const regionNodes: Record<string, string[]> = { major: graph.nodes.map(node => node.id) }
     nodes.push({ id: 'major-heading', type: 'heading', position: { x: 0, y: 0 }, data: { title: 'Major & foundations', subtitle: 'Read left to right · Unselected references explain prerequisites; use + to include their hours' }, style: { width: 1000 } })
     regionNodes.major.push('major-heading')
@@ -158,7 +162,7 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
         nodes.push({ id, type: 'course', position: { x: x + index % 3 * 285, y: y + 160 + Math.floor(index / 3) * 166 }, data: { course, option: true, onInfo: showCourse }, style: { width: 258 } })
       })
     })
-    const edges = graph.links.map(link => ({ ...link, type: 'smoothstep', selectable: false,
+    const edges = graph.links.map(link => ({ ...link, label: undefined, data: { detailLabel: link.label }, type: 'smoothstep', selectable: false,
       markerEnd: { type: MarkerType.ArrowClosed, color: 'var(--edge)' },
       style: { stroke: 'var(--edge)', strokeWidth: 1.5, ...(link.timing && link.timing !== 'before' ? { strokeDasharray: '6 4' } : {}) },
       labelStyle: { fill: 'var(--text)', fontSize: 11 }, labelBgStyle: { fill: 'var(--surface)' },
@@ -373,7 +377,7 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
       <ul className="selected-course-list">{catalog.courses.filter(course => selectedIds.has(course.id)).map(course => <li key={course.id}><button onClick={() => { setSelectedCourse(course); setSelectedNodeId(layout.nodes.find(node => node.type === 'course' && node.data.course.id === course.id)?.id ?? null) }}>{course.code}: {course.title}</button><span>{hours(course.credits)} hours{taken.has(course.id) ? ' / Taken' : ''}</span></li>)}</ul>
       {!credits.uniqueCourseCount && <p>No courses selected. Add courses from their cards or course information.</p>}
     </details>
-    <div className="workspace-bar"><div><h2>A little clarity for the road ahead.</h2><p>Drag a course to move its downstream branch, including hidden courses. Undo restores the whole branch. Double-click a course to connect it. Press Escape to cancel.</p></div><button onClick={() => setOverview(!overview)} aria-expanded={overview}>Requirements {overview ? '−' : '+'}</button></div>
+    <div className="workspace-bar"><div><h2>A little clarity for the road ahead.</h2><p>Drag a course to move its downstream branch, including hidden courses. Undo restores the whole branch. Double-click a course to connect it. Press Escape to cancel. AND means all inputs; OR means any input. Click a badge or course info for grades, timing, and conditions.</p></div><button onClick={() => setOverview(!overview)} aria-expanded={overview}>Requirements {overview ? '−' : '+'}</button></div>
     {overview && <section className="requirements" aria-label="Degree requirements">
       <p>The starter plan contains required courses and CS 4395. Supporting choices, electives, core options and minors are not added to the total until selected. No completed courses are assumed.</p>
       <ul>{catalog.requirements.map(group => <li key={group.id}><strong>{group.label}</strong><span>{group.id === 'free-electives' ? 'Balance to 120 hours' : `${group.minimumCredits} hours`}</span></li>)}</ul>

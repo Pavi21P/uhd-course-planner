@@ -16,8 +16,11 @@ footer { padding:14px 32px; font-size:11px; color:var(--muted); display:flex; fl
 
 .region-nav select { margin-left:auto; max-width:240px; font-size:12px; } @media(max-width:700px) { .region-nav select { width:100%; max-width:none; margin:4px 0 0; } }
 .planner { --edge:#748a7b; }.planner[data-theme='dark'] { --edge:#9fb6a8; }
-.logic-card { height:180px; border:1px solid var(--line); border-radius:12px; background:var(--surface); padding:18px; display:flex; flex-direction:column; justify-content:center; text-align:center; }
-.logic-card strong { color:var(--accent); font-size:12px; letter-spacing:1.5px; }.logic-card p { margin:12px 0 0; font-size:13px; line-height:1.5; overflow:auto; }.logic-any { border:2px dashed var(--accent); }.logic-all { border:2px solid var(--accent); }.logic-condition { border-radius:4px; text-align:left; }
+.logic-card { height:180px; position:relative; display:flex; align-items:center; justify-content:center; }
+.logic-card::before { content:''; position:absolute; left:0; right:0; top:50%; border-top:1px solid var(--edge); }
+.planner .logic-card button { position:relative; min-width:72px; border:2px solid var(--accent); border-radius:24px; background:var(--surface); color:var(--accent); font-size:12px; font-weight:650; letter-spacing:1px; }
+.planner .logic-any button { border-style:dashed; }
+.planner .logic-condition button { border-radius:8px; letter-spacing:0; }
 .react-flow__handle { background:var(--edge); border-color:var(--surface); width:7px; height:7px; }.requirement-slot { border:1px dashed var(--line); border-radius:12px; background:var(--surface); padding:20px; height:165px; overflow:auto; }.requirement-slot h2 { font-size:18px; }
 .save-status { margin:0; padding:8px 32px; background:var(--soft); color:var(--text); font-size:12px; line-height:1.5; }.save-warning { border-left:4px solid var(--red); }.move-controls { display:flex; flex-wrap:wrap; gap:6px; margin-top:16px; }.move-controls span { flex-basis:100%; color:var(--muted); font-size:12px; }.react-flow__node-course { cursor:grab; }.react-flow__node-course.dragging { cursor:grabbing; }
 .planner { --bridge:#a95718; --taken-bg:#edf0ed; --taken-text:#56625c; }.planner[data-theme='dark'] { --bridge:#efb36e; --taken-bg:#303833; --taken-text:#bec8c0; }
