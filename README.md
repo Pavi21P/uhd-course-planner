@@ -28,6 +28,9 @@ is needed. Keep using the same browser and address to return to your saved plan.
 - Double-click a course, then click another to add a personal planning connection.
 - Disconnected elective choices and Mathematics/Data Science minor areas.
 - Light/dark mode, selected credit totals, completed and remaining planned hours.
+- Hide all planner controls from the header to give the canvas more space; the preference is remembered.
+- Board view shows all areas; Sections shows one area at a time using the same saved plan.
+  Switch to Board for cross-area links. Credit totals and picture export always cover the whole plan.
 - Whole-plan PNG preview and save/download, including areas outside the viewport.
 - Browser-local persistence. No sign-in or server-side student records.
 

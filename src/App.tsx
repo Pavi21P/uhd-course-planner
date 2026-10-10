@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { Background, Controls, ViewportPortal, Handle, Position, MarkerType, ReactFlow, ReactFlowProvider, useReactFlow, type Node, type NodeProps, type NodeChange } from '@xyflow/react'
+import { Background, Controls, ViewportPortal, Handle, Position, MarkerType, ReactFlow, ReactFlowProvider, useReactFlow, useNodesInitialized, type Node, type NodeProps, type NodeChange } from '@xyflow/react'
 import '@xyflow/react/dist/style.css'
 import './App.css'
 import catalogData from './data/catalog-2025-2026.json'
@@ -9,6 +9,7 @@ import { loadPlannerCatalog, type MinorSupplement } from './data/minor-catalog'
 import type { Course } from './data/catalog-schema'
 import { buildPrerequisiteGraph, graphCourseId } from './data/prerequisite-graph'
 import { completionView } from './data/completion-view'
+import { sectionView } from './data/section-view'
 import { beginBranchDrag, branchPositions, type BranchDrag } from './data/branch-drag'
 import { usePlan } from './use-plan'
 import { connectionError } from './data/personal-connections'
@@ -84,7 +85,17 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
   const [selectedCourse, setSelectedCourse] = useState<Course | null>(null)
   const showCourse = useCallback((course: Course, nodeId: string) => { setSelectedCourse(course); setSelectedNodeId(nodeId) }, [])
   const [activeRegion, setActiveRegion] = useState('major')
+  const [viewMode, setViewMode] = useState<'board' | 'sections'>('board')
+  const [pendingFocus, setPendingFocus] = useState<string[] | null>(null)
+  const nodesInitialized = useNodesInitialized()
   const [overview, setOverview] = useState(false)
+  const [controlsCollapsed, setControlsCollapsed] = useState(() => {
+    try { return localStorage.getItem('uhd-planner-controls-collapsed') === 'true' } catch { return false }
+  })
+  const controlsToggle = useRef<HTMLButtonElement>(null)
+  useEffect(() => {
+    try { localStorage.setItem('uhd-planner-controls-collapsed', String(controlsCollapsed)) } catch { /* Keep the preference for this session when storage is unavailable. */ }
+  }, [controlsCollapsed])
   const [pictureInput, setPictureInput] = useState<PictureInput | null>(null)
   const [connectionSource, setConnectionSource] = useState<string | null>(null)
   const [connectionTools, setConnectionTools] = useState(false)
@@ -176,8 +187,8 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
   const setTaken = useCallback((courseId: string, value: boolean) => {
     setConnectionSource(null); setConnectionPointer(null)
     dispatch({ type: 'take', courseId, value })
-    if (value && plan.preferences.hideCompleted && !selectedCourse) requestAnimationFrame(() => completedControl.current?.focus())
-  }, [dispatch, plan.preferences.hideCompleted, selectedCourse])
+    if (value && plan.preferences.hideCompleted && !selectedCourse) requestAnimationFrame(() => (controlsCollapsed ? controlsToggle.current : completedControl.current)?.focus())
+  }, [dispatch, plan.preferences.hideCompleted, selectedCourse, controlsCollapsed])
   const taken = useMemo(() => new Set(plan.takenCourseIds), [plan.takenCourseIds])
   const allLinks = useMemo(() => [...layout.links, ...plan.customEdges.map(edge => ({ ...edge, label: 'Personal planning link' }))], [layout.links, plan.customEdges])
   const completion = useMemo(() => completionView(layout.nodes.map(node => ({ id: node.id,
@@ -205,11 +216,26 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
     labelStyle: { fill: 'var(--text)', fontSize: 11 }, labelBgStyle: { fill: 'var(--surface)' },
     ariaLabel: `Personal connection ${link.source} to ${link.target}`,
   } : layout.edges.find(edge => edge.id === link.id)!), [completion.links, layout.edges, plan.customEdges, selectedEdge])
+  const scene = useMemo(() => sectionView(nodes, visibleEdges, viewMode === 'sections' ? layout.regionNodes[activeRegion] : undefined, completion.compact), [nodes, visibleEdges, viewMode, layout.regionNodes, activeRegion, completion.compact])
+  // Wait until newly displayed nodes have dimensions before moving the camera.
+  useEffect(() => {
+    if (!pendingFocus || !nodesInitialized || !pendingFocus.every(id => scene.nodes.some(node => node.id === id))) return
+    const frame = requestAnimationFrame(() => {
+      void fitView({ nodes: pendingFocus.map(id => ({ id })), padding: 0.12, duration: 350, maxZoom: 1 })
+      setPendingFocus(null)
+    })
+    return () => cancelAnimationFrame(frame)
+  }, [pendingFocus, nodesInitialized, scene.nodes, fitView])
   const connectionOptions = useMemo(() => layout.nodes.filter(node => node.type === 'course').map(node => ({ id: node.id, label: `${node.data.course.code} (${node.id.startsWith('tree:') ? 'tree' : node.id.split(':')[0]})`, hidden: completion.hidden.has(node.id) })), [layout.nodes, completion.hidden])
   const cancelConnection = useCallback(() => { setConnectionSource(null); setConnectionPointer(null); setConnectionMessage('Connection canceled.') }, [])
   const startConnection = (id: string) => {
     if (!id) { cancelConnection(); return }
     if (!connectionOptions.some(option => option.id === id && !option.hidden)) return
+    setControlsCollapsed(false)
+    if (!scene.nodes.some(node => node.id === id)) {
+      setViewMode('board')
+      setPendingFocus([id])
+    }
     setConnectionSource(id); setConnectionTools(true); setConnectionMessage(''); setSelectedEdge(null)
     setSelectedCourse(null)
     const position = plan.positions[id]
@@ -313,18 +339,31 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
     window.addEventListener('keydown', shortcut)
     return () => window.removeEventListener('keydown', shortcut)
   }, [dispatch])
-  const focusRegion = (region: string) => {
+  const focusRegion = (region: string, mode = viewMode) => {
+    if (mode === 'sections') cancelConnection()
     setActiveRegion(region)
-    void fitView({ nodes: nodes.filter(node => layout.regionNodes[region].includes(node.id) || (region === "major" && node.type === "taken")).map(node => ({ id: node.id })), padding: 0.12, duration: 350, maxZoom: 1 })
+    const regionNodes = sectionView(nodes, visibleEdges, layout.regionNodes[region], completion.compact).nodes
+    // Sections open at a readable starting point rather than shrinking a long
+    // elective/minor list to fit the entire area into a single screen.
+    const focusNodes = mode === 'board' ? regionNodes : region === 'major'
+      ? [regionNodes.find(node => node.id === initialFit.nodes[0].id) ?? regionNodes.find(node => node.type === 'course') ?? regionNodes[0]].filter(Boolean)
+      : regionNodes.slice(0, 4)
+    setPendingFocus(focusNodes.map(node => node.id))
+  }
+  const changeView = (mode: 'board' | 'sections') => {
+    cancelConnection()
+    setViewMode(mode)
+    focusRegion(activeRegion, mode)
   }
   const changeTheme = () => dispatch({ type: 'preferences', preferences: { theme: theme === 'light' ? 'dark' : 'light' } })
   return <main className="planner" data-theme={theme}>
-    <header className="app-header"><div className="brand"><span className="brand-mark">UHD</span><div><h1>Course planner</h1><p>COMPUTER SCIENCE · 2025–2026</p></div></div><button onClick={() => { if (!dragging.current) setPictureInput({ nodes, edges: visibleEdges, theme, year: catalog.catalogYear, summary: `${hours(credits.catalogCredits)} total planned hours | ${hours(credits.completedCredits)} completed | ${hours(credits.remainingCredits)} remaining planned`, hidden: plan.preferences.hideCompleted, creditReview: !!(credits.conflicts.length || credits.excludedCourseIds.length) }) }}>Save picture</button></header>
+    <header className="app-header"><div className="brand"><span className="brand-mark">UHD</span><div><h1>Course planner</h1><p>COMPUTER SCIENCE · 2025–2026</p></div></div><div className="header-actions"><button ref={controlsToggle} aria-expanded={!controlsCollapsed} aria-controls="planner-controls" onClick={() => { if (!controlsCollapsed) cancelConnection(); setControlsCollapsed(!controlsCollapsed) }}>{controlsCollapsed ? 'Show controls' : 'Hide controls'}</button><button onClick={() => { if (!dragging.current) setPictureInput({ nodes, edges: visibleEdges, theme, year: catalog.catalogYear, summary: `${hours(credits.catalogCredits)} total planned hours | ${hours(credits.completedCredits)} completed | ${hours(credits.remainingCredits)} remaining planned`, hidden: plan.preferences.hideCompleted, creditReview: !!(credits.conflicts.length || credits.excludedCourseIds.length) }) }}>Save picture</button></div></header>
+    <div id="planner-controls" hidden={controlsCollapsed}>
     <div className="toolbar" aria-label="Planner toolbar">
       <div className="toolbar-group"><label className="sr-only" htmlFor="major">Major</label><select id="major" defaultValue="cs"><option value="cs">Computer Science BS</option></select><button disabled={!history.past.length} onClick={() => { cancelConnection(); dispatch({ type: "undo" }) }} title="Undo (Ctrl/Cmd+Z)" aria-label="Undo">↶</button><button disabled={!history.future.length} onClick={() => { cancelConnection(); dispatch({ type: "redo" }) }} title="Redo (Ctrl/Cmd+Shift+Z or Ctrl+Y)" aria-label="Redo">↷</button></div>
       <div className="toolbar-group"><button onClick={changeTheme} aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}>{theme === 'light' ? '☾ Dark' : '☀ Light'}</button><div className="credit-total" aria-label="Planned credit hours" aria-live="polite"><strong>{hours(credits.catalogCredits)} <small>Total planned hours</small></strong><span className="credit-breakdown"><span>Completed <b>{hours(credits.completedCredits)}</b></span><span>Remaining <b>{hours(credits.remainingCredits)}</b></span></span></div></div>
     </div>
-    <p role="status" className={`save-status ${saveFailed ? "save-warning" : ""}`}>{saveStatus}</p>
+      <p role="status" className={`save-status ${saveFailed ? "save-warning" : ""}`}>{saveStatus}</p>
     <details className="credit-details"><summary>Credit details: {credits.uniqueCourseCount} selected courses{credits.conflicts.length || credits.excludedCourseIds.length ? ' - credit restrictions need review' : ''}</summary>
       <p>Total counts each selected course once, including copies across the major and minors. Completed means selected and marked Taken. Remaining means selected and not Taken; it is not the number of hours left to graduate. Hiding courses does not affect these totals.</p>
       <p>The degree has a 120-hour minimum. Selections do not assign courses to requirement slots or confirm grade, residency, transfer or major/minor overlap rules.</p>
@@ -340,24 +379,30 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
       <ul>{catalog.requirements.map(group => <li key={group.id}><strong>{group.label}</strong><span>{group.id === 'free-electives' ? 'Balance to 120 hours' : `${group.minimumCredits} hours`}</span></li>)}</ul>
       <details><summary>Catalog coverage and unresolved prerequisites</summary><p>{snapshot.coverage.unimportedOptionCodes.length} core choices have names only and cannot be selected yet. Science options currently cover the physics pathway. Minor cards include required and reviewed choices; all 47 indexed MATH courses at 2000+ are imported (including one zero-credit course). All nine DATA catalog courses are imported. Minor grade, residency and overlap fulfillment need review.</p><ul>{snapshot.coverage.unresolvedPrerequisites.map(issue => <li key={issue.courseId}>{issue.courseId.split(':')[1]}: {issue.reason}</li>)}</ul><a href="https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7111" target="_blank" rel="noreferrer">Official UHD degree requirements ↗</a></details>
     </section>}
+    <div className="view-switcher" role="group" aria-label="Planner view">
+      <button aria-pressed={viewMode === 'board'} onClick={() => changeView('board')}>Board</button>
+      <button aria-pressed={viewMode === 'sections'} onClick={() => changeView('sections')}>Sections</button>
+      <span>{viewMode === 'sections' ? 'One area at a time. Use Board for links between areas. Totals and pictures include the whole plan.' : 'All areas on one board. Choose an area below to jump to it.'}</span>
+    </div>
     <nav className="region-nav" aria-label="Course areas">{[['major', 'Major & foundations'], ['supporting', 'Supporting choices'], ['electives', 'Electives'], ['minors', 'Minors'], ['core', 'Core & general']].map(([id, label]) => <button key={id} aria-pressed={activeRegion === id} onClick={() => focusRegion(id)}>{label}</button>)}<label className="sr-only" htmlFor="course-lookup">Find course information</label><select id="course-lookup" value="" onChange={event => { const course = catalog.courses.find(course => course.id === event.target.value); if (course) { setSelectedCourse(course); setSelectedNodeId(layout.nodes.find(node => node.type === "course" && node.data.course.id === course.id)?.id ?? null) } }}><option value="">Find course information…</option>{catalog.courses.map(course => <option key={course.id} value={course.id}>{course.code} · {course.title}</option>)}</select></nav>
     <div className="completion-bar"><button ref={completedControl} aria-pressed={plan.preferences.hideCompleted} onClick={() => { cancelConnection(); dispatch({ type: 'preferences', preferences: { hideCompleted: !plan.preferences.hideCompleted } }) }}>{plan.preferences.hideCompleted ? 'Show completed' : 'Hide completed'}</button><span>{plan.takenCourseIds.length} marked Taken · Planned hours stay unchanged</span></div>
     {plan.preferences.hideCompleted && completion.hidden.size > 0 && <details className="completion-notes"><summary>{completion.links.filter(link => link.bridge).length} paths through taken courses · View explanations</summary><p>Orange links summarize original paths through taken courses. Grades, conditions and ALL/ANY groups still apply. Marking Taken does not confirm registration eligibility.</p>{completion.links.filter(link => link.bridge).map(link => <p key={link.id}><strong>{link.label}</strong><br />{link.bridge?.segments.join(' • ')}</p>)}</details>}
     <div className="connection-toolbar"><button aria-expanded={connectionTools} onClick={() => { if (connectionSource) cancelConnection(); setConnectionTools(!connectionTools) }}>Personal connections ({plan.customEdges.length})</button></div>
     {connectionTools && <ConnectionTools options={connectionOptions} source={connectionSource} onStart={startConnection} onConnect={finishConnection} onCancel={cancelConnection} edges={plan.customEdges} selected={selectedEdge} onSelect={setSelectedEdge} onRemove={removeConnection} message={connectionMessage} />}
+    </div>
     <section className="canvas" aria-label="Course plan canvas" onPointerMove={event => { if (connectionSource) setConnectionPointer(screenToFlowPosition({ x: event.clientX, y: event.clientY })) }}>
-      <ReactFlow nodes={nodes} zoomOnDoubleClick={false} deleteKeyCode={null}
+      <ReactFlow nodes={scene.nodes} zoomOnDoubleClick={false} deleteKeyCode={null}
         onNodeDoubleClick={(event, node) => { if (node.type === 'course' && !connectionSource && !(event.target as Element).closest('button')) startConnection(node.id) }}
         onNodeClick={(event, node) => { if (node.type === 'course' && connectionSource && event.detail < 2 && !(event.target as Element).closest('button')) finishConnection(node.id) }}
         onPaneClick={() => { if (connectionSource) cancelConnection(); setSelectedEdge(null) }}
-        onEdgeClick={(_event, edge) => { if (plan.customEdges.some(item => item.id === edge.id)) { setSelectedEdge(edge.id); setConnectionTools(true) } }} onNodesChange={onNodesChange} onNodeDragStart={startBranchDrag} onNodeDragStop={stopBranchDrag} edges={visibleEdges} nodeTypes={nodeTypes} nodesDraggable={true} nodesConnectable={false} elementsSelectable={false} nodesFocusable={false} colorMode={theme} minZoom={0.035} maxZoom={1.8} fitView fitViewOptions={visibleInitialFit}>
+        onEdgeClick={(_event, edge) => { if (plan.customEdges.some(item => item.id === edge.id)) { setSelectedEdge(edge.id); setControlsCollapsed(false); setConnectionTools(true) } }} onNodesChange={onNodesChange} onNodeDragStart={startBranchDrag} onNodeDragStop={stopBranchDrag} edges={scene.edges} nodeTypes={nodeTypes} nodesDraggable={true} nodesConnectable={false} elementsSelectable={false} nodesFocusable={false} colorMode={theme} minZoom={0.035} maxZoom={1.8} fitView fitViewOptions={visibleInitialFit}>
         {previewStart && connectionPointer && <ViewportPortal><svg className="connection-preview" aria-label="Connection preview" width="1" height="1"><line x1={previewStart.x} y1={previewStart.y} x2={connectionPointer.x} y2={connectionPointer.y} /><circle cx={connectionPointer.x} cy={connectionPointer.y} r="5" /></svg></ViewportPortal>}
         <Background gap={22} size={1} /><Controls showInteractive={false} />
       </ReactFlow>
     </section>
     <footer><span><i className="legend-dot" /> Planned course <i className="legend-dot option" /> Option / reference · Not selected</span><span>Plans save in this browser · Independent tool · Not an official degree audit</span></footer>
     {pictureInput && <ExportPicture input={pictureInput} onClose={() => setPictureInput(null)} />}
-    {selectedCourse && <CourseInfo onConnect={selectedNodeId && !completion.hidden.has(selectedNodeId) ? () => startConnection(selectedNodeId) : undefined} course={selectedCourse} snapshot={snapshot} planned={selectedIds.has(selectedCourse.id)} onSelect={() => setPlanned(selectedCourse.id, !selectedIds.has(selectedCourse.id))} taken={taken.has(selectedCourse.id)} onTaken={() => setTaken(selectedCourse.id, !taken.has(selectedCourse.id))} onMove={moveCourse} onReset={selectedNodeId ? () => dispatch({ type: "move", positions: { [selectedNodeId]: context.defaults.positions[selectedNodeId] } }) : undefined} onClose={() => setSelectedCourse(null)} onLocate={!completion.hidden.has(graphCourseId(selectedCourse.id)) && layout.regionNodes.major.includes(graphCourseId(selectedCourse.id)) ? () => { setSelectedCourse(null); setActiveRegion("major"); void fitView({ nodes: [{ id: graphCourseId(selectedCourse.id) }], maxZoom: 1, padding: 0.3, duration: 350 }) } : undefined} />}
+    {selectedCourse && <CourseInfo onConnect={selectedNodeId && !completion.hidden.has(selectedNodeId) ? () => startConnection(selectedNodeId) : undefined} course={selectedCourse} snapshot={snapshot} planned={selectedIds.has(selectedCourse.id)} onSelect={() => setPlanned(selectedCourse.id, !selectedIds.has(selectedCourse.id))} taken={taken.has(selectedCourse.id)} onTaken={() => setTaken(selectedCourse.id, !taken.has(selectedCourse.id))} onMove={moveCourse} onReset={selectedNodeId ? () => dispatch({ type: "move", positions: { [selectedNodeId]: context.defaults.positions[selectedNodeId] } }) : undefined} onClose={() => setSelectedCourse(null)} onLocate={!completion.hidden.has(graphCourseId(selectedCourse.id)) && layout.regionNodes.major.includes(graphCourseId(selectedCourse.id)) ? () => { setSelectedCourse(null); setActiveRegion("major"); setPendingFocus([graphCourseId(selectedCourse.id)]) } : undefined} />}
   </main>
 }
 export default function App() {
