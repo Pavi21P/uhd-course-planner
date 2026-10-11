@@ -89,3 +89,14 @@ requirements next. No publication of the multi-major expansion yet.
 Validation: all 103 tests pass (including six new program/save-isolation tests),
 tools typecheck, lint, production build and diff checks passed for the initial
 foundation. The subsequent Mathematics checkpoint above includes browser QA.
+
+### Chemistry source intake checkpoint (October 11, 2026)
+
+Saved 40 distinct course panels plus the Chemistry BS and integrated
+communication/ethics pages in `data/sources/2025-2026/chemistry-bs-capture.json`.
+Two focused integrity tests pass. See `docs/chemistry-source-checkpoint.md` for
+requirements, five-credit calculus-physics pairs, corequisite-only CHEM 4164,
+and exact next import/review steps. Chemistry remains unavailable in the selector
+until prerequisite reviews, departmental rules, catalog construction and QA pass.
+Next bounded phase: Chemistry course import and prerequisite review; capture
+CHEM 1305/1105 and departmental graduation rules. Biology follows Chemistry.
