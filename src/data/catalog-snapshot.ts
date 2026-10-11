@@ -4,10 +4,10 @@ import { datasetSchema, prerequisiteSchema, type Course } from './catalog-schema
 const text = z.string().min(1)
 export const catalogSnapshotSchema = z.strictObject({
   snapshotVersion: z.literal(1),
-  scope: z.literal('cs-planning-catalog'),
+  scope: z.enum(['cs-planning-catalog', 'math-bs-planning-catalog']),
   catalog: datasetSchema,
   coursePolicies: z.array(z.strictObject({ id: text,
-    kind: z.enum(['degree-credit-exclusion', 'requirement-exclusion', 'mutually-exclusive-credit', 'conditional-writing-use', 'repeatability', 'laboratory-pair']),
+    kind: z.enum(['degree-credit-exclusion', 'requirement-exclusion', 'mutually-exclusive-credit', 'conditional-writing-use', 'repeatability', 'laboratory-pair', 'program-condition']),
     courseIds: z.array(text).min(1), text, sourceIds: z.array(text).min(1), additionalConditions: prerequisiteSchema.optional() })),
   coverage: z.strictObject({
     automaticEligibilityAssessment: z.literal(false),

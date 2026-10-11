@@ -2,7 +2,7 @@ import type { CatalogDataset, Course, Prerequisite } from './catalog-schema.ts'
 
 export type CoursePolicy = {
   id: string
-  kind: 'degree-credit-exclusion' | 'requirement-exclusion' | 'mutually-exclusive-credit' | 'conditional-writing-use' | 'repeatability' | 'laboratory-pair'
+  kind: 'degree-credit-exclusion' | 'requirement-exclusion' | 'mutually-exclusive-credit' | 'conditional-writing-use' | 'repeatability' | 'laboratory-pair' | 'program-condition'
   courseIds: string[]
   text: string
   sourceIds: string[]

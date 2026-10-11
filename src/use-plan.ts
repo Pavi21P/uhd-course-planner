@@ -15,11 +15,11 @@ export function usePlan(context: PlanContext) {
   useEffect(() => {
     if (!guard.current.writable || guard.current.revision === history.revision) return
     guard.current.revision = history.revision
-    const result = savePlan(browserStorage, guard.current.raw, history.present)
+    const result = savePlan(browserStorage, guard.current.raw, history.present, context.storageKey)
     if (result.ok) guard.current.raw = result.raw
     else if (result.blocked) guard.current.writable = false
     setSaveStatus(result.message)
     setSaveFailed(!result.ok)
-  }, [history.present, history.revision])
+  }, [history.present, history.revision, context.storageKey])
   return { history, dispatch, saveStatus, saveFailed }
 }

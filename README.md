@@ -4,6 +4,10 @@ An independent visual planner for the University of Houston-Downtown's
 **2025-2026 Computer Science BS**, with Mathematics and Data Science minor areas.
 Built with React, TypeScript, Vite, and React Flow.
 
+The current development version also includes **Mathematics BS**, with separate
+saved plans per major. Chemistry and Biology BS are in progress; see
+[the expansion plan](docs/multi-major-plan.md). These additions are not deployed yet.
+
 **Live website: https://uhd-course-planner.pages.dev**
 
 ## Run locally

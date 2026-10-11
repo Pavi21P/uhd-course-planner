@@ -8,7 +8,7 @@ export function ExportPicture({ input, onClose }: { input: PictureInput; onClose
   const [picture, setPicture] = useState<Picture | null>(null)
   const [message, setMessage] = useState('Preparing the whole plan…')
   const [busy, setBusy] = useState(false)
-  const filename = `uhd-cs-course-plan-${input.year}-${input.theme}.png`
+  const filename = `uhd-${input.programSlug}-course-plan-${input.year}-${input.theme}.png`
   useEffect(() => {
     dialog.current?.showModal()
     let active = true, url: string | undefined

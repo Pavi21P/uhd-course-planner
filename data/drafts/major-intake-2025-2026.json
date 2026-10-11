@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "requestedOn": "2026-10-11",
+  "targetCatalogYear": "2025-2026",
+  "degreeType": "BS",
+  "status": "source-discovery-only",
+  "note": "These are source leads, not published requirement or prerequisite records. Recommended semester order must never generate prerequisite edges.",
+  "programs": [
+    {
+      "id": "math-bs",
+      "title": "Mathematics BS",
+      "sequenceUrl": "https://www.uhd.edu/documents/academics/2025-course-sequencing-sb25-26-maps/course-sequence-map-bs-math-8-4-25.pdf",
+      "printedCatalogYear": "2025-2026",
+      "catalogReview": "verified-and-implemented-locally",
+      "reusableInventory": "All 47 indexed MATH courses at 2000+ are already in the existing minor supplement. Verify major requirement groups separately.",
+      "sampleCourseLeads": [
+        "MATH 2401",
+        "MATH 2402",
+        "MATH 2403",
+        "MATH 2409",
+        "MATH 2307",
+        "MATH 3301",
+        "MATH 3302",
+        "MATH 3408",
+        "MATH 3306",
+        "MATH 3307",
+        "MATH 4395"
+      ],
+      "choiceLeads": [
+        [
+          "MATH 3309",
+          "MATH 3312",
+          "MATH 3314"
+        ],
+        [
+          "DATA 2401",
+          "CS 1411"
+        ]
+      ],
+      "reviewNotes": [
+        "Confirm upper-level elective restrictions and approved CST minor rules from the catalog.",
+        "Map shows both conditional free-elective slots; do not add them as fixed required hours."
+      ],
+      "catalogUrl": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7118&returnto=2409"
+    },
+    {
+      "id": "chemistry-bs",
+      "title": "Chemistry BS",
+      "sequenceUrl": "https://www.uhd.edu/documents/academics/2025-course-sequencing-sb25-26-maps/course-sequence-map-bs-chemistry-7-24-25.pdf",
+      "printedCatalogYear": "2025-2026",
+      "catalogReview": "pending",
+      "sampleCourseLeads": [
+        "CHEM 1307",
+        "CHEM 1107",
+        "CHEM 1308",
+        "CHEM 1108",
+        "CHEM 2301",
+        "CHEM 2101",
+        "CHEM 2302",
+        "CHEM 2102"
+      ],
+      "reviewNotes": [
+        "Import full upper-level requirements and course panels.",
+        "Verify individual lecture/lab credits and concurrent enrollment, not just combined sequence hours.",
+        "Statistics/programming choices have different catalog credit values; retain actual course hours."
+      ],
+      "catalogUrl": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7063&returnto=2409"
+    },
+    {
+      "id": "biology-bs",
+      "title": "Biology BS",
+      "sequenceUrl": "https://www.uhd.edu/documents/academics/2025-course-sequencing-sb25-26-maps/course-sequence-map-bs-biology-7-24-25.pdf",
+      "printedCatalogYear": "2024-2025",
+      "catalogReview": "edition-discrepancy",
+      "sampleCourseLeads": [
+        "BIOL 1301",
+        "BIOL 1101",
+        "BIOL 1302",
+        "BIOL 1102",
+        "BIOL 2303",
+        "BIOL 2103",
+        "MBIO 2305",
+        "MBIO 2105",
+        "BIOL 3306"
+      ],
+      "reviewNotes": [
+        "2025 directory and July 2025 filename conflict with the printed 2024-25 catalog year. Resolve using catalog 37 before publishing.",
+        "Verify organismal, environmental, plant/fungal, cell/molecular and high-impact lab option lists.",
+        "Use the standard Biology BS, not Molecular and Cellular Biosciences concentration."
+      ],
+      "catalogUrl": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7092&returnto=2409"
+    }
+  ]
+}

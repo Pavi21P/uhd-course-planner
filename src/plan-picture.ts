@@ -2,7 +2,7 @@
 import type { Course } from './data/catalog-schema'
 import { exportFrame, type ExportBox } from './data/export-layout'
 
-export type PictureInput = { nodes: Node[]; edges: Edge[]; theme: 'light' | 'dark'; year: string; summary: string; hidden: boolean; creditReview: boolean }
+export type PictureInput = { nodes: Node[]; edges: Edge[]; theme: 'light' | 'dark'; year: string; programTitle: string; programSlug: string; summary: string; hidden: boolean; creditReview: boolean }
 const palettes = {
   light: { bg: '#f6f7f4', surface: '#ffffff', text: '#243b33', muted: '#626f69', line: '#dce2dc', accent: '#285d49', edge: '#748a7b', bridge: '#a95718', personal: '#3268b0', taken: '#edf0ed' },
   dark: { bg: '#17221e', surface: '#23312a', text: '#e9eee9', muted: '#aab9af', line: '#405247', accent: '#a9d5b8', edge: '#9fb6a8', bridge: '#efb36e', personal: '#8abaff', taken: '#303833' },
@@ -68,7 +68,7 @@ export async function renderPlanPicture(input: PictureInput, signal?: AbortSigna
   canvas.width = frame.pixelWidth; canvas.height = frame.pixelHeight
   ctx.scale(frame.scale, frame.scale); ctx.fillStyle = palette.bg; ctx.fillRect(0, 0, frame.width, frame.height)
   ctx.textBaseline = 'top'; ctx.fillStyle = palette.text
-  paragraph(ctx, `UHD Course Planner | Computer Science BS | ${input.year}`, 36, 22, frame.width - 72, 24, true)
+  paragraph(ctx, `UHD Course Planner | ${input.programTitle} | ${input.year}`, 36, 22, frame.width - 72, 24, true)
   paragraph(ctx, input.summary, 36, 60, frame.width - 72, 16)
   ctx.fillStyle = palette.muted
   paragraph(ctx, `${input.hidden ? 'Taken courses hidden' : 'Taken courses shown'} | Blue dashed: personal links | Orange: paths through taken courses`, 36, 87, frame.width - 72, 12)

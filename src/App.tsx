@@ -7,6 +7,8 @@ import type { CatalogSnapshot } from './data/catalog-snapshot'
 import minorData from './data/minor-2025-2026.json'
 import { loadPlannerCatalog, type MinorSupplement } from './data/minor-catalog'
 import type { Course } from './data/catalog-schema'
+import { buildMathematicsCatalog, mathematics } from './data/math-bs-catalog'
+import { computerScience, programStarterIds, programStorageKey, type ProgramDefinition } from './data/program-definition'
 import { buildPrerequisiteGraph, graphCourseId } from './data/prerequisite-graph'
 import { completionView } from './data/completion-view'
 import { sectionView } from './data/section-view'
@@ -20,7 +22,8 @@ import { ExportPicture } from './ExportPicture'
 import type { PictureInput } from './plan-picture'
 
 const catalogResult = loadPlannerCatalog(catalogData, minorData)
-const initialFit = { nodes: [{ id: graphCourseId('2025-2026:CS 1411') }], padding: 0.12, maxZoom: 1 }
+// Only reviewed catalogs are selectable. Draft majors are tracked in docs/multi-major-plan.md.
+const availablePrograms = catalogResult.ok ? [{ definition: computerScience, ...catalogResult }, { definition: mathematics, ...buildMathematicsCatalog(catalogResult.snapshot, catalogResult.programs) }] : []
 type Theme = 'light' | 'dark'
 type CourseNode = Node<{ course: Course; option: boolean; selected?: boolean; onSelect?: (courseId: string, value: boolean) => void; reference?: boolean; connected?: boolean; taken?: boolean; onTaken?: (courseId: string, value: boolean) => void; onInfo: (course: Course, nodeId: string) => void }, 'course'>
 type LogicNode = Node<{ title: string; kind: string; onInfo: () => void }, 'logic'>
@@ -76,7 +79,8 @@ function CourseInfo({ course, snapshot, onClose, onLocate, onMove, onReset, take
   </dialog>
 }
 
-function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minorPrograms: MinorSupplement['programs'] }) {
+function Planner({ snapshot, minorPrograms, program, onProgramChange }: { snapshot: CatalogSnapshot; minorPrograms: MinorSupplement['programs']; program: ProgramDefinition; onProgramChange: (id: string) => void }) {
+  const initialFit = { nodes: [{ id: graphCourseId(program.firstCourseId) }], padding: 0.12, maxZoom: 1 }
   const [initialTheme] = useState<Theme>(() => {
     try { const saved = localStorage.getItem('uhd-planner-theme'); if (saved === 'light' || saved === 'dark') return saved } catch { /* Storage is optional. */ }
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
@@ -110,8 +114,7 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
   const { catalog } = snapshot
   const layout = useMemo(() => {
     const idsFor = (ids: string[]) => new Set(catalog.requirements.filter(group => ids.includes(group.id)).flatMap(group => group.courseIds))
-    const plannedIds = idsFor(['cs-required', 'support-writing', 'support-math'])
-    plannedIds.add('2025-2026:CS 4395')
+    const plannedIds = programStarterIds(program, catalog)
     const graph = buildPrerequisiteGraph(catalog.courses, [...plannedIds])
     const byId = new Map(catalog.courses.map(course => [course.id, course]))
     const nodes: (CourseNode | HeadingNode | LogicNode)[] = graph.nodes.map(item => item.kind === 'course'
@@ -122,8 +125,8 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
     regionNodes.major.push('major-heading')
     const lowerY = graph.height + 350
     const regions = [
-      { id: 'supporting', title: 'Supporting choices', subtitle: 'Statistics options and the captured physics pathway · Use + to include a course in planned hours', x: 0, ids: idsFor(['support-statistics', 'support-science']) },
-      { id: 'electives', title: 'Explore electives', subtitle: 'Course options · Use + to include hours; connections stay separate', x: 950, ids: idsFor(['cs-elective-upper', 'cs-elective-additional']) },
+      { id: 'supporting', title: 'Supporting choices', subtitle: program.supportingDescription, x: 0, ids: idsFor(program.supportingRequirementIds) },
+      { id: 'electives', title: 'Explore electives', subtitle: 'Course options · Use + to include hours; connections stay separate', x: 950, ids: idsFor(program.electiveRequirementIds) },
     ]
     for (const region of regions) {
       const headingId = `${region.id}-heading`
@@ -135,10 +138,9 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
         nodes.push({ id, type: 'course', position: { x: region.x + (index % 3) * 285, y: lowerY + 95 + Math.floor(index / 3) * 166 }, data: { course, option: true, onInfo: showCourse }, style: { width: 258 } })
       })
     }
-    regionNodes.minors = ['minors-heading', 'math-minor', 'data-minor']
-    nodes.push({ id: 'minors-heading', type: 'heading', position: { x: 1900, y: lowerY }, data: { title: 'Your minors', subtitle: 'Separate from the major tree - use Minors above to explore course choices' }, style: { width: 830 } },
-      { id: 'math-minor', type: 'heading', position: { x: 1900, y: lowerY + 105 }, data: { title: 'Mathematics', subtitle: '18-hour minimum - reviewed choices in the minor area' }, className: 'minor-placeholder', style: { width: 370 } },
-      { id: 'data-minor', type: 'heading', position: { x: 2320, y: lowerY + 105 }, data: { title: 'Data Science', subtitle: '22/23 hours - required courses and choices in the minor area' }, className: 'minor-placeholder', style: { width: 370 } })
+    regionNodes.minors = ['minors-heading', ...program.minorPlaceholders.map(item => item.id)]
+    nodes.push({ id: 'minors-heading', type: 'heading', position: { x: 1900, y: lowerY }, data: { title: 'Your minors', subtitle: 'Separate from the major tree - use Minors above to explore course choices' }, style: { width: 830 } })
+    program.minorPlaceholders.forEach((item, index) => nodes.push({ id: item.id, type: 'heading', position: { x: 1900 + index * 420, y: lowerY + 105 }, data: { title: item.title, subtitle: item.subtitle }, className: 'minor-placeholder', style: { width: 370 } }))
     regionNodes.core = ['core-heading']
     nodes.push({ id: 'core-heading', type: 'heading', position: { x: 1900, y: lowerY + 430 }, data: { title: 'Core & general requirements', subtitle: 'Requirement slots, not selected courses · Core/major overlaps count only once' }, style: { width: 830 } })
     catalog.requirements.filter(group => group.area === 'core' || group.id === 'free-electives').forEach((group, index) => {
@@ -148,7 +150,7 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
     })
     // Append minor regions below existing areas. Keep every previous node ID and
     // coordinate intact so existing local plans and custom links stay valid.
-    regionNodes.minors = []
+    regionNodes.minors = program.id === 'cs-bs' ? [] : ['minors-heading', ...program.minorPlaceholders.map(item => item.id)]
     minorPrograms.forEach((program, programIndex) => {
       const x = programIndex * 1200
       const y = lowerY + 3500
@@ -168,16 +170,16 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
       labelStyle: { fill: 'var(--text)', fontSize: 11 }, labelBgStyle: { fill: 'var(--surface)' },
       ariaLabel: `${link.source} to ${link.target}: ${link.label}` }))
     return { nodes, edges, links: graph.links, regionNodes, plannedIds: [...plannedIds].sort() }
-    }, [catalog, showCourse, minorPrograms])
+    }, [catalog, showCourse, minorPrograms, program])
   const connectionGraph = useMemo(() => ({ nodes: layout.nodes.filter(node => node.type === 'course').map(node => ({ id: node.id, courseId: node.data.course.id })), official: layout.links }), [layout])
   const context = useMemo(() => ({
-    connectionGraph,
+    connectionGraph, storageKey: programStorageKey(program.id, program.catalogYear),
     defaults: { schemaVersion: 1, datasetVersion: catalog.datasetVersion,
       positions: Object.fromEntries(layout.nodes.map(node => [node.id, node.position])),
       selectedCourseIds: layout.plannedIds, takenCourseIds: [], customEdges: [],
       preferences: { theme: initialTheme, hideCompleted: false } } satisfies Plan,
     courseIds: new Set(catalog.courses.map(course => course.id)), nodeIds: new Set(layout.nodes.map(node => node.id)),
-  }), [layout, catalog, initialTheme, connectionGraph])
+  }), [layout, catalog, initialTheme, connectionGraph, program])
   const { history, dispatch, saveStatus, saveFailed } = usePlan(context)
   const plan = history.present
   const theme = plan.preferences.theme
@@ -353,7 +355,7 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
     // elective/minor list to fit the entire area into a single screen.
     const focusNodes = mode === 'board' ? regionNodes : region === 'major'
       ? [regionNodes.find(node => node.id === initialFit.nodes[0].id) ?? regionNodes.find(node => node.type === 'course') ?? regionNodes[0]].filter(Boolean)
-      : regionNodes.slice(0, 4)
+      : region === 'minors' ? regionNodes.filter(node => node.type === 'course').slice(0, 3) : regionNodes.slice(0, 4)
     setPendingFocus(focusNodes.map(node => node.id))
   }
   const changeView = (mode: 'board' | 'sections') => {
@@ -363,16 +365,16 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
   }
   const changeTheme = () => dispatch({ type: 'preferences', preferences: { theme: theme === 'light' ? 'dark' : 'light' } })
   return <main className="planner" data-theme={theme}>
-    <header className="app-header"><div className="brand"><span className="brand-mark">UHD</span><div><h1>Course planner</h1><p>COMPUTER SCIENCE · 2025–2026</p></div></div><div className="header-actions"><button ref={controlsToggle} aria-expanded={!controlsCollapsed} aria-controls="planner-controls" onClick={() => { if (!controlsCollapsed) cancelConnection(); setControlsCollapsed(!controlsCollapsed) }}>{controlsCollapsed ? 'Show controls' : 'Hide controls'}</button><button onClick={() => { if (!dragging.current) setPictureInput({ nodes, edges: visibleEdges, theme, year: catalog.catalogYear, summary: `${hours(credits.catalogCredits)} total planned hours | ${hours(credits.completedCredits)} completed | ${hours(credits.remainingCredits)} remaining planned`, hidden: plan.preferences.hideCompleted, creditReview: !!(credits.conflicts.length || credits.excludedCourseIds.length) }) }}>Save picture</button></div></header>
+    <header className="app-header"><div className="brand"><span className="brand-mark">UHD</span><div><h1>Course planner</h1><p>{program.shortTitle.toUpperCase()} · {catalog.catalogYear}</p></div></div><div className="header-actions"><button ref={controlsToggle} aria-expanded={!controlsCollapsed} aria-controls="planner-controls" onClick={() => { if (!controlsCollapsed) cancelConnection(); setControlsCollapsed(!controlsCollapsed) }}>{controlsCollapsed ? 'Show controls' : 'Hide controls'}</button><button onClick={() => { if (!dragging.current) setPictureInput({ nodes, edges: visibleEdges, theme, year: catalog.catalogYear, programTitle: program.title, programSlug: program.exportSlug, summary: `${hours(credits.catalogCredits)} total planned hours | ${hours(credits.completedCredits)} completed | ${hours(credits.remainingCredits)} remaining planned`, hidden: plan.preferences.hideCompleted, creditReview: !!(credits.conflicts.length || credits.excludedCourseIds.length) }) }}>Save picture</button></div></header>
     <div id="planner-controls" hidden={controlsCollapsed}>
     <div className="toolbar" aria-label="Planner toolbar">
-      <div className="toolbar-group"><label className="sr-only" htmlFor="major">Major</label><select id="major" defaultValue="cs"><option value="cs">Computer Science BS</option></select><button disabled={!history.past.length} onClick={() => { cancelConnection(); dispatch({ type: "undo" }) }} title="Undo (Ctrl/Cmd+Z)" aria-label="Undo">↶</button><button disabled={!history.future.length} onClick={() => { cancelConnection(); dispatch({ type: "redo" }) }} title="Redo (Ctrl/Cmd+Shift+Z or Ctrl+Y)" aria-label="Redo">↷</button></div>
+      <div className="toolbar-group"><label className="sr-only" htmlFor="major">Major</label><select id="major" value={program.id} disabled={saveFailed} onChange={event => onProgramChange(event.target.value)}>{availablePrograms.map(item => <option key={item.definition.id} value={item.definition.id}>{item.definition.title}</option>)}</select><button disabled={!history.past.length} onClick={() => { cancelConnection(); dispatch({ type: "undo" }) }} title="Undo (Ctrl/Cmd+Z)" aria-label="Undo">↶</button><button disabled={!history.future.length} onClick={() => { cancelConnection(); dispatch({ type: "redo" }) }} title="Redo (Ctrl/Cmd+Shift+Z or Ctrl+Y)" aria-label="Redo">↷</button></div>
       <div className="toolbar-group"><button onClick={changeTheme} aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}>{theme === 'light' ? '☾ Dark' : '☀ Light'}</button><div className="credit-total" aria-label="Planned credit hours" aria-live="polite"><strong>{hours(credits.catalogCredits)} <small>Total planned hours</small></strong><span className="credit-breakdown"><span>Completed <b>{hours(credits.completedCredits)}</b></span><span>Remaining <b>{hours(credits.remainingCredits)}</b></span></span></div></div>
     </div>
       <p role="status" className={`save-status ${saveFailed ? "save-warning" : ""}`}>{saveStatus}</p>
     <details className="credit-details"><summary>Credit details: {credits.uniqueCourseCount} selected courses{credits.conflicts.length || credits.excludedCourseIds.length ? ' - credit restrictions need review' : ''}</summary>
       <p>Total counts each selected course once, including copies across the major and minors. Completed means selected and marked Taken. Remaining means selected and not Taken; it is not the number of hours left to graduate. Hiding courses does not affect these totals.</p>
-      <p>The degree has a 120-hour minimum. Selections do not assign courses to requirement slots or confirm grade, residency, transfer or major/minor overlap rules.</p>
+      <p>The degree has a {program.minimumCredits}-hour minimum. Selections do not assign courses to requirement slots or confirm grade, residency, transfer or major/minor overlap rules.</p>
       {credits.unselectedTakenCount > 0 && <p>{credits.unselectedTakenCount} Taken course(s) are outside this plan and excluded from all three totals. Add them to the plan to include their hours.</p>}
       {credits.excludedCourseIds.length > 0 && <p className="notice">Included in catalog-hour totals but excluded from degree credit: {credits.excludedCourseIds.map(id => catalog.courses.find(course => course.id === id)!.code).join(', ')}.</p>}
       {credits.conflicts.map(conflict => <p className="notice" key={conflict.policyId}>{conflict.message} Catalog-hour totals include these selections; degree credit needs review.</p>)}
@@ -381,9 +383,9 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
     </details>
     <div className="workspace-bar"><div><h2>A little clarity for the road ahead.</h2><p>Drag a course to move its downstream branch, including hidden courses. Undo restores the whole branch. Double-click a course to connect it. Press Escape to cancel. AND means all inputs; OR means any input. Drag a badge to move it independently. Click a badge or course info for grades, timing, and conditions.</p></div><button onClick={() => setOverview(!overview)} aria-expanded={overview}>Requirements {overview ? '−' : '+'}</button></div>
     {overview && <section className="requirements" aria-label="Degree requirements">
-      <p>The starter plan contains required courses and CS 4395. Supporting choices, electives, core options and minors are not added to the total until selected. No completed courses are assumed.</p>
-      <ul>{catalog.requirements.map(group => <li key={group.id}><strong>{group.label}</strong><span>{group.id === 'free-electives' ? 'Balance to 120 hours' : `${group.minimumCredits} hours`}</span></li>)}</ul>
-      <details><summary>Catalog coverage and unresolved prerequisites</summary><p>{snapshot.coverage.unimportedOptionCodes.length} core choices have names only and cannot be selected yet. Science options currently cover the physics pathway. Minor cards include required and reviewed choices; all 47 indexed MATH courses at 2000+ are imported (including one zero-credit course). All nine DATA catalog courses are imported. Minor grade, residency and overlap fulfillment need review.</p><ul>{snapshot.coverage.unresolvedPrerequisites.map(issue => <li key={issue.courseId}>{issue.courseId.split(':')[1]}: {issue.reason}</li>)}</ul><a href="https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7111" target="_blank" rel="noreferrer">Official UHD degree requirements ↗</a></details>
+      <p>{program.starterDescription}</p>
+      <ul>{catalog.requirements.map(group => <li key={group.id}><strong>{group.label}</strong><span>{group.id === 'free-electives' ? 'Balance to 120 hours' : `${group.minimumCredits} hours`}</span>{group.constraints.length > 0 && <details><summary>Conditions and choices</summary><ul>{group.constraints.map(note => <li key={note}>{note}</li>)}</ul>{group.courseIds.length > 0 && <p>{group.courseIds.map(id => catalog.courses.find(course => course.id === id)?.code).join(', ')}</p>}</details>}</li>)}</ul>
+      <details><summary>Catalog coverage and unresolved prerequisites</summary><p>{snapshot.coverage.unimportedOptionCodes.length} core choices have names only and cannot be selected yet. {program.coverageDescription}</p><ul>{snapshot.coverage.unresolvedPrerequisites.map(issue => <li key={issue.courseId}>{issue.courseId.split(':')[1]}: {issue.reason}</li>)}</ul><a href={program.sourceUrl} target="_blank" rel="noreferrer">Official UHD degree requirements ↗</a></details>
     </section>}
     <div className="view-switcher" role="group" aria-label="Planner view">
       <button aria-pressed={viewMode === 'board'} onClick={() => changeView('board')}>Board</button>
@@ -412,7 +414,13 @@ function Planner({ snapshot, minorPrograms }: { snapshot: CatalogSnapshot; minor
   </main>
 }
 export default function App() {
-  return catalogResult.ok ? <ReactFlowProvider><Planner snapshot={catalogResult.snapshot} minorPrograms={catalogResult.programs} /></ReactFlowProvider> : <main><h1>UHD Course Planner</h1><p role="alert">{catalogResult.message}</p></main>
+  const [programId, setProgramId] = useState(() => {
+    try { const saved = localStorage.getItem('uhd-planner-active-program'); if (availablePrograms.some(item => item.definition.id === saved)) return saved! } catch { /* Preference is optional. */ }
+    return computerScience.id
+  })
+  useEffect(() => { try { localStorage.setItem('uhd-planner-active-program', programId) } catch { /* Keep the session selection. */ } }, [programId])
+  const active = availablePrograms.find(item => item.definition.id === programId)
+  return active ? <ReactFlowProvider key={programId}><Planner snapshot={active.snapshot} minorPrograms={active.programs} program={active.definition} onProgramChange={setProgramId} /></ReactFlowProvider> : <main><h1>UHD Course Planner</h1><p role="alert">{catalogResult.ok ? 'This program is not available yet.' : catalogResult.message}</p></main>
 }
 
 

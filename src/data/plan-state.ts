@@ -48,11 +48,11 @@ export function planReducer(state: History, action: PlanAction, graph?: Connecti
 }
 
 export type StorageLike = { getItem(key: string): string | null; setItem(key: string, value: string): void }
-export type PlanContext = { defaults: Plan; courseIds: Set<string>; nodeIds: Set<string>; connectionGraph?: ConnectionGraph }
+export type PlanContext = { defaults: Plan; courseIds: Set<string>; nodeIds: Set<string>; connectionGraph?: ConnectionGraph; storageKey?: string }
 export function loadPlan(storage: StorageLike, context: PlanContext) {
   let raw: string | null = null
   try {
-    raw = storage.getItem(PLAN_KEY)
+    raw = storage.getItem(context.storageKey ?? PLAN_KEY)
     if (raw === null) return { plan: context.defaults, raw, writable: true, message: 'Ready · Changes save on this device' }
     const plan = planSchema.parse(JSON.parse(raw))
     if (plan.datasetVersion !== context.defaults.datasetVersion) return { plan: context.defaults, raw, writable: false, message: 'Saved plan uses a different catalog snapshot. It has been preserved. Changes in this preview will not be saved.' }
@@ -75,11 +75,11 @@ export function loadPlan(storage: StorageLike, context: PlanContext) {
 
 // Compare before writing so another tab's newer plan is never silently replaced.
 // A throwing setItem leaves the browser's previous value intact.
-export function savePlan(storage: StorageLike, expectedRaw: string | null, plan: Plan) {
+export function savePlan(storage: StorageLike, expectedRaw: string | null, plan: Plan, storageKey = PLAN_KEY) {
   try {
-    if (storage.getItem(PLAN_KEY) !== expectedRaw) return { ok: false as const, blocked: true, message: 'The saved plan changed in another tab. Reload to use that plan. Your current changes have not been saved.' }
+    if (storage.getItem(storageKey) !== expectedRaw) return { ok: false as const, blocked: true, message: 'The saved plan changed in another tab. Reload to use that plan. Your current changes have not been saved.' }
     const raw = JSON.stringify(planSchema.parse(plan))
-    storage.setItem(PLAN_KEY, raw)
+    storage.setItem(storageKey, raw)
     return { ok: true as const, raw, message: 'Saved on this device' }
   } catch {
     return { ok: false as const, blocked: false, message: 'Could not save changes on this device. Keep this page open; saving will retry on your next edit.' }
