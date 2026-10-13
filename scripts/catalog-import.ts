@@ -33,17 +33,18 @@ export function parseCourseCapture(raw: string, catalogYear: string, sourceId: s
     const lines = block.trim().replace(/\u00a0/g, ' ').split(/\r?\n/).map(line => line.trim().replace(/[ \t]+/g, ' '))
     const heading = /^([A-Z]+ \d{4}) - (.+)$/.exec(lines[0] ?? '')
     const hours = /^Credits: (\d+(?:\.\d+)?)(?:-(\d+(?:\.\d+)?))? Class: \d+ Lab: \d+$/.exec(lines[1] ?? '')
-    const prerequisite = /^Prerequisite\(s\): (.+)$/.exec(lines[2] ?? '')
+    const prerequisite = /^(Prerequisite|Corequisite)\(s\): (.+)$/.exec(lines[2] ?? '')
+    const prerequisiteText = prerequisite ? (prerequisite[1] === 'Corequisite' ? `Corequisite(s): ${prerequisite[2]}` : prerequisite[2]) : ''
     const omissionAllowed = heading && omittedPrerequisiteCodes.includes(heading[1])
-    if (!heading || !hours || (!prerequisite && (!omissionAllowed || /^Prerequisite/i.test(lines[2] ?? ''))) || lines.length < (prerequisite ? 4 : 3))
+    if (!heading || !hours || (!prerequisite && (!omissionAllowed || /^(Prerequisite|Corequisite)/i.test(lines[2] ?? ''))) || lines.length < (prerequisite ? 4 : 3))
       throw new Error(`Unrecognized or incomplete course block: ${lines[0] ?? '(empty)'}`)
     return courseSchema.parse({
       id: `${catalogYear}:${heading[1]}`, catalogYear, code: heading[1], title: heading[2],
       description: lines.slice(prerequisite ? 3 : 2).join('\n').trim(),
       credits: { min: Number(hours[1]), max: Number(hours[2] ?? hours[1]) },
-      prerequisiteText: prerequisite?.[1] ?? '',
+      prerequisiteText,
       // Raw mentions are audited below, never guessed into prerequisite edges.
-      prerequisites: { kind: 'condition', category: 'other', text: prerequisite?.[1] ?? 'No prerequisite statement published in the captured panel; review required.' },
+      prerequisites: { kind: 'condition', category: 'other', text: prerequisiteText || 'No prerequisite statement published in the captured panel; review required.' },
       review: 'needs-review', sourceIds: [sourceId],
     })
   })

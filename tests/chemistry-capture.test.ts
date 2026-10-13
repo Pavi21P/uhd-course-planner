@@ -37,7 +37,10 @@ test('Chemistry capture preserves actual physics credits and distinguishes a cor
   assert.match(byCode.get('CHEM 2301')!.prerequisiteText, /Enrollment in CHEM 2101 is recommended/)
   const polymerLab = capture.courses.find(course => course.code === 'CHEM 4164')!
   assert.match(polymerLab.text, /Credits: 1 Class: 0 Lab: 3\nCorequisite\(s\): CHEM 4364/)
-  // Corequisite-only text must not silently pass the existing prerequisite parser.
-  assert.throws(() => parseCourseCapture(polymerLab.text, capture.catalogYear, 'chemistry-program-37'), /Unrecognized or incomplete/)
+  // Parsing preserves concurrency wording; review is a separate step.
+  const [lab] = parseCourseCapture(polymerLab.text, capture.catalogYear, 'chemistry-program-37')
+  assert.equal(lab.prerequisiteText, 'Corequisite(s): CHEM 4364')
+  assert.equal(lab.review, 'needs-review')
+  assert.ok(!lab.description.includes('Corequisite(s)'))
   assert.ok(courses.every(course => course.review === 'needs-review'))
 })

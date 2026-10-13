@@ -100,3 +100,12 @@ and exact next import/review steps. Chemistry remains unavailable in the selecto
 until prerequisite reviews, departmental rules, catalog construction and QA pass.
 Next bounded phase: Chemistry course import and prerequisite review; capture
 CHEM 1305/1105 and departmental graduation rules. Biology follows Chemistry.
+
+### Chemistry import checkpoint (October 12, 2026)
+
+The offline importer now builds `data/drafts/chemistry-intake-2025-2026.json`:
+40 courses, 35 new and five reused, with 32 prerequisite reviews and eight
+unresolved cases. Corequisite-only panels are supported without losing timing.
+Shared course conflicts, source changes and mandatory-before cycles stop import.
+Production snapshots and the major selector are unchanged. Next: supplementary
+CHEM 1305/1105 and departmental source capture, then Chemistry requirements and UI.

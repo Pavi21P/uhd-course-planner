@@ -1,0 +1,1184 @@
+{
+  "version": 1,
+  "catalogYear": "2025-2026",
+  "publishable": false,
+  "sources": [
+    {
+      "id": "chemistry-intake-37-1",
+      "url": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7063&returnto=2409",
+      "title": "Chemistry BS course description capture",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-11",
+      "role": "catalog"
+    },
+    {
+      "id": "chemistry-intake-37-2",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=70427",
+      "title": "Chemistry BS course description capture",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-11",
+      "role": "catalog"
+    }
+  ],
+  "courses": [
+    {
+      "id": "2025-2026:TCOM 3302",
+      "catalogYear": "2025-2026",
+      "code": "TCOM 3302",
+      "title": "Business and Technical Writing",
+      "description": "Study and practice of presenting technical information, with emphasis on formal and informal writing for the workplace, including resumes, job application letters, instructions, proposals, and reports.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "010 core complete and 040 core complete",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "010 core complete"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "040 core complete"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:TCOM 3325",
+      "catalogYear": "2025-2026",
+      "code": "TCOM 3325",
+      "title": "Medical Writing",
+      "description": "The study and practice of interpreting and incorporating findings and statistical results into clear, comprehensible and well-organized prose.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Prerequisite: 010 core complete and 040 core complete.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "010 core complete"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "040 core complete"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:TCOM 3326",
+      "catalogYear": "2025-2026",
+      "code": "TCOM 3326",
+      "title": "Proposal Writing",
+      "description": "Practice in writing and editing a series of proposals of varying scope and complexity.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Prerequisite: 010 core complete and 040 core complete.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "010 core complete"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "040 core complete"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:TCOM 3329",
+      "catalogYear": "2025-2026",
+      "code": "TCOM 3329",
+      "title": "Environmental Writing",
+      "description": "Practice in presenting information about environmental issues as addressed by government, industry, private organizations and the mass media.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Prerequisite: 010 core complete and 040 core complete.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "010 core complete"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "040 core complete"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:TCOM 4306",
+      "catalogYear": "2025-2026",
+      "code": "TCOM 4306",
+      "title": "Science Writing",
+      "description": "The study and practice of documenting, reporting and presenting science in articles, audiovisual scripts, specifications, reports and proposals.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Prerequisite: 010 core complete and 040 core complete.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "010 core complete"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "040 core complete"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 1301",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 1301",
+      "title": "General Biology I",
+      "description": "A survey of current biological concepts for students majoring in the sciences. Emphasis will be placed on biological molecules, cellular metabolism, cell division, heredity and the regulation of genes.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Credit or enrollment in BIOL 1101, ENG 1301 (or 010 core complete) and MATH 1301.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in BIOL 1101, ENG 1301 (or 010 core complete) and MATH 1301."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 1101",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 1101",
+      "title": "General Biology Laboratory I",
+      "description": "Appropriate exercises and experiments requiring scientific observation and analysis that illustrate some of the basic techniques, concepts and facts presented in BIOL 1301. (BIOL 1106)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in BIOL 1301.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:BIOL 1301",
+        "timing": "before-or-concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 1302",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 1302",
+      "title": "General Biology II",
+      "description": "A survey of current biological concepts for students majoring in the sciences. Emphasis will be placed on topics which include evolution, biological diversity, ecology, and comparative structure and function of organ systems.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1101, BIOL 1301 and enrollment in BIOL 1102.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1101",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1301",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1102",
+            "timing": "concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 1102",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 1102",
+      "title": "General Biology Laboratory II",
+      "description": "Appropriate exercises and experiments requiring scientific observation and analysis that illustrate some of the basic techniques, concepts and facts presented in BIOL 1302. (BIOL 1107)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "BIOL 1101 and credit or enrollment in BIOL 1302.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1101",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1302",
+            "timing": "before-or-concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 1307",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 1307",
+      "title": "General Chemistry I",
+      "description": "The first in a two course survey of the fundamentals of general chemistry for students majoring in the sciences. Descriptive material is correlated with the basic chemical principles and their applications. Modern concepts of atomic and molecular structure, chemical bonding, the gaseous state and the kinetic molecular theory of matter will be analyzed. There will be on stoichiometeric calculations of mass and molar relationships, energy relations and intermolecular forces.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Credit or enrollment in MATH 1301 and CHEM 1107, ENG 1301 (or 010 core complete), and one year of high school chemistry or CHEM 1305/CHEM 1105.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in MATH 1301 and CHEM 1107, ENG 1301 (or 010 core complete), and one year of high school chemistry or CHEM 1305/CHEM 1105."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 1107",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 1107",
+      "title": "General Chemistry Laboratory I",
+      "description": "Experiments which illustrate basic laboratory techniques and procedures, physical and chemical properties, stoichiometry, solutions, and thermochemistry. (CHEM 1111)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in CHEM 1307.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CHEM 1307",
+        "timing": "before-or-concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 1308",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 1308",
+      "title": "General Chemistry II",
+      "description": "The second in a two course survey of the fundamentals of general chemistry for students majoring in the sciences. Topics include liquids and solids, intermolecular forces, chemical kinetics, thermodynamics, homogeneous, heterogeneous and ionic equilibrium, modern concepts of acids and bases, electrochemistry, coordination chemistry, nuclear chemistry and selected topics.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in CHEM 1307 and credit or enrollment in CHEM 1108.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1307",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1108",
+            "timing": "before-or-concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 1108",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 1108",
+      "title": "General Chemistry Laboratory II",
+      "description": "Emphasis on reactions in aqueous solutions, gas laws, equilibrium, kinetics and qualitative analysis, with an introduction to instrumental analysis. (CHEM 1112)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "CHEM 1107 and credit or enrollment in CHEM 1308.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1107",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1308",
+            "timing": "before-or-concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 2301",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 2301",
+      "title": "Organic Chemistry I",
+      "description": "This course will cover various types of organic compounds, their classification, structure, naming, chemical and physical properties, reactivity, preparation, and techniques to identify them.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in CHEM 1308 and CHEM 1108. Enrollment in CHEM 2101 is recommended.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1308",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1108",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 2101",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 2101",
+      "title": "Organic Chemistry I Laboratory",
+      "description": "Experiments illustrating basic techniques, synthesis, interpretation of spectra, use of molecular models and scientific literature.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "A letter grade of C or better in CHEM 2301 or enrollment in CHEM 2301.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 2301",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 2301",
+            "timing": "concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 2302",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 2302",
+      "title": "Organic Chemistry II",
+      "description": "This course will cover the nomenclature, preparation, reactions, reaction mechanisms, and spectroscopy of alkenes, alkynes, aromatic compounds, aldehydes, ketones, carboxylic acids and derivatives, and amines.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Prerequisites/ corequisites: A letter grade of C or better in CHEM 2301 and CHEM 2101. Enrollment in CHEM 2102 is recommended.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Prerequisites/ corequisites: A letter grade of C or better in CHEM 2301 and CHEM 2101. Enrollment in CHEM 2102 is recommended."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 2102",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 2102",
+      "title": "Organic Chemistry II Laboratory",
+      "description": "This course covers the experiments illustrating multistep synthesis, semi micro techniques, instrumental analysis, and qualitative analysis.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "A letter grade of C or better in CHEM 2302 or enrollment in CHEM 2302.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 2302",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 2302",
+            "timing": "concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 1307",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 1307",
+      "title": "General Physics I",
+      "description": "This is the first in a two-part survey of general physics for science majors focusing on elementary principles of mechanics, heat and wave motion using elementary trigonometry and algebra. Topics include kinematics, dynamics of particles and rigid bodies; conservation of mass, momentum and energy; simple harmonic motion and characteristics of waves, mechanical and thermal properties of solids and fluids; and thermal properties, kinetics and dynamics of ideal gases. Credit for both PHYS 1307 and PHYS 2401 may not be applied toward a degree.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Credit or enrollment in MATH 1302 or the equivalent, enrollment in PHYS 1107.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1302",
+                "timing": "before-or-concurrent"
+              },
+              {
+                "kind": "condition",
+                "category": "other",
+                "text": "Equivalent to MATH 1302"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 1107",
+            "timing": "concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 1107",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 1107",
+      "title": "General Physics Laboratory I",
+      "description": "Topics include mechanics, bulk properties of matter, heat and waves. (PHYS 1101)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in PHYS 1307.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:PHYS 1307",
+        "timing": "before-or-concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 2401",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 2401",
+      "title": "Physics I",
+      "description": "This is the first in a two-part survey of physics for science majors using calculus. Topics include kinematics and dynamics in one, two and three dimensions, statics, dynamics, potentials, conservation of energy and momentum (linear and angular), rotational kinematics and dynamics, oscillations, gravitation, fluid mechanics, thermal properties of matter, kinetic theory of gases and the first and second law of thermodynamics. Credit for both PHYS 1307 and PHYS 2401 may not be applied toward a degree.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Credit in MATH 2402 (or MATH 2412) enrollment in PHYS 2101.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2402",
+                "timing": "before"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2412",
+                "timing": "before"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 2101",
+            "timing": "concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 2101",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 2101",
+      "title": "Physics Laboratory I",
+      "description": "Topics include linear and rotational motion, collisions, simple harmonic motion and thermal properties of matter. (PHYS 2125)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in PHYS 2401.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:PHYS 2401",
+        "timing": "before-or-concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 1308",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 1308",
+      "title": "General Physics II",
+      "description": "This is the second in a two-part survey of general physics for science majors focusing on elementary principles of electromagnetism, optics and modern physics using elementary trigonometry and algebra. Topics include static electric and magnetic fields and the motion of charged particles therein; induced electric and magnetic fields; DC and AC circuits; geometrical and physical optics; the concept of quantization and the properties of the atom and its nucleus. Credit for both PHYS 1308 and PHYS 2402 may not be applied toward a degree.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "PHYS 1307 and credit or enrollment in PHYS 1108.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 1307",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 1108",
+            "timing": "before-or-concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 1108",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 1108",
+      "title": "General Physics Laboratory II",
+      "description": "Topics include electric and magnetic fields, DC and AC circuits, non-linear devices, geometric and physical optics, and atomic and molecular physics.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in PHYS 1308.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:PHYS 1308",
+        "timing": "before-or-concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 2402",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 2402",
+      "title": "Physics II",
+      "description": "This is the second in a two-part survey of physics for science majors using calculus. Topics include electric charge, electric fields and potentials, Gauss’ Law, capacitors and dielectrics, AC and DC electrical circuits, magnetic fields, the Biot-Savart Law, Faraday’s Law, magnetic properties of matter, Maxwell’s equations and electromagnetic waves and optics. Credit for both PHYS 1308 and PHYS 2402 may not be applied toward a degree.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Grade of C or better in PHYS 2401 and credit or enrollment in PHYS 2102.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 2401",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 2102",
+            "timing": "before-or-concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 2102",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 2102",
+      "title": "Physics Laboratory II",
+      "description": "Topics include static electric and magnetic fields and electron motion therein, DC and AC circuits including linear and nonlinear devices and properties of electromagnetic waves, and geometrical and physical optics. (PHYS 2126)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in PHYS 2402.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:PHYS 2402",
+        "timing": "before-or-concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 3300",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 3300",
+      "title": "Undergraduate Research",
+      "description": "Independent investigation of a specific topic or problem in chemistry research under the direction of a selected faculty member.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Approval by the Natural Sciences Department, minimum GPA of 2.0, and permission of instructor.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Approval by the Natural Sciences Department"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "Minimum GPA of 2.0"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Permission of instructor"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 3310",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 3310",
+      "title": "Quantitative Analysis",
+      "description": "A study of chemical equilibrium, reliability of measurements and the theory of applications of gravimetric, volumetric and instrumental methods of analysis.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "CHEM 1308 and CHEM 1108 and credit or enrollment in CHEM 3110.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1308",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1108",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 3110",
+            "timing": "before-or-concurrent"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 3110",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 3110",
+      "title": "Quantitative Analysis Laboratory",
+      "description": "Quantitative methods of analysis including gravimetric, volumetric and instrumental. Instrumental methods will include absorption and emission spectroscopy, gas and liquid chromatography and electrochemical analysis.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in CHEM 3310.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CHEM 3310",
+        "timing": "before-or-concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 3320",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 3320",
+      "title": "Environmental Chemistry",
+      "description": "Chemistry and analysis of clean and polluted air and water. Environmental standards of the American Public Health Association and the US Environmental Protection Agency.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302 and BIOL 1102; and CHEM 1308 and CHEM 1108.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1302",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1102",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1308",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1108",
+            "timing": "before"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 3330",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 3330",
+      "title": "Physical Chemistry I",
+      "description": "Study and applications of the first and second laws of thermodynamics to gases, liquids, solutions and phase equilibrium; applications of the third law of thermodynamics to systems in equilibrium; kinetic theory and statistical thermodynamics.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "CHEM 2301/CHEM 2101, MATH 2402, one year of general physics, and credit or concurrent enrollment in CHEM 3130.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "CHEM 2301/CHEM 2101, MATH 2402, one year of general physics, and credit or concurrent enrollment in CHEM 3130."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 3130",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 3130",
+      "title": "Physical Chemistry Laboratory I",
+      "description": "Advanced experiments in physical chemistry including studies in thermodynamics, colligative properties of solutions, surface tension of surfactant containing solutions, solution viscosities, electrochemistry and the physical chemistry of polymeric materials. In addition to providing support for CHEM 3330, this course is designed to acquaint the student with the experimental approaches and laboratory techniques used in industrial research and development activities.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit for or enrollment in CHEM 3330.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CHEM 3330",
+        "timing": "before-or-concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 3332",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 3332",
+      "title": "Physical Chemistry II",
+      "description": "Study and applications of the fundamental principles and postulates of quantum mechanics, electronic structure of atoms and molecules, molecular symmetry, and spectroscopy.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "(1) CHEM 3330 and credit or concurrent enrollment in CHEM 3132 OR (2) CHEM 2301/CHEM 2101, MATH 2402, one year of general physics, and credit or concurrent enrollment in CHEM 3132.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "(1) CHEM 3330 and credit or concurrent enrollment in CHEM 3132 OR (2) CHEM 2301/CHEM 2101, MATH 2402, one year of general physics, and credit or concurrent enrollment in CHEM 3132."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 3132",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 3132",
+      "title": "Physical Chemistry Laboratory II",
+      "description": "A continuation of CHEM 3130.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit for or enrollment in CHEM 3332.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CHEM 3332",
+        "timing": "before-or-concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 4410",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 4410",
+      "title": "Instrumental Methods of Analysis",
+      "description": "Theory and operation of advanced measurement sciences, especially modern atomic/molecular spectroscopy, electrochemical analysis, and separation. Major instrumentation will be learned in experimental contexts, including signal processing, AA, ICP, fluorescence, UV-VIS, IR, NMR, voltammetry, ion-selective sensor, HPLC, and GC/MS.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "CHEM 3310/CHEM 3110",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "CHEM 3310/CHEM 3110"
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 4340",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 4340",
+      "title": "General Biochemistry I",
+      "description": "Overview of fundamental biochemical principles, topics, techniques and analytical methods that integrates concepts from previous biology and chemistry courses to the study of biological macromolecules. Emphasis is placed on the bioorganic chemistry and techniques needed to critically and objectively analyze biological molecules and the fundamental processes that support life. Specifically protein, lipid and membrane structure and function, enzymatic catalysis and kinetics are emphasized.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1102 and BIOL 1302 and CHEM 2101 and CHEM 2301.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1102",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1302",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 2101",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 2301",
+            "timing": "before"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 4140",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 4140",
+      "title": "General Biochemistry Lab I",
+      "description": "Experiments in biochemistry to accompany CHEM 4340.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in CHEM 4340.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CHEM 4340",
+        "timing": "before-or-concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 4362",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 4362",
+      "title": "Advanced Inorganic Chemistry",
+      "description": "An introduction to modern inorganic chemistry including theoretical and descriptive chemistry, along with discussion of important applications. The theoretical aspects include the quantum mechanical basis of atomic and molecular structure, the nature of chemical bonding, and the thermodynamics and kinetics of inorganic reactions. The descriptive component involves the application of the theoretical principles to the actual properties of the elements and their respective compounds. The course also includes a discussion of some of the most important scientific, technological, and industrial applications of inorganic chemistry.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "CHEM 3330 /CHEM 3130 and CHEM 3332/CHEM 3132 and credit or concurrent enrollment in CHEM 4162.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "CHEM 3330 /CHEM 3130 and CHEM 3332/CHEM 3132 and credit or concurrent enrollment in CHEM 4162."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 4162",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 4162",
+      "title": "Advanced Inorganic Laboratory",
+      "description": "This laboratory course is designed to supplement CHEM 4362. It will involve experiments that demonstrate the principles of inorganic chemistry and the techniques used by inorganic chemists for the synthesis and characterization of inorganic materials.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in CHEM 4362.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CHEM 4362",
+        "timing": "before-or-concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 4364",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 4364",
+      "title": "Polymer Chemistry",
+      "description": "A study of the chemistry and technology of polymeric materials including methods of polymerization, characterization and applications of polymers with an emphasis on chemistry, structure-property relationships, and polymer processing methods.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Credit for CHEM 2301/CHEM 2101. Corequisite(s): CHEM 4164",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit for CHEM 2301/CHEM 2101. Corequisite(s): CHEM 4164"
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "chemistry-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 4164",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 4164",
+      "title": "Polymer Chemistry Laboratory",
+      "description": "This course covers the chemistry and technology of polymeric materials in a laboratory, including methods of polymerization, characterization and applications of polymers. A link with end use products of polymers and structure of known polymers will be examined. Additionally, recyclability of different polymer compositions will be demonstrated in the laboratory. This lab is intended to supplement the concepts learned in the CHEM 4364 polymer chemistry class.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Corequisite(s): CHEM 4364",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CHEM 4364",
+        "timing": "concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-2"
+      ]
+    }
+  ],
+  "report": {
+    "courseCount": 40,
+    "newCourseCount": 35,
+    "reusedCourseIds": [
+      "2025-2026:TCOM 3302",
+      "2025-2026:PHYS 2401",
+      "2025-2026:PHYS 2101",
+      "2025-2026:PHYS 2402",
+      "2025-2026:PHYS 2102"
+    ],
+    "verifiedCount": 32,
+    "unresolved": [
+      {
+        "courseId": "2025-2026:BIOL 1301",
+        "reason": "Scope of credit-or-enrollment across the comma-separated list and English/core alternative needs clarification."
+      },
+      {
+        "courseId": "2025-2026:CHEM 1307",
+        "reason": "Timing and AND/OR scope of English/core and high-school chemistry versus CHEM 1305/1105 need clarification; preparatory alternatives are not yet captured."
+      },
+      {
+        "courseId": "2025-2026:CHEM 2302",
+        "reason": "The source labels requirements as prerequisites/corequisites without specifying timing. CHEM 2102 is only recommended."
+      },
+      {
+        "courseId": "2025-2026:CHEM 3330",
+        "reason": "Slash-separated organic lecture/lab and one year of general physics need explicit interpretation."
+      },
+      {
+        "courseId": "2025-2026:CHEM 3332",
+        "reason": "Two numbered alternatives are explicit, but the slash-separated organic pair and general-physics equivalence remain unresolved."
+      },
+      {
+        "courseId": "2025-2026:CHEM 4410",
+        "reason": "Slash-separated CHEM 3310/CHEM 3110 does not explicitly state AND or OR."
+      },
+      {
+        "courseId": "2025-2026:CHEM 4362",
+        "reason": "Slash-separated physical chemistry lecture/lab pairs need explicit interpretation."
+      },
+      {
+        "courseId": "2025-2026:CHEM 4364",
+        "reason": "CHEM 4164 is an explicit corequisite, but CHEM 2301/CHEM 2101 slash grouping remains unresolved; retain the full text without partial graph edges."
+      }
+    ],
+    "missingReferencedCodes": [
+      "CHEM 1105",
+      "CHEM 1305"
+    ],
+    "mandatoryBeforeCycles": [],
+    "remaining": [
+      "Capture preparatory CHEM 1305 and CHEM 1105.",
+      "Resolve or explicitly retain ambiguous prerequisite cases.",
+      "Capture Natural Sciences graduation rules.",
+      "Encode requirements, physics alternatives, credit exclusions and overlap.",
+      "Build Chemistry program and complete UI validation."
+    ]
+  }
+}

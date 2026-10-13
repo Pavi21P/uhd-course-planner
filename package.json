@@ -16,7 +16,8 @@
     "preview": "vite preview",
     "deploy:check": "npm run build",
     "deploy": "npm run build && wrangler pages deploy dist --project-name uhd-course-planner --branch main",
-    "cloudflare:whoami": "wrangler whoami"
+    "cloudflare:whoami": "wrangler whoami",
+    "import:chemistry": "node --experimental-strip-types scripts/import-chemistry.ts"
   },
   "dependencies": {
     "@xyflow/react": "^12.12.0",

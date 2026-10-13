@@ -4,7 +4,8 @@ Captured October 11, 2026 through the visible official catalog in Chrome.
 `data/sources/2025-2026/chemistry-bs-capture.json` holds 40 distinct course
 panels, the standard BS degree page, and integrated communication/ethics rules.
 Each text record has a SHA-256 fingerprint and its official source URL.
-This is source intake, not a published Chemistry plan or reviewed prerequisite graph.
+This checkpoint includes an offline course import and partial prerequisite review.
+It is not a published Chemistry program or complete degree requirement model.
 
 ## Verified requirements
 
@@ -28,11 +29,11 @@ This is source intake, not a published Chemistry plan or reviewed prerequisite g
 
 ## Import and review next
 
-1. Add handling for the corequisite-only CHEM 4164 panel (coid 70427).
+1. DONE: Added handling for the corequisite-only CHEM 4164 panel (coid 70427).
    It has one credit and concurrent CHEM 4364. CHEM 4364 also states this lab
    as a corequisite. Concurrent links must not become impossible before-cycles.
-2. Reuse existing TCOM 3302 and PHYS 2401/2101/2402/2102 identities;
-   compare captured text before merging. Math and computing/statistics records
+2. DONE: Compared and reused existing TCOM 3302 and PHYS 2401/2101/2402/2102
+   identities, descriptions, credits and reviewed prerequisites. Math and computing/statistics records
    already exist in the shared catalog; do not duplicate them.
 3. Capture prerequisite alternatives CHEM 1305 and CHEM 1105; these are the
    only referenced codes missing from the existing catalog plus this intake.
@@ -46,7 +47,27 @@ This is source intake, not a published Chemistry plan or reviewed prerequisite g
 6. Build the Chemistry catalog/program definition, then validate prerequisite
    graph, credit choices, independent saves and UI before enabling the major.
 
-Validation at this checkpoint: 39 panels parse with the existing offline parser;
-the remaining corequisite-only panel is retained verbatim and deliberately rejected
-by that parser. Integrity tests guard edition, unique records, source hashes,
-physics credits and recommended-versus-required lab wording. No app data changed.
+## Import checkpoint - October 12, 2026
+
+Run from the workspace root: `./scripts/npm.ps1 run import:chemistry`.
+The reproducible draft is `data/drafts/chemistry-intake-2025-2026.json`;
+production snapshots are never overwritten by this command.
+
+- All 40 panels parse, including the corequisite-only Polymer laboratory.
+- 35 new courses and five existing shared records; shared content conflicts stop import.
+- 32 exact-text-bound prerequisite reviews, eight explicitly unresolved cases.
+- Concurrent grade alternatives distinguish a prior C from current enrollment.
+- Recommended Organic Chemistry labs stay in the source text without mandatory edges.
+- CHEM 3300 retains GPA, department approval and instructor permission conditions.
+- Full reference validation against the shared course pool and no mandatory-before cycles.
+- CHEM 1305/1105 remain missing raw references, never fabricated course records.
+
+The next phase is supplementary source capture (preparatory chemistry and department
+rules), then degree groups/physics alternatives/credit exclusions and Chemistry UI.
+The eight unresolved prerequisite reasons are in the draft report and in
+`scripts/chemistry-prerequisite-reviews.ts`. Preserve these as notices if the
+catalog does not provide enough evidence to resolve them; never infer slash grouping.
+
+Validation: all 115 tests, tools typecheck, lint and diff checks passed. No
+production build or browser QA was needed for this offline-only import phase;
+Chemistry program/UI integration has not yet started.
