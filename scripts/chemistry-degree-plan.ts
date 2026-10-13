@@ -114,7 +114,7 @@ export async function buildChemistryDegreePlan(root: string) {
     defaultCourseIds, fixedCourseCredits: hours([...chemistryFixedScienceCodes, ...chemistryFixedMajorCodes]),
     physicsCreditAlternatives: [[4, 5], [4, 5]], computingCreditAlternatives: [4, 4, 3],
     coursePolicies,
-    remaining: [intake.report.unresolved.length + ' Chemistry intake prerequisite cases remain explicitly unresolved.', 'Chemistry selector integration and browser validation are pending.'],
+    remaining: [intake.report.unresolved.length + ' Chemistry intake prerequisite cases remain explicitly unresolved.', 'Publication and release verification are pending.'],
     notices: ['Selections do not certify completion or graduation eligibility.', 'Do not add integrated writing/ethics hours again or assume the common core is completed.', 'No minor is mandated by this captured standard Chemistry BS page. Optional minors are a separate planning choice.'] }
 }
 

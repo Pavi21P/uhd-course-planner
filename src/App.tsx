@@ -8,6 +8,9 @@ import minorData from './data/minor-2025-2026.json'
 import { loadPlannerCatalog, type MinorSupplement } from './data/minor-catalog'
 import type { Course } from './data/catalog-schema'
 import { buildMathematicsCatalog, mathematics } from './data/math-bs-catalog'
+import { buildChemistryCatalog } from './data/chemistry-bs-catalog'
+import chemistryIntake from '../data/drafts/chemistry-intake-2025-2026.json'
+import chemistryDegree from '../data/drafts/chemistry-degree-2025-2026.json'
 import { computerScience, programStarterIds, programStorageKey, type ProgramDefinition } from './data/program-definition'
 import { buildPrerequisiteGraph, graphCourseId } from './data/prerequisite-graph'
 import { completionView } from './data/completion-view'
@@ -22,8 +25,8 @@ import { ExportPicture } from './ExportPicture'
 import type { PictureInput } from './plan-picture'
 
 const catalogResult = loadPlannerCatalog(catalogData, minorData)
-// Only reviewed catalogs are selectable. Draft majors are tracked in docs/multi-major-plan.md.
-const availablePrograms = catalogResult.ok ? [{ definition: computerScience, ...catalogResult }, { definition: mathematics, ...buildMathematicsCatalog(catalogResult.snapshot, catalogResult.programs) }] : []
+// Local Chemistry integration retains source-review notices. Release status is tracked in docs/multi-major-plan.md.
+const availablePrograms = catalogResult.ok ? [{ definition: computerScience, ...catalogResult }, { definition: mathematics, ...buildMathematicsCatalog(catalogResult.snapshot, catalogResult.programs) }, buildChemistryCatalog(catalogResult.snapshot, catalogResult.programs, chemistryIntake, chemistryDegree)] : []
 type Theme = 'light' | 'dark'
 type CourseNode = Node<{ course: Course; option: boolean; selected?: boolean; onSelect?: (courseId: string, value: boolean) => void; reference?: boolean; connected?: boolean; taken?: boolean; onTaken?: (courseId: string, value: boolean) => void; onInfo: (course: Course, nodeId: string) => void }, 'course'>
 type LogicNode = Node<{ title: string; kind: string; onInfo: () => void }, 'logic'>
@@ -74,7 +77,7 @@ function CourseInfo({ course, snapshot, onClose, onLocate, onMove, onReset, take
     {issue && <p className="notice">Needs review: {issue.reason}</p>}
     {policies.length > 0 && <><h3>Credit and requirement notes</h3><ul>{policies.map(policy => <li key={policy.id}>{policy.text}</li>)}</ul></>}
     <h3>Appears in these requirements</h3><ul>{snapshot.catalog.requirements.filter(group => group.courseIds.includes(course.id)).map(group => <li key={group.id}>{group.label}</li>)}</ul>
-    <h3>Official sources</h3><ul>{snapshot.catalog.sources.filter(source => course.sourceIds.includes(source.id)).map(source => <li key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></li>)}</ul>
+    <h3>Official sources</h3><ul>{snapshot.catalog.sources.filter(source => [...course.sourceIds, ...policies.flatMap(policy => policy.sourceIds)].includes(source.id)).map(source => <li key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></li>)}</ul>
     <p className="muted">Course information does not confirm registration eligibility or transfer credit.</p>
   </dialog>
 }

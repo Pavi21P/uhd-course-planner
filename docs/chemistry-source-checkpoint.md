@@ -157,3 +157,27 @@ for the nine ambiguous intake prerequisites; do not invent graph edges. Biology
 follows Chemistry. This checkpoint is local only and does not deploy the major.
 
 Validation: all 127 tests, tools typecheck, lint, production build and diff checks passed. Chemistry remains unregistered and unpublished; UI/browser QA is next.
+
+## Local selector and browser QA - October 13, 2026
+
+App.tsx now offers Chemistry BS with independent saved plans. Course information
+links include policy sources as well as course descriptions, so the departmental
+rules can be checked directly. The original CS and Math plans are preserved.
+
+Verified in Chrome on isolated http://127.0.0.1:5183/: starter 70 hours/30 courses;
+marking CHEM 4164 Taken and reloading preserves completed 1/remaining 69 while CS
+stays 54/0 completed and Math stays 38/0 completed; restored the test completion.
+Adding PHYS 2401 changes total 70 to 74, undo returns 70 and redo returns 74.
+Physics pair notes explicitly distinguish 4-credit and 5-credit alternatives.
+Both minor areas show existing selected calculus courses without duplicate hours.
+Course lookup exposes polymer-lab concurrency and official policy sources.
+Collapsed controls leave usable cards at approximately 1030 x 580; section mode,
+course location and light/dark switching work. Export includes every area even
+while viewing a section: 117 course cards, 82 connections, 4275 x 11226 PNG, about
+1.6 MB. Download verified in the local Downloads folder; native Save As was not
+retested. Browser console had no warnings or errors.
+
+All 127 automated tests, tools typecheck, lint, production build and diff checks
+passed. Chemistry is locally selectable, not publicly deployed. Next: Biology
+source intake. Retain explicit unresolved prerequisite notices and no automatic
+graduation/registration assessment.

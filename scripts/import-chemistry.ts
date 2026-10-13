@@ -62,7 +62,7 @@ export async function buildChemistryIntake(root: string, captureInput?: unknown,
       verifiedCount: courses.filter(course => course.review === 'verified').length,
       unresolved: courses.filter(course => course.review !== 'verified').map(course => ({ courseId: course.id, reason: chemistryUnresolvedReasons[course.code] })),
       missingReferencedCodes, mandatoryBeforeCycles: cycles,
-      remaining: ['Resolve or explicitly retain ambiguous prerequisite cases.', 'Complete Chemistry selector integration and browser validation.'] } }
+      remaining: ['Resolve or explicitly retain ambiguous prerequisite cases.', 'Publication and release verification are pending.'] } }
 }
 
 async function main() {

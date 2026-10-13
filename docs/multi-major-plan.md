@@ -139,3 +139,19 @@ See the latest section of `chemistry-source-checkpoint.md` for details.
 
 Next: Chemistry local selector integration and isolated browser QA, then Biology.
 Chemistry is still unavailable in the selector and has not been deployed.
+
+### Chemistry local UI checkpoint (October 13, 2026)
+
+Chemistry is now registered in the development major selector alongside CS and
+Math. Local browser QA passed on an isolated loopback origin: 30-course/70-credit
+starter, CS/Math/Chemistry save isolation, reload persistence, option totals and
+undo/redo, complete physics-pair explanations, optional minors, section navigation,
+collapsed controls, theme switching, course source links and whole-plan PNG export.
+The downloaded dark PNG contains 117 cards and 82 connections at 4275 x 11226 pixels.
+Browser console contained no warnings/errors. All 127 tests, tools typecheck, lint
+and production build passed. No public deployment or push was performed.
+
+Next bounded phase: capture the standard Biology BS 2025-2026 degree requirements
+and course sources, reusing verified Chemistry/BIOL/PHYS records where identical.
+Keep the nine Chemistry intake ambiguities explicit. Draft artifacts remain
+unpublished until the multi-major release is reviewed and verified.

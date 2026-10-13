@@ -27,8 +27,8 @@ const normalized = (text: string) => text.replace(/\s+/g, ' ').trim()
 const sharedContent = (course: Course) => JSON.stringify({ id: course.id, title: normalized(course.title), description: normalized(course.description),
   credits: course.credits, prerequisiteText: normalized(course.prerequisiteText), prerequisites: course.prerequisites, review: course.review })
 
-// Builds a validated preview model only. App.tsx deliberately does not register
-// this major until source intake and browser QA are complete.
+// Builds the locally selectable Chemistry model. Draft artifacts remain
+// unpublished until release verification; unresolved rules retain their notices.
 export function buildChemistryCatalog(base: CatalogSnapshot, programs: MinorSupplement['programs'], intakeInput: unknown, degreeInput: unknown) {
   if (base.catalog.catalogYear !== chemistry.catalogYear) throw new Error('Chemistry requires catalog 2025-2026')
   const intake = intakeSchema.parse(intakeInput)
