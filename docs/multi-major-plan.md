@@ -109,3 +109,12 @@ unresolved cases. Corequisite-only panels are supported without losing timing.
 Shared course conflicts, source changes and mandatory-before cycles stop import.
 Production snapshots and the major selector are unchanged. Next: supplementary
 CHEM 1305/1105 and departmental source capture, then Chemistry requirements and UI.
+
+### Chemistry degree model checkpoint (October 12, 2026)
+
+Built the offline degree draft with 17 groups, 30 fixed courses/70 credits,
+explicit complete physics alternatives, and overlapping writing/ethics conditions.
+Added backward-compatible course sets and assignment validation. The source
+fingerprints are pinned. App selector and production snapshots remain unchanged.
+Next: retry browser connection for preparatory CHEM and department rules, then
+construct Chemistry's scoped UI catalog and verify it before activation.

@@ -17,7 +17,8 @@
     "deploy:check": "npm run build",
     "deploy": "npm run build && wrangler pages deploy dist --project-name uhd-course-planner --branch main",
     "cloudflare:whoami": "wrangler whoami",
-    "import:chemistry": "node --experimental-strip-types scripts/import-chemistry.ts"
+    "import:chemistry": "node --experimental-strip-types scripts/import-chemistry.ts",
+    "import:chemistry-degree": "node --experimental-strip-types scripts/chemistry-degree-plan.ts"
   },
   "dependencies": {
     "@xyflow/react": "^12.12.0",

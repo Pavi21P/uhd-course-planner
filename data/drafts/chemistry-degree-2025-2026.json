@@ -1,0 +1,881 @@
+{
+  "version": 1,
+  "programId": "chemistry-bs",
+  "catalogYear": "2025-2026",
+  "publishable": false,
+  "minimumCredits": 120,
+  "sourceIds": [
+    "chemistry-degree-37",
+    "natural-sciences-integrated-37"
+  ],
+  "sources": [
+    {
+      "id": "chemistry-degree-37",
+      "url": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7063&returnto=2409",
+      "title": "Chemistry BS degree requirements",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-11",
+      "role": "catalog"
+    },
+    {
+      "id": "natural-sciences-integrated-37",
+      "url": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7019",
+      "title": "Integrated requirements for Natural Sciences",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-11",
+      "role": "catalog"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "core-010",
+      "programId": "chemistry-bs",
+      "label": "Communication UHD Course Options - 010 (6 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:ENG 1301"
+      ],
+      "unimportedOptions": [
+        {
+          "code": "ENG 1302",
+          "title": "Composition II"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 6,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-020",
+      "programId": "chemistry-bs",
+      "label": "Mathematics UHD Course Options - 020 (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:MATH 1301",
+        "2025-2026:MATH 1324",
+        "2025-2026:MATH 2305"
+      ],
+      "unimportedOptions": [
+        {
+          "code": "MATH 1310",
+          "title": "Contemporary Mathematics"
+        },
+        {
+          "code": "STAT 1312",
+          "title": "Statistical Literacy"
+        }
+      ],
+      "optionCoverage": "open-rule",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses.",
+        "The core also permits courses for which a listed mathematics option is a prerequisite; this open rule is not exhaustively enumerated."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-030",
+      "programId": "chemistry-bs",
+      "label": "Life and Physical Sciences UHD Course Options - 030 (6 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 2402",
+        "2025-2026:BIOL 1301",
+        "2025-2026:BIOL 1302",
+        "2025-2026:CHEM 1307",
+        "2025-2026:CHEM 1308",
+        "2025-2026:PHYS 1307",
+        "2025-2026:PHYS 1308"
+      ],
+      "unimportedOptions": [
+        {
+          "code": "BIOL 1303",
+          "title": "Human Anatomy and Physiology I"
+        },
+        {
+          "code": "BIOL 1304",
+          "title": "Human Anatomy and Physiology II"
+        },
+        {
+          "code": "BIOL 1310",
+          "title": "Human Biology"
+        },
+        {
+          "code": "BIOL 1312",
+          "title": "Ecology and Environmental Biology"
+        },
+        {
+          "code": "BIOL 2306",
+          "title": "Fundamentals of Nutrition"
+        },
+        {
+          "code": "CHEM 1305",
+          "title": "Introductory Chemistry"
+        },
+        {
+          "code": "GEOL 1304",
+          "title": "Introduction to Meteorology"
+        },
+        {
+          "code": "GEOL 1305",
+          "title": "Physical Geology"
+        },
+        {
+          "code": "GEOL 1306",
+          "title": "Historical Geology"
+        },
+        {
+          "code": "GEOL 1307",
+          "title": "Planet Earth"
+        },
+        {
+          "code": "GEOL 1308",
+          "title": "History of the Earth"
+        },
+        {
+          "code": "GEOL 1345",
+          "title": "Oceanography"
+        },
+        {
+          "code": "MBIO 1305",
+          "title": "Microbiology"
+        },
+        {
+          "code": "MBIO 1310",
+          "title": "Microbes and Society"
+        },
+        {
+          "code": "NS 1300",
+          "title": "Emergence of Modern Science"
+        },
+        {
+          "code": "PHYS 1301",
+          "title": "Introduction to Solar System Astronomy"
+        },
+        {
+          "code": "PHYS 1302",
+          "title": "Introduction to Stellar and Galactic Astronomy"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 6,
+      "constraints": [
+        "Choose six approved life/physical science credits. Count each selected course once even when it serves another degree requirement.",
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-040",
+      "programId": "chemistry-bs",
+      "label": "Language, Philosophy and Culture UHD Course Options - 040 (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "ENG 2301",
+          "title": "World Literature I"
+        },
+        {
+          "code": "ENG 2302",
+          "title": "World Literature II"
+        },
+        {
+          "code": "ENG 2305",
+          "title": "Literature and Culture"
+        },
+        {
+          "code": "ENG 2309",
+          "title": "Survey of Film: Beginnings to Present"
+        },
+        {
+          "code": "ENG 2311",
+          "title": "American Literature I"
+        },
+        {
+          "code": "ENG 2312",
+          "title": "American Literature II"
+        },
+        {
+          "code": "ENG 2313",
+          "title": "British Literature I"
+        },
+        {
+          "code": "ENG 2314",
+          "title": "British Literature II"
+        },
+        {
+          "code": "HUM 1301",
+          "title": "Ancient Western Culture"
+        },
+        {
+          "code": "HUM 1302",
+          "title": "Modern Western Culture"
+        },
+        {
+          "code": "LATS 1301",
+          "title": "Introduction to Latino Studies"
+        },
+        {
+          "code": "PHIL 1301",
+          "title": "Introduction to Philosophy"
+        },
+        {
+          "code": "PHIL 2305",
+          "title": "Contemporary Ethical Issues"
+        },
+        {
+          "code": "PHIL 2310",
+          "title": "The Meaning of Life"
+        },
+        {
+          "code": "SPAN 2301",
+          "title": "Intermediate Spanish I"
+        },
+        {
+          "code": "SPAN 2302",
+          "title": "Intermediate Spanish II"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-050",
+      "programId": "chemistry-bs",
+      "label": "Creative Arts UHD Course Options - 050 (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "ART 1301",
+          "title": "History of Art: Paleolithic to the Middle Ages"
+        },
+        {
+          "code": "ART 1302",
+          "title": "History of Art: Renaissance to Present"
+        },
+        {
+          "code": "ART 1308",
+          "title": "Art History: Introduction to World Art"
+        },
+        {
+          "code": "ART 1310",
+          "title": "Introduction to Visual Arts"
+        },
+        {
+          "code": "DANC 1301",
+          "title": "Dance in America"
+        },
+        {
+          "code": "DRA 1301",
+          "title": "Introduction to the Theater"
+        },
+        {
+          "code": "DRA 1303",
+          "title": "Introduction to Acting"
+        },
+        {
+          "code": "MUS 2301",
+          "title": "Music Appreciation: Before 1750"
+        },
+        {
+          "code": "MUS 2302",
+          "title": "Music Appreciation: After 1750"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-060",
+      "programId": "chemistry-bs",
+      "label": "American History UHD Course Options - 060 (6 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "HIST 1305",
+          "title": "United States History to 1877"
+        },
+        {
+          "code": "HIST 1306",
+          "title": "United States History after 1877"
+        },
+        {
+          "code": "HIST 1312",
+          "title": "Texas History"
+        },
+        {
+          "code": "HIST 1314",
+          "title": "Ethnic Minorities in American History"
+        },
+        {
+          "code": "HIST 1315",
+          "title": "Latino History before 1898"
+        },
+        {
+          "code": "HIST 1316",
+          "title": "Latino History since 1898"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 6,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-070",
+      "programId": "chemistry-bs",
+      "label": "Government/Political Science UHD Course Options - 070 (6 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "POLS 2305",
+          "title": "Federal Government"
+        },
+        {
+          "code": "POLS 2306",
+          "title": "Texas Government"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 6,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-080",
+      "programId": "chemistry-bs",
+      "label": "Social and Behavioral Sciences UHD Course Options - 080 (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "ANTH 2302",
+          "title": "Cultural Anthropology"
+        },
+        {
+          "code": "CJ 1301",
+          "title": "Introduction to Criminal Justice"
+        },
+        {
+          "code": "CRS 1301",
+          "title": "An Introduction to Critical Race Studies"
+        },
+        {
+          "code": "ECO 1305",
+          "title": "Contemporary Economic Issues"
+        },
+        {
+          "code": "HEA 2305",
+          "title": "Wellness Across the Lifespan"
+        },
+        {
+          "code": "LANG 1303",
+          "title": "Language and Society"
+        },
+        {
+          "code": "PSY 1303",
+          "title": "Introduction to Psychology"
+        },
+        {
+          "code": "SOC 1303",
+          "title": "Introduction to Sociology"
+        },
+        {
+          "code": "SOCW 2361",
+          "title": "Introduction to Social Work and Social Welfare"
+        },
+        {
+          "code": "SOCW 2363",
+          "title": "Introduction to Social Welfare Policy"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-090-oral",
+      "programId": "chemistry-bs",
+      "label": "Oral Communication (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:COMM 1304"
+      ],
+      "unimportedOptions": [
+        {
+          "code": "COMM 1302",
+          "title": "Mass Media"
+        },
+        {
+          "code": "COMM 1306",
+          "title": "Beginning Public Speaking"
+        },
+        {
+          "code": "COMM 1309",
+          "title": "Communication and Public Decision Making"
+        },
+        {
+          "code": "COMM 2307",
+          "title": "Intercultural Communication"
+        },
+        {
+          "code": "COMM 2309",
+          "title": "Interpersonal Communication"
+        },
+        {
+          "code": "COMM 2311",
+          "title": "Principles of Public Relations"
+        },
+        {
+          "code": "ENG 1306",
+          "title": "Workplace Presentations"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-090-seminar",
+      "programId": "chemistry-bs",
+      "label": "New Student Seminar* (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "UHD 1301",
+          "title": "First-Year Seminar-Communication"
+        },
+        {
+          "code": "UHD 1302",
+          "title": "First-Year Seminar-Mathematics"
+        },
+        {
+          "code": "UHD 1303",
+          "title": "First-Year Seminar-Life and Physical Sciences"
+        },
+        {
+          "code": "UHD 1304",
+          "title": "First-Year Seminar-Language, Philosophy and Culture"
+        },
+        {
+          "code": "UHD 1305",
+          "title": "First-Year Seminar-Creative Arts"
+        },
+        {
+          "code": "UHD 1306",
+          "title": "First-Year Seminar-American History"
+        },
+        {
+          "code": "UHD 1307",
+          "title": "First-Year Seminar-Government/Political Science"
+        },
+        {
+          "code": "UHD 1308",
+          "title": "First-Year Seminar-Social and Behavioral Sciences"
+        },
+        {
+          "code": "UHD 2301",
+          "title": "University Seminar-Communication"
+        },
+        {
+          "code": "UHD 2302",
+          "title": "University Seminar-Mathematics"
+        },
+        {
+          "code": "UHD 2303",
+          "title": "University Seminar-Life and Physical Sciences"
+        },
+        {
+          "code": "UHD 2304",
+          "title": "University Seminar-Language, Philosophy and Culture"
+        },
+        {
+          "code": "UHD 2305",
+          "title": "University Seminar -Creative Arts"
+        },
+        {
+          "code": "UHD 2306",
+          "title": "University Seminar-American History"
+        },
+        {
+          "code": "UHD 2307",
+          "title": "University Seminar-Government/Political Science"
+        },
+        {
+          "code": "UHD 2308",
+          "title": "University Seminar-Social and Behavioral Sciences"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses.",
+        "If Component Area Option is not complete at transfer: UHD 1301-1308 for fewer than 30 SCH or ENG 1301 not passed; UHD 2301-2308 for at least 30 SCH and ENG 1301 passed. First UHD semester."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "chemistry-fixed-science",
+      "programId": "chemistry-bs",
+      "label": "Required science and mathematics",
+      "area": "supporting",
+      "rule": "all",
+      "courseIds": [
+        "2025-2026:BIOL 1301",
+        "2025-2026:BIOL 1101",
+        "2025-2026:BIOL 1302",
+        "2025-2026:BIOL 1102",
+        "2025-2026:CHEM 1307",
+        "2025-2026:CHEM 1107",
+        "2025-2026:CHEM 1308",
+        "2025-2026:CHEM 1108",
+        "2025-2026:CHEM 2301",
+        "2025-2026:CHEM 2101",
+        "2025-2026:CHEM 2302",
+        "2025-2026:CHEM 2102",
+        "2025-2026:MATH 2401",
+        "2025-2026:MATH 2402",
+        "2025-2026:MATH 2403"
+      ],
+      "minimumCredits": 36,
+      "constraints": [
+        "Fixed courses listed for the standard Chemistry BS; physics and computing/statistics are separate choices."
+      ],
+      "sourceIds": [
+        "chemistry-degree-37"
+      ]
+    },
+    {
+      "id": "chemistry-fixed-major",
+      "programId": "chemistry-bs",
+      "label": "Required Chemistry major courses",
+      "area": "major",
+      "rule": "all",
+      "courseIds": [
+        "2025-2026:CHEM 3300",
+        "2025-2026:CHEM 3310",
+        "2025-2026:CHEM 3110",
+        "2025-2026:CHEM 3320",
+        "2025-2026:CHEM 3330",
+        "2025-2026:CHEM 3130",
+        "2025-2026:CHEM 3332",
+        "2025-2026:CHEM 3132",
+        "2025-2026:CHEM 4410",
+        "2025-2026:CHEM 4340",
+        "2025-2026:CHEM 4140",
+        "2025-2026:CHEM 4362",
+        "2025-2026:CHEM 4162",
+        "2025-2026:CHEM 4364",
+        "2025-2026:CHEM 4164"
+      ],
+      "minimumCredits": 34,
+      "constraints": [
+        "CHEM 3300 research requires department approval, instructor permission and minimum GPA 2.0.",
+        "Lecture and laboratory records have individual credits and enrollment rules."
+      ],
+      "sourceIds": [
+        "chemistry-degree-37"
+      ]
+    },
+    {
+      "id": "chemistry-writing",
+      "programId": "chemistry-bs",
+      "label": "Technical writing: choose one",
+      "area": "supporting",
+      "rule": "choose-courses",
+      "courseIds": [
+        "2025-2026:TCOM 3302",
+        "2025-2026:TCOM 3325",
+        "2025-2026:TCOM 3326",
+        "2025-2026:TCOM 3329",
+        "2025-2026:TCOM 4306"
+      ],
+      "minimumCredits": 3,
+      "constraints": [
+        "Choose one of the five listed technical writing courses."
+      ],
+      "sourceIds": [
+        "chemistry-degree-37"
+      ],
+      "count": 1
+    },
+    {
+      "id": "chemistry-physics-1",
+      "programId": "chemistry-bs",
+      "label": "Physics 1: choose one complete lecture/lab pair",
+      "area": "supporting",
+      "rule": "choose-courses",
+      "courseIds": [
+        "2025-2026:PHYS 1307",
+        "2025-2026:PHYS 1107",
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 2101"
+      ],
+      "minimumCredits": 4,
+      "constraints": [
+        "Choose PHYS 1307 + PHYS 1107 (4 credits) OR PHYS 2401 + PHYS 2101 (5 credits).",
+        "Complete one listed pair; do not mix alternatives. Actual unique course credits are counted, including the extra calculus-physics credit."
+      ],
+      "sourceIds": [
+        "chemistry-degree-37"
+      ],
+      "count": 2,
+      "courseSets": [
+        [
+          "2025-2026:PHYS 1307",
+          "2025-2026:PHYS 1107"
+        ],
+        [
+          "2025-2026:PHYS 2401",
+          "2025-2026:PHYS 2101"
+        ]
+      ]
+    },
+    {
+      "id": "chemistry-physics-2",
+      "programId": "chemistry-bs",
+      "label": "Physics 2: choose one complete lecture/lab pair",
+      "area": "supporting",
+      "rule": "choose-courses",
+      "courseIds": [
+        "2025-2026:PHYS 1308",
+        "2025-2026:PHYS 1108",
+        "2025-2026:PHYS 2402",
+        "2025-2026:PHYS 2102"
+      ],
+      "minimumCredits": 4,
+      "constraints": [
+        "Choose PHYS 1308 + PHYS 1108 (4 credits) OR PHYS 2402 + PHYS 2102 (5 credits).",
+        "Complete one listed pair; do not mix alternatives. Actual unique course credits are counted, including the extra calculus-physics credit."
+      ],
+      "sourceIds": [
+        "chemistry-degree-37"
+      ],
+      "count": 2,
+      "courseSets": [
+        [
+          "2025-2026:PHYS 1308",
+          "2025-2026:PHYS 1108"
+        ],
+        [
+          "2025-2026:PHYS 2402",
+          "2025-2026:PHYS 2102"
+        ]
+      ]
+    },
+    {
+      "id": "chemistry-computing-statistics",
+      "programId": "chemistry-bs",
+      "label": "Computing or statistics: choose one",
+      "area": "supporting",
+      "rule": "choose-courses",
+      "courseIds": [
+        "2025-2026:CS 1408",
+        "2025-2026:CS 1411",
+        "2025-2026:STAT 3311"
+      ],
+      "minimumCredits": 3,
+      "constraints": [
+        "CS 1408 and CS 1411 are 4 credits; STAT 3311 is 3 credits. Choose one."
+      ],
+      "sourceIds": [
+        "chemistry-degree-37"
+      ],
+      "count": 1
+    },
+    {
+      "id": "free-electives",
+      "programId": "chemistry-bs",
+      "label": "Free electives to reach 120 unique hours",
+      "area": "elective",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "minimumCredits": 0,
+      "constraints": [
+        "Take sufficient electives to reach a minimum of 120 total hours.",
+        "The degree encourages appropriate field experience or undergraduate research."
+      ],
+      "sourceIds": [
+        "chemistry-degree-37"
+      ],
+      "optionCoverage": "open-rule"
+    }
+  ],
+  "integratedConditions": [
+    {
+      "id": "chemistry-integrated-writing",
+      "label": "Two writing courses",
+      "count": 2,
+      "courseIds": [
+        "2025-2026:TCOM 3302",
+        "2025-2026:TCOM 3325",
+        "2025-2026:TCOM 3326",
+        "2025-2026:TCOM 3329",
+        "2025-2026:TCOM 4306",
+        "2025-2026:CHEM 4140",
+        "2025-2026:CHEM 4362",
+        "2025-2026:CHEM 4364"
+      ],
+      "sourceIds": [
+        "natural-sciences-integrated-37"
+      ],
+      "coverage": "Relevant captured options only; the official page lists additional alternatives.",
+      "text": "A condition overlapping other requirements, not an additional credit block. Count two distinct eligible courses."
+    },
+    {
+      "id": "chemistry-integrated-ethics",
+      "label": "One ethics course",
+      "count": 1,
+      "courseIds": [
+        "2025-2026:CHEM 3320"
+      ],
+      "sourceIds": [
+        "natural-sciences-integrated-37"
+      ],
+      "coverage": "CHEM 3320 is a required Chemistry course and an approved ethics option; other ethics options are not imported here.",
+      "text": "Overlaps the required major; adds no separate credit block."
+    }
+  ],
+  "defaultCourseIds": [
+    "2025-2026:BIOL 1301",
+    "2025-2026:BIOL 1101",
+    "2025-2026:BIOL 1302",
+    "2025-2026:BIOL 1102",
+    "2025-2026:CHEM 1307",
+    "2025-2026:CHEM 1107",
+    "2025-2026:CHEM 1308",
+    "2025-2026:CHEM 1108",
+    "2025-2026:CHEM 2301",
+    "2025-2026:CHEM 2101",
+    "2025-2026:CHEM 2302",
+    "2025-2026:CHEM 2102",
+    "2025-2026:MATH 2401",
+    "2025-2026:MATH 2402",
+    "2025-2026:MATH 2403",
+    "2025-2026:CHEM 3300",
+    "2025-2026:CHEM 3310",
+    "2025-2026:CHEM 3110",
+    "2025-2026:CHEM 3320",
+    "2025-2026:CHEM 3330",
+    "2025-2026:CHEM 3130",
+    "2025-2026:CHEM 3332",
+    "2025-2026:CHEM 3132",
+    "2025-2026:CHEM 4410",
+    "2025-2026:CHEM 4340",
+    "2025-2026:CHEM 4140",
+    "2025-2026:CHEM 4362",
+    "2025-2026:CHEM 4162",
+    "2025-2026:CHEM 4364",
+    "2025-2026:CHEM 4164"
+  ],
+  "fixedCourseCredits": 70,
+  "physicsCreditAlternatives": [
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "computingCreditAlternatives": [
+    4,
+    4,
+    3
+  ],
+  "coursePolicies": [
+    {
+      "id": "exclusive-phys-2401",
+      "kind": "mutually-exclusive-credit",
+      "courseIds": [
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 1307"
+      ],
+      "text": "Credit for both PHYS 1307 and PHYS 2401 may not be applied toward a degree.",
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "exclusive-phys-2402",
+      "kind": "mutually-exclusive-credit",
+      "courseIds": [
+        "2025-2026:PHYS 2402",
+        "2025-2026:PHYS 1308"
+      ],
+      "text": "Credit for both PHYS 1308 and PHYS 2402 may not be applied toward a degree.",
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    }
+  ],
+  "remaining": [
+    "Departmental graduation rules still need source verification.",
+    "Preparatory CHEM 1305 and CHEM 1105 descriptions are not captured.",
+    "Eight Chemistry intake prerequisite cases remain explicitly unresolved.",
+    "UI catalog construction, source coverage and browser validation are pending."
+  ],
+  "notices": [
+    "Selections do not certify completion or graduation eligibility.",
+    "Do not add integrated writing/ethics hours again or assume the common core is completed.",
+    "No minor is mandated by this captured standard Chemistry BS page. Optional minors are a separate planning choice."
+  ]
+}

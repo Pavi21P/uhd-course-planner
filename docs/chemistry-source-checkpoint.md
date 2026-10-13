@@ -71,3 +71,30 @@ catalog does not provide enough evidence to resolve them; never infer slash grou
 Validation: all 115 tests, tools typecheck, lint and diff checks passed. No
 production build or browser QA was needed for this offline-only import phase;
 Chemistry program/UI integration has not yet started.
+
+## Degree requirement model - October 12, 2026
+
+Run `./scripts/npm.ps1 run import:chemistry-degree` from the workspace root to
+reproduce `data/drafts/chemistry-degree-2025-2026.json`. The two reviewed degree
+source fingerprints are pinned; source changes require another interpretation.
+
+- 30 fixed courses total 70 actual credits (36 science/math + 34 major).
+- 17 requirement groups include the 42-hour common core, fixed courses, five
+  technical-writing choices, two paired-physics choices, computing/statistics
+  and a variable free-elective balance. No choice courses are preselected.
+- `courseSets` extends the requirement schema to retain complete alternatives.
+  Assignment auditing rejects incomplete/mixed physics pairs and both pairs
+  assigned together. Legacy requirements without sets continue to work.
+- Integrated writing/ethics are overlapping conditions, not extra credit groups.
+- Six newly captured science courses become imported core options in the draft.
+  CS-specific MATH 2305/core and laboratory-science overlap text is removed.
+- Physics mutual-credit exclusions are retained. No overall remaining-hours
+  claim is derived from a simple sum of overlapping requirement groups.
+
+Browser source verification was unavailable in this continuation: the browser
+connection failed to initialize even after reset; direct catalog search returned
+no usable results. CHEM 1305/1105 and Natural Sciences department graduation rules
+remain uncaptured. Do not enable Chemistry in the selector until remaining source
+coverage and catalog/UI validation are completed. The draft stays unpublished.
+
+Validation: 120 tests, tools typecheck, lint, production build and diff checks passed. Browser QA remains pending; no deployment.

@@ -48,6 +48,8 @@ export const requirementSchema = z.strictObject({
   area: z.enum(['major', 'supporting', 'core', 'elective', 'minor']),
   rule: z.enum(['all', 'choose-courses', 'choose-credits']),
   courseIds: z.array(text),
+  // Each set is one complete alternative (for example, a lecture plus its lab).
+  courseSets: z.array(z.array(text).min(1)).min(2).optional(),
   // Listed choices can be known before their descriptions/credits are imported.
   // These are not course records and must never create implicit credit or nodes.
   unimportedOptions: z.array(z.strictObject({ code: text, title: text })).optional(),
@@ -58,6 +60,13 @@ export const requirementSchema = z.strictObject({
   constraints: z.array(text),
   sourceIds: z.array(text).min(1),
 }).superRefine((v, ctx) => {
+  if (v.courseSets) {
+    const fail = (message: string) => ctx.addIssue({ code: 'custom', message })
+    if (v.rule !== 'choose-courses') fail('Course sets require a course choice')
+    if (v.courseSets.some(set => set.length !== v.count || new Set(set).size !== set.length)) fail('Each course set must contain the required count of distinct courses')
+    if (v.courseSets.flat().some(id => !v.courseIds.includes(id)) || v.courseIds.some(id => !v.courseSets!.some(set => set.includes(id)))) fail('Course sets must cover exactly the listed courses')
+    if (new Set(v.courseSets.map(set => [...set].sort().join('|'))).size !== v.courseSets.length) fail('Duplicate course set')
+  }
   if (v.rule === 'choose-courses' && v.count === undefined)
     ctx.addIssue({ code: 'custom', message: 'Course choice requires count' })
   if (v.rule === 'choose-credits' && v.minimumCredits === undefined)
