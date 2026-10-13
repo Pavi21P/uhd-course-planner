@@ -98,3 +98,27 @@ remain uncaptured. Do not enable Chemistry in the selector until remaining sourc
 coverage and catalog/UI validation are completed. The draft stays unpublished.
 
 Validation: 120 tests, tools typecheck, lint, production build and diff checks passed. Browser QA remains pending; no deployment.
+
+## Scoped Chemistry catalog - October 12, 2026
+
+`src/data/chemistry-bs-catalog.ts` now assembles the two reviewed draft artifacts
+into a validated program definition and catalog model. It is not registered in
+`App.tsx` and returns `publishable: false` with the remaining source/QA items.
+
+- Program starter: 30 fixed courses, 70 actual credits, no option courses selected.
+- Preserves shared course identities and rejects conflicting shared content.
+- Carries forward Chemistry/core groups and optional Mathematics/Data Science
+  minor groups without CS major requirements or CS-only writing/elective policies.
+- Retains prerequisite dependencies and relevant credit-exclusion counterparts.
+- Preserves complete physics choices and integrated writing/ethics policy notes.
+- Validates missing references, review notices, source IDs and starter consistency.
+- Graph checks cover finite layout, valid endpoints, lab concurrency, unresolved
+  rules without inferred edges, and absence of mandatory-before cycles.
+- Uses an independent Chemistry save key; original CS and Math keys remain intact.
+
+Catalog browser access still fails during initialization. No remaining external
+sources were verified in this continuation. Next: restore browser access and
+capture CHEM 1305/1105 plus Natural Sciences graduation rules, then update the
+catalog and conduct isolated browser QA before selector registration/release.
+
+Validation: all 124 tests, tools typecheck, lint and production build passed. Chemistry is not selectable or deployed; browser QA remains pending.

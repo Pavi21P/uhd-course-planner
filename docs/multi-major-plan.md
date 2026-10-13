@@ -118,3 +118,12 @@ Added backward-compatible course sets and assignment validation. The source
 fingerprints are pinned. App selector and production snapshots remain unchanged.
 Next: retry browser connection for preparatory CHEM and department rules, then
 construct Chemistry's scoped UI catalog and verify it before activation.
+
+### Chemistry scoped catalog checkpoint (October 12, 2026)
+
+The Chemistry program definition and scoped catalog builder are implemented but
+not registered in App.tsx. They validate the 30-course/70-credit starter, shared
+records, prerequisite closure, paired physics choices, integrated conditions,
+credit exclusions and optional Math/Data Science minors. The result remains
+explicitly unpublished. Source verification and browser QA remain release gates;
+the browser integration still cannot initialize. Do not repeat completed imports.
