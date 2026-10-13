@@ -1,0 +1,50 @@
+{
+  "catalogYear": "2025-2026",
+  "catalogId": "37",
+  "retrievedOn": "2026-10-13",
+  "captureMethod": "Visible expanded course panels and selected departmental/college policy excerpts from the official archived catalog in Chrome.",
+  "courses": [
+    {
+      "code": "CHEM 1305",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68680",
+      "text": "CHEM 1305 - Introductory Chemistry\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): Credit or enrollment in CHEM 1105 and credit or enrollment in MATH 1301 or MATH 1310\nA survey of chemistry which focuses on the composition, properties and interaction of substances necessary to produce new materials. Topics include stoichiometry, atomic structure, chemical bonds, states of matter, electrolyte solutions and chemical reactions. This course is required for nursing or similar professional programs and may be taken prior to the general chemistry courses for science majors.",
+      "sha256": "a986481f82ce2baa9147a2ba0401f23212cc60492ee153c2e69a56384fc0794e"
+    },
+    {
+      "code": "CHEM 1105",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68676",
+      "text": "CHEM 1105 - Introductory Chemistry Laboratory\nCredits: 1 Class: 0 Lab: 3\nPrerequisite(s): Credit or enrollment in CHEM 1305.\nAppropriate laboratory experiments for the student who will not be a professional physical scientist. The experiments support the principles of chemistry developed in the lecture portion of the course and illustrate some of the basic approaches to chemical problems. (CHEM 1105)",
+      "sha256": "4acb1c9a98586d45b8662e4eb6da3a874e1b147d77dd7711c10702607411ad72"
+    },
+    {
+      "code": "MATH 1310",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69380",
+      "text": "MATH 1310 - Contemporary Mathematics\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): A grade of C or better in MATH 0300, or TSIA2 score meeting college readiness in Mathematics, or TSIA2 MATH complete, or TSIA2 MATH exempt. For current TSIA2 College Readiness scores, please see https://www.uhd.edu/testing/Pages/testing-tsia.aspx.\nAn introduction to contemporary mathematical ideas and problem-solving techniques. Designed for students requiring one college-level mathematics course. This course cannot be applied toward any degree in the Department of Mathematics and Statistics or the Department of Computer Science and Engineering Technology (MATH 1332)",
+      "sha256": "7315f63925b0da1b586bea604184e0503b59d4124cb18abf8e699c7c2fd05fd0"
+    },
+    {
+      "code": "MATH 0300",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69428",
+      "text": "MATH 0300 - Beginning Algebra\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): A TSIA2 score that does not meet college readiness in Mathematics, and co-enrollment in MATH 1310 or STAT 1312. Successful completion of MATH 1310 or STAT 1312 (with a C or better) will satisfy the TSI requirements for developmental mathematics. For current TSIA2 College Readiness scores, please see https://www.uhd.edu/testing/Pages/testing-tsia.aspx\nThis course is intended to build and reinforce the essential geometry, arithmetic and algebra skills needed for MATH 1300 - Intermediate Algebra. Topics include real numbers and their properties, order of operations and simplifying real-valued expressions, simplifying algebraic expressions, solving linear equations and inequalities, solving systems of equations in two variables, an introduction to the Cartesian coordinate system and word problems. This course may not be used to satisfy degree requirements.",
+      "sha256": "40a6228e9ab93ff7456103a3428921e61e6bcfc12d04fab51c452cab326ffe11"
+    },
+    {
+      "code": "STAT 1312",
+      "sourceUrl": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69789",
+      "text": "STAT 1312 - Statistical Literacy\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): A grade of C or better in MATH 0300, or TSIA2 score meeting college readiness in Mathematics, or TSIA2 MATH complete, or TSIA2 MATH exempt. For current TSIA2 College Readiness scores, please see https://www.uhd.edu/testing/Pages/testing-tsia.aspx.\nAn introduction to statistical ideas and statistical reasoning, and their relevance to modern life. STAT 1312 is designed for students requiring one college-level mathematics course. This course cannot be applied toward any degree in the Department of Mathematics and Statistics.",
+      "sha256": "8579ff77f0e76b4696ca161b09985296191489c2d6790a80aec7bf4d8b4add76"
+    }
+  ],
+  "pages": [
+    {
+      "sourceUrl": "https://catalog.uhd.edu/preview_entity.php?catoid=37&ent_oid=974&returnto=2409",
+      "text": "2025-2026 UNDERGRADUATE CATALOG\nDepartment of Natural Sciences\n\nDrop Policy for Science Courses with Prerequisites/Corequisites\n\nStudents must follow stated prerequisite/corequisite listings for natural science courses. Students may be dropped from any class for which they lack a prerequisite or a corequisite. The student will receive a W for the dropped course after the official day of record.\n\nRequirements for Graduation for Degrees in the Department of Natural Sciences\n\nIn order to satisfy the requirements of a degree, credit for science courses will only be granted when the student has satisfactorily completed any listed corequisite. The Department of Natural Sciences also has the following general requirements for all science degrees: (1) Students must have a minimum GPA of 2.0 in all science courses that apply toward the degree; (2) a grade of C or higher is required in all upper-level science courses to be applied towards graduation; (3) Students must have at least 18 credit hours of upper-level science from UHD with a minimum GPA of 2.0 to apply toward the degree; (4) Students must satisfy the required number of upper level hours in a degree; (5) Students must complete an exit survey distributed by the Natural Sciences Department.",
+      "sha256": "f779e77f9c56f0bcb7c8f6e1c23c4c3a8107cfca4cf572413e934de2a1203727"
+    },
+    {
+      "sourceUrl": "https://catalog.uhd.edu/preview_entity.php?catoid=37&ent_oid=966&returnto=2428",
+      "text": "2025-2026 UNDERGRADUATE CATALOG\nCollege of Sciences and Technology\n\nGeneral Degree Requirements\nGeneral Education Requirements\n\nAll students seeking a bachelor’s degree at the University of Houston-Downtown must complete the general education requirements including the common core courses, the application courses, and enhancement courses. Fulfillment of general education requirements may vary depending on the degree.\n\nPrerequisites\n\nAll prerequisites must be satisfied before taking any course offered by the College of Sciences and Technology. Students may be dropped from any class for which they lack a prerequisite or a corequisite. A course that is a prerequisite or corequisite for another course may not be dropped unless the student drops both courses.\n\nTransfer Credits\n\nStudents may petition through college advising reevaluation of any transfer credits that were not applied to their degree by the university transfer course articulation process.",
+      "sha256": "6ac09b0b027c8e8162bfcfbc4eda5267ae4fa11bf1c85558e1f75f810394bdb7"
+    }
+  ]
+}

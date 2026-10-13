@@ -23,7 +23,7 @@ test('Chemistry requirements reproduce 30 fixed courses and 70 actual credits wi
   assert.equal(plan.requirements.filter(r => r.area === 'core').reduce((n, r) => n + r.minimumCredits!, 0), 42)
   assert.ok(!plan.defaultCourseIds.some(id => /PHYS|TCOM|CS |STAT/.test(id)))
   assert.equal(group('free-electives').minimumCredits, 0)
-  assert.ok(plan.remaining.some(text => /Departmental/.test(text)))
+  assert.ok(plan.sources.some(source => source.id === 'natural-sciences-department-37'))
 })
 
 test('Physics requirement assignment accepts complete pairs and rejects mixed or incomplete pairs', () => {
@@ -38,8 +38,7 @@ test('Physics requirement assignment accepts complete pairs and rejects mixed or
     assert.equal(requirement.count, 2)
   }
   assert.deepEqual(plan.physicsCreditAlternatives, [[4,5],[4,5]])
-  assert.equal(plan.coursePolicies.length, 2)
-  assert.ok(plan.coursePolicies.every(policy => policy.kind === 'mutually-exclusive-credit'))
+  assert.equal(plan.coursePolicies.filter(policy => policy.kind === 'mutually-exclusive-credit').length, 2)
 })
 
 test('Course-set schema rejects incomplete, duplicate, unknown and mismatched alternatives', () => {
@@ -67,11 +66,11 @@ test('Chemistry retains writing and computing alternatives without adding integr
 
 test('Chemistry promotes newly imported core options and removes CS-specific overlap claims', () => {
   const science = group('core-030')
-  for (const code of ['BIOL 1301','BIOL 1302','CHEM 1307','CHEM 1308','PHYS 1307','PHYS 1308']) {
+  for (const code of ['BIOL 1301','BIOL 1302','CHEM 1305','CHEM 1307','CHEM 1308','PHYS 1307','PHYS 1308']) {
     assert.ok(science.courseIds.includes(`2025-2026:${code}`))
     assert.ok(!science.unimportedOptions?.some(option => option.code === code))
   }
-  assert.ok(science.unimportedOptions?.some(option => option.code === 'CHEM 1305'))
+  for (const code of ['MATH 1310', 'STAT 1312']) assert.ok(group('core-020').courseIds.includes('2025-2026:' + code))
   assert.ok(!group('core-020').sourceIds.includes('degree-rules-37'))
   assert.ok(!group('core-020').constraints.some(text => /overlaps MATH 2305/.test(text)))
 })

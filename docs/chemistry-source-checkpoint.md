@@ -122,3 +122,38 @@ capture CHEM 1305/1105 plus Natural Sciences graduation rules, then update the
 catalog and conduct isolated browser QA before selector registration/release.
 
 Validation: all 124 tests, tools typecheck, lint and production build passed. Chemistry is not selectable or deployed; browser QA remains pending.
+
+## Supplemental sources and graduation rules - October 13, 2026
+
+Browser access recovered. Captured five additional course panels and two policy
+excerpts from the official 2025-2026 catalog in
+`data/sources/2025-2026/chemistry-supplemental-capture.json`, with source URLs,
+retrieval date and SHA-256 fingerprints. The original 40-course capture is intact.
+
+- Added CHEM 1305/1105, MATH 1310/0300 and STAT 1312. The intake now contains
+  45 courses (40 new, five shared), 36 reviewed prerequisite expressions and nine
+  explicitly unresolved cases. No referenced prerequisite course is missing.
+- CHEM 1305 joins the unresolved list because its lab/math AND/OR scope is
+  ambiguous. It has no inferred incoming edges. CHEM 1105's credit-or-enrollment
+  dependency and MATH 0300's concurrent alternatives are explicit.
+- Placement-score thresholds are not invented. MATH 0300's successful-completion
+  statement describes a TSI outcome, not an additional enrollment prerequisite.
+- MATH 0300 adds three enrollment hours and zero degree hours. Department-specific
+  restrictions in MATH 1310/STAT 1312 descriptions do not exclude them from Chemistry.
+- Newly captured approved options are promoted into the Chemistry core choices.
+  Supplemental reference records remain available without being preselected.
+- Natural Sciences entity 974 verifies science GPA 2.0, C-or-better upper-level
+  science grades, 18 upper-level science credits at UHD with GPA 2.0, satisfactory
+  corequisite completion, the degree's upper-level requirement and the exit survey.
+- CST entity 966 preserves general education, linked prerequisite/corequisite
+  drop rules and transfer reevaluation. Both policy excerpts are fingerprint-bound
+  to their reviewed interpretations. These are advising conditions, not automatic
+  completion, GPA, residency or graduation assessments.
+
+Next bounded phase: integrate Chemistry into the local selector and complete
+isolated browser checks for graph layout, concurrent lab links, requirement
+choices, optional minors, independent saves and exports. Retain explicit notices
+for the nine ambiguous intake prerequisites; do not invent graph edges. Biology
+follows Chemistry. This checkpoint is local only and does not deploy the major.
+
+Validation: all 127 tests, tools typecheck, lint, production build and diff checks passed. Chemistry remains unregistered and unpublished; UI/browser QA is next.

@@ -6,7 +6,9 @@
   "minimumCredits": 120,
   "sourceIds": [
     "chemistry-degree-37",
-    "natural-sciences-integrated-37"
+    "natural-sciences-integrated-37",
+    "natural-sciences-department-37",
+    "cst-general-rules-37"
   ],
   "sources": [
     {
@@ -23,6 +25,22 @@
       "title": "Integrated requirements for Natural Sciences",
       "catalogYear": "2025-2026",
       "retrievedOn": "2026-10-11",
+      "role": "catalog"
+    },
+    {
+      "id": "natural-sciences-department-37",
+      "url": "https://catalog.uhd.edu/preview_entity.php?catoid=37&ent_oid=974&returnto=2409",
+      "title": "Natural Sciences graduation and enrollment rules",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-13",
+      "role": "catalog"
+    },
+    {
+      "id": "cst-general-rules-37",
+      "url": "https://catalog.uhd.edu/preview_entity.php?catoid=37&ent_oid=966&returnto=2428",
+      "title": "CST general degree, enrollment and transfer rules",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-13",
       "role": "catalog"
     }
   ],
@@ -60,18 +78,11 @@
       "courseIds": [
         "2025-2026:MATH 1301",
         "2025-2026:MATH 1324",
-        "2025-2026:MATH 2305"
+        "2025-2026:MATH 2305",
+        "2025-2026:MATH 1310",
+        "2025-2026:STAT 1312"
       ],
-      "unimportedOptions": [
-        {
-          "code": "MATH 1310",
-          "title": "Contemporary Mathematics"
-        },
-        {
-          "code": "STAT 1312",
-          "title": "Statistical Literacy"
-        }
-      ],
+      "unimportedOptions": [],
       "optionCoverage": "open-rule",
       "minimumCredits": 3,
       "constraints": [
@@ -93,6 +104,7 @@
         "2025-2026:PHYS 2402",
         "2025-2026:BIOL 1301",
         "2025-2026:BIOL 1302",
+        "2025-2026:CHEM 1305",
         "2025-2026:CHEM 1307",
         "2025-2026:CHEM 1308",
         "2025-2026:PHYS 1307",
@@ -118,10 +130,6 @@
         {
           "code": "BIOL 2306",
           "title": "Fundamentals of Nutrition"
-        },
-        {
-          "code": "CHEM 1305",
-          "title": "Introductory Chemistry"
         },
         {
           "code": "GEOL 1304",
@@ -865,13 +873,275 @@
       "sourceIds": [
         "core-rules-37"
       ]
+    },
+    {
+      "id": "exclude-math-0300",
+      "kind": "degree-credit-exclusion",
+      "courseIds": [
+        "2025-2026:MATH 0300"
+      ],
+      "sourceIds": [
+        "chemistry-intake-37-6"
+      ],
+      "text": "MATH 0300 may not satisfy degree requirements; its 3 enrollment credits add no degree credits."
+    },
+    {
+      "id": "chemistry-science-gpa",
+      "kind": "program-condition",
+      "courseIds": [
+        "2025-2026:PHYS 2101",
+        "2025-2026:PHYS 2102",
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 2402",
+        "2025-2026:BIOL 1301",
+        "2025-2026:BIOL 1101",
+        "2025-2026:BIOL 1302",
+        "2025-2026:BIOL 1102",
+        "2025-2026:CHEM 1307",
+        "2025-2026:CHEM 1107",
+        "2025-2026:CHEM 1308",
+        "2025-2026:CHEM 1108",
+        "2025-2026:CHEM 2301",
+        "2025-2026:CHEM 2101",
+        "2025-2026:CHEM 2302",
+        "2025-2026:CHEM 2102",
+        "2025-2026:PHYS 1307",
+        "2025-2026:PHYS 1107",
+        "2025-2026:PHYS 1308",
+        "2025-2026:PHYS 1108",
+        "2025-2026:CHEM 3300",
+        "2025-2026:CHEM 3310",
+        "2025-2026:CHEM 3110",
+        "2025-2026:CHEM 3320",
+        "2025-2026:CHEM 3330",
+        "2025-2026:CHEM 3130",
+        "2025-2026:CHEM 3332",
+        "2025-2026:CHEM 3132",
+        "2025-2026:CHEM 4410",
+        "2025-2026:CHEM 4340",
+        "2025-2026:CHEM 4140",
+        "2025-2026:CHEM 4362",
+        "2025-2026:CHEM 4162",
+        "2025-2026:CHEM 4364",
+        "2025-2026:CHEM 4164",
+        "2025-2026:CHEM 1305",
+        "2025-2026:CHEM 1105"
+      ],
+      "text": "Natural Sciences graduation requires at least a 2.0 GPA in all science courses applied to the degree.",
+      "sourceIds": [
+        "natural-sciences-department-37"
+      ]
+    },
+    {
+      "id": "chemistry-upper-science-grades",
+      "kind": "program-condition",
+      "courseIds": [
+        "2025-2026:CHEM 3300",
+        "2025-2026:CHEM 3310",
+        "2025-2026:CHEM 3110",
+        "2025-2026:CHEM 3320",
+        "2025-2026:CHEM 3330",
+        "2025-2026:CHEM 3130",
+        "2025-2026:CHEM 3332",
+        "2025-2026:CHEM 3132",
+        "2025-2026:CHEM 4410",
+        "2025-2026:CHEM 4340",
+        "2025-2026:CHEM 4140",
+        "2025-2026:CHEM 4362",
+        "2025-2026:CHEM 4162",
+        "2025-2026:CHEM 4364",
+        "2025-2026:CHEM 4164"
+      ],
+      "text": "Every upper-level science course applied toward graduation requires a grade of C or higher.",
+      "sourceIds": [
+        "natural-sciences-department-37"
+      ]
+    },
+    {
+      "id": "chemistry-science-residency",
+      "kind": "program-condition",
+      "courseIds": [
+        "2025-2026:PHYS 2101",
+        "2025-2026:PHYS 2102",
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 2402",
+        "2025-2026:BIOL 1301",
+        "2025-2026:BIOL 1101",
+        "2025-2026:BIOL 1302",
+        "2025-2026:BIOL 1102",
+        "2025-2026:CHEM 1307",
+        "2025-2026:CHEM 1107",
+        "2025-2026:CHEM 1308",
+        "2025-2026:CHEM 1108",
+        "2025-2026:CHEM 2301",
+        "2025-2026:CHEM 2101",
+        "2025-2026:CHEM 2302",
+        "2025-2026:CHEM 2102",
+        "2025-2026:PHYS 1307",
+        "2025-2026:PHYS 1107",
+        "2025-2026:PHYS 1308",
+        "2025-2026:PHYS 1108",
+        "2025-2026:CHEM 3300",
+        "2025-2026:CHEM 3310",
+        "2025-2026:CHEM 3110",
+        "2025-2026:CHEM 3320",
+        "2025-2026:CHEM 3330",
+        "2025-2026:CHEM 3130",
+        "2025-2026:CHEM 3332",
+        "2025-2026:CHEM 3132",
+        "2025-2026:CHEM 4410",
+        "2025-2026:CHEM 4340",
+        "2025-2026:CHEM 4140",
+        "2025-2026:CHEM 4362",
+        "2025-2026:CHEM 4162",
+        "2025-2026:CHEM 4364",
+        "2025-2026:CHEM 4164",
+        "2025-2026:CHEM 1305",
+        "2025-2026:CHEM 1105"
+      ],
+      "text": "At least 18 upper-level science credits must be taken at UHD with a minimum GPA of 2.0. Also satisfy the degree upper-level hour requirement.",
+      "sourceIds": [
+        "natural-sciences-department-37"
+      ]
+    },
+    {
+      "id": "chemistry-corequisite-credit",
+      "kind": "program-condition",
+      "courseIds": [
+        "2025-2026:PHYS 2101",
+        "2025-2026:PHYS 2102",
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 2402",
+        "2025-2026:BIOL 1301",
+        "2025-2026:BIOL 1101",
+        "2025-2026:BIOL 1302",
+        "2025-2026:BIOL 1102",
+        "2025-2026:CHEM 1307",
+        "2025-2026:CHEM 1107",
+        "2025-2026:CHEM 1308",
+        "2025-2026:CHEM 1108",
+        "2025-2026:CHEM 2301",
+        "2025-2026:CHEM 2101",
+        "2025-2026:CHEM 2302",
+        "2025-2026:CHEM 2102",
+        "2025-2026:PHYS 1307",
+        "2025-2026:PHYS 1107",
+        "2025-2026:PHYS 1308",
+        "2025-2026:PHYS 1108",
+        "2025-2026:CHEM 3300",
+        "2025-2026:CHEM 3310",
+        "2025-2026:CHEM 3110",
+        "2025-2026:CHEM 3320",
+        "2025-2026:CHEM 3330",
+        "2025-2026:CHEM 3130",
+        "2025-2026:CHEM 3332",
+        "2025-2026:CHEM 3132",
+        "2025-2026:CHEM 4410",
+        "2025-2026:CHEM 4340",
+        "2025-2026:CHEM 4140",
+        "2025-2026:CHEM 4362",
+        "2025-2026:CHEM 4162",
+        "2025-2026:CHEM 4364",
+        "2025-2026:CHEM 4164",
+        "2025-2026:CHEM 1305",
+        "2025-2026:CHEM 1105"
+      ],
+      "text": "Science degree credit requires satisfactory completion of every listed corequisite. Students lacking prerequisites or corequisites may be dropped; after the official day of record the dropped course receives W.",
+      "sourceIds": [
+        "natural-sciences-department-37"
+      ]
+    },
+    {
+      "id": "chemistry-exit-survey",
+      "kind": "program-condition",
+      "courseIds": [
+        "2025-2026:PHYS 2101",
+        "2025-2026:PHYS 2102",
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 2402",
+        "2025-2026:BIOL 1301",
+        "2025-2026:BIOL 1101",
+        "2025-2026:BIOL 1302",
+        "2025-2026:BIOL 1102",
+        "2025-2026:CHEM 1307",
+        "2025-2026:CHEM 1107",
+        "2025-2026:CHEM 1308",
+        "2025-2026:CHEM 1108",
+        "2025-2026:CHEM 2301",
+        "2025-2026:CHEM 2101",
+        "2025-2026:CHEM 2302",
+        "2025-2026:CHEM 2102",
+        "2025-2026:PHYS 1307",
+        "2025-2026:PHYS 1107",
+        "2025-2026:PHYS 1308",
+        "2025-2026:PHYS 1108",
+        "2025-2026:CHEM 3300",
+        "2025-2026:CHEM 3310",
+        "2025-2026:CHEM 3110",
+        "2025-2026:CHEM 3320",
+        "2025-2026:CHEM 3330",
+        "2025-2026:CHEM 3130",
+        "2025-2026:CHEM 3332",
+        "2025-2026:CHEM 3132",
+        "2025-2026:CHEM 4410",
+        "2025-2026:CHEM 4340",
+        "2025-2026:CHEM 4140",
+        "2025-2026:CHEM 4362",
+        "2025-2026:CHEM 4162",
+        "2025-2026:CHEM 4364",
+        "2025-2026:CHEM 4164",
+        "2025-2026:CHEM 1305",
+        "2025-2026:CHEM 1105"
+      ],
+      "text": "Complete the exit survey distributed by the Natural Sciences Department.",
+      "sourceIds": [
+        "natural-sciences-department-37"
+      ]
+    },
+    {
+      "id": "chemistry-cst-rules",
+      "kind": "program-condition",
+      "courseIds": [
+        "2025-2026:BIOL 1301",
+        "2025-2026:BIOL 1101",
+        "2025-2026:BIOL 1302",
+        "2025-2026:BIOL 1102",
+        "2025-2026:CHEM 1307",
+        "2025-2026:CHEM 1107",
+        "2025-2026:CHEM 1308",
+        "2025-2026:CHEM 1108",
+        "2025-2026:CHEM 2301",
+        "2025-2026:CHEM 2101",
+        "2025-2026:CHEM 2302",
+        "2025-2026:CHEM 2102",
+        "2025-2026:MATH 2401",
+        "2025-2026:MATH 2402",
+        "2025-2026:MATH 2403",
+        "2025-2026:CHEM 3300",
+        "2025-2026:CHEM 3310",
+        "2025-2026:CHEM 3110",
+        "2025-2026:CHEM 3320",
+        "2025-2026:CHEM 3330",
+        "2025-2026:CHEM 3130",
+        "2025-2026:CHEM 3332",
+        "2025-2026:CHEM 3132",
+        "2025-2026:CHEM 4410",
+        "2025-2026:CHEM 4340",
+        "2025-2026:CHEM 4140",
+        "2025-2026:CHEM 4362",
+        "2025-2026:CHEM 4162",
+        "2025-2026:CHEM 4364",
+        "2025-2026:CHEM 4164"
+      ],
+      "sourceIds": [
+        "cst-general-rules-37"
+      ],
+      "text": "Complete applicable general education requirements and satisfy course prerequisites/corequisites. A prerequisite or corequisite may not be dropped without dropping both courses. Petition college advising for reevaluation of transfer credits not applied to the degree."
     }
   ],
   "remaining": [
-    "Departmental graduation rules still need source verification.",
-    "Preparatory CHEM 1305 and CHEM 1105 descriptions are not captured.",
-    "Eight Chemistry intake prerequisite cases remain explicitly unresolved.",
-    "UI catalog construction, source coverage and browser validation are pending."
+    "9 Chemistry intake prerequisite cases remain explicitly unresolved.",
+    "Chemistry selector integration and browser validation are pending."
   ],
   "notices": [
     "Selections do not certify completion or graduation eligibility.",

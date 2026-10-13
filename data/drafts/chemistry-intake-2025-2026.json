@@ -18,6 +18,46 @@
       "catalogYear": "2025-2026",
       "retrievedOn": "2026-10-11",
       "role": "catalog"
+    },
+    {
+      "id": "chemistry-intake-37-3",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68680",
+      "title": "Chemistry BS course description capture",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-13",
+      "role": "catalog"
+    },
+    {
+      "id": "chemistry-intake-37-4",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68676",
+      "title": "Chemistry BS course description capture",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-13",
+      "role": "catalog"
+    },
+    {
+      "id": "chemistry-intake-37-5",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69380",
+      "title": "Chemistry BS course description capture",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-13",
+      "role": "catalog"
+    },
+    {
+      "id": "chemistry-intake-37-6",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69428",
+      "title": "Chemistry BS course description capture",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-13",
+      "role": "catalog"
+    },
+    {
+      "id": "chemistry-intake-37-7",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69789",
+      "title": "Chemistry BS course description capture",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-13",
+      "role": "catalog"
     }
   ],
   "courses": [
@@ -1121,11 +1161,178 @@
       "sourceIds": [
         "chemistry-intake-37-2"
       ]
+    },
+    {
+      "id": "2025-2026:CHEM 1305",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 1305",
+      "title": "Introductory Chemistry",
+      "description": "A survey of chemistry which focuses on the composition, properties and interaction of substances necessary to produce new materials. Topics include stoichiometry, atomic structure, chemical bonds, states of matter, electrolyte solutions and chemical reactions. This course is required for nursing or similar professional programs and may be taken prior to the general chemistry courses for science majors.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Credit or enrollment in CHEM 1105 and credit or enrollment in MATH 1301 or MATH 1310",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in CHEM 1105 and credit or enrollment in MATH 1301 or MATH 1310"
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "chemistry-intake-37-3"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 1105",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 1105",
+      "title": "Introductory Chemistry Laboratory",
+      "description": "Appropriate laboratory experiments for the student who will not be a professional physical scientist. The experiments support the principles of chemistry developed in the lecture portion of the course and illustrate some of the basic approaches to chemical problems. (CHEM 1105)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in CHEM 1305.",
+      "prerequisites": {
+        "kind": "course",
+        "courseId": "2025-2026:CHEM 1305",
+        "timing": "before-or-concurrent"
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-4"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 1310",
+      "catalogYear": "2025-2026",
+      "code": "MATH 1310",
+      "title": "Contemporary Mathematics",
+      "description": "An introduction to contemporary mathematical ideas and problem-solving techniques. Designed for students requiring one college-level mathematics course. This course cannot be applied toward any degree in the Department of Mathematics and Statistics or the Department of Computer Science and Engineering Technology (MATH 1332)",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 0300, or TSIA2 score meeting college readiness in Mathematics, or TSIA2 MATH complete, or TSIA2 MATH exempt. For current TSIA2 College Readiness scores, please see https://www.uhd.edu/testing/Pages/testing-tsia.aspx.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 0300",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 score meeting college readiness in Mathematics"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 MATH complete"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 MATH exempt"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-5"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 0300",
+      "catalogYear": "2025-2026",
+      "code": "MATH 0300",
+      "title": "Beginning Algebra",
+      "description": "This course is intended to build and reinforce the essential geometry, arithmetic and algebra skills needed for MATH 1300 - Intermediate Algebra. Topics include real numbers and their properties, order of operations and simplifying real-valued expressions, simplifying algebraic expressions, solving linear equations and inequalities, solving systems of equations in two variables, an introduction to the Cartesian coordinate system and word problems. This course may not be used to satisfy degree requirements.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A TSIA2 score that does not meet college readiness in Mathematics, and co-enrollment in MATH 1310 or STAT 1312. Successful completion of MATH 1310 or STAT 1312 (with a C or better) will satisfy the TSI requirements for developmental mathematics. For current TSIA2 College Readiness scores, please see https://www.uhd.edu/testing/Pages/testing-tsia.aspx",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 score below college readiness in Mathematics"
+          },
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1310",
+                "timing": "concurrent"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:STAT 1312",
+                "timing": "concurrent"
+              }
+            ]
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-6"
+      ]
+    },
+    {
+      "id": "2025-2026:STAT 1312",
+      "catalogYear": "2025-2026",
+      "code": "STAT 1312",
+      "title": "Statistical Literacy",
+      "description": "An introduction to statistical ideas and statistical reasoning, and their relevance to modern life. STAT 1312 is designed for students requiring one college-level mathematics course. This course cannot be applied toward any degree in the Department of Mathematics and Statistics.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 0300, or TSIA2 score meeting college readiness in Mathematics, or TSIA2 MATH complete, or TSIA2 MATH exempt. For current TSIA2 College Readiness scores, please see https://www.uhd.edu/testing/Pages/testing-tsia.aspx.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 0300",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 score meeting college readiness in Mathematics"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 MATH complete"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "TSIA2 MATH exempt"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "chemistry-intake-37-7"
+      ]
     }
   ],
   "report": {
-    "courseCount": 40,
-    "newCourseCount": 35,
+    "courseCount": 45,
+    "newCourseCount": 40,
     "reusedCourseIds": [
       "2025-2026:TCOM 3302",
       "2025-2026:PHYS 2401",
@@ -1133,7 +1340,7 @@
       "2025-2026:PHYS 2402",
       "2025-2026:PHYS 2102"
     ],
-    "verifiedCount": 32,
+    "verifiedCount": 36,
     "unresolved": [
       {
         "courseId": "2025-2026:BIOL 1301",
@@ -1141,7 +1348,7 @@
       },
       {
         "courseId": "2025-2026:CHEM 1307",
-        "reason": "Timing and AND/OR scope of English/core and high-school chemistry versus CHEM 1305/1105 need clarification; preparatory alternatives are not yet captured."
+        "reason": "Timing and AND/OR scope of English/core and high-school chemistry versus CHEM 1305/1105 need clarification."
       },
       {
         "courseId": "2025-2026:CHEM 2302",
@@ -1166,19 +1373,17 @@
       {
         "courseId": "2025-2026:CHEM 4364",
         "reason": "CHEM 4164 is an explicit corequisite, but CHEM 2301/CHEM 2101 slash grouping remains unresolved; retain the full text without partial graph edges."
+      },
+      {
+        "courseId": "2025-2026:CHEM 1305",
+        "reason": "AND/OR scope between the lab and mathematics alternatives needs clarification; retain the full text without inferred edges."
       }
     ],
-    "missingReferencedCodes": [
-      "CHEM 1105",
-      "CHEM 1305"
-    ],
+    "missingReferencedCodes": [],
     "mandatoryBeforeCycles": [],
     "remaining": [
-      "Capture preparatory CHEM 1305 and CHEM 1105.",
       "Resolve or explicitly retain ambiguous prerequisite cases.",
-      "Capture Natural Sciences graduation rules.",
-      "Encode requirements, physics alternatives, credit exclusions and overlap.",
-      "Build Chemistry program and complete UI validation."
+      "Complete Chemistry selector integration and browser validation."
     ]
   }
 }

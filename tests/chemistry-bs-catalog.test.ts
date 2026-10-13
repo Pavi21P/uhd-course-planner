@@ -58,7 +58,7 @@ test('Chemistry keeps paired choices, integrated policies and both optional mino
   assert.equal(conflict.degreeCredits, null)
   assert.equal(conflict.conflicts.length, 1)
   assert.ok(preview.snapshot.coverage.notices.some(note => note.includes('graduation rules')))
-  assert.ok(!catalog.courses.some(course => course.code === 'CHEM 1305'))
+  for (const code of ['CHEM 1305', 'CHEM 1105', 'MATH 0300', 'MATH 1310', 'STAT 1312']) assert.ok(catalog.courses.some(course => course.code === code))
 })
 
 test('Chemistry construction rejects conflicting shared content, unknown references and missing notices', () => {
@@ -76,4 +76,24 @@ test('Chemistry construction rejects conflicting shared content, unknown referen
   assert.throws(() => buildChemistryCatalog(base.snapshot, base.programs, intake, badDegree), /starter/)
   assert.throws(() => buildChemistryCatalog(base.snapshot, base.programs, intake, { ...degree, publishable: true }))
   assert.throws(() => buildChemistryCatalog(base.snapshot, base.programs, { ...intake, catalogYear: '2026-2027' }, degree))
+})
+
+test('Chemistry excludes developmental credits and retains department conditions without inventing completion', () => {
+  const credits = calculatePlanCredits(catalog.courses, [...starter, '2025-2026:MATH 0300'], preview.snapshot.coursePolicies)
+  assert.deepEqual(credits.catalogCredits, { min: 73, max: 73 })
+  assert.deepEqual(credits.degreeCredits, { min: 70, max: 70 })
+  const policies = preview.snapshot.coursePolicies
+  assert.match(policies.find(p => p.id === 'chemistry-science-residency')!.text, /18 upper-level science credits.*UHD.*2.0/)
+  assert.match(policies.find(p => p.id === 'chemistry-corequisite-credit')!.text, /satisfactory completion/)
+  assert.match(policies.find(p => p.id === 'chemistry-exit-survey')!.text, /exit survey/)
+  const grades = policies.find(p => p.id === 'chemistry-upper-science-grades')!
+  assert.ok(grades.courseIds.includes('2025-2026:CHEM 4364'))
+  assert.ok(!grades.courseIds.includes('2025-2026:CHEM 1307'))
+  for (const code of ['MATH 1310', 'STAT 1312']) {
+    assert.deepEqual(calculatePlanCredits(catalog.courses, ['2025-2026:' + code], policies).degreeCredits, { min: 3, max: 3 })
+  }
+  assert.equal(preview.snapshot.coverage.automaticEligibilityAssessment, false)
+  const changed = structuredClone(degree)
+  changed.coursePolicies.find((p: { id: string }) => p.id === 'exclusive-phys-2401').text += ' altered'
+  assert.throws(() => buildChemistryCatalog(base.snapshot, base.programs, intake, changed), /Conflicting Chemistry policy/)
 })

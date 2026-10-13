@@ -18,13 +18,13 @@ test('Chemistry intake is reproducible, reuses shared identities and remains unp
   const saved = JSON.parse(await readFile(new URL('../data/drafts/chemistry-intake-2025-2026.json', import.meta.url), 'utf8'))
   assert.deepEqual(intake, saved)
   assert.equal(intake.publishable, false)
-  assert.equal(intake.report.courseCount, 40)
-  assert.equal(intake.report.verifiedCount, 32)
-  assert.equal(intake.report.newCourseCount, 35)
+  assert.equal(intake.report.courseCount, 45)
+  assert.equal(intake.report.verifiedCount, 36)
+  assert.equal(intake.report.newCourseCount, 40)
   assert.equal(intake.report.reusedCourseIds.length, 5)
-  assert.deepEqual(intake.report.missingReferencedCodes, ['CHEM 1105', 'CHEM 1305'])
+  assert.deepEqual(intake.report.missingReferencedCodes, [])
   assert.deepEqual(intake.report.mandatoryBeforeCycles, [])
-  assert.equal(intake.report.unresolved.length, 8)
+  assert.equal(intake.report.unresolved.length, 9)
   for (const issue of intake.report.unresolved) {
     assert.ok(issue.reason)
     assert.equal(graphPrerequisites(intake.courses.find(course => course.id === issue.courseId)!), null)
@@ -68,4 +68,38 @@ test('corequisite-only parsing never treats an empty or malformed statement as o
   assert.equal(course.prerequisiteText, 'Corequisite(s): CHEM 4364')
   assert.equal(course.review, 'needs-review')
   assert.equal(course.description, 'Laboratory description.')
+})
+
+test('Supplemental prerequisites retain placement alternatives and concurrent enrollment without a mandatory cycle', () => {
+  assert.deepEqual(get('CHEM 1105').prerequisites, { kind: 'course', courseId: '2025-2026:CHEM 1305', timing: 'before-or-concurrent' })
+  assert.equal(graphPrerequisites(get('CHEM 1305')), null)
+  for (const code of ['MATH 1310', 'STAT 1312']) {
+    const rule = get(code).prerequisites
+    assert.equal(rule.kind, 'any')
+    if (rule.kind !== 'any') throw new Error('Expected placement alternatives')
+    assert.equal(rule.items.length, 4)
+    assert.deepEqual(rule.items[0], { kind: 'course', courseId: '2025-2026:MATH 0300', timing: 'before', minimumGrade: 'C' })
+    assert.equal(mandatoryBeforeIds(rule).size, 0)
+  }
+  const developmental = get('MATH 0300').prerequisites
+  assert.equal(mandatoryBeforeIds(developmental).size, 0)
+  assert.match(JSON.stringify(developmental), /concurrent/)
+  assert.ok(!JSON.stringify(developmental).includes('minimumGrade'))
+})
+
+test('Supplemental source changes and cross-capture duplicates fail validation', async () => {
+  const supplement = JSON.parse(await readFile(new URL('../data/sources/2025-2026/chemistry-supplemental-capture.json', import.meta.url), 'utf8'))
+  const altered = structuredClone(supplement)
+  altered.pages[0].text += ' changed'
+  await assert.rejects(buildChemistryIntake(root, undefined, altered), /fingerprint/)
+  const wrongEdition = structuredClone(supplement)
+  wrongEdition.courses[0].sourceUrl = wrongEdition.courses[0].sourceUrl.replace('catoid=37', 'catoid=39')
+  await assert.rejects(buildChemistryIntake(root, undefined, wrongEdition), /edition mismatch/)
+  const duplicate = structuredClone(supplement)
+  duplicate.courses[0].code = 'CHEM 1307'
+  await assert.rejects(buildChemistryIntake(root, undefined, duplicate), /Duplicate Chemistry course/)
+  const staleReview = structuredClone(supplement)
+  staleReview.courses[1].text = staleReview.courses[1].text.replace('Credit or enrollment in', 'Credit in')
+  staleReview.courses[1].sha256 = createHash('sha256').update(staleReview.courses[1].text).digest('hex')
+  await assert.rejects(buildChemistryIntake(root, undefined, staleReview), /re-review CHEM 1105/)
 })

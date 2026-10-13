@@ -127,3 +127,15 @@ records, prerequisite closure, paired physics choices, integrated conditions,
 credit exclusions and optional Math/Data Science minors. The result remains
 explicitly unpublished. Source verification and browser QA remain release gates;
 the browser integration still cannot initialize. Do not repeat completed imports.
+
+### Chemistry supplementary source checkpoint (October 13, 2026)
+
+Browser access recovered. All missing preparatory references are captured and
+imported: 45 intake courses, 36 reviewed prerequisite expressions, nine explicit
+ambiguities and no missing referenced course records. Natural Sciences and CST
+graduation/enrollment rules are source-verified; developmental MATH 0300 is
+excluded from degree credits. The original 30-course/70-credit starter is unchanged.
+See the latest section of `chemistry-source-checkpoint.md` for details.
+
+Next: Chemistry local selector integration and isolated browser QA, then Biology.
+Chemistry is still unavailable in the selector and has not been deployed.

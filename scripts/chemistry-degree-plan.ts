@@ -3,6 +3,7 @@ import { createHash } from 'node:crypto'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { datasetSchema, type CatalogDataset } from '../src/data/catalog-schema.ts'
+import type { CatalogSnapshot } from '../src/data/catalog-snapshot.ts'
 import { loadPlannerCatalog } from '../src/data/minor-catalog.ts'
 import { buildChemistryIntake } from './import-chemistry.ts'
 
@@ -24,12 +25,24 @@ export async function buildChemistryDegreePlan(root: string) {
   const capture = await read('data/sources/2025-2026/chemistry-bs-capture.json') as {
     retrievedOn: string; pages: { sourceUrl: string; text: string; sha256: string }[]
   }
+  const supplement = await read('data/sources/2025-2026/chemistry-supplemental-capture.json') as typeof capture
+  const policyReviews = [
+    { id: 'natural-sciences-department-37', entity: '974', title: 'Natural Sciences graduation and enrollment rules', hash: 'f779e77f9c56f0bcb7c8f6e1c23c4c3a8107cfca4cf572413e934de2a1203727' },
+    { id: 'cst-general-rules-37', entity: '966', title: 'CST general degree, enrollment and transfer rules', hash: '6ac09b0b027c8e8162bfcfbc4eda5267ae4fa11bf1c85558e1f75f810394bdb7' },
+  ]
+  const policySources = policyReviews.map(review => {
+    const page = supplement.pages.find(p => new URL(p.sourceUrl).searchParams.get('ent_oid') === review.entity)
+    if (!page || page.sha256 !== review.hash || createHash('sha256').update(page.text).digest('hex') !== review.hash)
+      throw new Error('Chemistry departmental source changed; re-review ' + review.entity)
+    return { id: review.id, url: page.sourceUrl, title: review.title, catalogYear: '2025-2026', retrievedOn: supplement.retrievedOn, role: 'catalog' as const }
+  })
   const degreeSources = sourceReviews.map(review => {
     const page = capture.pages.find(p => new URL(p.sourceUrl).searchParams.get('poid') === review.program)
     if (!page || page.sha256 !== review.hash || createHash('sha256').update(page.text).digest('hex') !== review.hash)
       throw new Error(`Chemistry requirements source changed; re-review ${review.program}`)
     return { id: review.id, url: page.sourceUrl, title: review.title, catalogYear: '2025-2026', retrievedOn: capture.retrievedOn, role: 'catalog' as const }
   })
+  degreeSources.push(...policySources)
   const base = loadPlannerCatalog(await read('src/data/catalog-2025-2026.json'), await read('src/data/minor-2025-2026.json'))
   if (!base.ok) throw new Error(base.message)
   const sharedIds = new Set(base.snapshot.catalog.courses.map(course => course.id))
@@ -80,13 +93,28 @@ export async function buildChemistryDegreePlan(root: string) {
   ]
   for (const condition of integratedConditions) for (const id of condition.courseIds)
     if (!byId.has(id)) throw new Error(`Missing integrated course: ${id}`)
+  const scienceIds = courses.filter(course => /^(BIOL|CHEM|PHYS) /.test(course.code)).map(course => course.id)
+  const departmentalPolicy = (id: string, text: string, courseIds = scienceIds): CatalogSnapshot['coursePolicies'][number] =>
+    ({ id, kind: 'program-condition', courseIds, text, sourceIds: ['natural-sciences-department-37'] })
+  const coursePolicies: CatalogSnapshot['coursePolicies'] = [
+    ...base.snapshot.coursePolicies.filter(policy => ['exclusive-phys-2401','exclusive-phys-2402'].includes(policy.id)),
+    { id: 'exclude-math-0300', kind: 'degree-credit-exclusion', courseIds: ids(['MATH 0300']), sourceIds: byId.get('2025-2026:MATH 0300')!.sourceIds,
+      text: 'MATH 0300 may not satisfy degree requirements; its 3 enrollment credits add no degree credits.' },
+    departmentalPolicy('chemistry-science-gpa', 'Natural Sciences graduation requires at least a 2.0 GPA in all science courses applied to the degree.'),
+    departmentalPolicy('chemistry-upper-science-grades', 'Every upper-level science course applied toward graduation requires a grade of C or higher.', scienceIds.filter(id => /:[A-Z]+ [34]/.test(id))),
+    departmentalPolicy('chemistry-science-residency', 'At least 18 upper-level science credits must be taken at UHD with a minimum GPA of 2.0. Also satisfy the degree upper-level hour requirement.'),
+    departmentalPolicy('chemistry-corequisite-credit', 'Science degree credit requires satisfactory completion of every listed corequisite. Students lacking prerequisites or corequisites may be dropped; after the official day of record the dropped course receives W.'),
+    departmentalPolicy('chemistry-exit-survey', 'Complete the exit survey distributed by the Natural Sciences Department.'),
+    { id: 'chemistry-cst-rules', kind: 'program-condition', courseIds: ids([...chemistryFixedScienceCodes, ...chemistryFixedMajorCodes]), sourceIds: ['cst-general-rules-37'],
+      text: 'Complete applicable general education requirements and satisfy course prerequisites/corequisites. A prerequisite or corequisite may not be dropped without dropping both courses. Petition college advising for reevaluation of transfer credits not applied to the degree.' },
+  ]
   const defaultCourseIds = ids([...chemistryFixedScienceCodes, ...chemistryFixedMajorCodes])
   return { version: 1, programId, catalogYear: '2025-2026', publishable: false as const, minimumCredits: 120,
-    sourceIds: [sourceId, integratedSourceId], sources: degreeSources, requirements, integratedConditions,
+    sourceIds: degreeSources.map(source => source.id), sources: degreeSources, requirements, integratedConditions,
     defaultCourseIds, fixedCourseCredits: hours([...chemistryFixedScienceCodes, ...chemistryFixedMajorCodes]),
     physicsCreditAlternatives: [[4, 5], [4, 5]], computingCreditAlternatives: [4, 4, 3],
-    coursePolicies: base.snapshot.coursePolicies.filter(policy => ['exclusive-phys-2401','exclusive-phys-2402'].includes(policy.id)),
-    remaining: ['Departmental graduation rules still need source verification.', 'Preparatory CHEM 1305 and CHEM 1105 descriptions are not captured.', 'Eight Chemistry intake prerequisite cases remain explicitly unresolved.', 'UI catalog construction, source coverage and browser validation are pending.'],
+    coursePolicies,
+    remaining: [intake.report.unresolved.length + ' Chemistry intake prerequisite cases remain explicitly unresolved.', 'Chemistry selector integration and browser validation are pending.'],
     notices: ['Selections do not certify completion or graduation eligibility.', 'Do not add integrated writing/ethics hours again or assume the common core is completed.', 'No minor is mandated by this captured standard Chemistry BS page. Optional minors are a separate planning choice.'] }
 }
 

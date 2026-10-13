@@ -12,7 +12,7 @@ export const chemistry: ProgramDefinition = {
   sourceUrl: 'https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7063&returnto=2409',
   supportingDescription: 'Choose one writing course, one computing/statistics course and a complete lecture/lab pair for each physics level.',
   starterDescription: 'The starter selects 30 fixed science, mathematics and Chemistry courses totaling 70 credits. Supporting choices and common-core completion are separate. No completed courses are assumed.',
-  coverageDescription: 'Draft: Natural Sciences graduation rules and preparatory CHEM 1305/1105 descriptions still need verification. Ambiguous prerequisites stay unconnected. Integrated writing/ethics can overlap required courses; minor overlap requires review.',
+  coverageDescription: 'Draft: Natural Sciences graduation rules are included as advising conditions; grades, residency and completion are not automatically assessed. Ambiguous prerequisites stay unconnected. Integrated writing/ethics can overlap required courses; minor overlap requires review.',
   minorPlaceholders: [{ id: 'math-minor', title: 'Optional Mathematics minor', subtitle: '18-hour minimum; degree/minor overlap requires review' },
     { id: 'data-minor', title: 'Optional Data Science minor', subtitle: '22/23 hours; no minor is preselected' }],
 }
@@ -20,6 +20,7 @@ const intakeSchema = z.object({ catalogYear: z.literal('2025-2026'), publishable
   report: z.object({ unresolved: z.array(z.object({ courseId: z.string(), reason: z.string().min(1) })) }) })
 const degreeSchema = z.object({ catalogYear: z.literal('2025-2026'), programId: z.literal('chemistry-bs'), publishable: z.literal(false),
   minimumCredits: z.literal(120), sources: z.array(sourceSchema), requirements: z.array(requirementSchema), defaultCourseIds: z.array(z.string()), fixedCourseCredits: z.literal(70),
+  coursePolicies: catalogSnapshotSchema.shape.coursePolicies,
   integratedConditions: z.array(z.object({ id: z.string(), label: z.string(), count: z.number().int().positive(), courseIds: z.array(z.string()), sourceIds: z.array(z.string()), coverage: z.string(), text: z.string() })),
   remaining: z.array(z.string()).min(1), notices: z.array(z.string()).min(1) })
 const normalized = (text: string) => text.replace(/\s+/g, ' ').trim()
@@ -40,7 +41,7 @@ export function buildChemistryCatalog(base: CatalogSnapshot, programs: MinorSupp
     if (!shared) byId.set(course.id, course)
   }
   const requirements = [...degree.requirements, ...base.catalog.requirements.filter(r => r.area === 'minor')]
-  const keep = new Set(requirements.flatMap(r => r.courseIds))
+  const keep = new Set([...requirements.flatMap(r => r.courseIds), ...intake.courses.map(course => course.id)])
   const minorPrograms = programs.map(program => ({ ...program,
     summary: program.summary.replace('DATA 3402 is suggested for CS majors. ', '') + ' Optional for this Chemistry plan; overlap requires advising.' }))
   minorPrograms.forEach(program => program.courseIds.forEach(id => keep.add(id)))
@@ -54,7 +55,13 @@ export function buildChemistryCatalog(base: CatalogSnapshot, programs: MinorSupp
     walk(course.prerequisites)
   }
   ;[...keep].forEach(visit)
-  const relevantPolicies = base.coursePolicies.filter(policy => !['conditional-writing-use','requirement-exclusion'].includes(policy.kind))
+  const policiesById = new Map(base.coursePolicies.filter(policy => !['conditional-writing-use','requirement-exclusion'].includes(policy.kind)).map(policy => [policy.id, policy]))
+  for (const policy of degree.coursePolicies) {
+    const existing = policiesById.get(policy.id)
+    if (existing && JSON.stringify(existing) !== JSON.stringify(policy)) throw new Error('Conflicting Chemistry policy: ' + policy.id)
+    policiesById.set(policy.id, policy)
+  }
+  const relevantPolicies = [...policiesById.values()]
   // Credit counterpart records can themselves introduce prerequisites or further
   // exclusions; close the set before retaining policies and cutting the catalog.
   let previousSize = -1
@@ -75,7 +82,7 @@ export function buildChemistryCatalog(base: CatalogSnapshot, programs: MinorSupp
   const courses = [...byId.values()].filter(course => keep.has(course.id))
   const unresolved = [...base.coverage.unresolvedPrerequisites, ...intake.report.unresolved].filter(issue => keep.has(issue.courseId))
   const snapshot = catalogSnapshotSchema.parse({ snapshotVersion: 1, scope: 'chemistry-bs-planning-catalog',
-    catalog: { ...base.catalog, datasetVersion: '2025-2026-chemistry-bs-draft-2026-10-12', courses, requirements,
+    catalog: { ...base.catalog, datasetVersion: '2025-2026-chemistry-bs-draft-2026-10-13', courses, requirements,
       sources: [...base.catalog.sources, ...intake.sources, ...degree.sources] },
     coursePolicies,
     coverage: { automaticEligibilityAssessment: false, minorCoursesIncluded: true, unresolvedPrerequisites: unresolved, unimportedOptionCodes: optionCodes,
