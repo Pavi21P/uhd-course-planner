@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "catalogYear": "2025-2026",
+  "catalogId": "37",
+  "programId": "biology-bs",
+  "publishable": false,
+  "status": "partial-source-recovery",
+  "observedOn": "2026-10-13",
+  "savedOn": "2026-10-14",
+  "captureMethod": "Recovered from prior browser tool output retained in this conversation. Whitespace-normalized Genetics panel, selected degree-page excerpts and course-link group inventory; not a complete raw-page or course-panel capture. Fingerprints protect this local transcription, not a new live retrieval.",
+  "sourceUrl": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7092&returnto=2409",
+  "editionNote": "The selected official catalog was 2025-2026 UNDERGRADUATE CATALOG [ARCHIVED CATALOG], catalog 37. This governs intake. The sequence PDF previously identified as printing 2024-2025 remains a separate, unverified-for-this-edition lead.",
+  "pages": [
+    {
+      "sourceUrl": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7092&returnto=2409",
+      "text": "Biology, BS\nMajor in Biology (120 hours)\nIntegrated Requirements in Communication and Ethics\nStudents pursuing degrees in the Natural Sciences must complete two courses in written communication and one course in ethics. Generally these required courses are integrated into each degree.\nMathematics and Science\n(Some of the following courses may be taken to fulfill common core requirements)\nOne of the Following High Impact Labs:\n(*Enrollment in Honors Program required)\nOr any two Course-based Undergraduate Research Experience (CURE) courses can be substitutied for one of the High Impact Labs:\nBiology Upper Level Options (23 hours)\nSelect at least one in each of the following areas:\nCell/Molecular Area:\nPlant/Fungal Area:\nEnvironmental Area:\nOrganismal Area:\nApproved Upper Level Electives\nUpper level electives must be taken to complete the minimum 120 hours required for the degree. Up to 6 hours of undergraduate research may be counted toward the degree.\nTotal: (120 hours)",
+      "sha256": "f9ad0b4c9f31e8ce55bb8b4e2a6ff97ed4cc644f6b3a2dba961883cbd85a8e76",
+      "scope": "Selected literal excerpts only; course lists, alternative layout and unquoted text are not reproduced here."
+    }
+  ],
+  "courses": [
+    {
+      "code": "BIOL 2303",
+      "sourceUrl": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7092&returnto=2409",
+      "text": "BIOL 2303 - General Genetics\nCredits: 3 Class: 3 Lab: 0\nPrerequisite(s): BIOL 1302/BIOL 1102,CHEM 1308/CHEM 1108, and credit or enrollment in BIOL 2103.\nFundamental principles of genetics including Mendelian inheritance, linkage, the chemical basis of genetics, mutations and chromosomal aberrations.",
+      "sha256": "3161a3e5801c603c88e65faa58ae6c288e84a1ce5be5ac1638a82fd1589e2d7f"
+    }
+  ],
+  "inventory": {
+    "scope": "Distinct course links on the standard Biology BS program page, grouped by visible headings. Membership alone does not encode prerequisite, pairing, overlap or eligibility rules.",
+    "courseCodes": [
+      "TCOM 3302",
+      "TCOM 3325",
+      "TCOM 3326",
+      "TCOM 3329",
+      "TCOM 4306",
+      "BIOL 1301",
+      "BIOL 1101",
+      "BIOL 1302",
+      "BIOL 1102",
+      "CHEM 1307",
+      "CHEM 1107",
+      "CHEM 1308",
+      "CHEM 1108",
+      "MATH 2411",
+      "MATH 2401",
+      "MATH 2412",
+      "CS 1408",
+      "CS 1411",
+      "STAT 3311",
+      "MBIO 2305",
+      "MBIO 2105",
+      "PHYS 1307",
+      "PHYS 1107",
+      "PHYS 2401",
+      "PHYS 2101",
+      "PHYS 1308",
+      "PHYS 1108",
+      "PHYS 2402",
+      "PHYS 2102",
+      "BIOL 2303",
+      "BIOL 2103",
+      "CHEM 2301",
+      "CHEM 2101",
+      "BIOL 3306",
+      "BIOL 4311",
+      "MBIO 4311",
+      "SUST 4301",
+      "BIOL 3300",
+      "BIOL 4302",
+      "BIOL 4331",
+      "BIOL 4332",
+      "BIOL 4361",
+      "BIOL 4399",
+      "BIOL 3102",
+      "BIOL 3104",
+      "BIOL 3107",
+      "BIOL 4110",
+      "BIOL 3308",
+      "BIOL 4320",
+      "BIOL 4330",
+      "BIOL 4344",
+      "CHEM 4344",
+      "CHEM 4140",
+      "CHEM 4340",
+      "MBIO 3390",
+      "MBIO 4320",
+      "MBIO 4120",
+      "MBIO 4330",
+      "MBIO 4390",
+      "BIOL 3330",
+      "BIOL 3130",
+      "BIOL 3310",
+      "BIOL 3110",
+      "BIOL 3340",
+      "BIOL 3140",
+      "BIOL 3390",
+      "BIOL 4390",
+      "BIOL 3302",
+      "BIOL 4360",
+      "BIOL 4340",
+      "BIOL 4350",
+      "MBIO 3340",
+      "BIOL 3105",
+      "BIOL 3304",
+      "BIOL 3305",
+      "BIOL 3307",
+      "BIOL 3320",
+      "BIOL 4303",
+      "BIOL 4310",
+      "BIOL 4313",
+      "BIOL 4113",
+      "BIOL 4305",
+      "MBIO 3320",
+      "MBIO 4340",
+      "MBIO 4140"
+    ],
+    "groups": [
+      {
+        "label": "Technical Writing Course",
+        "courseCodes": [
+          "TCOM 3302",
+          "TCOM 3325",
+          "TCOM 3326",
+          "TCOM 3329",
+          "TCOM 4306"
+        ]
+      },
+      {
+        "label": "Mathematics and Science",
+        "courseCodes": [
+          "BIOL 1301",
+          "BIOL 1101",
+          "BIOL 1302",
+          "BIOL 1102",
+          "CHEM 1307",
+          "CHEM 1107",
+          "CHEM 1308",
+          "CHEM 1108",
+          "MATH 2411",
+          "MATH 2401",
+          "MATH 2412",
+          "CS 1408",
+          "CS 1411",
+          "STAT 3311",
+          "MBIO 2305",
+          "MBIO 2105",
+          "PHYS 1307",
+          "PHYS 1107",
+          "PHYS 2401",
+          "PHYS 2101",
+          "PHYS 1308",
+          "PHYS 1108",
+          "PHYS 2402",
+          "PHYS 2102"
+        ]
+      },
+      {
+        "label": "Required Courses",
+        "courseCodes": [
+          "BIOL 2303",
+          "BIOL 2103",
+          "CHEM 2301",
+          "CHEM 2101",
+          "BIOL 3306",
+          "BIOL 4311",
+          "MBIO 4311",
+          "SUST 4301"
+        ]
+      },
+      {
+        "label": "One of the Following High Impact Labs",
+        "courseCodes": [
+          "BIOL 3300",
+          "BIOL 4302",
+          "BIOL 4331",
+          "BIOL 4332",
+          "BIOL 4361",
+          "BIOL 4399"
+        ]
+      },
+      {
+        "label": "CURE substitution options",
+        "courseCodes": [
+          "BIOL 3102",
+          "BIOL 3104",
+          "BIOL 3107",
+          "BIOL 4110"
+        ]
+      },
+      {
+        "label": "Cell/Molecular Area",
+        "courseCodes": [
+          "BIOL 3308",
+          "BIOL 4320",
+          "BIOL 4330",
+          "BIOL 4344",
+          "CHEM 4344",
+          "CHEM 4140",
+          "CHEM 4340",
+          "MBIO 3390",
+          "MBIO 4320",
+          "MBIO 4120",
+          "MBIO 4330",
+          "MBIO 4390"
+        ]
+      },
+      {
+        "label": "Plant/Fungal Area",
+        "courseCodes": [
+          "BIOL 3330",
+          "BIOL 3130",
+          "BIOL 3310",
+          "BIOL 3110",
+          "BIOL 3340",
+          "BIOL 3140",
+          "BIOL 3390",
+          "BIOL 4390"
+        ]
+      },
+      {
+        "label": "Environmental Area",
+        "courseCodes": [
+          "BIOL 3302",
+          "BIOL 3102",
+          "BIOL 4360",
+          "BIOL 4340",
+          "BIOL 4350",
+          "MBIO 3340",
+          "MBIO 3390",
+          "MBIO 4390"
+        ]
+      },
+      {
+        "label": "Organismal Area",
+        "courseCodes": [
+          "BIOL 3105",
+          "BIOL 3304",
+          "BIOL 3104",
+          "BIOL 3305",
+          "BIOL 3307",
+          "BIOL 3107",
+          "BIOL 3320",
+          "BIOL 3390",
+          "BIOL 4303",
+          "BIOL 4310",
+          "BIOL 4110",
+          "BIOL 4313",
+          "BIOL 4113",
+          "BIOL 4344",
+          "BIOL 4305",
+          "BIOL 4390",
+          "MBIO 3320",
+          "MBIO 4340",
+          "MBIO 4140",
+          "BIOL 4302"
+        ]
+      }
+    ]
+  },
+  "observedChoices": [
+    "Choose one technical writing course from the five listed options.",
+    "Calculus I alternatives: MATH 2411 or MATH 2401.",
+    "Second mathematics/computing choice: MATH 2412 or CS 1408 or CS 1411. Do not silently substitute MATH 2402.",
+    "Physics I: PHYS 1307 + PHYS 1107 or PHYS 2401 + PHYS 2101. Physics II: PHYS 1308 + PHYS 1108 or PHYS 2402 + PHYS 2102. Verify individual course credits from records.",
+    "Seminar alternatives: BIOL 4311 or MBIO 4311 or SUST 4301.",
+    "High-impact requirement: one listed high-impact lab or any two listed CURE courses. BIOL 4399 carries the Honors Program enrollment marker.",
+    "Upper-level options: 23 hours, with at least one in each of four named content areas. Course/lab pairing and allocation need review.",
+    "Special Topics options marked if approved: MBIO 3390/4390 in Cell/Molecular and Environmental; BIOL 3390/4390 in Plant/Fungal and Organismal.",
+    "BIOL 4302 appears in Organismal with the source qualifier (if not used aboved); do not double-allocate it to both that area and high-impact lab.",
+    "Organismal list includes an explicit or between MBIO 3320 and MBIO 4340; preserve the original grouping until interpreted with MBIO 4140.",
+    "Undergraduate research is limited to 6 hours toward the degree; upper-level electives complete the 120-hour minimum."
+  ],
+  "remaining": [
+    "Recapture missing course panels and original requirement layout when the browser connection recovers. The prior 45-panel in-memory batch was not persisted; only BIOL 2303 full text is recovered here.",
+    "Compare existing same-edition course records before reusing them; inventory membership does not prove descriptions are identical.",
+    "Resolve extra prerequisite references, variable-credit records and cross-listed credit exclusions.",
+    "Model requirement alternatives, unequal-size high-impact/CURE choices, honors/approval restrictions and distinct-credit allocation.",
+    "Review prerequisites, build a separate Biology catalog, test and complete browser QA before registering Biology."
+  ]
+}

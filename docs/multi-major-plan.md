@@ -155,3 +155,18 @@ Next bounded phase: capture the standard Biology BS 2025-2026 degree requirement
 and course sources, reusing verified Chemistry/BIOL/PHYS records where identical.
 Keep the nine Chemistry intake ambiguities explicit. Draft artifacts remain
 unpublished until the multi-major release is reviewed and verified.
+
+### Biology recovery checkpoint (October 14, 2026)
+
+Saved the previously observed catalog-37 Biology inventory (85 unique courses),
+selected requirement excerpts and one complete Genetics panel in
+`data/sources/2025-2026/biology-bs-intake-checkpoint.json`. This is explicitly a
+partial recovery of October 13 browser output, not a complete capture or import.
+31 courses have existing records to compare; 53 new full descriptions remain
+uncaptured beyond recovered BIOL 2303. The interrupted 45-panel browser-memory
+batch was not persisted. Browser connection currently fails; direct access is 403.
+
+Next: restore source access, save remaining panels in small batches, then model
+Biology choices and review prerequisites. See `biology-source-checkpoint.md`.
+Biology is not registered or deployed. The prior seven Math/Chemistry commits were
+pushed to public GitHub main at a40cc7c on October 13; no website deployment occurred.
