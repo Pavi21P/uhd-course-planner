@@ -221,3 +221,16 @@ intake remains unchanged at this source-only checkpoint.
 Next: integrate supplemental courses and policy-supported credits, review affected
 prerequisites, then model the Biology degree requirements. BIOL 3103 remains
 unresolved. No registration in the major selector, push or deployment occurred.
+
+### Biology supplemental integration checkpoint (October 15, 2026)
+
+The unpublished main intake now has 89 courses (85 listed options plus four
+supporting references), 55 reviewed prerequisite expressions, 34 unresolved
+interpretations, and only BIOL 3103 missing. Three missing-credit options were
+resolved through explicit same-edition policy evidence with both sources retained.
+No raw capture or active catalog changed. Reviewed dependency closure now includes
+ENG 1301 alongside nine math records; mandatory-before cycle auditing passes.
+
+Next bounded phase: Biology degree requirement modeling, including unequal-size
+high-impact/CURE alternatives and overlapping upper-level content areas. Credit
+allocation, selector integration and local browser QA remain pending.

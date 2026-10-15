@@ -39,7 +39,7 @@ test('Shared Biology reviews keep grade thresholds, concurrent timing and extern
   assert.equal(graphPrerequisites(get('BIOL 1301')), null)
   assert.equal(graphPrerequisites(get('CHEM 1307')), null)
   assert.deepEqual(intake.report.mandatoryBeforeCycles, [])
-  assert.equal(intake.report.dependencyCourseIds.length, 9)
+  assert.equal(intake.report.dependencyCourseIds.length, 10)
   assert.ok(intake.report.dependencyCourseIds.includes('2025-2026:MATH 2402'))
   assert.ok(intake.report.dependencyCourseIds.includes('2025-2026:MATH 1300'))
   assert.ok(!intake.report.dependencyCourseIds.includes('2025-2026:MBIO 4310'))
@@ -75,7 +75,7 @@ test('Shared review reuse rejects changed evidence and clones expressions withou
 })
 
 test('Unresolved Biology alternatives never leave behind partial or stale graph edges', () => {
-  for (const code of ['BIOL 4331', 'BIOL 4332', 'BIOL 4350', 'MBIO 4390', 'BIOL 3340']) {
+  for (const code of ['MBIO 4310', 'BIOL 4332', 'SOC 1303', 'MBIO 4390', 'BIOL 3340']) {
     const incoming = structuredClone(get(code))
     incoming.review = 'verified'
     incoming.prerequisites = { kind: 'course', courseId: '2025-2026:CHEM 4140', timing: 'before' }
@@ -83,5 +83,51 @@ test('Unresolved Biology alternatives never leave behind partial or stale graph 
     assert.equal(result.courses[0].prerequisites.kind, 'condition')
     assert.equal(graphPrerequisites(result.courses[0]), null)
     assert.ok(result.unresolved[0].reason)
+  }
+})
+
+test('Supplemental references unlock complete OR choices without making every alternative mandatory', () => {
+  const molecular = get('BIOL 4331').prerequisites
+  assert.equal(molecular.kind, 'any')
+  if (molecular.kind !== 'any') throw new Error('Expected alternatives')
+  assert.deepEqual(molecular.items.map(rule => rule.kind === 'course' ? rule.courseId : '').sort(),
+    ['2025-2026:BIOL 4320', '2025-2026:BIOL 4330', '2025-2026:CHEM 4140', '2025-2026:MBIO 4310'])
+  assert.equal(mandatoryBeforeIds(molecular).size, 0)
+  const social = get('BIOL 4350').prerequisites
+  assert.deepEqual([...mandatoryBeforeIds(social)], ['2025-2026:ENG 1302'])
+  assert.match(JSON.stringify(social), /8 hours of biology/)
+  assert.match(JSON.stringify(social), /Junior standing/)
+  assert.equal(social.kind, 'all')
+  if (social.kind !== 'all') throw new Error('Expected all requirements')
+  const choice = social.items.find(rule => rule.kind === 'any')!
+  assert.deepEqual(choice, { kind: 'any', items: [
+    { kind: 'course', courseId: '2025-2026:PSY 1303', timing: 'before' },
+    { kind: 'course', courseId: '2025-2026:SOC 1303', timing: 'before' },
+  ] })
+})
+
+test('Supplemental prerequisites keep placement, grade, honors and unknown-topic distinctions', () => {
+  assert.deepEqual(get('ENG 1302').prerequisites, { kind: 'any', items: [
+    { kind: 'course', courseId: '2025-2026:ENG 1301', timing: 'before', minimumGrade: 'C' },
+    { kind: 'condition', category: 'placement', text: 'Placement by examination' },
+  ] })
+  assert.deepEqual(get('PSY 1303').prerequisites, { kind: 'any', items: [
+    { kind: 'course', courseId: '2025-2026:ENG 1301', timing: 'before-or-concurrent' },
+    { kind: 'condition', category: 'other', text: '010 core complete' },
+  ] })
+  const honors = JSON.stringify(get('BIOL 4399').prerequisites)
+  assert.match(honors, /Senior standing/)
+  assert.match(honors, /Enrollment in the Honors Program in the Natural Sciences/)
+  assert.match(get('BIOL 4399').description, /No more than six hours credit/)
+  for (const code of ['BIOL 3390', 'BIOL 4390', 'SOC 1303', 'MBIO 4310', 'BIOL 4332'])
+    assert.equal(graphPrerequisites(get(code)), null)
+  assert.ok(intake.report.dependencyCourseIds.includes('2025-2026:ENG 1301'))
+})
+
+test('Supplemental interpretations also fail on changed source statements', () => {
+  for (const code of ['ENG 1302', 'PSY 1303', 'SOC 1303', 'MBIO 4310', 'BIOL 3390', 'BIOL 4390', 'BIOL 4399', 'BIOL 4350']) {
+    const changed = structuredClone(get(code))
+    changed.prerequisiteText += ' changed'
+    assert.throws(() => reviewBiologyPrerequisites([changed], new Map()), /re-review/)
   }
 })

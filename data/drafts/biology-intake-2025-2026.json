@@ -10,6 +10,46 @@
       "catalogYear": "2025-2026",
       "retrievedOn": "2026-10-14",
       "role": "catalog"
+    },
+    {
+      "id": "biology-supplement-37-68976",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68976",
+      "title": "ENG 1302 supplemental course panel",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-15",
+      "role": "catalog"
+    },
+    {
+      "id": "biology-supplement-37-69610",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69610",
+      "title": "PSY 1303 supplemental course panel",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-15",
+      "role": "catalog"
+    },
+    {
+      "id": "biology-supplement-37-69732",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69732",
+      "title": "SOC 1303 supplemental course panel",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-15",
+      "role": "catalog"
+    },
+    {
+      "id": "biology-supplement-37-69449",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69449",
+      "title": "MBIO 4310 supplemental course panel",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-15",
+      "role": "catalog"
+    },
+    {
+      "id": "biology-credit-policy-37",
+      "url": "https://catalog.uhd.edu/content.php?catoid=37&navoid=2421",
+      "title": "Course Credit and Numbering System",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-15",
+      "role": "catalog"
     }
   ],
   "courses": [
@@ -1142,11 +1182,31 @@
       },
       "prerequisiteText": "One of the following: BIOL 4320, BIOL 4330, CHEM 4140, MBIO 4310",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "One of the following: BIOL 4320, BIOL 4330, CHEM 4140, MBIO 4310"
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 4320",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 4330",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 4140",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MBIO 4310",
+            "timing": "before"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -1191,6 +1251,38 @@
       "review": "needs-review",
       "sourceIds": [
         "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4399",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4399",
+      "title": "Senior Honors Thesis",
+      "description": "A research project, supervised by a member of the natural sciences faculty or a scientist at an affiliated research institution or laboratory. The completed research project must be presented in both written and oral form to the science faculty. No more than six hours credit for this course may be applied toward a degree.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Senior standing and enrollment in the Honors Program in the Natural Sciences.",
+      "prerequisites": {
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "Senior standing"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "Enrollment in the Honors Program in the Natural Sciences"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "biology-intake-37-1",
+        "biology-credit-policy-37"
       ]
     },
     {
@@ -1696,6 +1788,50 @@
       ]
     },
     {
+      "id": "2025-2026:BIOL 3390",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3390",
+      "title": "Special Topics in Biology",
+      "description": "Selected topics in junior-level biology according to the needs and interests of the students.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Varies according to topic.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Varies according to topic."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1",
+        "biology-credit-policy-37"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4390",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4390",
+      "title": "Special Topics in Biology",
+      "description": "Selected topics in upper-level biology according to the needs and interests of the students.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Varies according to topic.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Varies according to topic."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1",
+        "biology-credit-policy-37"
+      ]
+    },
+    {
       "id": "2025-2026:BIOL 3302",
       "catalogYear": "2025-2026",
       "code": "BIOL 3302",
@@ -1770,11 +1906,41 @@
       },
       "prerequisiteText": "8 hours of biology, ENG 1302, PSY 1303 or SOC 1303, and junior standing.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "8 hours of biology, ENG 1302, PSY 1303 or SOC 1303, and junior standing."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "8 hours of biology"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:ENG 1302",
+            "timing": "before"
+          },
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:PSY 1303",
+                "timing": "before"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:SOC 1303",
+                "timing": "before"
+              }
+            ]
+          },
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "Junior standing"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -2082,28 +2248,114 @@
       "sourceIds": [
         "biology-intake-37-1"
       ]
-    }
-  ],
-  "blockedCourses": [
-    {
-      "code": "BIOL 4399",
-      "title": "Senior Honors Thesis",
-      "sourceId": "biology-intake-37-1",
-      "reason": "No credit value published in the captured panel; no course record or credit total created."
     },
     {
-      "code": "BIOL 3390",
-      "title": "Special Topics in Biology",
-      "sourceId": "biology-intake-37-1",
-      "reason": "No credit value published in the captured panel; no course record or credit total created."
+      "id": "2025-2026:ENG 1302",
+      "catalogYear": "2025-2026",
+      "code": "ENG 1302",
+      "title": "Composition II",
+      "description": "English 1302 will build on the skills developed in ENG 1301 by focusing on research and analytical skills. Emphasis will be placed on the analysis and summarization of complex written, oral, and visual texts and the need to accurately paraphrase, quote and document sources through the development of college-level research skills.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in ENG 1301 or placement by examination.",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:ENG 1301",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "Placement by examination"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "biology-supplement-37-68976"
+      ]
     },
     {
-      "code": "BIOL 4390",
-      "title": "Special Topics in Biology",
-      "sourceId": "biology-intake-37-1",
-      "reason": "No credit value published in the captured panel; no course record or credit total created."
+      "id": "2025-2026:PSY 1303",
+      "catalogYear": "2025-2026",
+      "code": "PSY 1303",
+      "title": "Introduction to Psychology",
+      "description": "A survey of the essential subject areas, major theories and approaches to the scientific study of behavior and mental processes. (PSYC 2301)",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Credit or enrollment in ENG 1301 (or 010 core complete)",
+      "prerequisites": {
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:ENG 1301",
+            "timing": "before-or-concurrent"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "010 core complete"
+          }
+        ]
+      },
+      "review": "verified",
+      "sourceIds": [
+        "biology-supplement-37-69610"
+      ]
+    },
+    {
+      "id": "2025-2026:SOC 1303",
+      "catalogYear": "2025-2026",
+      "code": "SOC 1303",
+      "title": "Introduction to Sociology",
+      "description": "An introduction to the scientific study of human society. This sociological perspective focuses on new ways of looking at society and its component parts, so the student is encouraged to develop a critical view of society, social processes and individual roles.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "No prerequisite statement published; review required."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-supplement-37-69732"
+      ]
+    },
+    {
+      "id": "2025-2026:MBIO 4310",
+      "catalogYear": "2025-2026",
+      "code": "MBIO 4310",
+      "title": "Microbial Biotechnology",
+      "description": "Fundamental principles of biotechnology with emphasis on microbial systems, genetic improvement, and practical applications.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MBIO 2305/MBIO 2105, BIOL 2303/BIOL 2103 and 8 additional hours of upper-level science.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in MBIO 2305/MBIO 2105, BIOL 2303/BIOL 2103 and 8 additional hours of upper-level science."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-supplement-37-69449"
+      ]
     }
   ],
+  "blockedCourses": [],
   "panelMetadata": [
     {
       "code": "TCOM 3302",
@@ -2320,7 +2572,9 @@
     {
       "code": "BIOL 4399",
       "crossListings": [],
-      "adjustments": []
+      "adjustments": [
+        "The catalog policy assigns semester credit hours from the second digit; this listed course has second digit 3. No class/lab hours are inferred."
+      ]
     },
     {
       "code": "BIOL 3102",
@@ -2453,12 +2707,16 @@
     {
       "code": "BIOL 3390",
       "crossListings": [],
-      "adjustments": []
+      "adjustments": [
+        "The catalog policy assigns semester credit hours from the second digit; this listed course has second digit 3. No class/lab hours are inferred."
+      ]
     },
     {
       "code": "BIOL 4390",
       "crossListings": [],
-      "adjustments": []
+      "adjustments": [
+        "The catalog policy assigns semester credit hours from the second digit; this listed course has second digit 3. No class/lab hours are inferred."
+      ]
     },
     {
       "code": "BIOL 3302",
@@ -2559,10 +2817,63 @@
       "adjustments": []
     }
   ],
+  "creditResolutions": [
+    {
+      "code": "BIOL 3390",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "basis": "Explicit same-edition course-numbering policy",
+      "directCreditLinePublished": false,
+      "policySourceUrl": "https://catalog.uhd.edu/content.php?catoid=37&navoid=2421",
+      "policySha256": "fea4a502627db67574ec1ca6591c56d65b82f01e7b9df00a96f1e3a363977c36",
+      "courseSourceUrl": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7092&returnto=2409",
+      "courseSha256": "bdcc690f0b1f651dd98779b6fb0501c77c12c2fdb6dcf691f9b8750ddc5964fb",
+      "explanation": "The catalog policy assigns semester credit hours from the second digit; this listed course has second digit 3. No class/lab hours are inferred."
+    },
+    {
+      "code": "BIOL 4390",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "basis": "Explicit same-edition course-numbering policy",
+      "directCreditLinePublished": false,
+      "policySourceUrl": "https://catalog.uhd.edu/content.php?catoid=37&navoid=2421",
+      "policySha256": "fea4a502627db67574ec1ca6591c56d65b82f01e7b9df00a96f1e3a363977c36",
+      "courseSourceUrl": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7092&returnto=2409",
+      "courseSha256": "6380b02afbd6c9e605af4fe9dbb7275e8fa81145ce32459fdfa2a368146e7b7b",
+      "explanation": "The catalog policy assigns semester credit hours from the second digit; this listed course has second digit 3. No class/lab hours are inferred."
+    },
+    {
+      "code": "BIOL 4399",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "basis": "Explicit same-edition course-numbering policy",
+      "directCreditLinePublished": false,
+      "policySourceUrl": "https://catalog.uhd.edu/content.php?catoid=37&navoid=2421",
+      "policySha256": "fea4a502627db67574ec1ca6591c56d65b82f01e7b9df00a96f1e3a363977c36",
+      "courseSourceUrl": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7092&returnto=2409",
+      "courseSha256": "40dfcbeaa82eb33aa763851b72d0c0d1850fb8cbe114776adae61517f223c2ae",
+      "explanation": "The catalog policy assigns semester credit hours from the second digit; this listed course has second digit 3. No class/lab hours are inferred."
+    }
+  ],
+  "supplementalReview": {
+    "reviewedOn": "2026-10-15",
+    "unresolvedReason": "The exact same-edition course filter returned no result. This does not prove an equivalency or authorize replacing BIOL 3103 with BIOL 2103.",
+    "searchSourceUrl": "https://catalog.uhd.edu/content.php?filter%5B27%5D=BIOL&filter%5B29%5D=3103&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=37&expand=&navoid=2413&search_database=Filter#acalog_template_course_filter",
+    "searchSha256": "82275ec4dd964718e73c05cb2ad31a31f0a6b479cb091771d841b678201785f2"
+  },
   "report": {
-    "capturedPanelCount": 85,
-    "courseCount": 82,
-    "blockedCourseCount": 3,
+    "capturedPanelCount": 89,
+    "courseCount": 89,
+    "listedOptionCourseCount": 85,
+    "supplementalCourseCount": 4,
+    "policyCreditResolutionCount": 3,
+    "blockedCourseCount": 0,
     "sharedCourseIds": [
       "2025-2026:TCOM 3302",
       "2025-2026:TCOM 3325",
@@ -2596,8 +2907,8 @@
       "2025-2026:CHEM 4140",
       "2025-2026:CHEM 4340"
     ],
-    "newCourseCount": 51,
-    "verifiedCount": 50,
+    "newCourseCount": 58,
+    "verifiedCount": 55,
     "reusedReviewIds": [
       "2025-2026:TCOM 3302",
       "2025-2026:TCOM 3325",
@@ -2659,10 +2970,6 @@
         "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
       },
       {
-        "courseId": "2025-2026:BIOL 4331",
-        "reason": "MBIO 4310 is absent from the available same-edition records. Retain the full OR choice until that reference is resolved."
-      },
-      {
         "courseId": "2025-2026:BIOL 4332",
         "reason": "BIOL 3103 is absent from the available same-edition records. Do not replace it with BIOL 2103 without evidence."
       },
@@ -2703,6 +3010,14 @@
         "reason": "Slash grouping and the OR scope of credit or enrollment in BIOL 3140 require clarification."
       },
       {
+        "courseId": "2025-2026:BIOL 3390",
+        "reason": "Prerequisites vary by topic; no specific offering requirements are supplied."
+      },
+      {
+        "courseId": "2025-2026:BIOL 4390",
+        "reason": "Prerequisites vary by topic; no specific offering requirements are supplied."
+      },
+      {
         "courseId": "2025-2026:BIOL 3302",
         "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
       },
@@ -2712,11 +3027,7 @@
       },
       {
         "courseId": "2025-2026:BIOL 4340",
-        "reason": "Slash grouping is unresolved and ENG 1302 has no captured record; do not infer a course-code equivalency."
-      },
-      {
-        "courseId": "2025-2026:BIOL 4350",
-        "reason": "ENG 1302, PSY 1303 and SOC 1303 lack captured records; preserve the alternatives and standing/credit conditions without guessed aliases."
+        "reason": "Slash-separated biology lecture/lab pair does not explicitly state AND or OR. ENG 1302 is now captured; retain the full expression unresolved."
       },
       {
         "courseId": "2025-2026:MBIO 3340",
@@ -2757,10 +3068,19 @@
       {
         "courseId": "2025-2026:MBIO 4340",
         "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:SOC 1303",
+        "reason": "No prerequisite statement is published in the captured panel; absence is not evidence of no prerequisites."
+      },
+      {
+        "courseId": "2025-2026:MBIO 4310",
+        "reason": "Grade-qualified slash pairs and the scope of additional science hours need clarification; retain the full source text without partial edges."
       }
     ],
     "mandatoryBeforeCycles": [],
     "dependencyCourseIds": [
+      "2025-2026:ENG 1301",
       "2025-2026:MATH 1300",
       "2025-2026:MATH 1301",
       "2025-2026:MATH 1302",
@@ -2779,7 +3099,6 @@
       "BIOL 2103",
       "MBIO 4311",
       "BIOL 4302",
-      "BIOL 4331",
       "BIOL 4332",
       "BIOL 4361",
       "BIOL 4330",
@@ -2790,10 +3109,11 @@
       "BIOL 3330",
       "BIOL 3310",
       "BIOL 3340",
+      "BIOL 3390",
+      "BIOL 4390",
       "BIOL 3302",
       "BIOL 4360",
       "BIOL 4340",
-      "BIOL 4350",
       "MBIO 3340",
       "BIOL 3304",
       "BIOL 3305",
@@ -2803,14 +3123,12 @@
       "BIOL 4310",
       "BIOL 4313",
       "MBIO 3320",
-      "MBIO 4340"
+      "MBIO 4340",
+      "SOC 1303",
+      "MBIO 4310"
     ],
     "missingReferencedCodes": [
-      "BIOL 3103",
-      "ENG 1302",
-      "MBIO 4310",
-      "PSY 1303",
-      "SOC 1303"
+      "BIOL 3103"
     ],
     "sourceFingerprints": [
       {
@@ -3161,8 +3479,9 @@
       }
     ],
     "remaining": [
-      "Verify missing credits from an authoritative same-edition source or retain blocked options.",
-      "Review prerequisite logic, cross-list exclusions, aliases and supplementary references.",
+      "Retain BIOL 3103 as unresolved unless authoritative source evidence clarifies it.",
+      "Preserve unresolved prerequisite interpretations and policy-derived credit provenance.",
+      "Model cross-list credit exclusions and degree requirement overlap.",
       "Model degree requirements, reconcile credits and complete tests/browser QA before registration."
     ]
   }

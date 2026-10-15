@@ -2,6 +2,7 @@ import type { Course, Prerequisite } from '../src/data/catalog-schema.ts'
 import { chemistryUnresolvedReasons } from './chemistry-prerequisite-reviews.ts'
 
 // Reviewed against the saved catalog-37 panels on October 14, 2026.
+// Supplemental interpretations reviewed October 15, 2026.
 // Exact source-text guards apply to resolved AND unresolved interpretations.
 // BIOL 3308 explicitly says Genetics AND laboratory. BIOL 4320 explicitly
 // excludes recommended CHEM 2301 from requirements. CHEM 4344's trailing
@@ -94,7 +95,31 @@ const reviews: Record<string, { expectedText: string; prerequisites?: Prerequisi
   },
   "BIOL 4331": {
     "expectedText": "One of the following: BIOL 4320, BIOL 4330, CHEM 4140, MBIO 4310",
-    "reason": "MBIO 4310 is absent from the available same-edition records. Retain the full OR choice until that reference is resolved."
+    "prerequisites": {
+      "kind": "any",
+      "items": [
+        {
+          "kind": "course",
+          "courseId": "2025-2026:BIOL 4320",
+          "timing": "before"
+        },
+        {
+          "kind": "course",
+          "courseId": "2025-2026:BIOL 4330",
+          "timing": "before"
+        },
+        {
+          "kind": "course",
+          "courseId": "2025-2026:CHEM 4140",
+          "timing": "before"
+        },
+        {
+          "kind": "course",
+          "courseId": "2025-2026:MBIO 4310",
+          "timing": "before"
+        }
+      ]
+    }
   },
   "BIOL 4332": {
     "expectedText": "BIOL 3103 or CHEM 4140",
@@ -262,11 +287,45 @@ const reviews: Record<string, { expectedText: string; prerequisites?: Prerequisi
   },
   "BIOL 4340": {
     "expectedText": "BIOL 1302/BIOL 1102 and ENG 1302.",
-    "reason": "Slash grouping is unresolved and ENG 1302 has no captured record; do not infer a course-code equivalency."
+    "reason": "Slash-separated biology lecture/lab pair does not explicitly state AND or OR. ENG 1302 is now captured; retain the full expression unresolved."
   },
   "BIOL 4350": {
     "expectedText": "8 hours of biology, ENG 1302, PSY 1303 or SOC 1303, and junior standing.",
-    "reason": "ENG 1302, PSY 1303 and SOC 1303 lack captured records; preserve the alternatives and standing/credit conditions without guessed aliases."
+    "prerequisites": {
+      "kind": "all",
+      "items": [
+        {
+          "kind": "condition",
+          "category": "other",
+          "text": "8 hours of biology"
+        },
+        {
+          "kind": "course",
+          "courseId": "2025-2026:ENG 1302",
+          "timing": "before"
+        },
+        {
+          "kind": "any",
+          "items": [
+            {
+              "kind": "course",
+              "courseId": "2025-2026:PSY 1303",
+              "timing": "before"
+            },
+            {
+              "kind": "course",
+              "courseId": "2025-2026:SOC 1303",
+              "timing": "before"
+            }
+          ]
+        },
+        {
+          "kind": "condition",
+          "category": "standing",
+          "text": "Junior standing"
+        }
+      ]
+    }
   },
   "MBIO 3340": {
     "expectedText": "Grade of C or better in MBIO 2305/MBIO 2105.",
@@ -349,6 +408,77 @@ const reviews: Record<string, { expectedText: string; prerequisites?: Prerequisi
       "courseId": "2025-2026:MBIO 4340",
       "timing": "before-or-concurrent"
     }
+  },
+  "BIOL 3390": {
+    "expectedText": "Varies according to topic.",
+    "reason": "Prerequisites vary by topic; no specific offering requirements are supplied."
+  },
+  "BIOL 4390": {
+    "expectedText": "Varies according to topic.",
+    "reason": "Prerequisites vary by topic; no specific offering requirements are supplied."
+  },
+  "BIOL 4399": {
+    "expectedText": "Senior standing and enrollment in the Honors Program in the Natural Sciences.",
+    "prerequisites": {
+      "kind": "all",
+      "items": [
+        {
+          "kind": "condition",
+          "category": "standing",
+          "text": "Senior standing"
+        },
+        {
+          "kind": "condition",
+          "category": "other",
+          "text": "Enrollment in the Honors Program in the Natural Sciences"
+        }
+      ]
+    }
+  },
+  "ENG 1302": {
+    "expectedText": "A grade of C or better in ENG 1301 or placement by examination.",
+    "prerequisites": {
+      "kind": "any",
+      "items": [
+        {
+          "kind": "course",
+          "courseId": "2025-2026:ENG 1301",
+          "timing": "before",
+          "minimumGrade": "C"
+        },
+        {
+          "kind": "condition",
+          "category": "placement",
+          "text": "Placement by examination"
+        }
+      ]
+    }
+  },
+  "PSY 1303": {
+    "expectedText": "Credit or enrollment in ENG 1301 (or 010 core complete)",
+    "prerequisites": {
+      "kind": "any",
+      "items": [
+        {
+          "kind": "course",
+          "courseId": "2025-2026:ENG 1301",
+          "timing": "before-or-concurrent"
+        },
+        {
+          "kind": "condition",
+          "category": "other",
+          "text": "010 core complete"
+        }
+      ]
+    }
+  },
+  "SOC 1303": {
+    "expectedText": "",
+    "reason": "No prerequisite statement is published in the captured panel; absence is not evidence of no prerequisites."
+  },
+  "MBIO 4310": {
+    "expectedText": "A grade of C or better in MBIO 2305/MBIO 2105, BIOL 2303/BIOL 2103 and 8 additional hours of upper-level science.",
+    "reason": "Grade-qualified slash pairs and the scope of additional science hours need clarification; retain the full source text without partial edges."
   }
 }
 

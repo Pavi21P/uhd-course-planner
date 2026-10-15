@@ -227,3 +227,41 @@ Keep BIOL 3103 and unresolved slash groups explicit. Then model degree choices,
 allocation and cross-list restrictions before local UI integration and browser QA.
 
 Validation: all four focused supplemental-audit tests, tools typecheck and lint passed. Staged diff checks passed. The temporary loopback save server was stopped. Main intake and runtime files were unchanged; no new build/browser UI pass was needed.
+
+## October 15, 2026: supplemental integration checkpoint
+
+The primary Biology intake now includes all 85 listed degree options plus four
+supplementary courses: 89 records total, with 55 reviewed prerequisite expressions
+and 34 explicit unresolved interpretations. All 31 shared source records still
+match; 29 shared reviews are reused. The only missing referenced course code is
+BIOL 3103. No alias or replacement was inferred.
+
+Applied three source-validated credit resolutions to BIOL 3390/4390/4399. Each
+Course retains the original panel source AND the catalog-37 numbering-policy
+source. The draft also stores the full credit-resolution evidence, fingerprints,
+and `directCreditLinePublished: false`. Raw panels are unchanged; no class/lab
+hours or synthetic credit line were added. Standalone panel parsing still blocks
+missing credits; only the importer with verified supplemental policy evidence
+resolves them. Changed credit lines or prerequisite statements require re-review.
+
+New reviewed expressions preserve ENG 1302's grade/exam alternatives, PSY 1303's
+credit-or-enrollment/core alternatives, and BIOL 4399's senior-standing and Honors
+Program enrollment conditions. BIOL 4331 now has its complete four-course OR
+choice. BIOL 4350 requires ENG 1302, PSY 1303 OR SOC 1303, eight biology hours and
+junior standing. SOC 1303's absent prerequisite statement, MBIO 4310's slash groups
+and BIOL 3390/4390's topic-dependent prerequisites remain explicitly unresolved.
+BIOL 4340 still needs slash-group clarification despite ENG 1302 now being present.
+
+Merged source/reference validation and mandatory-before cycle auditing pass.
+The reviewed expressions need ten external shared records: the nine previously
+listed math courses plus ENG 1301. This is a dependency list, not additional
+degree-credit requirements. The 89 records are a catalog pool, not 89 required
+courses or a completed degree plan.
+
+Next bounded phase: model the standard Biology BS requirements from the saved
+degree page, including high-impact/CURE alternatives, four upper-level content
+areas, overlap limits and cross-list credit exclusions. Biology remains absent
+from the selector; degree allocation, local browser QA and deployment are later
+steps. Reproduce with `node --experimental-strip-types scripts/import-biology.ts`.
+
+Validation: all 152 tests passed, including new policy-integration and prerequisite semantic/source-guard cases. Tools typecheck, lint and staged diff checks passed. Existing raw captures and active application catalogs were unchanged; no new UI build or browser pass was required.

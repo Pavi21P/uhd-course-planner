@@ -7,6 +7,7 @@ import { courseSchema, datasetSchema, sourceSchema, type Course } from '../src/d
 import { parseCourseCapture } from './catalog-import.ts'
 import { reviewBiologyPrerequisites } from './biology-prerequisite-reviews.ts'
 import { auditMandatoryCycles } from './prerequisite-audit.ts'
+import { auditBiologySupplement } from './biology-supplement-audit.ts'
 
 const panelSchema = z.object({ code: z.string().regex(/^[A-Z]+ \d{4}$/), sourceUrl: z.url(),
   text: z.string().min(1), sha256: z.string().regex(/^[a-f0-9]{64}$/) })
@@ -52,7 +53,7 @@ export function parseBiologyPanel(panel: { code: string; text: string }, sourceI
   return { course, metadata: { code: panel.code, crossListings, adjustments } }
 }
 
-export async function buildBiologyIntake(root: string, captureInput?: unknown) {
+export async function buildBiologyIntake(root: string, captureInput?: unknown, supplementInput?: unknown) {
   const read = async (path: string) => JSON.parse(await readFile(resolve(root, path), 'utf8'))
   const capture = captureSchema.parse(captureInput ?? await read('data/sources/2025-2026/biology-bs-capture.json'))
   const inventory = new Set(capture.listedCourseCodes)
@@ -71,8 +72,28 @@ export async function buildBiologyIntake(root: string, captureInput?: unknown) {
     .map((url, index) => sourceSchema.parse({ id: `biology-intake-37-${index + 1}`, url,
       title: 'Biology BS degree page and course panels', catalogYear: capture.catalogYear,
       retrievedOn: capture.retrievedOn, role: 'catalog' }))
-  const results = capture.courses.map(panel => parseBiologyPanel(panel, sources.find(source => source.url === panel.sourceUrl)!.id))
-  let courses = results.flatMap(result => result.course ? [result.course] : [])
+  const supplement = await auditBiologySupplement(root, supplementInput, capture)
+  const policySource = sourceSchema.parse({ id: 'biology-credit-policy-37',
+    url: supplement.creditEvidence[0].policySourceUrl, title: 'Course Credit and Numbering System',
+    catalogYear: capture.catalogYear, retrievedOn: supplement.reviewedOn, role: 'catalog' })
+  sources.push(...supplement.sources.map(source => sourceSchema.parse(source)), policySource)
+  const results = capture.courses.map(panel => {
+    const parsed = parseBiologyPanel(panel, sources.find(source => source.url === panel.sourceUrl)!.id)
+    if (!parsed.blocked) return parsed
+    const evidence = supplement.creditEvidence.find(item => item.code === panel.code)
+    if (!evidence || evidence.courseSha256 !== panel.sha256 || evidence.courseSourceUrl !== panel.sourceUrl)
+      throw new Error('Missing or stale Biology credit evidence: ' + panel.code)
+    const lines = panel.text.split(/\r?\n/).map(normalize).filter(Boolean)
+    const prerequisiteText = lines[1].replace(/^Prerequisite\(s\): /, '')
+    const course = courseSchema.parse({ id: capture.catalogYear + ':' + panel.code, catalogYear: capture.catalogYear,
+      code: panel.code, title: parsed.blocked.title, credits: evidence.credits,
+      prerequisiteText, description: lines.slice(2).join('\n'), review: 'needs-review',
+      prerequisites: { kind: 'condition', category: 'other', text: prerequisiteText },
+      sourceIds: [parsed.blocked.sourceId, policySource.id] })
+    return { course, blocked: undefined, metadata: { ...parsed.metadata,
+      adjustments: [...parsed.metadata.adjustments, evidence.explanation] } }
+  })
+  let courses = [...results.flatMap(result => result.course ? [result.course] : []), ...supplement.courses]
   const blockedCourses = results.flatMap(result => result.blocked ? [result.blocked] : [])
   // Compare the source fields before reusing any exact-match prerequisite review.
   const sharedDatasets = [(await read('src/data/catalog-2025-2026.json')).catalog,
@@ -121,7 +142,12 @@ export async function buildBiologyIntake(root: string, captureInput?: unknown) {
     .map(code => code.replace(/([A-Z]+)\s*(\d{4})/, '$1 $2')).filter(code => !known.has(code)))].sort()
   return { version: 1, catalogYear: capture.catalogYear, publishable: false as const, sources, courses, blockedCourses,
     panelMetadata: results.map(result => result.metadata),
-    report: { capturedPanelCount: capture.courses.length, courseCount: courses.length,
+    creditResolutions: supplement.creditEvidence,
+    supplementalReview: { reviewedOn: supplement.reviewedOn, unresolvedReason: supplement.report.unresolvedReason,
+      searchSourceUrl: supplement.report.searchSourceUrl, searchSha256: supplement.report.searchSha256 },
+    report: { capturedPanelCount: capture.courses.length + supplement.courses.length, courseCount: courses.length,
+      listedOptionCourseCount: capture.courses.length, supplementalCourseCount: supplement.courses.length,
+      policyCreditResolutionCount: supplement.creditEvidence.length,
       blockedCourseCount: blockedCourses.length, sharedCourseIds, newCourseCount: courses.length - sharedCourseIds.length,
       verifiedCount: courses.filter(course => course.review === 'verified').length,
       reusedReviewIds: review.reusedReviewIds, unresolved: review.unresolved, mandatoryBeforeCycles,
@@ -129,8 +155,9 @@ export async function buildBiologyIntake(root: string, captureInput?: unknown) {
       prerequisiteReviewRequired: courses.filter(course => course.review !== 'verified').map(course => course.code), missingReferencedCodes,
       sourceFingerprints: capture.courses.map(panel => ({ code: panel.code, sha256: panel.sha256 })),
       degreePageFingerprints: capture.pages.map(page => ({ sourceUrl: page.sourceUrl, sha256: page.sha256 })),
-      remaining: ['Verify missing credits from an authoritative same-edition source or retain blocked options.',
-        'Review prerequisite logic, cross-list exclusions, aliases and supplementary references.',
+      remaining: ['Retain BIOL 3103 as unresolved unless authoritative source evidence clarifies it.',
+        'Preserve unresolved prerequisite interpretations and policy-derived credit provenance.',
+        'Model cross-list credit exclusions and degree requirement overlap.',
         'Model degree requirements, reconcile credits and complete tests/browser QA before registration.'] } }
 }
 

@@ -23,7 +23,7 @@ function verify(entry: z.infer<typeof record>) {
   return url
 }
 
-export async function auditBiologySupplement(root: string, captureInput?: unknown) {
+export async function auditBiologySupplement(root: string, captureInput?: unknown, originalInput?: unknown) {
   const read = async (path: string) => JSON.parse(await readFile(resolve(root, path), 'utf8'))
   const capture = schema.parse(captureInput ?? await read('data/sources/2025-2026/biology-supplemental-capture.json'))
   if (new Set(capture.courses.map(panel => panel.code)).size !== 4) throw new Error('Duplicate supplemental course')
@@ -48,7 +48,7 @@ export async function auditBiologySupplement(root: string, captureInput?: unknow
     if (parsed.length !== 1 || course.code !== panel.code) throw new Error('Supplemental panel identity mismatch')
     return course
   })
-  const original = await read('data/sources/2025-2026/biology-bs-capture.json')
+  const original = (originalInput ?? await read('data/sources/2025-2026/biology-bs-capture.json')) as { catalogYear: string; catalogId: string; courses: { code: string }[] }
   if (original.catalogYear !== capture.catalogYear || original.catalogId !== capture.catalogId) throw new Error('Original Biology edition mismatch')
   const creditEvidence = creditCodes.map(code => {
     const panel = record.extend({ code: z.literal(code) }).parse(original.courses.find((item: { code: string }) => item.code === code))
