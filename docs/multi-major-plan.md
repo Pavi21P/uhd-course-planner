@@ -170,3 +170,17 @@ Next: restore source access, save remaining panels in small batches, then model
 Biology choices and review prerequisites. See `biology-source-checkpoint.md`.
 Biology is not registered or deployed. The prior seven Math/Chemistry commits were
 pushed to public GitHub main at a40cc7c on October 13; no website deployment occurred.
+
+### Biology complete source capture checkpoint (October 14, 2026)
+
+Browser access recovered. Saved the complete catalog-37 Biology BS degree page
+and all 85 distinct linked panels to biology-bs-capture.json, with fingerprints
+and small-batch disk persistence. The historical partial recovery is retained.
+31 shared records reconcile exactly after whitespace normalization. The strict
+parser accepts 72 unreviewed panels; 13 need format/metadata handling, including
+three with unpublished credit values. Five additional prerequisite code mentions
+need source/alias review. See biology-source-checkpoint.md for exact issues.
+
+Next bounded phase: Biology source adapter and prerequisite review. Do not add
+Biology to the selector yet; requirement modeling and local QA remain pending.
+No application behavior, active catalog or public deployment changed.

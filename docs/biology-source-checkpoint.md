@@ -60,3 +60,43 @@ requirements, build the Biology catalog and complete tests/browser QA before
 registering Biology. Existing CS, Math and Chemistry behavior remains unchanged.
 
 Validation: both focused recovery tests, tools typecheck and diff checks passed. No application code or active catalogs changed.
+
+## October 14, 2026: complete degree-page and listed-panel capture
+
+This checkpoint supersedes the earlier browser-access and missing-file status.
+Browser access recovered; the selected catalog was visibly verified as the
+2025-2026 undergraduate archived catalog (37). The complete standard Biology BS
+page and all 85 distinct linked course panels are now saved in
+`data/sources/2025-2026/biology-bs-capture.json`. Small batches were persisted to
+disk with SHA-256 fingerprints. The earlier recovery file remains unchanged as
+historical provenance. No academic records were imported into the active app.
+
+Audit results:
+
+- All 85 inventory codes have one matching panel, an official same-edition URL
+  and a verified text fingerprint; the full degree page is also fingerprinted.
+- The existing strict parser accepts 72 panels as unreviewed courses. All 31
+  shared records match existing CS/minor/Chemistry titles, credits, descriptions
+  and prerequisite text after whitespace normalization.
+- Thirteen panels require explicit import handling: BIOL 4302, 4399, 4344,
+  CHEM 4344, MBIO 3390, BIOL 3340, 3140, 3390, 4390, 3302, 3307, 4313 and 4113.
+  Issues include blank lines, a multiline prerequisite (4302), cross-list notices
+  before prerequisites, and no prerequisite statement (MBIO 3390).
+- BIOL 3390, 4390 and 4399 publish no credit line in these captured panels.
+  Do not infer credit hours from course numbers or the degree's option listing.
+- Among the 72 parsed prerequisite statements, five referenced codes are absent
+  from the combined records: BIOL 3103 (BIOL 4332), MBIO 4310 (BIOL 4331),
+  ENG 1302 (BIOL 4340/4350), and PSY 1303/SOC 1303 (BIOL 4350).
+  These are discovery candidates; legacy names and equivalencies need evidence.
+- A scan of all raw text also finds cross-list counterparts MBIO 3350, 3150,
+  4313 and 4113, plus description/equivalency references BIOL 1106, 1107, 1305,
+  2321, 2121; CHEM 1111, 1112; MATH 2413; PHYS 1101, 2125, 2126.
+  Raw mentions are not prerequisite edges or proof these courses must be taken.
+
+Next bounded phase: build a source-preserving Biology intake adapter, resolve or
+explicitly block missing-credit records, and review prerequisite statements and
+supplementary references. Then model degree choices (including unequal-size
+high-impact/CURE alternatives), check allocation and complete browser QA before
+registering Biology. Source capture completeness is not catalog readiness.
+
+Validation: all five focused Biology tests and the tools typecheck passed; staged diff checks passed. The temporary loopback capture server was stopped. No runtime changes required a new build or browser UI test.
