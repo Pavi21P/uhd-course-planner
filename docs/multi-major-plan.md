@@ -283,3 +283,36 @@ vary by choice. All 175 tests, tools typecheck, lint and production build passed
 Next bounded phase: release verification and publication. No push or deployment
 occurred here; unresolved academic rules remain explicit draft notices. The
 allocation checker has no assignment editor and makes no completion claims.
+
+### Four-major production release (October 15, 2026)
+
+Published the pending Biology work and updated four-major README to public GitHub
+main at `cdf7d95` (application integration commit `05cc948`). Verified the public
+repository/default branch, local/remote head equality and all 116 expected source,
+catalog, test and documentation files. Credential-pattern scanning found no matches.
+Private reports, .local state, credentials, dependencies, dist and upload archives
+remain excluded from Git. Commit dates were preserved; no history was rewritten.
+
+Deployed the reviewed static build to the existing Cloudflare Pages production
+project `uhd-course-planner` through its signed-in dashboard. The CLI's current
+OAuth grant lacks Pages write scope; dashboard upload avoided changing permissions.
+Deployment: `7d7cf655-e5ef-40bf-942e-9c91b9ab5f4f`.
+Live URL: https://uhd-course-planner.pages.dev
+Immutable deployment: https://7d7cf655.uhd-course-planner.pages.dev
+The previous production deployment remains available for rollback.
+
+The upload contained ten files with forward-slash ZIP paths. All ten public asset
+SHA-256 hashes match the local production build, including index.html served from
+its canonical root URL. Public browser verification confirmed the original CS
+save restored at 54 hours, Math 38, Chemistry 70 and Biology 34; Biology reload
+retained its selected major and total. No browser warnings or errors appeared.
+The built local release also passed four-major reload checks, a 390x844 responsive
+control/canvas check and Biology whole-plan export preparation (160 course cards,
+48 connections, 3959x12123 PNG, about 2 MB). Existing automated checks cover branch
+moves, completion, personal connections and export limits; all 175 tests, tools
+typecheck, lint and the production build passed before release.
+
+Academic draft flags and unresolved prerequisite/credit/overlap notices remain
+intentional. Public availability is not academic certification. The standalone
+Biology allocation audit still has no requirement-assignment editor. This release
+completes the requested standard Math, Chemistry and Biology plan additions.

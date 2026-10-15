@@ -382,3 +382,14 @@ The degree-draft reproducibility tests were rerun after updating checkpoint text
 No deployment or GitHub push occurred. Next bounded phase: release verification
 and publication. The standalone allocation audit remains without an assignment
 editor; selecting a course never asserts completion of requirement slots.
+
+### Biology published (October 15, 2026)
+
+The four-major planner is now deployed at https://uhd-course-planner.pages.dev
+and source is public on GitHub. Production deployment is
+`7d7cf655-e5ef-40bf-942e-9c91b9ab5f4f`, built from application commit `05cc948`
+with documentation through `cdf7d95`. All ten deployed assets matched local hashes;
+live Biology selection/reload showed its 34-hour starter without browser errors.
+See the multi-major release checkpoint for repository coverage and release QA.
+Academic draft/review flags remain: publication does not resolve the documented
+prerequisite, credit or allocation questions or certify graduation eligibility.
