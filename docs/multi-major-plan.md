@@ -208,3 +208,16 @@ for future scoped catalog assembly. New interpretations are source-text guarded.
 
 Next: supplementary source review for missing references and credits, then
 Biology requirement modeling. No selector registration or deployment occurred.
+
+### Biology supplemental evidence checkpoint (October 15, 2026)
+
+Saved four formerly missing prerequisite panels (ENG 1302, PSY 1303, SOC 1303,
+MBIO 4310), catalog-37 credit-numbering policy and the empty exact BIOL 3103
+search. The policy supports three credits each for BIOL 3390/4390/4399, with
+explicit policy-derived provenance rather than pretending their panels state it.
+A separate reproducible supplement audit records these findings. The primary
+intake remains unchanged at this source-only checkpoint.
+
+Next: integrate supplemental courses and policy-supported credits, review affected
+prerequisites, then model the Biology degree requirements. BIOL 3103 remains
+unresolved. No registration in the major selector, push or deployment occurred.

@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "catalogYear": "2025-2026",
+  "reviewedOn": "2026-10-15",
+  "publishable": false,
+  "sources": [
+    {
+      "id": "biology-supplement-37-68976",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=68976",
+      "title": "ENG 1302 supplemental course panel",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-15",
+      "role": "catalog"
+    },
+    {
+      "id": "biology-supplement-37-69610",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69610",
+      "title": "PSY 1303 supplemental course panel",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-15",
+      "role": "catalog"
+    },
+    {
+      "id": "biology-supplement-37-69732",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69732",
+      "title": "SOC 1303 supplemental course panel",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-15",
+      "role": "catalog"
+    },
+    {
+      "id": "biology-supplement-37-69449",
+      "url": "https://catalog.uhd.edu/preview_course_nopop.php?catoid=37&coid=69449",
+      "title": "MBIO 4310 supplemental course panel",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-15",
+      "role": "catalog"
+    }
+  ],
+  "courses": [
+    {
+      "id": "2025-2026:ENG 1302",
+      "catalogYear": "2025-2026",
+      "code": "ENG 1302",
+      "title": "Composition II",
+      "description": "English 1302 will build on the skills developed in ENG 1301 by focusing on research and analytical skills. Emphasis will be placed on the analysis and summarization of complex written, oral, and visual texts and the need to accurately paraphrase, quote and document sources through the development of college-level research skills.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in ENG 1301 or placement by examination.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in ENG 1301 or placement by examination."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-supplement-37-68976"
+      ]
+    },
+    {
+      "id": "2025-2026:PSY 1303",
+      "catalogYear": "2025-2026",
+      "code": "PSY 1303",
+      "title": "Introduction to Psychology",
+      "description": "A survey of the essential subject areas, major theories and approaches to the scientific study of behavior and mental processes. (PSYC 2301)",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Credit or enrollment in ENG 1301 (or 010 core complete)",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in ENG 1301 (or 010 core complete)"
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-supplement-37-69610"
+      ]
+    },
+    {
+      "id": "2025-2026:SOC 1303",
+      "catalogYear": "2025-2026",
+      "code": "SOC 1303",
+      "title": "Introduction to Sociology",
+      "description": "An introduction to the scientific study of human society. This sociological perspective focuses on new ways of looking at society and its component parts, so the student is encouraged to develop a critical view of society, social processes and individual roles.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "No prerequisite statement published in the captured panel; review required."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-supplement-37-69732"
+      ]
+    },
+    {
+      "id": "2025-2026:MBIO 4310",
+      "catalogYear": "2025-2026",
+      "code": "MBIO 4310",
+      "title": "Microbial Biotechnology",
+      "description": "Fundamental principles of biotechnology with emphasis on microbial systems, genetic improvement, and practical applications.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MBIO 2305/MBIO 2105, BIOL 2303/BIOL 2103 and 8 additional hours of upper-level science.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in MBIO 2305/MBIO 2105, BIOL 2303/BIOL 2103 and 8 additional hours of upper-level science."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-supplement-37-69449"
+      ]
+    }
+  ],
+  "creditEvidence": [
+    {
+      "code": "BIOL 3390",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "basis": "Explicit same-edition course-numbering policy",
+      "directCreditLinePublished": false,
+      "policySourceUrl": "https://catalog.uhd.edu/content.php?catoid=37&navoid=2421",
+      "policySha256": "fea4a502627db67574ec1ca6591c56d65b82f01e7b9df00a96f1e3a363977c36",
+      "courseSourceUrl": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7092&returnto=2409",
+      "courseSha256": "bdcc690f0b1f651dd98779b6fb0501c77c12c2fdb6dcf691f9b8750ddc5964fb",
+      "explanation": "The catalog policy assigns semester credit hours from the second digit; this listed course has second digit 3. No class/lab hours are inferred."
+    },
+    {
+      "code": "BIOL 4390",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "basis": "Explicit same-edition course-numbering policy",
+      "directCreditLinePublished": false,
+      "policySourceUrl": "https://catalog.uhd.edu/content.php?catoid=37&navoid=2421",
+      "policySha256": "fea4a502627db67574ec1ca6591c56d65b82f01e7b9df00a96f1e3a363977c36",
+      "courseSourceUrl": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7092&returnto=2409",
+      "courseSha256": "6380b02afbd6c9e605af4fe9dbb7275e8fa81145ce32459fdfa2a368146e7b7b",
+      "explanation": "The catalog policy assigns semester credit hours from the second digit; this listed course has second digit 3. No class/lab hours are inferred."
+    },
+    {
+      "code": "BIOL 4399",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "basis": "Explicit same-edition course-numbering policy",
+      "directCreditLinePublished": false,
+      "policySourceUrl": "https://catalog.uhd.edu/content.php?catoid=37&navoid=2421",
+      "policySha256": "fea4a502627db67574ec1ca6591c56d65b82f01e7b9df00a96f1e3a363977c36",
+      "courseSourceUrl": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7092&returnto=2409",
+      "courseSha256": "40dfcbeaa82eb33aa763851b72d0c0d1850fb8cbe114776adae61517f223c2ae",
+      "explanation": "The catalog policy assigns semester credit hours from the second digit; this listed course has second digit 3. No class/lab hours are inferred."
+    }
+  ],
+  "report": {
+    "foundReferencedCodes": [
+      "ENG 1302",
+      "MBIO 4310",
+      "PSY 1303",
+      "SOC 1303"
+    ],
+    "unresolvedReferencedCodes": [
+      "BIOL 3103"
+    ],
+    "unresolvedReason": "The exact same-edition course filter returned no result. This does not prove an equivalency or authorize replacing BIOL 3103 with BIOL 2103.",
+    "searchSourceUrl": "https://catalog.uhd.edu/content.php?filter%5B27%5D=BIOL&filter%5B29%5D=3103&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=37&expand=&navoid=2413&search_database=Filter#acalog_template_course_filter",
+    "searchSha256": "82275ec4dd964718e73c05cb2ad31a31f0a6b479cb091771d841b678201785f2",
+    "prerequisitesStillUnreviewed": [
+      "ENG 1302",
+      "PSY 1303",
+      "SOC 1303",
+      "MBIO 4310"
+    ],
+    "remaining": [
+      "Import the four supplementary records and review their prerequisite expressions.",
+      "Apply the three explicit credit resolutions while retaining policy and original-panel provenance.",
+      "Retain BIOL 3103 as unresolved; model degree choices and cross-list restrictions before selector integration."
+    ]
+  }
+}

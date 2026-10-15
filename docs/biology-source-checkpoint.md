@@ -177,3 +177,53 @@ high-impact/CURE choices and overlapping upper-level options, before selector
 integration and browser QA. Publication remains disabled.
 
 Validation: all 144 tests passed, including six new prerequisite semantic/review-guard tests. Tools typecheck, lint and staged diff checks passed. No application UI or active catalog changed.
+
+## October 15, 2026: supplemental sources and credit-policy audit
+
+Saved live same-edition evidence to
+`data/sources/2025-2026/biology-supplemental-capture.json`, with fingerprints and
+incremental disk persistence. The previous interrupted browser's in-memory work
+was re-collected as needed; no unsaved content is presented as a saved capture.
+
+Four formerly missing prerequisite references are present in catalog 37:
+
+- ENG 1302, Composition II: coid 68976; 3 credits; C or better in ENG 1301 or
+  placement by examination.
+- PSY 1303, Introduction to Psychology: coid 69610; 3 credits; credit or enrollment
+  in ENG 1301 (or 010 core complete).
+- SOC 1303, Introduction to Sociology: coid 69732; 3 credits. Its panel has no
+  prerequisite statement, which remains unknown rather than automatically none.
+- MBIO 4310, Microbial Biotechnology: coid 69449; 3 credits. Its grade-qualified
+  slash pairs and eight additional upper-level science hours need explicit review.
+
+The exact BIOL 3103 filter returned no courses. Saved the URL, query and rendered
+result. This is limited search evidence, not proof of a typo or equivalency;
+BIOL 3103 must not silently become BIOL 2103.
+
+The three original BIOL 3390/4390/4399 panels have no credit line. Catalog 37's
+Course Credit and Numbering System page (navoid 2421) explicitly says the second
+digit gives semester credit hours. Applying that same-edition policy supports
+three credits for each. This is an explicit policy-based resolution with both
+policy and course-panel fingerprints, not a fabricated credit line. No class or
+lab hours are inferred. Preserve this distinction when importing or displaying
+provenance. The earlier missing-credit blocks remain in the main intake until
+this evidence is integrated in the next phase.
+
+Added `scripts/biology-supplement-audit.ts` and the reproducible separate artifact
+`data/drafts/biology-supplement-review-2025-2026.json`. Run:
+
+```powershell
+node --experimental-strip-types scripts/biology-supplement-audit.ts
+```
+
+The audit checks edition, source identities, fingerprints, exact missing-course
+query, and the policy statement. It parses four supplemental records as unreviewed
+and records three policy-based credit resolutions. It does not change the primary
+Biology intake, existing course catalogs, selector, or public site.
+
+Next bounded phase: integrate these four records and three credit resolutions
+with provenance; review the new prerequisites and affected BIOL 4331/4350 rules.
+Keep BIOL 3103 and unresolved slash groups explicit. Then model degree choices,
+allocation and cross-list restrictions before local UI integration and browser QA.
+
+Validation: all four focused supplemental-audit tests, tools typecheck and lint passed. Staged diff checks passed. The temporary loopback save server was stopped. Main intake and runtime files were unchanged; no new build/browser UI pass was needed.
