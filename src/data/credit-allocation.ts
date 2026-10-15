@@ -54,7 +54,7 @@ export function auditRequirementAssignments(requirements: CatalogDataset['requir
   for (const requirement of requirements.filter(r => r.courseSets)) {
     const selected = new Set(assignments.filter(a => a.requirementId === requirement.id).map(a => a.courseId))
     if (selected.size && !requirement.courseSets!.some(set => set.length === selected.size && set.every(id => selected.has(id))))
-      for (const courseId of selected) issues.push({ courseId, requirementId: requirement.id, reason: 'Choose one complete course set; mixing lecture and lab alternatives does not fulfill this requirement.' })
+      for (const courseId of selected) issues.push({ courseId, requirementId: requirement.id, reason: 'Choose one complete course set; partial or mixed alternatives do not fulfill this requirement.' })
   }
   const scienceIds = new Set(assignments.filter(a => a.requirementId === 'support-science').map(a => a.courseId))
   for (const p of policies.filter(p => p.kind === 'laboratory-pair')) {

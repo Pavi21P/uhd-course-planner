@@ -1,0 +1,1301 @@
+{
+  "version": 1,
+  "programId": "biology-bs",
+  "catalogYear": "2025-2026",
+  "publishable": false,
+  "minimumCredits": 120,
+  "sources": [
+    {
+      "id": "biology-degree-37",
+      "url": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7092&returnto=2409",
+      "title": "Standard Biology BS requirements",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-14",
+      "role": "catalog"
+    },
+    {
+      "id": "natural-sciences-integrated-37",
+      "url": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7019",
+      "title": "Integrated Natural Sciences writing and ethics requirements",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-11",
+      "role": "catalog"
+    },
+    {
+      "id": "natural-sciences-department-37",
+      "url": "https://catalog.uhd.edu/preview_entity.php?catoid=37&ent_oid=974&returnto=2409",
+      "title": "Natural Sciences graduation and enrollment rules",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-13",
+      "role": "catalog"
+    },
+    {
+      "id": "cst-general-rules-37",
+      "url": "https://catalog.uhd.edu/preview_entity.php?catoid=37&ent_oid=966&returnto=2428",
+      "title": "CST general rules",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-13",
+      "role": "catalog"
+    }
+  ],
+  "sourceIds": [
+    "biology-degree-37",
+    "natural-sciences-integrated-37",
+    "natural-sciences-department-37",
+    "cst-general-rules-37"
+  ],
+  "requirements": [
+    {
+      "id": "core-010",
+      "programId": "biology-bs",
+      "label": "Communication UHD Course Options - 010 (6 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:ENG 1301",
+        "2025-2026:ENG 1302"
+      ],
+      "unimportedOptions": [],
+      "optionCoverage": "listed",
+      "minimumCredits": 6,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-020",
+      "programId": "biology-bs",
+      "label": "Mathematics UHD Course Options - 020 (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:MATH 1301",
+        "2025-2026:MATH 1324",
+        "2025-2026:MATH 2305",
+        "2025-2026:MATH 1310",
+        "2025-2026:STAT 1312"
+      ],
+      "unimportedOptions": [],
+      "optionCoverage": "open-rule",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses.",
+        "Additional courses whose prerequisites include a listed mathematics option may qualify; this open rule is not exhaustively enumerated."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-030",
+      "programId": "biology-bs",
+      "label": "Life and Physical Sciences UHD Course Options - 030 (6 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 2402",
+        "2025-2026:BIOL 1301",
+        "2025-2026:BIOL 1302",
+        "2025-2026:CHEM 1305",
+        "2025-2026:CHEM 1307",
+        "2025-2026:CHEM 1308",
+        "2025-2026:PHYS 1307",
+        "2025-2026:PHYS 1308"
+      ],
+      "unimportedOptions": [
+        {
+          "code": "BIOL 1303",
+          "title": "Human Anatomy and Physiology I"
+        },
+        {
+          "code": "BIOL 1304",
+          "title": "Human Anatomy and Physiology II"
+        },
+        {
+          "code": "BIOL 1310",
+          "title": "Human Biology"
+        },
+        {
+          "code": "BIOL 1312",
+          "title": "Ecology and Environmental Biology"
+        },
+        {
+          "code": "BIOL 2306",
+          "title": "Fundamentals of Nutrition"
+        },
+        {
+          "code": "GEOL 1304",
+          "title": "Introduction to Meteorology"
+        },
+        {
+          "code": "GEOL 1305",
+          "title": "Physical Geology"
+        },
+        {
+          "code": "GEOL 1306",
+          "title": "Historical Geology"
+        },
+        {
+          "code": "GEOL 1307",
+          "title": "Planet Earth"
+        },
+        {
+          "code": "GEOL 1308",
+          "title": "History of the Earth"
+        },
+        {
+          "code": "GEOL 1345",
+          "title": "Oceanography"
+        },
+        {
+          "code": "MBIO 1305",
+          "title": "Microbiology"
+        },
+        {
+          "code": "MBIO 1310",
+          "title": "Microbes and Society"
+        },
+        {
+          "code": "NS 1300",
+          "title": "Emergence of Modern Science"
+        },
+        {
+          "code": "PHYS 1301",
+          "title": "Introduction to Solar System Astronomy"
+        },
+        {
+          "code": "PHYS 1302",
+          "title": "Introduction to Stellar and Galactic Astronomy"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 6,
+      "constraints": [
+        "Choose six approved life/physical science credits. Count each selected course once even when serving another requirement.",
+        "Transfer core completion/articulation does not identify individual completed courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-040",
+      "programId": "biology-bs",
+      "label": "Language, Philosophy and Culture UHD Course Options - 040 (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "ENG 2301",
+          "title": "World Literature I"
+        },
+        {
+          "code": "ENG 2302",
+          "title": "World Literature II"
+        },
+        {
+          "code": "ENG 2305",
+          "title": "Literature and Culture"
+        },
+        {
+          "code": "ENG 2309",
+          "title": "Survey of Film: Beginnings to Present"
+        },
+        {
+          "code": "ENG 2311",
+          "title": "American Literature I"
+        },
+        {
+          "code": "ENG 2312",
+          "title": "American Literature II"
+        },
+        {
+          "code": "ENG 2313",
+          "title": "British Literature I"
+        },
+        {
+          "code": "ENG 2314",
+          "title": "British Literature II"
+        },
+        {
+          "code": "HUM 1301",
+          "title": "Ancient Western Culture"
+        },
+        {
+          "code": "HUM 1302",
+          "title": "Modern Western Culture"
+        },
+        {
+          "code": "LATS 1301",
+          "title": "Introduction to Latino Studies"
+        },
+        {
+          "code": "PHIL 1301",
+          "title": "Introduction to Philosophy"
+        },
+        {
+          "code": "PHIL 2305",
+          "title": "Contemporary Ethical Issues"
+        },
+        {
+          "code": "PHIL 2310",
+          "title": "The Meaning of Life"
+        },
+        {
+          "code": "SPAN 2301",
+          "title": "Intermediate Spanish I"
+        },
+        {
+          "code": "SPAN 2302",
+          "title": "Intermediate Spanish II"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-050",
+      "programId": "biology-bs",
+      "label": "Creative Arts UHD Course Options - 050 (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "ART 1301",
+          "title": "History of Art: Paleolithic to the Middle Ages"
+        },
+        {
+          "code": "ART 1302",
+          "title": "History of Art: Renaissance to Present"
+        },
+        {
+          "code": "ART 1308",
+          "title": "Art History: Introduction to World Art"
+        },
+        {
+          "code": "ART 1310",
+          "title": "Introduction to Visual Arts"
+        },
+        {
+          "code": "DANC 1301",
+          "title": "Dance in America"
+        },
+        {
+          "code": "DRA 1301",
+          "title": "Introduction to the Theater"
+        },
+        {
+          "code": "DRA 1303",
+          "title": "Introduction to Acting"
+        },
+        {
+          "code": "MUS 2301",
+          "title": "Music Appreciation: Before 1750"
+        },
+        {
+          "code": "MUS 2302",
+          "title": "Music Appreciation: After 1750"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-060",
+      "programId": "biology-bs",
+      "label": "American History UHD Course Options - 060 (6 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "HIST 1305",
+          "title": "United States History to 1877"
+        },
+        {
+          "code": "HIST 1306",
+          "title": "United States History after 1877"
+        },
+        {
+          "code": "HIST 1312",
+          "title": "Texas History"
+        },
+        {
+          "code": "HIST 1314",
+          "title": "Ethnic Minorities in American History"
+        },
+        {
+          "code": "HIST 1315",
+          "title": "Latino History before 1898"
+        },
+        {
+          "code": "HIST 1316",
+          "title": "Latino History since 1898"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 6,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-070",
+      "programId": "biology-bs",
+      "label": "Government/Political Science UHD Course Options - 070 (6 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "POLS 2305",
+          "title": "Federal Government"
+        },
+        {
+          "code": "POLS 2306",
+          "title": "Texas Government"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 6,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-080",
+      "programId": "biology-bs",
+      "label": "Social and Behavioral Sciences UHD Course Options - 080 (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:PSY 1303",
+        "2025-2026:SOC 1303"
+      ],
+      "unimportedOptions": [
+        {
+          "code": "ANTH 2302",
+          "title": "Cultural Anthropology"
+        },
+        {
+          "code": "CJ 1301",
+          "title": "Introduction to Criminal Justice"
+        },
+        {
+          "code": "CRS 1301",
+          "title": "An Introduction to Critical Race Studies"
+        },
+        {
+          "code": "ECO 1305",
+          "title": "Contemporary Economic Issues"
+        },
+        {
+          "code": "HEA 2305",
+          "title": "Wellness Across the Lifespan"
+        },
+        {
+          "code": "LANG 1303",
+          "title": "Language and Society"
+        },
+        {
+          "code": "SOCW 2361",
+          "title": "Introduction to Social Work and Social Welfare"
+        },
+        {
+          "code": "SOCW 2363",
+          "title": "Introduction to Social Welfare Policy"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-090-oral",
+      "programId": "biology-bs",
+      "label": "Oral Communication (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:COMM 1304"
+      ],
+      "unimportedOptions": [
+        {
+          "code": "COMM 1302",
+          "title": "Mass Media"
+        },
+        {
+          "code": "COMM 1306",
+          "title": "Beginning Public Speaking"
+        },
+        {
+          "code": "COMM 1309",
+          "title": "Communication and Public Decision Making"
+        },
+        {
+          "code": "COMM 2307",
+          "title": "Intercultural Communication"
+        },
+        {
+          "code": "COMM 2309",
+          "title": "Interpersonal Communication"
+        },
+        {
+          "code": "COMM 2311",
+          "title": "Principles of Public Relations"
+        },
+        {
+          "code": "ENG 1306",
+          "title": "Workplace Presentations"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "core-090-seminar",
+      "programId": "biology-bs",
+      "label": "New Student Seminar* (3 Hours)",
+      "area": "core",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "unimportedOptions": [
+        {
+          "code": "UHD 1301",
+          "title": "First-Year Seminar-Communication"
+        },
+        {
+          "code": "UHD 1302",
+          "title": "First-Year Seminar-Mathematics"
+        },
+        {
+          "code": "UHD 1303",
+          "title": "First-Year Seminar-Life and Physical Sciences"
+        },
+        {
+          "code": "UHD 1304",
+          "title": "First-Year Seminar-Language, Philosophy and Culture"
+        },
+        {
+          "code": "UHD 1305",
+          "title": "First-Year Seminar-Creative Arts"
+        },
+        {
+          "code": "UHD 1306",
+          "title": "First-Year Seminar-American History"
+        },
+        {
+          "code": "UHD 1307",
+          "title": "First-Year Seminar-Government/Political Science"
+        },
+        {
+          "code": "UHD 1308",
+          "title": "First-Year Seminar-Social and Behavioral Sciences"
+        },
+        {
+          "code": "UHD 2301",
+          "title": "University Seminar-Communication"
+        },
+        {
+          "code": "UHD 2302",
+          "title": "University Seminar-Mathematics"
+        },
+        {
+          "code": "UHD 2303",
+          "title": "University Seminar-Life and Physical Sciences"
+        },
+        {
+          "code": "UHD 2304",
+          "title": "University Seminar-Language, Philosophy and Culture"
+        },
+        {
+          "code": "UHD 2305",
+          "title": "University Seminar -Creative Arts"
+        },
+        {
+          "code": "UHD 2306",
+          "title": "University Seminar-American History"
+        },
+        {
+          "code": "UHD 2307",
+          "title": "University Seminar-Government/Political Science"
+        },
+        {
+          "code": "UHD 2308",
+          "title": "University Seminar-Social and Behavioral Sciences"
+        }
+      ],
+      "optionCoverage": "listed",
+      "minimumCredits": 3,
+      "constraints": [
+        "Transfer core completion/articulation can satisfy this group; do not infer individual Taken courses.",
+        "If Component Area Option is not complete at transfer: UHD 1301-1308 for fewer than 30 SCH or ENG 1301 not passed; UHD 2301-2308 for at least 30 SCH and ENG 1301 passed. First UHD semester."
+      ],
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "biology-fixed-science",
+      "programId": "biology-bs",
+      "label": "Required foundation sciences and statistics",
+      "area": "supporting",
+      "rule": "all",
+      "courseIds": [
+        "2025-2026:BIOL 1301",
+        "2025-2026:BIOL 1101",
+        "2025-2026:BIOL 1302",
+        "2025-2026:BIOL 1102",
+        "2025-2026:CHEM 1307",
+        "2025-2026:CHEM 1107",
+        "2025-2026:CHEM 1308",
+        "2025-2026:CHEM 1108",
+        "2025-2026:STAT 3311",
+        "2025-2026:MBIO 2305",
+        "2025-2026:MBIO 2105"
+      ],
+      "minimumCredits": 23,
+      "constraints": [
+        "Calculus, computing/mathematics and physics are separate choices."
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ]
+    },
+    {
+      "id": "biology-fixed-major",
+      "programId": "biology-bs",
+      "label": "Required Biology major courses",
+      "area": "major",
+      "rule": "all",
+      "courseIds": [
+        "2025-2026:BIOL 2303",
+        "2025-2026:BIOL 2103",
+        "2025-2026:CHEM 2301",
+        "2025-2026:CHEM 2101",
+        "2025-2026:BIOL 3306"
+      ],
+      "minimumCredits": 11,
+      "constraints": [
+        "Seminar and high-impact experience are separate choices."
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ]
+    },
+    {
+      "id": "biology-writing",
+      "programId": "biology-bs",
+      "label": "Technical writing: choose one",
+      "area": "supporting",
+      "rule": "choose-courses",
+      "courseIds": [
+        "2025-2026:TCOM 3302",
+        "2025-2026:TCOM 3325",
+        "2025-2026:TCOM 3326",
+        "2025-2026:TCOM 3329",
+        "2025-2026:TCOM 4306"
+      ],
+      "minimumCredits": 3,
+      "constraints": [
+        "One listed TCOM course. Also counts toward the two-course integrated writing condition when applicable."
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "count": 1
+    },
+    {
+      "id": "biology-calculus",
+      "programId": "biology-bs",
+      "label": "Calculus I: choose one",
+      "area": "supporting",
+      "rule": "choose-courses",
+      "courseIds": [
+        "2025-2026:MATH 2411",
+        "2025-2026:MATH 2401"
+      ],
+      "minimumCredits": 4,
+      "constraints": [
+        "MATH 2411 or MATH 2401."
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "count": 1
+    },
+    {
+      "id": "biology-math-computing",
+      "programId": "biology-bs",
+      "label": "Additional mathematics or computing: choose one",
+      "area": "supporting",
+      "rule": "choose-courses",
+      "courseIds": [
+        "2025-2026:MATH 2412",
+        "2025-2026:CS 1408",
+        "2025-2026:CS 1411"
+      ],
+      "minimumCredits": 4,
+      "constraints": [
+        "MATH 2402 is not a listed replacement for this degree requirement."
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "count": 1
+    },
+    {
+      "id": "biology-physics-1",
+      "programId": "biology-bs",
+      "label": "Physics 1: one complete lecture/lab pair",
+      "area": "supporting",
+      "rule": "choose-courses",
+      "courseIds": [
+        "2025-2026:PHYS 1307",
+        "2025-2026:PHYS 1107",
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 2101"
+      ],
+      "minimumCredits": 4,
+      "constraints": [
+        "Choose the algebra-physics pair (4 credits) or calculus-physics pair (5 credits). Do not mix lecture/lab alternatives."
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "count": 2,
+      "courseSets": [
+        [
+          "2025-2026:PHYS 1307",
+          "2025-2026:PHYS 1107"
+        ],
+        [
+          "2025-2026:PHYS 2401",
+          "2025-2026:PHYS 2101"
+        ]
+      ]
+    },
+    {
+      "id": "biology-physics-2",
+      "programId": "biology-bs",
+      "label": "Physics 2: one complete lecture/lab pair",
+      "area": "supporting",
+      "rule": "choose-courses",
+      "courseIds": [
+        "2025-2026:PHYS 1308",
+        "2025-2026:PHYS 1108",
+        "2025-2026:PHYS 2402",
+        "2025-2026:PHYS 2102"
+      ],
+      "minimumCredits": 4,
+      "constraints": [
+        "Choose the algebra-physics pair (4 credits) or calculus-physics pair (5 credits). Do not mix lecture/lab alternatives."
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "count": 2,
+      "courseSets": [
+        [
+          "2025-2026:PHYS 1308",
+          "2025-2026:PHYS 1108"
+        ],
+        [
+          "2025-2026:PHYS 2402",
+          "2025-2026:PHYS 2102"
+        ]
+      ]
+    },
+    {
+      "id": "biology-seminar",
+      "programId": "biology-bs",
+      "label": "Seminar: choose one",
+      "area": "major",
+      "rule": "choose-courses",
+      "courseIds": [
+        "2025-2026:BIOL 4311",
+        "2025-2026:MBIO 4311",
+        "2025-2026:SUST 4301"
+      ],
+      "minimumCredits": 3,
+      "constraints": [
+        "Each listed seminar is an approved integrated ethics option."
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "count": 1
+    },
+    {
+      "id": "biology-high-impact",
+      "programId": "biology-bs",
+      "label": "One high-impact lab OR two distinct CURE courses",
+      "area": "major",
+      "rule": "choose-set",
+      "courseIds": [
+        "2025-2026:BIOL 3300",
+        "2025-2026:BIOL 4302",
+        "2025-2026:BIOL 4331",
+        "2025-2026:BIOL 4332",
+        "2025-2026:BIOL 4361",
+        "2025-2026:BIOL 4399",
+        "2025-2026:BIOL 3102",
+        "2025-2026:BIOL 3104",
+        "2025-2026:BIOL 3107",
+        "2025-2026:BIOL 4110"
+      ],
+      "minimumCredits": 2,
+      "constraints": [
+        "Choose one complete listed alternative: one high-impact course (3 credits) or any two distinct CURE courses (2 or 4 published credits).",
+        "BIOL 4399 requires Honors Program enrollment.",
+        "Alternative credit differences do not reduce the 120-hour degree minimum."
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "courseSets": [
+        [
+          "2025-2026:BIOL 3300"
+        ],
+        [
+          "2025-2026:BIOL 4302"
+        ],
+        [
+          "2025-2026:BIOL 4331"
+        ],
+        [
+          "2025-2026:BIOL 4332"
+        ],
+        [
+          "2025-2026:BIOL 4361"
+        ],
+        [
+          "2025-2026:BIOL 4399"
+        ],
+        [
+          "2025-2026:BIOL 3102",
+          "2025-2026:BIOL 3104"
+        ],
+        [
+          "2025-2026:BIOL 3102",
+          "2025-2026:BIOL 3107"
+        ],
+        [
+          "2025-2026:BIOL 3102",
+          "2025-2026:BIOL 4110"
+        ],
+        [
+          "2025-2026:BIOL 3104",
+          "2025-2026:BIOL 3107"
+        ],
+        [
+          "2025-2026:BIOL 3104",
+          "2025-2026:BIOL 4110"
+        ],
+        [
+          "2025-2026:BIOL 3107",
+          "2025-2026:BIOL 4110"
+        ]
+      ]
+    },
+    {
+      "id": "biology-upper-options",
+      "programId": "biology-bs",
+      "label": "Biology upper-level options: 23 unique hours",
+      "area": "major",
+      "rule": "choose-credits",
+      "courseIds": [
+        "2025-2026:BIOL 3308",
+        "2025-2026:BIOL 4320",
+        "2025-2026:BIOL 4330",
+        "2025-2026:BIOL 4344",
+        "2025-2026:CHEM 4344",
+        "2025-2026:CHEM 4140",
+        "2025-2026:CHEM 4340",
+        "2025-2026:MBIO 3390",
+        "2025-2026:MBIO 4320",
+        "2025-2026:MBIO 4120",
+        "2025-2026:MBIO 4330",
+        "2025-2026:MBIO 4390",
+        "2025-2026:BIOL 3330",
+        "2025-2026:BIOL 3130",
+        "2025-2026:BIOL 3310",
+        "2025-2026:BIOL 3110",
+        "2025-2026:BIOL 3340",
+        "2025-2026:BIOL 3140",
+        "2025-2026:BIOL 3390",
+        "2025-2026:BIOL 4390",
+        "2025-2026:BIOL 3302",
+        "2025-2026:BIOL 3102",
+        "2025-2026:BIOL 4360",
+        "2025-2026:BIOL 4340",
+        "2025-2026:BIOL 4350",
+        "2025-2026:MBIO 3340",
+        "2025-2026:BIOL 3105",
+        "2025-2026:BIOL 3304",
+        "2025-2026:BIOL 3104",
+        "2025-2026:BIOL 3305",
+        "2025-2026:BIOL 3307",
+        "2025-2026:BIOL 3107",
+        "2025-2026:BIOL 3320",
+        "2025-2026:BIOL 4303",
+        "2025-2026:BIOL 4310",
+        "2025-2026:BIOL 4110",
+        "2025-2026:BIOL 4313",
+        "2025-2026:BIOL 4113",
+        "2025-2026:BIOL 4305",
+        "2025-2026:MBIO 3320",
+        "2025-2026:MBIO 4340",
+        "2025-2026:MBIO 4140",
+        "2025-2026:BIOL 4302"
+      ],
+      "minimumCredits": 23,
+      "constraints": [
+        "Select at least one eligible course in each of the four content areas; these are overlapping conditions on this pool, not extra credit blocks.",
+        "Special Topics choices require approval.",
+        "BIOL 4302 may be used here only if not used for the high-impact requirement.",
+        "Lecture/lab grouping and use across multiple content areas require allocation review; membership alone does not certify eligibility."
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "optionCoverage": "listed"
+    },
+    {
+      "id": "free-electives",
+      "programId": "biology-bs",
+      "label": "Approved upper-level electives to reach 120 unique hours",
+      "area": "elective",
+      "rule": "choose-credits",
+      "courseIds": [],
+      "minimumCredits": 0,
+      "constraints": [
+        "Use approved upper-level electives to reach the degree minimum.",
+        "At most six hours of undergraduate research count toward the degree."
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "optionCoverage": "open-rule"
+    }
+  ],
+  "integratedConditions": [
+    {
+      "id": "biology-integrated-writing",
+      "label": "Two distinct writing courses",
+      "count": 2,
+      "courseIds": [
+        "2025-2026:TCOM 3302",
+        "2025-2026:TCOM 3325",
+        "2025-2026:TCOM 3326",
+        "2025-2026:TCOM 3329",
+        "2025-2026:TCOM 4306",
+        "2025-2026:BIOL 4310",
+        "2025-2026:BIOL 4340",
+        "2025-2026:CHEM 4140",
+        "2025-2026:MBIO 4120",
+        "2025-2026:MBIO 4140"
+      ],
+      "sourceIds": [
+        "natural-sciences-integrated-37"
+      ],
+      "coverage": "Relevant Biology pool options only; other approved courses or approved petitions may qualify."
+    },
+    {
+      "id": "biology-integrated-ethics",
+      "label": "One ethics course",
+      "count": 1,
+      "courseIds": [
+        "2025-2026:BIOL 3308",
+        "2025-2026:BIOL 4311",
+        "2025-2026:BIOL 4303",
+        "2025-2026:BIOL 4360",
+        "2025-2026:BIOL 4344",
+        "2025-2026:CHEM 4344",
+        "2025-2026:MBIO 3340",
+        "2025-2026:MBIO 4311",
+        "2025-2026:MBIO 4310",
+        "2025-2026:SUST 4301"
+      ],
+      "sourceIds": [
+        "natural-sciences-integrated-37"
+      ],
+      "coverage": "Relevant Biology and supplemental options only; other official alternatives remain available."
+    }
+  ],
+  "contentAreaConditions": [
+    {
+      "id": "biology-area-cell-molecular",
+      "label": "Cell/Molecular",
+      "minimumCourseCount": 1,
+      "requirementId": "biology-upper-options",
+      "courseIds": [
+        "2025-2026:BIOL 3308",
+        "2025-2026:BIOL 4320",
+        "2025-2026:BIOL 4330",
+        "2025-2026:BIOL 4344",
+        "2025-2026:CHEM 4344",
+        "2025-2026:CHEM 4140",
+        "2025-2026:CHEM 4340",
+        "2025-2026:MBIO 3390",
+        "2025-2026:MBIO 4320",
+        "2025-2026:MBIO 4120",
+        "2025-2026:MBIO 4330",
+        "2025-2026:MBIO 4390"
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "addsSeparateCredits": false
+    },
+    {
+      "id": "biology-area-plant-fungal",
+      "label": "Plant/Fungal",
+      "minimumCourseCount": 1,
+      "requirementId": "biology-upper-options",
+      "courseIds": [
+        "2025-2026:BIOL 3330",
+        "2025-2026:BIOL 3130",
+        "2025-2026:BIOL 3310",
+        "2025-2026:BIOL 3110",
+        "2025-2026:BIOL 3340",
+        "2025-2026:BIOL 3140",
+        "2025-2026:BIOL 3390",
+        "2025-2026:BIOL 4390"
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "addsSeparateCredits": false
+    },
+    {
+      "id": "biology-area-environmental",
+      "label": "Environmental",
+      "minimumCourseCount": 1,
+      "requirementId": "biology-upper-options",
+      "courseIds": [
+        "2025-2026:BIOL 3302",
+        "2025-2026:BIOL 3102",
+        "2025-2026:BIOL 4360",
+        "2025-2026:BIOL 4340",
+        "2025-2026:BIOL 4350",
+        "2025-2026:MBIO 3340",
+        "2025-2026:MBIO 3390",
+        "2025-2026:MBIO 4390"
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "addsSeparateCredits": false
+    },
+    {
+      "id": "biology-area-organismal",
+      "label": "Organismal",
+      "minimumCourseCount": 1,
+      "requirementId": "biology-upper-options",
+      "courseIds": [
+        "2025-2026:BIOL 3105",
+        "2025-2026:BIOL 3304",
+        "2025-2026:BIOL 3104",
+        "2025-2026:BIOL 3305",
+        "2025-2026:BIOL 3307",
+        "2025-2026:BIOL 3107",
+        "2025-2026:BIOL 3320",
+        "2025-2026:BIOL 3390",
+        "2025-2026:BIOL 4303",
+        "2025-2026:BIOL 4310",
+        "2025-2026:BIOL 4110",
+        "2025-2026:BIOL 4313",
+        "2025-2026:BIOL 4113",
+        "2025-2026:BIOL 4344",
+        "2025-2026:BIOL 4305",
+        "2025-2026:BIOL 4390",
+        "2025-2026:MBIO 3320",
+        "2025-2026:MBIO 4340",
+        "2025-2026:MBIO 4140",
+        "2025-2026:BIOL 4302"
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "addsSeparateCredits": false
+    }
+  ],
+  "coursePolicies": [
+    {
+      "id": "exclusive-phys-2401",
+      "kind": "mutually-exclusive-credit",
+      "courseIds": [
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 1307"
+      ],
+      "text": "Credit for both PHYS 1307 and PHYS 2401 may not be applied toward a degree.",
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "exclusive-phys-2402",
+      "kind": "mutually-exclusive-credit",
+      "courseIds": [
+        "2025-2026:PHYS 2402",
+        "2025-2026:PHYS 1308"
+      ],
+      "text": "Credit for both PHYS 1308 and PHYS 2402 may not be applied toward a degree.",
+      "sourceIds": [
+        "core-rules-37"
+      ]
+    },
+    {
+      "id": "biology-exclusive-pharmacology",
+      "kind": "mutually-exclusive-credit",
+      "courseIds": [
+        "2025-2026:BIOL 4344",
+        "2025-2026:CHEM 4344"
+      ],
+      "sourceIds": [
+        "biology-degree-37",
+        "biology-intake-37-1"
+      ],
+      "text": "BIOL 4344 and CHEM 4344 are cross-listed; credit may only be earned for one."
+    },
+    {
+      "id": "biology-research-limit",
+      "kind": "program-condition",
+      "courseIds": [
+        "2025-2026:BIOL 3300",
+        "2025-2026:BIOL 4399"
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "text": "At most six hours of undergraduate research may count toward the degree, across all research courses and repeat enrollments. These are the currently imported research choices, not an exhaustive research inventory."
+    },
+    {
+      "id": "biology-special-topics-approval",
+      "kind": "program-condition",
+      "courseIds": [
+        "2025-2026:BIOL 3390",
+        "2025-2026:BIOL 4390",
+        "2025-2026:MBIO 3390",
+        "2025-2026:MBIO 4390"
+      ],
+      "sourceIds": [
+        "biology-degree-37"
+      ],
+      "text": "Special Topics requires approval for the relevant upper-level content area; course selection alone does not establish approval."
+    },
+    {
+      "id": "biology-natural-sciences-rules",
+      "kind": "program-condition",
+      "courseIds": [
+        "2025-2026:BIOL 1301",
+        "2025-2026:BIOL 1101",
+        "2025-2026:BIOL 1302",
+        "2025-2026:BIOL 1102",
+        "2025-2026:CHEM 1307",
+        "2025-2026:CHEM 1107",
+        "2025-2026:CHEM 1308",
+        "2025-2026:CHEM 1108",
+        "2025-2026:MBIO 2305",
+        "2025-2026:MBIO 2105",
+        "2025-2026:PHYS 1307",
+        "2025-2026:PHYS 1107",
+        "2025-2026:PHYS 2401",
+        "2025-2026:PHYS 2101",
+        "2025-2026:PHYS 1308",
+        "2025-2026:PHYS 1108",
+        "2025-2026:PHYS 2402",
+        "2025-2026:PHYS 2102",
+        "2025-2026:BIOL 2303",
+        "2025-2026:BIOL 2103",
+        "2025-2026:CHEM 2301",
+        "2025-2026:CHEM 2101",
+        "2025-2026:BIOL 3306",
+        "2025-2026:BIOL 4311",
+        "2025-2026:MBIO 4311",
+        "2025-2026:BIOL 3300",
+        "2025-2026:BIOL 4302",
+        "2025-2026:BIOL 4331",
+        "2025-2026:BIOL 4332",
+        "2025-2026:BIOL 4361",
+        "2025-2026:BIOL 4399",
+        "2025-2026:BIOL 3102",
+        "2025-2026:BIOL 3104",
+        "2025-2026:BIOL 3107",
+        "2025-2026:BIOL 4110",
+        "2025-2026:BIOL 3308",
+        "2025-2026:BIOL 4320",
+        "2025-2026:BIOL 4330",
+        "2025-2026:BIOL 4344",
+        "2025-2026:CHEM 4344",
+        "2025-2026:CHEM 4140",
+        "2025-2026:CHEM 4340",
+        "2025-2026:MBIO 3390",
+        "2025-2026:MBIO 4320",
+        "2025-2026:MBIO 4120",
+        "2025-2026:MBIO 4330",
+        "2025-2026:MBIO 4390",
+        "2025-2026:BIOL 3330",
+        "2025-2026:BIOL 3130",
+        "2025-2026:BIOL 3310",
+        "2025-2026:BIOL 3110",
+        "2025-2026:BIOL 3340",
+        "2025-2026:BIOL 3140",
+        "2025-2026:BIOL 3390",
+        "2025-2026:BIOL 4390",
+        "2025-2026:BIOL 3302",
+        "2025-2026:BIOL 4360",
+        "2025-2026:BIOL 4340",
+        "2025-2026:BIOL 4350",
+        "2025-2026:MBIO 3340",
+        "2025-2026:BIOL 3105",
+        "2025-2026:BIOL 3304",
+        "2025-2026:BIOL 3305",
+        "2025-2026:BIOL 3307",
+        "2025-2026:BIOL 3320",
+        "2025-2026:BIOL 4303",
+        "2025-2026:BIOL 4310",
+        "2025-2026:BIOL 4313",
+        "2025-2026:BIOL 4113",
+        "2025-2026:BIOL 4305",
+        "2025-2026:MBIO 3320",
+        "2025-2026:MBIO 4340",
+        "2025-2026:MBIO 4140",
+        "2025-2026:MBIO 4310"
+      ],
+      "sourceIds": [
+        "natural-sciences-department-37"
+      ],
+      "text": "Natural Sciences rules include 2.0 science GPA, C or higher in upper-level science used for graduation, at least 18 upper-level science hours at UHD with 2.0 GPA, satisfactory corequisite completion and the departmental exit survey."
+    },
+    {
+      "id": "biology-cst-rules",
+      "kind": "program-condition",
+      "courseIds": [
+        "2025-2026:BIOL 1301",
+        "2025-2026:BIOL 1101",
+        "2025-2026:BIOL 1302",
+        "2025-2026:BIOL 1102",
+        "2025-2026:CHEM 1307",
+        "2025-2026:CHEM 1107",
+        "2025-2026:CHEM 1308",
+        "2025-2026:CHEM 1108",
+        "2025-2026:STAT 3311",
+        "2025-2026:MBIO 2305",
+        "2025-2026:MBIO 2105",
+        "2025-2026:BIOL 2303",
+        "2025-2026:BIOL 2103",
+        "2025-2026:CHEM 2301",
+        "2025-2026:CHEM 2101",
+        "2025-2026:BIOL 3306"
+      ],
+      "sourceIds": [
+        "cst-general-rules-37"
+      ],
+      "text": "Complete general education and course prerequisites/corequisites; dropping a prerequisite or corequisite may require dropping both courses. Petition advising to reevaluate unapplied transfer credit."
+    }
+  ],
+  "defaultCourseIds": [
+    "2025-2026:BIOL 1301",
+    "2025-2026:BIOL 1101",
+    "2025-2026:BIOL 1302",
+    "2025-2026:BIOL 1102",
+    "2025-2026:CHEM 1307",
+    "2025-2026:CHEM 1107",
+    "2025-2026:CHEM 1308",
+    "2025-2026:CHEM 1108",
+    "2025-2026:STAT 3311",
+    "2025-2026:MBIO 2305",
+    "2025-2026:MBIO 2105",
+    "2025-2026:BIOL 2303",
+    "2025-2026:BIOL 2103",
+    "2025-2026:CHEM 2301",
+    "2025-2026:CHEM 2101",
+    "2025-2026:BIOL 3306"
+  ],
+  "fixedCourseCredits": 34,
+  "highImpactCreditAlternatives": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    4,
+    2,
+    4,
+    2,
+    4
+  ],
+  "physicsCreditAlternatives": [
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "allocationRestrictions": [
+    {
+      "code": "BIOL 4302",
+      "incompatibleRequirementIds": [
+        "biology-high-impact",
+        "biology-upper-options"
+      ],
+      "reason": "Explicit if-not-used-above restriction."
+    }
+  ],
+  "remaining": [
+    "Requirement assignment and credit-allocation auditing must enforce content-area approvals, overlap and research limits.",
+    "Clarify lecture/lab grouping and the MBIO 3320 OR MBIO 4340 with MBIO 4140 sequence before treating content-area selections as satisfied.",
+    "BIOL 3107 explicitly lists 3 credits despite the course-numbering policy suggesting 1. Retain the direct published value pending UHD clarification; CURE pairs containing it total 4 credits.",
+    "Do not assume CURE/high-impact work can also fill the 23-hour option pool or satisfy multiple content areas without review.",
+    "Cross-list counterpart policies for MBIO 3350/3150/4313/4113 remain outside the imported degree pool.",
+    "34 prerequisite interpretations remain unresolved; BIOL 3103 remains missing.",
+    "Scoped catalog assembly, local browser QA and publication verification remain pending."
+  ],
+  "notices": [
+    "Course selections do not certify completion, allocation, prerequisites or graduation eligibility.",
+    "Count each selected course once toward total credits. Integrated writing/ethics and content-area conditions add no separate credit blocks.",
+    "No minor is mandated by the captured standard Biology BS page. Optional minors remain separate."
+  ]
+}

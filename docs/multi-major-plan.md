@@ -234,3 +234,16 @@ ENG 1301 alongside nine math records; mandatory-before cycle auditing passes.
 Next bounded phase: Biology degree requirement modeling, including unequal-size
 high-impact/CURE alternatives and overlapping upper-level content areas. Credit
 allocation, selector integration and local browser QA remain pending.
+
+### Biology degree requirement checkpoint (October 15, 2026)
+
+Modeled 21 groups with a 16-course/34-credit fixed starter, complete physics
+choices, and 12 high-impact/CURE alternatives. The 43-course upper-level pool
+retains four overlapping area conditions; integrated writing/ethics add no
+separate credits. Cross-list exclusions and approval/research restrictions remain
+explicit. BIOL 3107's direct 3-credit listing conflicts with the numbering policy;
+retain it pending clarification, making its CURE pairs 4 credits instead of 2.
+
+Next bounded phase: Biology allocation auditing and unresolved grouping/overlap
+review. Scoped catalog assembly, selector integration and browser QA follow.
+The reproducible degree draft is unpublished and does not certify eligibility.

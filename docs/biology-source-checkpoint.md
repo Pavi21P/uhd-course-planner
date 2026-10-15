@@ -265,3 +265,35 @@ from the selector; degree allocation, local browser QA and deployment are later
 steps. Reproduce with `node --experimental-strip-types scripts/import-biology.ts`.
 
 Validation: all 152 tests passed, including new policy-integration and prerequisite semantic/source-guard cases. Tools typecheck, lint and staged diff checks passed. Existing raw captures and active application catalogs were unchanged; no new UI build or browser pass was required.
+
+### Biology degree model checkpoint (October 15, 2026)
+
+Added a reproducible unpublished Biology BS requirement draft with 21 groups,
+16 fixed foundation/major courses totaling 34 credits, and no preselected choices.
+The core groups total 42 hours. Physics alternatives retain complete lecture/lab
+pairs and their actual 4- or 5-credit totals. High-impact experience supports six
+single-course alternatives and all six distinct two-course CURE combinations.
+The shared schema now permits explicit alternatives of unequal sizes; existing
+fixed-count course-set validation remains intact.
+
+The upper-level option pool contains 43 distinct courses and requires 23 unique
+hours. Four content-area conditions and integrated writing (two courses)/ethics
+(one course) conditions are recorded separately, without adding credit blocks.
+Cross-listed pharmacology cannot produce a doubled degree-credit total. Research
+limits, topic approval and the explicit BIOL 4302 overlap restriction are retained.
+
+BIOL 3107's captured panel explicitly lists 3 credits, conflicting with the
+numbering policy's implied 1. The direct published value is preserved and flagged
+for UHD clarification: CURE pairs containing it currently total 4 credits; other
+pairs total 2. No silent policy-based override was applied.
+
+Next bounded phase: enforce Biology requirement allocation and overlap checks.
+Lecture/lab grouping, the MBIO 3320 OR MBIO 4340 with MBIO 4140 sequence, topic
+approval, research limits and overlapping conditions require further review.
+The intake still has 34 unresolved prerequisite interpretations and missing
+BIOL 3103. Scoped catalog assembly and browser QA precede selector integration.
+No push or deployment is part of this checkpoint.
+
+Reproduce: `node --experimental-strip-types scripts/biology-degree-plan.ts`.
+
+Validation: all 159 tests passed, including seven new degree-model cases. Tools typecheck, lint and the production build passed. Browser QA is deferred until scoped catalog integration; no active Biology UI was enabled.
