@@ -1,12 +1,13 @@
 # UHD Course Planner
 
 An independent visual planner for the University of Houston-Downtown's
-**2025-2026 Computer Science BS**, with Mathematics and Data Science minor areas.
+**2025-2026 Computer Science, Mathematics, Chemistry and Biology BS** plans,
+with optional Mathematics and Data Science minor areas where applicable.
 Built with React, TypeScript, Vite, and React Flow.
 
-The current development version also includes **Mathematics BS** and **Chemistry BS**, with separate
-saved plans per major. Biology BS is next; see
-[the expansion plan](docs/multi-major-plan.md). These additions are not deployed yet.
+Each major has a separate browser-saved plan. See
+[the expansion and release checkpoints](docs/multi-major-plan.md) for validation
+and publication status. Academic uncertainties remain visible review notices.
 
 **Live website: https://uhd-course-planner.pages.dev**
 
@@ -24,7 +25,7 @@ is needed. Keep using the same browser and address to return to your saved plan.
 
 ## Features
 
-- Required CS courses and prerequisites with compact AND/OR badges. Click a badge
+- Required courses and reviewed prerequisites with compact AND/OR badges. Click a badge
   for course details, including minimum grades, timing, and other conditions.
   Drag a badge independently to adjust its position; undo/redo and saving include badge moves.
   Exported pictures retain full prerequisite labels and explanations.
@@ -53,21 +54,23 @@ npm run preview
 
 The suite covers prerequisite semantics, branch dragging, completion projection,
 credits, history/persistence, personal connections, export limits, and catalog
-validation. The initial public release passed 94 tests.
+validation. The four-major version passes 175 tests.
 
 ## Data and limitations
 
 The app uses a bundled, reviewed **2025-2026** public UHD catalog snapshot,
-not a live scrape on every visit. It includes 129 course records, all 47 indexed
-MATH courses at 2000+, and all nine DATA courses in this edition. Course records
-retain official source links. Raw public captures and import reports are in data/.
-Newer catalog research is separate and must not be merged into the active edition.
+not a live scrape on every visit. Each major uses a scoped course catalog with
+shared references and optional minor choices. Course records retain official
+source links. Raw public captures and import reports are in data/. Newer catalog
+research is separate and must not be merged into the active edition.
 
-Eleven prerequisite statements remain unresolved and generate no inferred edges.
-Ninety-two core choices have names only and cannot yet be selected. Captured science
-choices cover the physics pathway. Grade, transfer, residency, minor overlap, and
-requirement-slot fulfillment need manual review. Selecting 120 hours does not
-certify graduation eligibility. This is not an official UHD degree audit.
+Unresolved prerequisite statements generate no inferred edges. Some core choices
+have names only and cannot yet be selected; coverage varies by major and is shown
+in Requirements. Biology retains explicit notices for its missing BIOL 3103
+reference, the BIOL 3107 credit discrepancy, and unresolved course grouping.
+Grade, transfer, residency, research limits, minor overlap and requirement-slot
+fulfillment need manual review. Selecting 120 hours does not certify graduation
+eligibility. This is not an official UHD degree audit.
 
 Plans save only in the visitor's browser. Clearing site data removes that save;
 different browsers, devices, and website addresses have separate plans. A PNG
