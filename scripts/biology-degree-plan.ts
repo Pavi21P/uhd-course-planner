@@ -117,7 +117,7 @@ export async function buildBiologyDegreePlan(root: string, degreeCaptureInput?: 
     allocationRestrictions: [
       { code: 'BIOL 4302', incompatibleRequirementIds: ['biology-high-impact','biology-upper-options'], reason: 'Explicit if-not-used-above restriction.' },
     ],
-    remaining: ['Requirement assignment and credit-allocation auditing must enforce content-area approvals, overlap and research limits.',
+    remaining: ['The Biology allocation audit checks explicit overlap, area-specific topic approvals, candidate coverage and reported research totals; catalog assembly and UI integration remain pending.',
       'Clarify lecture/lab grouping and the MBIO 3320 OR MBIO 4340 with MBIO 4140 sequence before treating content-area selections as satisfied.',
       'BIOL 3107 explicitly lists 3 credits despite the course-numbering policy suggesting 1. Retain the direct published value pending UHD clarification; CURE pairs containing it total 4 credits.',
       'Do not assume CURE/high-impact work can also fill the 23-hour option pool or satisfy multiple content areas without review.',

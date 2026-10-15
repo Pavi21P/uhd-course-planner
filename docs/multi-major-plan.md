@@ -247,3 +247,15 @@ retain it pending clarification, making its CURE pairs 4 credits instead of 2.
 Next bounded phase: Biology allocation auditing and unresolved grouping/overlap
 review. Scoped catalog assembly, selector integration and browser QA follow.
 The reproducible degree draft is unpublished and does not certify eligibility.
+
+### Biology allocation checkpoint (October 15, 2026)
+
+Added planning checks for the BIOL 4302 overlap prohibition, uncertain CURE and
+cross-area reuse, area-specific Special Topics approval, cross-list conflicts,
+unique pool credits, integrated candidate coverage and the six-hour research cap.
+Research totals include caller-reported repeats/outside research; absent evidence
+remains review-required. No requirement is marked completed from selection alone.
+
+Next bounded phase: scoped Biology catalog assembly and integration validation.
+Keep the unresolved grouping/credit/prerequisite notices. Selector registration,
+browser QA, GitHub publication and deployment remain pending.

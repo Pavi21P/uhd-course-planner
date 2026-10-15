@@ -297,3 +297,29 @@ No push or deployment is part of this checkpoint.
 Reproduce: `node --experimental-strip-types scripts/biology-degree-plan.ts`.
 
 Validation: all 159 tests passed, including seven new degree-model cases. Tools typecheck, lint and the production build passed. Browser QA is deferred until scoped catalog integration; no active Biology UI was enabled.
+
+### Biology allocation audit checkpoint (October 15, 2026)
+
+Added `src/data/biology-allocation.ts`, a pure planning audit consuming the reviewed
+degree model, selected courses, requirement assignments and explicit area claims.
+It blocks BIOL 4302's prohibited high-impact/upper-level overlap, flags other CURE
+reuse and cross-area reuse for review, and requires confirmed area-specific
+Special Topics approvals. Invalid/unselected/out-of-pool assignments cannot add
+pool hours. Cross-listed pharmacology keeps conflicting credit totals unavailable.
+Repeated selections and assignments count once; integrated writing/ethics candidates
+add no separate credits. Meeting 23 hours does not imply area coverage.
+
+Research reporting distinguishes known selected research from a caller-reported
+total that includes repeats and research outside the imported pool. Totals above
+six hours flag the degree-credit cap; missing totals require review, and invalid
+or understated totals are rejected. A reported total is not verified enrollment
+evidence. This audit never certifies degree completion or registration eligibility.
+
+Lecture/lab grouping and the MBIO 3320 OR MBIO 4340 with MBIO 4140 sequence remain
+unresolved. Area results say candidates identified, missing or review required;
+no area is labeled satisfied. The BIOL 3107 credit discrepancy remains visible.
+No UI calls this audit yet. Next bounded phase: assemble the scoped Biology
+catalog, retain unresolved notices, and prepare integration validation before
+adding the major to the selector. Browser QA and publication remain later gates.
+
+Validation: all 168 tests passed, including nine new allocation cases. Tools typecheck, lint and production build passed. No browser QA was needed for this unconnected data audit; Biology remains absent from the selector.
