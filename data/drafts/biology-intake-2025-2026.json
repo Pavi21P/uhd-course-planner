@@ -1,0 +1,2698 @@
+{
+  "version": 1,
+  "catalogYear": "2025-2026",
+  "publishable": false,
+  "sources": [
+    {
+      "id": "biology-intake-37-1",
+      "url": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7092&returnto=2409",
+      "title": "Biology BS degree page and course panels",
+      "catalogYear": "2025-2026",
+      "retrievedOn": "2026-10-14",
+      "role": "catalog"
+    }
+  ],
+  "courses": [
+    {
+      "id": "2025-2026:TCOM 3302",
+      "catalogYear": "2025-2026",
+      "code": "TCOM 3302",
+      "title": "Business and Technical Writing",
+      "description": "Study and practice of presenting technical information, with emphasis on formal and informal writing for the workplace, including resumes, job application letters, instructions, proposals, and reports.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "010 core complete and 040 core complete",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "010 core complete and 040 core complete"
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:TCOM 3325",
+      "catalogYear": "2025-2026",
+      "code": "TCOM 3325",
+      "title": "Medical Writing",
+      "description": "The study and practice of interpreting and incorporating findings and statistical results into clear, comprehensible and well-organized prose.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Prerequisite: 010 core complete and 040 core complete.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Prerequisite: 010 core complete and 040 core complete."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:TCOM 3326",
+      "catalogYear": "2025-2026",
+      "code": "TCOM 3326",
+      "title": "Proposal Writing",
+      "description": "Practice in writing and editing a series of proposals of varying scope and complexity.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Prerequisite: 010 core complete and 040 core complete.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Prerequisite: 010 core complete and 040 core complete."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:TCOM 3329",
+      "catalogYear": "2025-2026",
+      "code": "TCOM 3329",
+      "title": "Environmental Writing",
+      "description": "Practice in presenting information about environmental issues as addressed by government, industry, private organizations and the mass media.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Prerequisite: 010 core complete and 040 core complete.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Prerequisite: 010 core complete and 040 core complete."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:TCOM 4306",
+      "catalogYear": "2025-2026",
+      "code": "TCOM 4306",
+      "title": "Science Writing",
+      "description": "The study and practice of documenting, reporting and presenting science in articles, audiovisual scripts, specifications, reports and proposals.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Prerequisite: 010 core complete and 040 core complete.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Prerequisite: 010 core complete and 040 core complete."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 1301",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 1301",
+      "title": "General Biology I",
+      "description": "A survey of current biological concepts for students majoring in the sciences. Emphasis will be placed on biological molecules, cellular metabolism, cell division, heredity and the regulation of genes.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Credit or enrollment in BIOL 1101, ENG 1301 (or 010 core complete) and MATH 1301.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in BIOL 1101, ENG 1301 (or 010 core complete) and MATH 1301."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 1101",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 1101",
+      "title": "General Biology Laboratory I",
+      "description": "Appropriate exercises and experiments requiring scientific observation and analysis that illustrate some of the basic techniques, concepts and facts presented in BIOL 1301. (BIOL 1106)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in BIOL 1301.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in BIOL 1301."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 1302",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 1302",
+      "title": "General Biology II",
+      "description": "A survey of current biological concepts for students majoring in the sciences. Emphasis will be placed on topics which include evolution, biological diversity, ecology, and comparative structure and function of organ systems.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1101, BIOL 1301 and enrollment in BIOL 1102.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1101, BIOL 1301 and enrollment in BIOL 1102."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 1102",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 1102",
+      "title": "General Biology Laboratory II",
+      "description": "Appropriate exercises and experiments requiring scientific observation and analysis that illustrate some of the basic techniques, concepts and facts presented in BIOL 1302. (BIOL 1107)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "BIOL 1101 and credit or enrollment in BIOL 1302.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1101 and credit or enrollment in BIOL 1302."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 1307",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 1307",
+      "title": "General Chemistry I",
+      "description": "The first in a two course survey of the fundamentals of general chemistry for students majoring in the sciences. Descriptive material is correlated with the basic chemical principles and their applications. Modern concepts of atomic and molecular structure, chemical bonding, the gaseous state and the kinetic molecular theory of matter will be analyzed. There will be on stoichiometeric calculations of mass and molar relationships, energy relations and intermolecular forces.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Credit or enrollment in MATH 1301 and CHEM 1107, ENG 1301 (or 010 core complete), and one year of high school chemistry or CHEM 1305/CHEM 1105.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in MATH 1301 and CHEM 1107, ENG 1301 (or 010 core complete), and one year of high school chemistry or CHEM 1305/CHEM 1105."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 1107",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 1107",
+      "title": "General Chemistry Laboratory I",
+      "description": "Experiments which illustrate basic laboratory techniques and procedures, physical and chemical properties, stoichiometry, solutions, and thermochemistry. (CHEM 1111)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in CHEM 1307.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in CHEM 1307."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 1308",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 1308",
+      "title": "General Chemistry II",
+      "description": "The second in a two course survey of the fundamentals of general chemistry for students majoring in the sciences. Topics include liquids and solids, intermolecular forces, chemical kinetics, thermodynamics, homogeneous, heterogeneous and ionic equilibrium, modern concepts of acids and bases, electrochemistry, coordination chemistry, nuclear chemistry and selected topics.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in CHEM 1307 and credit or enrollment in CHEM 1108.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in CHEM 1307 and credit or enrollment in CHEM 1108."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 1108",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 1108",
+      "title": "General Chemistry Laboratory II",
+      "description": "Emphasis on reactions in aqueous solutions, gas laws, equilibrium, kinetics and qualitative analysis, with an introduction to instrumental analysis. (CHEM 1112)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "CHEM 1107 and credit or enrollment in CHEM 1308.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "CHEM 1107 and credit or enrollment in CHEM 1308."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 2411",
+      "catalogYear": "2025-2026",
+      "code": "MATH 2411",
+      "title": "Calculus I for the Natural Sciences",
+      "description": "Study of the concepts of differentiation and integration with an emphasis on applications in the life sciences. Topics include elementary functions and graphing, discrete models, discrete population models, limits, continuous functions, derivatives, differentiation with biological applications, linear approximation, optimization, difference equations, stability, and integration with biological applications.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better inMATH 1404 or MATH 1505 or placement by exam taken at UH-Downtown.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better inMATH 1404 or MATH 1505 or placement by exam taken at UH-Downtown."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 2401",
+      "catalogYear": "2025-2026",
+      "code": "MATH 2401",
+      "title": "Calculus I",
+      "description": "Functions, limits, the derivatives of algebraic and trigonometric functions, curve sketching, applications of the derivative, and an introduction to the definite and indefinite integrals of algebraic and trigonometric functions. (MATH 2413)",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1404 or in MATH 1505 or placement by exam taken at UH-Downtown.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in MATH 1404 or in MATH 1505 or placement by exam taken at UH-Downtown."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MATH 2412",
+      "catalogYear": "2025-2026",
+      "code": "MATH 2412",
+      "title": "Calculus II for the Natural Sciences",
+      "description": "Topics include integration, approximation by Taylor series, differential equations, matrices, eigenvalues and eigenvectors, functions of several variables, partial derivatives, tangent planes and linearization, systems of difference equations, systems of linear and nonlinear differential equations, and equilibria and stability.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "A grade of C or better in MATH 2411 or MATH 2401.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in MATH 2411 or MATH 2401."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 1408",
+      "catalogYear": "2025-2026",
+      "code": "CS 1408",
+      "title": "Introduction to Computer Science with Visual Basic",
+      "description": "History, nature and uses of the computer; algorithms; number systems; information representation and organization with an overview of computer hardware and software, computing systems and major applications. An introduction to high-level languages and programming using Visual Basic with an emphasis on event-driven programming. Elements of the Visual Basic programming environment including objects, events, properties, user interface design and creating web-based applications are discussed. Practice with standard programming features such as control statements, subprograms, data types, arrays and input-output mechanisms.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Credit or enrollment in MATH 1404 or MATH 1505 or MATH 1306; and placement in ENG 1301 or above.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in MATH 1404 or MATH 1505 or MATH 1306; and placement in ENG 1301 or above."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CS 1411",
+      "catalogYear": "2025-2026",
+      "code": "CS 1411",
+      "title": "Introduction to Computer Science with Python",
+      "description": "This course introduces the fundamentals of computer programming using the Python language. The course is designed as an introductory course for students with or without prior programming experience. Topics include variable declaration, control statements, functions, I/O operations, exception handling, and data structures. The course provides extensive hands-on activities on writing computer programs.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Credit or enrollment in MATH 1404 or MATH 1505.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in MATH 1404 or MATH 1505."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:STAT 3311",
+      "catalogYear": "2025-2026",
+      "code": "STAT 3311",
+      "title": "Statistical Analysis for Natural Science",
+      "description": "Basic concepts of statistics for natural science students are considered including collection of data, descriptive statistics, probability concepts, random variables, probability distributions, expected values, point and interval estimation techniques, hypothesis testing, bivariate data, linear regression, and analysis of variance. Natural science applications are stressed and computer statistical packages are used.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MATH 1404 or MATH 1505.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in MATH 1404 or MATH 1505."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MBIO 2305",
+      "catalogYear": "2025-2026",
+      "code": "MBIO 2305",
+      "title": "General Microbiology",
+      "description": "An introduction to microorganisms (bacteria, viruses, yeasts, algae and protozoa) with attention to morphology, physiology, genetics, taxonomy, and relationship of microorganisms to soil, water, food, industry and health. Credit for both BIOL 1305 and 2305 may not be applied toward a degree. (BIOL 2321)",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302/BIOL 1102 and CHEM 1308/CHEM 1108 and credit or enrollment in MBIO 2105.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302/BIOL 1102 and CHEM 1308/CHEM 1108 and credit or enrollment in MBIO 2105."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MBIO 2105",
+      "catalogYear": "2025-2026",
+      "code": "MBIO 2105",
+      "title": "General Microbiology Lab",
+      "description": "Experiments which emphasize sterile technique, staining techniques, bacteria growth conditions, and biochemical tests used to identify microorganisms, phage testing, food microbiology, and Koch’s postulates. (BIOL 2121)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in MBIO 2305.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in MBIO 2305."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 1307",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 1307",
+      "title": "General Physics I",
+      "description": "This is the first in a two-part survey of general physics for science majors focusing on elementary principles of mechanics, heat and wave motion using elementary trigonometry and algebra. Topics include kinematics, dynamics of particles and rigid bodies; conservation of mass, momentum and energy; simple harmonic motion and characteristics of waves, mechanical and thermal properties of solids and fluids; and thermal properties, kinetics and dynamics of ideal gases. Credit for both PHYS 1307 and PHYS 2401 may not be applied toward a degree.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Credit or enrollment in MATH 1302 or the equivalent, enrollment in PHYS 1107.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in MATH 1302 or the equivalent, enrollment in PHYS 1107."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 1107",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 1107",
+      "title": "General Physics Laboratory I",
+      "description": "Topics include mechanics, bulk properties of matter, heat and waves. (PHYS 1101)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in PHYS 1307.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in PHYS 1307."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 2401",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 2401",
+      "title": "Physics I",
+      "description": "This is the first in a two-part survey of physics for science majors using calculus. Topics include kinematics and dynamics in one, two and three dimensions, statics, dynamics, potentials, conservation of energy and momentum (linear and angular), rotational kinematics and dynamics, oscillations, gravitation, fluid mechanics, thermal properties of matter, kinetic theory of gases and the first and second law of thermodynamics. Credit for both PHYS 1307 and PHYS 2401 may not be applied toward a degree.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Credit in MATH 2402 (or MATH 2412) enrollment in PHYS 2101.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit in MATH 2402 (or MATH 2412) enrollment in PHYS 2101."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 2101",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 2101",
+      "title": "Physics Laboratory I",
+      "description": "Topics include linear and rotational motion, collisions, simple harmonic motion and thermal properties of matter. (PHYS 2125)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in PHYS 2401.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in PHYS 2401."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 1308",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 1308",
+      "title": "General Physics II",
+      "description": "This is the second in a two-part survey of general physics for science majors focusing on elementary principles of electromagnetism, optics and modern physics using elementary trigonometry and algebra. Topics include static electric and magnetic fields and the motion of charged particles therein; induced electric and magnetic fields; DC and AC circuits; geometrical and physical optics; the concept of quantization and the properties of the atom and its nucleus. Credit for both PHYS 1308 and PHYS 2402 may not be applied toward a degree.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "PHYS 1307 and credit or enrollment in PHYS 1108.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "PHYS 1307 and credit or enrollment in PHYS 1108."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 1108",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 1108",
+      "title": "General Physics Laboratory II",
+      "description": "Topics include electric and magnetic fields, DC and AC circuits, non-linear devices, geometric and physical optics, and atomic and molecular physics.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in PHYS 1308.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in PHYS 1308."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 2402",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 2402",
+      "title": "Physics II",
+      "description": "This is the second in a two-part survey of physics for science majors using calculus. Topics include electric charge, electric fields and potentials, Gauss’ Law, capacitors and dielectrics, AC and DC electrical circuits, magnetic fields, the Biot-Savart Law, Faraday’s Law, magnetic properties of matter, Maxwell’s equations and electromagnetic waves and optics. Credit for both PHYS 1308 and PHYS 2402 may not be applied toward a degree.",
+      "credits": {
+        "min": 4,
+        "max": 4
+      },
+      "prerequisiteText": "Grade of C or better in PHYS 2401 and credit or enrollment in PHYS 2102.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in PHYS 2401 and credit or enrollment in PHYS 2102."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:PHYS 2102",
+      "catalogYear": "2025-2026",
+      "code": "PHYS 2102",
+      "title": "Physics Laboratory II",
+      "description": "Topics include static electric and magnetic fields and electron motion therein, DC and AC circuits including linear and nonlinear devices and properties of electromagnetic waves, and geometrical and physical optics. (PHYS 2126)",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in PHYS 2402.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in PHYS 2402."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 2303",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 2303",
+      "title": "General Genetics",
+      "description": "Fundamental principles of genetics including Mendelian inheritance, linkage, the chemical basis of genetics, mutations and chromosomal aberrations.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302/BIOL 1102,CHEM 1308/CHEM 1108, and credit or enrollment in BIOL 2103.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302/BIOL 1102,CHEM 1308/CHEM 1108, and credit or enrollment in BIOL 2103."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 2103",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 2103",
+      "title": "General Genetics Laboratory",
+      "description": "Laboratory topics designed to mimic classical genetic investigations. Experiments focus on the use of Drosophila melanogaster. Students conduct individual and group research projects.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108, and credit or enrollment in BIOL 2303.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108, and credit or enrollment in BIOL 2303."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 2301",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 2301",
+      "title": "Organic Chemistry I",
+      "description": "This course will cover various types of organic compounds, their classification, structure, naming, chemical and physical properties, reactivity, preparation, and techniques to identify them.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in CHEM 1308 and CHEM 1108. Enrollment in CHEM 2101 is recommended.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in CHEM 1308 and CHEM 1108. Enrollment in CHEM 2101 is recommended."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 2101",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 2101",
+      "title": "Organic Chemistry I Laboratory",
+      "description": "Experiments illustrating basic techniques, synthesis, interpretation of spectra, use of molecular models and scientific literature.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "A letter grade of C or better in CHEM 2301 or enrollment in CHEM 2301.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A letter grade of C or better in CHEM 2301 or enrollment in CHEM 2301."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3306",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3306",
+      "title": "Biological Evolution",
+      "description": "Evolution is the central organizing paradigm in biology; aspects of biology can be understood without recourse to evolutionary theory but a deep understanding of biology and the diversity of life is impossible without it. This course seeks to establish a basic, solid understanding in what biological evolution is and its causes allowing the student to speak intelligently about evolution to others. Evidence of evolution, mechanisms for evolutionary change, adaptations, speciation, and phylogenetics are emphasized.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 2303.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 2303."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4311",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4311",
+      "title": "Biology Seminar",
+      "description": "Presentations and discussions related to recent research accomplishments in biology and biotechnology including student research presentations.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Senior standing and majoring in an area of life science.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Senior standing and majoring in an area of life science."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MBIO 4311",
+      "catalogYear": "2025-2026",
+      "code": "MBIO 4311",
+      "title": "Microbiology Seminar",
+      "description": "Readings and student presentations of relevant articles from current scientific journals or the results of the research.",
+      "credits": {
+        "min": 2,
+        "max": 2
+      },
+      "prerequisiteText": "MBIO 2305/MBIO 2105 and 8 hours of upper-level science.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "MBIO 2305/MBIO 2105 and 8 hours of upper-level science."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:SUST 4301",
+      "catalogYear": "2025-2026",
+      "code": "SUST 4301",
+      "title": "Seminar in Sustainability",
+      "description": "Presentations and discussions related to recent research accomplishments in the field of sustainability. Students will present scholarly research on sustainability efforts related to their major area of study. All students will summarize in writing and discuss orally the material presented by others so as to create cross-disciplinary expertise needed to solve complex problems.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Senior standing.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Senior standing."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3300",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3300",
+      "title": "Undergraduate Research",
+      "description": "Independent investigation of a specific topic or problem in biology research under the direction of a selected faculty member.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Approval by the Natural Sciences Department, minimum GPA of 2.0, and permission of instructor.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Approval by the Natural Sciences Department, minimum GPA of 2.0, and permission of instructor."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4302",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4302",
+      "title": "Wildlife Biology Laboratory",
+      "description": "Wildlife biology focuses on understanding wild animals and their habitats. Citizen science is a rapidly growing field involving the public generation of scientific knowledge. New opportunities for participating in citizen science are appearing constantly, and scientists need to understand how to tap into this valuable resource, especially as it applies to wildlife biology. In this course, students participate in an ongoing citizen science project, and design their own citizen science project related to wildlife biology. Students will also be trained in field techniques for observing local wildlife.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108, and 4 hours of biology above the 1000-level.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108, and 4 hours of biology above the 1000-level."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4331",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4331",
+      "title": "Molecular Biology Laboratory",
+      "description": "Introduction to molecular biology techniques such as cloning genes and exploring their functions. Students will gain hands-on experience in gene cloning, PCR, plasmid construction, transformation, and functional assays. Laboratory work emphasizes carrying out student-designed experiments, problem solving, data analysis, and the presentation of scientific findings in written format.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "One of the following: BIOL 4320, BIOL 4330, CHEM 4140, MBIO 4310",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "One of the following: BIOL 4320, BIOL 4330, CHEM 4140, MBIO 4310"
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4332",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4332",
+      "title": "Cell Biology Laboratory",
+      "description": "This advanced laboratory course offers senior undergraduate students hands-on experience with research techniques in cell biology using mammalian cell lines. Students will engage in experimental design, data collection, analysis, and interpretation of results. Emphasis will be placed on student-driven experimental design, mastering laboratory techniques, and writing scientific reports.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 3103 or CHEM 4140",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 3103 or CHEM 4140"
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4361",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4361",
+      "title": "Environmental Laboratory and Field Studies",
+      "description": "The primary goal of this course is for students to gain experience in the design, execution, analysis, and communication of environmental field and laboratory studies. The first half of the semester includes weekly field trips to a variety of local ecosystems while the second half of the course is dedicated to student-designed projects.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108 and 4 hours of biology above the 1000-level.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108 and 4 hours of biology above the 1000-level."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3102",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3102",
+      "title": "General Ecology Laboratory",
+      "description": "Explore theoretical concepts and practical applications in ecology. Population dynamics will be investigated using computer simulations. Field sampling of local plant and animal populations will expose students to practical techniques of data collection and analysis.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in BIOL 3302.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in BIOL 3302."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3104",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3104",
+      "title": "Developmental Biology Lab",
+      "description": "Appropriate exercises and experiments that illustrate some of the basic concepts, experimental techniques and facts presented in BIOL 3304.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in BIOL 3304.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in BIOL 3304."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3107",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3107",
+      "title": "Introduction to Neuroscience Lab",
+      "description": "This lab includes hands on experiments that focus on some basic principles of neuroscience including action potentials, structures and functions of neurons, with a focus on the connection between neuron networks and their behavior outputs. We will use Drosophila species as the model systems and introduce students to common approaches and techniques used in the field of neuroscience. These include immunohistochemistry, behavioral paradigms, and computational modeling. Students will then apply these techniques to explore research questions in a collaborative project.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Enrollment or credit in BIOL 3307",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Enrollment or credit in BIOL 3307"
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4110",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4110",
+      "title": "Histology Laboratory",
+      "description": "Appropriate exercises and experiments that illustrate some of the basic techniques, concepts and facts presented in BIOL 4310.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in BIOL 4310.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in BIOL 4310."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3308",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3308",
+      "title": "Cancer Biology",
+      "description": "A study of the molecular and cellular mechanisms of cancer including cell cycle regulation, genomic instability, cellular structural and metabolic changes, aberrant cell signaling and the cancer stem cell hypothesis. Drug development, drug resistance, and ethical considerations in cancer research and treatment will be discussed.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "General Genetics and laboratory (BIOL 2303/BIOL 2103)",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "General Genetics and laboratory (BIOL 2303/BIOL 2103)"
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4320",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4320",
+      "title": "Cellular Biology",
+      "description": "The composition, structure, functions and dynamics of cells. Topics include interrelations of organelles, molecular transport and membrane trafficking, cytoskeletal interactions, nucleocytoplasmic relationships, intra- and intercellular communications, mechanisms of cellular death and laboratory analysis.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 2303and 6 hours of upper-level biology; credit for CHEM 2301 is recommended but not required.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 2303and 6 hours of upper-level biology; credit for CHEM 2301 is recommended but not required."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4330",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4330",
+      "title": "Molecular Biology",
+      "description": "Introduction to the molecular aspects of gene regulation in eukaryotic cells. Eukaryotic gene regulation is explored in the context of cell cycle regulation, cell differentiation, and cancer. The course emphasizes study of the primary research literature and the creation and testing of hypotheses using current technology.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Credit for BIOL 2303/BIOL 2103 and senior standing; credit for CHEM 2301/CHEM 2101 is recommended but not required.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit for BIOL 2303/BIOL 2103 and senior standing; credit for CHEM 2301/CHEM 2101 is recommended but not required."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4344",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4344",
+      "title": "Principles of Pharmacology and Toxicology",
+      "description": "Crosslisted: CHEM 4344. Credit may only be earned for one.\nIntroduction to fundamental principles in pharmacology and toxicology. This course will highlight common molecular mechanisms of drug/toxin action, provide an ethical perspective on controlled research and experimental design, and provide students entering the chemical or medical industries an appreciation of modern drug design, industrial applications, clinical trials, and regulations imposed on the chemical industry to control public and private exposures.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "CHEM 4340.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "CHEM 4340."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 4344",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 4344",
+      "title": "Principles of Pharmacology and Toxicology",
+      "description": "Crosslisted: BIOL 4344. Credit may only be earned for one.\nThis course will highlight common molecular mechanisms of drug/toxin action, provide an ethical perspective on controlled research and experimental design, and provide students entering the chemical or medical industries an appreciation of modern drug design, industrial applications, clinical trials, and regulations imposed on the chemical industry to control public and private exposures.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "CHEM 4340. Introduction to fundamental principles in pharmacology and toxicology.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "CHEM 4340. Introduction to fundamental principles in pharmacology and toxicology."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 4140",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 4140",
+      "title": "General Biochemistry Lab I",
+      "description": "Experiments in biochemistry to accompany CHEM 4340.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in CHEM 4340.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in CHEM 4340."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:CHEM 4340",
+      "catalogYear": "2025-2026",
+      "code": "CHEM 4340",
+      "title": "General Biochemistry I",
+      "description": "Overview of fundamental biochemical principles, topics, techniques and analytical methods that integrates concepts from previous biology and chemistry courses to the study of biological macromolecules. Emphasis is placed on the bioorganic chemistry and techniques needed to critically and objectively analyze biological molecules and the fundamental processes that support life. Specifically protein, lipid and membrane structure and function, enzymatic catalysis and kinetics are emphasized.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1102 and BIOL 1302 and CHEM 2101 and CHEM 2301.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1102 and BIOL 1302 and CHEM 2101 and CHEM 2301."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MBIO 3390",
+      "catalogYear": "2025-2026",
+      "code": "MBIO 3390",
+      "title": "Special Topics in Microbiology",
+      "description": "Selected topics in junior-level microbiology according to the needs and interests of the students.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "No prerequisite statement published in the captured panel; review required."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MBIO 4320",
+      "catalogYear": "2025-2026",
+      "code": "MBIO 4320",
+      "title": "Immunology",
+      "description": "Innate immune response including latest advances, and detailed study of the adaptive immune response including B and T cell biology, macrophages, complement, hypersensitivities, transplantation and tumor biology.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MBIO 2305/MBIO 2105, BIOL 2303/BIOL 2103, and credit or concurrent enrollment in MBIO 4120.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in MBIO 2305/MBIO 2105, BIOL 2303/BIOL 2103, and credit or concurrent enrollment in MBIO 4120."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MBIO 4120",
+      "catalogYear": "2025-2026",
+      "code": "MBIO 4120",
+      "title": "Immunology Lab",
+      "description": "Introduction to immunology laboratory techniques including agglutination, precipitation, neutralization and labeled immunoassays.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in MBIO 4320.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in MBIO 4320."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MBIO 4330",
+      "catalogYear": "2025-2026",
+      "code": "MBIO 4330",
+      "title": "Microbial Genetics",
+      "description": "This course will introduce the students to the field of bacterial molecular genetics, focusing on the mechanisms that bacteria have developed to evolve and adapt to changing environments. The molecular mechanisms of mutagenesis and gene transfer, along with the elements involved in these processes (plasmids, phages, transposons) and their regulation will be studied. These foundation concepts are needed to apply genetic approaches to explore microbial and evolutionary higher biological systems.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 2303/BIOL 2103, MBIO 2305/MBIO 2105.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 2303/BIOL 2103, MBIO 2305/MBIO 2105."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MBIO 4390",
+      "catalogYear": "2025-2026",
+      "code": "MBIO 4390",
+      "title": "Special Topics in Microbiology",
+      "description": "In-depth study of different topics in Microbiology and Immunology",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Varies according to topic.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Varies according to topic."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3330",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3330",
+      "title": "Plant Biology",
+      "description": "Comprehensive analysis regarding the biology of plants, including plant taxonomy, morphology, anatomy, physiology, reproduction, development, ecology, ethno botany and biotechnology.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108, and credit or enrollment in BIOL 3130.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108, and credit or enrollment in BIOL 3130."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3130",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3130",
+      "title": "Plant Biology Laboratory",
+      "description": "Laboratory investigations and experimental analysis regarding the biology of plants, including plant taxonomy, morphology, anatomy, reproductive biology, nutrient requirements, photobiology, hormonal regulation, ecology, plant tissue culture and applications.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in BIOL 3330.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in BIOL 3330."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3310",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3310",
+      "title": "Plant Identification",
+      "description": "A study of the principles of naming, identification and classification of plants with an emphasis on the characteristics of select families of flowering plants.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302/BIOL 1102 and credit or enrollment in BIOL 3110.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302/BIOL 1102 and credit or enrollment in BIOL 3110."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3110",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3110",
+      "title": "Plant Identification Laboratory",
+      "description": "Emphasizes plant identification and naming of plants from selected families of plants. A collection of local native plants will be required with appropriate scientific naming including family, genus, and species.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in BIOL 3310.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in BIOL 3310."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3340",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3340",
+      "title": "Biology of Fungi",
+      "description": "Crosslisted: MBIO 3350. Credit may not be earned for both.\nA comprehensive study of fungi with emphasis on the Kingdom Fungi, but consideration of various other organisms with a fungal lifestyle. Topics include classification, phylogeny and diversity, asexual and sexual characteristics and life cycles, growth, sporulation, nutrition, physiology and metabolism, genetics, ecology, symbiotic and pathogenic relationships, medical mycology, and biotechnology.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108 or credit or enrollment in BIOL 3140.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108 or credit or enrollment in BIOL 3140."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3140",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3140",
+      "title": "Biology of Fungi Laboratory",
+      "description": "Crosslisted: MBIO 3150. Credit may not be earned for both.\nA study of the principles and applications of techniques for isolation, culture, and identification of fungi; and a study of the characteristics of fungal growth, nutrition, metabolism and genetics.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in BIOL 3340.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in BIOL 3340."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3302",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3302",
+      "title": "General Ecology",
+      "description": "The major goals of this course are for students to master the fundamental principles of organismal ecology, population ecology, community ecology, and ecosystem ecology. Students will apply these concepts to evaluate current and predict future ecological responses to global environmental changes.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108 and enrollment or credit in BIOL 3102.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108 and enrollment or credit in BIOL 3102."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4360",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4360",
+      "title": "Environmental Biology",
+      "description": "Ecological principles and current topics regarding the interrelationships among organisms and their environments, including analysis of human activities that impact natural ecosystems and cause environmental problems.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108, and 4 hours of biology above the 1000-level.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108, and 4 hours of biology above the 1000-level."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4340",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4340",
+      "title": "Animal Behavior",
+      "description": "Behavioral capacities of the animal kingdom, with emphasis on methods of study, instinctive behavior, the biological basis of behavior, learning and intelligence and social behavior.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302/BIOL 1102 and ENG 1302.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302/BIOL 1102 and ENG 1302."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4350",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4350",
+      "title": "Social Biology",
+      "description": "This discussion-format course is intended to bring together ideas and students from the disciplines of biology, psychology, sociology and anthropology. Its focus is on the area of animal behavior that involves the interaction of conspecifics. Topics to be discussed include aggression, courtship, parental behavior, altruism, behavior genetics, dominance, competition and cooperation, and behavioral ecology.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "8 hours of biology, ENG 1302, PSY 1303 or SOC 1303, and junior standing.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "8 hours of biology, ENG 1302, PSY 1303 or SOC 1303, and junior standing."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MBIO 3340",
+      "catalogYear": "2025-2026",
+      "code": "MBIO 3340",
+      "title": "Environmental Microbiology",
+      "description": "The course will emphasize the impact of microorganisms on their environment. Topics include microbial diversity, microbiological interactions important in agriculture, medicine and biotechnology, biodegradation and bioremediation, and the impact of microbes in protective biofilms. Current methods for the detection of microorganisms and contamination control will also be discussed.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "Grade of C or better in MBIO 2305/MBIO 2105.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Grade of C or better in MBIO 2305/MBIO 2105."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3105",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3105",
+      "title": "Human Anatomy Laboratory",
+      "description": "Appropriate exercises and activities that illustrate the techniques, concepts, and facts presented in BIOL 3305.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in BIOL 3305.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in BIOL 3305."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3304",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3304",
+      "title": "Developmental Biology",
+      "description": "A study of the mechanisms involved in growth and development of complex organisms. Topics include the molecular and cellular mechanisms of development and the genetics and early development of select invertebrate and vertebrate model systems. Additional emphasis will be placed on evolutionary developmental biology as well as on the connection between mechanisms of normal developmental and disease etiology.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 2303/BIOL 2103 and credit or enrollment in BIOL 3104.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 2303/BIOL 2103 and credit or enrollment in BIOL 3104."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3305",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3305",
+      "title": "Human Anatomy",
+      "description": "A study of the structure of the human body using a systems approach. System and structural interactions will be examined. Structural and functional relationships will also be assessed.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "8 hours of biology,CHEM 1308/CHEM 1108, and enrollment in BIOL 3105.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "8 hours of biology,CHEM 1308/CHEM 1108, and enrollment in BIOL 3105."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3307",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3307",
+      "title": "Introduction to Neuroscience",
+      "description": "Introduction to Neuroscience is a lecture-based course designed to give an overview of the nervous system; including molecules, cells, development, circuits, and behaviors. These topics will be presented with respect to relevant biomedical research techniques and human pathologies/behaviors.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302/BIOL 1102; CHEM 1308/CHEM 1108; enrollment or credit in BIOL 3107.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302/BIOL 1102; CHEM 1308/CHEM 1108; enrollment or credit in BIOL 3107."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 3320",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 3320",
+      "title": "Human Physiology",
+      "description": "A study of the function of the human body using a systems approach. Course will focus on the interaction of body systems and the maintenance of homeostasis. Some study of major disease processes associated with each system will be included.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "8 hours of biology, CHEM 1308/CHEM 1108.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "8 hours of biology, CHEM 1308/CHEM 1108."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4303",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4303",
+      "title": "Human Genetics",
+      "description": "A study of inherited traits in humans with emphasis on the mapping of the human genome, molecular mechanisms of disease, karyotyping and chromosomal abnormalities, genetic testing, gene therapy, and ethical issues associated with human genetics.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 2303/BIOL 2103.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 2303/BIOL 2103."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4310",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4310",
+      "title": "Histology",
+      "description": "A comprehensive overview of the microscopic and submicroscopic anatomy of the vertebrate body, with emphasis on humans. Special topics include histochemistry, tissue culture and pathophysiology.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108, and credit or enrollment in BIOL 4110.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108, and credit or enrollment in BIOL 4110."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4313",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4313",
+      "title": "Parasitology",
+      "description": "Crosslisted: MBIO 4313. Credit may not be earned for both.\nIntroduction to parasitism as a biological concept and a survey of specific parasites of medical and veterinary importance. Additional topics include the relationship of opportunistic parasites in the treatment of AIDS, immunodiagnosis and the status of vaccine development for parasitic diseases.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108, and credit or enrollment in BIOL 4113.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302/BIOL 1102, CHEM 1308/CHEM 1108, and credit or enrollment in BIOL 4113."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4113",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4113",
+      "title": "Parasitology Laboratory",
+      "description": "Crosslisted: MBIO 4113. Credit may not be earned for both.\nAppropriate exercises and experiments that illustrate some of the basic techniques, concepts and facts presented in BIOL 4313.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in BIOL 4313.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in BIOL 4313."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:BIOL 4305",
+      "catalogYear": "2025-2026",
+      "code": "BIOL 4305",
+      "title": "Physiological Ecology of Vertebrates",
+      "description": "Focus on mechanisms used by vertebrates to adapt to their natural habitats. Topics include the relationship between evolution and adaptation, nature and levels of adaptation, mechanisms of adaptation and the major adaptations of selected vertebrates. Emphasis on adaptation to extreme environments.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "BIOL 1302 and CHEM 2301.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "BIOL 1302 and CHEM 2301."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MBIO 3320",
+      "catalogYear": "2025-2026",
+      "code": "MBIO 3320",
+      "title": "Virology",
+      "description": "The various groups of viruses are studied with regard to their structure, characteristics, mechanisms of replication, applications to molecular biology and to disease processes.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "MBIO 2305/MBIO 2105.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "MBIO 2305/MBIO 2105."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MBIO 4340",
+      "catalogYear": "2025-2026",
+      "code": "MBIO 4340",
+      "title": "Medical Microbiology",
+      "description": "Microbial pathogens, clinical characterization, disease symptoms, mechanisms of pathogenesis, and chemotherapy.",
+      "credits": {
+        "min": 3,
+        "max": 3
+      },
+      "prerequisiteText": "A grade of C or better in MBIO 2305/MBIO 2105, BIOL 2303/BIOL 2103 and credit or enrollment in MBIO 4140.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "A grade of C or better in MBIO 2305/MBIO 2105, BIOL 2303/BIOL 2103 and credit or enrollment in MBIO 4140."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    },
+    {
+      "id": "2025-2026:MBIO 4140",
+      "catalogYear": "2025-2026",
+      "code": "MBIO 4140",
+      "title": "Medical Microbiology Lab",
+      "description": "Techniques commonly used to identify clinically important pathogens and antibiotic testing.",
+      "credits": {
+        "min": 1,
+        "max": 1
+      },
+      "prerequisiteText": "Credit or enrollment in MBIO 4340.",
+      "prerequisites": {
+        "kind": "condition",
+        "category": "other",
+        "text": "Credit or enrollment in MBIO 4340."
+      },
+      "review": "needs-review",
+      "sourceIds": [
+        "biology-intake-37-1"
+      ]
+    }
+  ],
+  "blockedCourses": [
+    {
+      "code": "BIOL 4399",
+      "title": "Senior Honors Thesis",
+      "sourceId": "biology-intake-37-1",
+      "reason": "No credit value published in the captured panel; no course record or credit total created."
+    },
+    {
+      "code": "BIOL 3390",
+      "title": "Special Topics in Biology",
+      "sourceId": "biology-intake-37-1",
+      "reason": "No credit value published in the captured panel; no course record or credit total created."
+    },
+    {
+      "code": "BIOL 4390",
+      "title": "Special Topics in Biology",
+      "sourceId": "biology-intake-37-1",
+      "reason": "No credit value published in the captured panel; no course record or credit total created."
+    }
+  ],
+  "panelMetadata": [
+    {
+      "code": "TCOM 3302",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "TCOM 3325",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "TCOM 3326",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "TCOM 3329",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "TCOM 4306",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 1301",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 1101",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 1302",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 1102",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "CHEM 1307",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "CHEM 1107",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "CHEM 1308",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "CHEM 1108",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "MATH 2411",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "MATH 2401",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "MATH 2412",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "CS 1408",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "CS 1411",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "STAT 3311",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "MBIO 2305",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "MBIO 2105",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "PHYS 1307",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "PHYS 1107",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "PHYS 2401",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "PHYS 2101",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "PHYS 1308",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "PHYS 1108",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "PHYS 2402",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "PHYS 2102",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 2303",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 2103",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "CHEM 2301",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "CHEM 2101",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3306",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4311",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "MBIO 4311",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "SUST 4301",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3300",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4302",
+      "crossListings": [],
+      "adjustments": [
+        "Joined the prerequisite label to its following text line."
+      ]
+    },
+    {
+      "code": "BIOL 4331",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4332",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4361",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4399",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3102",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3104",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3107",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4110",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3308",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4320",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4330",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4344",
+      "crossListings": [
+        "Crosslisted: CHEM 4344. Credit may only be earned for one."
+      ],
+      "adjustments": [
+        "Preserved the cross-list notice in description and metadata."
+      ]
+    },
+    {
+      "code": "CHEM 4344",
+      "crossListings": [
+        "Crosslisted: BIOL 4344. Credit may only be earned for one."
+      ],
+      "adjustments": [
+        "Preserved the cross-list notice in description and metadata."
+      ]
+    },
+    {
+      "code": "CHEM 4140",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "CHEM 4340",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "MBIO 3390",
+      "crossListings": [],
+      "adjustments": [
+        "No prerequisite statement published; review remains required."
+      ]
+    },
+    {
+      "code": "MBIO 4320",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "MBIO 4120",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "MBIO 4330",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "MBIO 4390",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3330",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3130",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3310",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3110",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3340",
+      "crossListings": [
+        "Crosslisted: MBIO 3350. Credit may not be earned for both."
+      ],
+      "adjustments": [
+        "Preserved the cross-list notice in description and metadata."
+      ]
+    },
+    {
+      "code": "BIOL 3140",
+      "crossListings": [
+        "Crosslisted: MBIO 3150. Credit may not be earned for both."
+      ],
+      "adjustments": [
+        "Preserved the cross-list notice in description and metadata."
+      ]
+    },
+    {
+      "code": "BIOL 3390",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4390",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3302",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4360",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4340",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4350",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "MBIO 3340",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3105",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3304",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3305",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3307",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 3320",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4303",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4310",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "BIOL 4313",
+      "crossListings": [
+        "Crosslisted: MBIO 4313. Credit may not be earned for both."
+      ],
+      "adjustments": [
+        "Preserved the cross-list notice in description and metadata."
+      ]
+    },
+    {
+      "code": "BIOL 4113",
+      "crossListings": [
+        "Crosslisted: MBIO 4113. Credit may not be earned for both."
+      ],
+      "adjustments": [
+        "Preserved the cross-list notice in description and metadata."
+      ]
+    },
+    {
+      "code": "BIOL 4305",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "MBIO 3320",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "MBIO 4340",
+      "crossListings": [],
+      "adjustments": []
+    },
+    {
+      "code": "MBIO 4140",
+      "crossListings": [],
+      "adjustments": []
+    }
+  ],
+  "report": {
+    "capturedPanelCount": 85,
+    "courseCount": 82,
+    "blockedCourseCount": 3,
+    "sharedCourseIds": [
+      "2025-2026:TCOM 3302",
+      "2025-2026:TCOM 3325",
+      "2025-2026:TCOM 3326",
+      "2025-2026:TCOM 3329",
+      "2025-2026:TCOM 4306",
+      "2025-2026:BIOL 1301",
+      "2025-2026:BIOL 1101",
+      "2025-2026:BIOL 1302",
+      "2025-2026:BIOL 1102",
+      "2025-2026:CHEM 1307",
+      "2025-2026:CHEM 1107",
+      "2025-2026:CHEM 1308",
+      "2025-2026:CHEM 1108",
+      "2025-2026:MATH 2411",
+      "2025-2026:MATH 2401",
+      "2025-2026:MATH 2412",
+      "2025-2026:CS 1408",
+      "2025-2026:CS 1411",
+      "2025-2026:STAT 3311",
+      "2025-2026:PHYS 1307",
+      "2025-2026:PHYS 1107",
+      "2025-2026:PHYS 2401",
+      "2025-2026:PHYS 2101",
+      "2025-2026:PHYS 1308",
+      "2025-2026:PHYS 1108",
+      "2025-2026:PHYS 2402",
+      "2025-2026:PHYS 2102",
+      "2025-2026:CHEM 2301",
+      "2025-2026:CHEM 2101",
+      "2025-2026:CHEM 4140",
+      "2025-2026:CHEM 4340"
+    ],
+    "newCourseCount": 51,
+    "verifiedCount": 0,
+    "prerequisiteReviewRequired": [
+      "TCOM 3302",
+      "TCOM 3325",
+      "TCOM 3326",
+      "TCOM 3329",
+      "TCOM 4306",
+      "BIOL 1301",
+      "BIOL 1101",
+      "BIOL 1302",
+      "BIOL 1102",
+      "CHEM 1307",
+      "CHEM 1107",
+      "CHEM 1308",
+      "CHEM 1108",
+      "MATH 2411",
+      "MATH 2401",
+      "MATH 2412",
+      "CS 1408",
+      "CS 1411",
+      "STAT 3311",
+      "MBIO 2305",
+      "MBIO 2105",
+      "PHYS 1307",
+      "PHYS 1107",
+      "PHYS 2401",
+      "PHYS 2101",
+      "PHYS 1308",
+      "PHYS 1108",
+      "PHYS 2402",
+      "PHYS 2102",
+      "BIOL 2303",
+      "BIOL 2103",
+      "CHEM 2301",
+      "CHEM 2101",
+      "BIOL 3306",
+      "BIOL 4311",
+      "MBIO 4311",
+      "SUST 4301",
+      "BIOL 3300",
+      "BIOL 4302",
+      "BIOL 4331",
+      "BIOL 4332",
+      "BIOL 4361",
+      "BIOL 3102",
+      "BIOL 3104",
+      "BIOL 3107",
+      "BIOL 4110",
+      "BIOL 3308",
+      "BIOL 4320",
+      "BIOL 4330",
+      "BIOL 4344",
+      "CHEM 4344",
+      "CHEM 4140",
+      "CHEM 4340",
+      "MBIO 3390",
+      "MBIO 4320",
+      "MBIO 4120",
+      "MBIO 4330",
+      "MBIO 4390",
+      "BIOL 3330",
+      "BIOL 3130",
+      "BIOL 3310",
+      "BIOL 3110",
+      "BIOL 3340",
+      "BIOL 3140",
+      "BIOL 3302",
+      "BIOL 4360",
+      "BIOL 4340",
+      "BIOL 4350",
+      "MBIO 3340",
+      "BIOL 3105",
+      "BIOL 3304",
+      "BIOL 3305",
+      "BIOL 3307",
+      "BIOL 3320",
+      "BIOL 4303",
+      "BIOL 4310",
+      "BIOL 4313",
+      "BIOL 4113",
+      "BIOL 4305",
+      "MBIO 3320",
+      "MBIO 4340",
+      "MBIO 4140"
+    ],
+    "missingReferencedCodes": [
+      "BIOL 3103",
+      "ENG 1302",
+      "MBIO 4310",
+      "PSY 1303",
+      "SOC 1303"
+    ],
+    "sourceFingerprints": [
+      {
+        "code": "TCOM 3302",
+        "sha256": "c7e96e44d4047904d187c3d8d2503a10e68fb5f3a474e933316d6f3de3da0b71"
+      },
+      {
+        "code": "TCOM 3325",
+        "sha256": "7ddae9dd883fd484213a93089ac0bf83ebe46f043a7eadbd674e8fdd240efa5b"
+      },
+      {
+        "code": "TCOM 3326",
+        "sha256": "d7c68c67d2cd49c6a746ee1f65c46610549294f74d83e2950cfe68f333689c3f"
+      },
+      {
+        "code": "TCOM 3329",
+        "sha256": "551664c7b4adae6ef30d6d7953b4165e1f2b5d9ae525e6adf9796194ca2e7f8d"
+      },
+      {
+        "code": "TCOM 4306",
+        "sha256": "501f4ad5b69929dadfabc1291a7ffce70a24d4855761efce8f2d150b095243e6"
+      },
+      {
+        "code": "BIOL 1301",
+        "sha256": "a6193294332e1f4baaad2b4c280ab0669e366c889128311896a8c13ca75d4041"
+      },
+      {
+        "code": "BIOL 1101",
+        "sha256": "57c223532d9568b0f9e4a5628116ca57aa26c64bb54c4b2396d8411c6dc8ab50"
+      },
+      {
+        "code": "BIOL 1302",
+        "sha256": "0099b712944bdb2a7529b0b32b49f27d2f39528b53fb44f4e2bd3284cf31ba15"
+      },
+      {
+        "code": "BIOL 1102",
+        "sha256": "8951e1d135248b7bf9c37ae37a5885ff5a3cfcab92881621fa87e087917591a6"
+      },
+      {
+        "code": "CHEM 1307",
+        "sha256": "d69122c5e069b584ead1469f95688bfae4ca336829cc0df4dfe1594f65b63f09"
+      },
+      {
+        "code": "CHEM 1107",
+        "sha256": "a690f4471de47a1917c3508fd9244a4040a8d37059d134e891db654b3565e8bb"
+      },
+      {
+        "code": "CHEM 1308",
+        "sha256": "f8087a448c08ecc99ccee6491af38af0fa7fa7dbc4758cd87396f9f878ff6312"
+      },
+      {
+        "code": "CHEM 1108",
+        "sha256": "470cd793423f6693b93067ffaa0a8dd9619445bac8f2c4170ea066aa51522470"
+      },
+      {
+        "code": "MATH 2411",
+        "sha256": "af9d6afd09dbfc5ef411cc3bb61cac3309bd7d56faf436c43af94fa5e5d58328"
+      },
+      {
+        "code": "MATH 2401",
+        "sha256": "a2d5f194356660c71b969d5760d7b41be9b61d06722daba20e7b41e66c3aa056"
+      },
+      {
+        "code": "MATH 2412",
+        "sha256": "45f8f297aee5c898eed0bf28a4bd2e7fd9f35fae5c471ade4a243e9573d85ce3"
+      },
+      {
+        "code": "CS 1408",
+        "sha256": "723165fb00f04cec51ccba0f53e1524af9c8bc4d6d0d8ea0524c0669afa8bf33"
+      },
+      {
+        "code": "CS 1411",
+        "sha256": "7214643ad04cb31db1ae87e81dab74beb75a42059a62145ad35bbc98faec472f"
+      },
+      {
+        "code": "STAT 3311",
+        "sha256": "5087501299f632e4fc188b44828038317a31c3126b514d991aaf5c328d65ffe0"
+      },
+      {
+        "code": "MBIO 2305",
+        "sha256": "2ba2e1483af4d9f3d80509e5fd5b3072d1a54aa0709253cbde7db86b11a4f2c0"
+      },
+      {
+        "code": "MBIO 2105",
+        "sha256": "5ebe4b13d3eef3253ed1cb60a8da80ed8a67dc3d918ab38271dc0a85db546a97"
+      },
+      {
+        "code": "PHYS 1307",
+        "sha256": "f45a6b2956767ea33cf6a4550a56419600f0ce24e29ad13847e5732effa314cf"
+      },
+      {
+        "code": "PHYS 1107",
+        "sha256": "5faf56cbfa4884a463de1c34f1b3a9b16a7abe21b0225d7d53eed2123da7b3f5"
+      },
+      {
+        "code": "PHYS 2401",
+        "sha256": "ac3bf1bde5a1bdce0093616be67cc8d966f0a8ef50083bce7354ab6974b13bb3"
+      },
+      {
+        "code": "PHYS 2101",
+        "sha256": "1838b0d91884a7ac0006cb656dd766548f3b212172d376857fcaecc6076d556b"
+      },
+      {
+        "code": "PHYS 1308",
+        "sha256": "7ae5c698a965824429d3652662e68d737c149ad81ea62fe266ff3e3d8267f033"
+      },
+      {
+        "code": "PHYS 1108",
+        "sha256": "d407ebdf85eb3169c0e2f83b803fd8dfff421ba24b750dc3f5183d48d7544b28"
+      },
+      {
+        "code": "PHYS 2402",
+        "sha256": "8831dc3b0e464f1e9889b929ab3f775d04a20a2cec1500607ee2aa6cb2ac90a8"
+      },
+      {
+        "code": "PHYS 2102",
+        "sha256": "ff66da19d8bca9d12420be215bca26f8ab2ee8ab9f2d735a0b0d600f7a1deea7"
+      },
+      {
+        "code": "BIOL 2303",
+        "sha256": "ca86d31aeac0824d451aacfc55ba9a64be2494b1845554906e9e930e54d1603d"
+      },
+      {
+        "code": "BIOL 2103",
+        "sha256": "32be057f50059671801625db4f1dc037a5ca18fc145b2e2c275365340487efa7"
+      },
+      {
+        "code": "CHEM 2301",
+        "sha256": "5a598650c2d59631aa202229b351d0e8d823ab239aeb8a056a879309709de6f5"
+      },
+      {
+        "code": "CHEM 2101",
+        "sha256": "e8969f820c5de54fc1872aedca636a248d5284439a11c6e309924d92123b2ade"
+      },
+      {
+        "code": "BIOL 3306",
+        "sha256": "38bc0f3236b7c4e28813f19705d353d8d632f0af61b333cf787e644d88c49bd0"
+      },
+      {
+        "code": "BIOL 4311",
+        "sha256": "9bb3c4b6578dd2147eba6986f471617ac5f8bd208d8ca68d09c7717fa9976858"
+      },
+      {
+        "code": "MBIO 4311",
+        "sha256": "ccefed7b334d3dc77fb6cabafc80179e47a2c5184f9d6a473232bba4cff48a7f"
+      },
+      {
+        "code": "SUST 4301",
+        "sha256": "f7f236eb0ad645e381102640a4bb0b874712692f55c0f19f3be4a10366395681"
+      },
+      {
+        "code": "BIOL 3300",
+        "sha256": "ceabd451f9fdf5c5bb123c0b03bec385c8241a7755768f798a89895284e5cd1b"
+      },
+      {
+        "code": "BIOL 4302",
+        "sha256": "3baddd65c62629e4fe6965ba95993d7e6e11ea664deb837b8a633998d74fefb6"
+      },
+      {
+        "code": "BIOL 4331",
+        "sha256": "10f28999f2fd9b6f81a5d39d2ec26276da66a2923133db1016e6fa23e11df783"
+      },
+      {
+        "code": "BIOL 4332",
+        "sha256": "bb48652a18b1a65cc5a4bc9124045090190afc0a49a27e6b7299f97281f6da2d"
+      },
+      {
+        "code": "BIOL 4361",
+        "sha256": "adfe334e27b866e600f7ff8d68d17471141c1c16f35d76dd81b400d890f3a9a3"
+      },
+      {
+        "code": "BIOL 4399",
+        "sha256": "40dfcbeaa82eb33aa763851b72d0c0d1850fb8cbe114776adae61517f223c2ae"
+      },
+      {
+        "code": "BIOL 3102",
+        "sha256": "a926d0804e9a049133565a28ed6215d7a33aa8450405c6175bf10b8e24a26f4f"
+      },
+      {
+        "code": "BIOL 3104",
+        "sha256": "648a94b3ea0af70e5d6d496a0b7bb516f8f3fa959b9cbff8e1b54a298b3d74f5"
+      },
+      {
+        "code": "BIOL 3107",
+        "sha256": "1ba9c93e96981a62e557a91ef61a0bfec5e44392b1b63b7c339153b28b71f57c"
+      },
+      {
+        "code": "BIOL 4110",
+        "sha256": "708bb6d3038601b477055e0ede35af3129387215333faef888dcb24336febc00"
+      },
+      {
+        "code": "BIOL 3308",
+        "sha256": "9bcc57d4d0e4082233f01cc8bf348971f617fdddbba8517576d535b249a5dea4"
+      },
+      {
+        "code": "BIOL 4320",
+        "sha256": "509c541e82bcefb7fec72fa4e06fa1bf41cc4a9e78922b87dc232ab12b4fa148"
+      },
+      {
+        "code": "BIOL 4330",
+        "sha256": "0127ca5f00a58b3d664907b4e8e225019db2c155d8b7d5277e4cc81b09b7b375"
+      },
+      {
+        "code": "BIOL 4344",
+        "sha256": "da0f980bc59b5dda6bf9c945a5e7e47b1d874f41ceedd4351fed4eeb0a191af8"
+      },
+      {
+        "code": "CHEM 4344",
+        "sha256": "398b979af9a0db5201a89b260d5ff9bab0b1da4884294916f5275fbb21d76897"
+      },
+      {
+        "code": "CHEM 4140",
+        "sha256": "c92b94cf631e318254ff379605b17c6c05c69d8d7b8ad3ba9e9a495aed874f1f"
+      },
+      {
+        "code": "CHEM 4340",
+        "sha256": "2bbe78c371895eb05bfa203117a23f9c95aada59671366eac03abcfdc666a862"
+      },
+      {
+        "code": "MBIO 3390",
+        "sha256": "36756c39e9ab6f7f3ed394e3c4d7de8bf5dbb6f840f1cd06d7cdbb277aa694bd"
+      },
+      {
+        "code": "MBIO 4320",
+        "sha256": "13d9f5ae03de49443ad30276d35d258e766c4656d6277d4d2377b90dcc597a40"
+      },
+      {
+        "code": "MBIO 4120",
+        "sha256": "cb9defe35c617d1c3a684f68da7c78fa1f4048496b615df8002a1a75bfac233b"
+      },
+      {
+        "code": "MBIO 4330",
+        "sha256": "1c2a113ee68462992a0ae1d711a1160ed2b94992ae78756b4770eeb93c0a72c9"
+      },
+      {
+        "code": "MBIO 4390",
+        "sha256": "b07c0e8a6dbfb8098d0914f2fed56257960eedef326f33208c51b775cf81371f"
+      },
+      {
+        "code": "BIOL 3330",
+        "sha256": "32cebaa371a838b935be1dd8dade5ae28402975dfdde8a9bed02cc745c91e5b3"
+      },
+      {
+        "code": "BIOL 3130",
+        "sha256": "2b146d6af0e0c701cacd046c58e97d6a45f9ced861fc1ee0602b71720b868a0c"
+      },
+      {
+        "code": "BIOL 3310",
+        "sha256": "59d2e2c0e761131c3c1f7b9217ccfda6bd766ef9db7e13956986e4dbe5b4fcbc"
+      },
+      {
+        "code": "BIOL 3110",
+        "sha256": "ab26caa08022573cbe85efeb24155b34f87d6304432afb5508d73df6d3292f30"
+      },
+      {
+        "code": "BIOL 3340",
+        "sha256": "bb122470872535fd703357142ce208d6a983e0b79e5288acb9a08e51b8e437c3"
+      },
+      {
+        "code": "BIOL 3140",
+        "sha256": "28c4e5379cf7a3fde491de333aae72afce8c25b0682a8715470234212e568a38"
+      },
+      {
+        "code": "BIOL 3390",
+        "sha256": "bdcc690f0b1f651dd98779b6fb0501c77c12c2fdb6dcf691f9b8750ddc5964fb"
+      },
+      {
+        "code": "BIOL 4390",
+        "sha256": "6380b02afbd6c9e605af4fe9dbb7275e8fa81145ce32459fdfa2a368146e7b7b"
+      },
+      {
+        "code": "BIOL 3302",
+        "sha256": "c8944d86faaf82a6a215e2f582a42e4936ef0ad8b5d77b616ceee195fd7bff12"
+      },
+      {
+        "code": "BIOL 4360",
+        "sha256": "9cabaf2015ebd645dbcab56534698d1d2da110fa9bbe03af4e5805b5b9e5c913"
+      },
+      {
+        "code": "BIOL 4340",
+        "sha256": "4b843344db87bf6470e8276bad4ba2138091d44c2c73620858c304b36dfd5aba"
+      },
+      {
+        "code": "BIOL 4350",
+        "sha256": "11aae81e45cbb0e392f9d27d327e42444bf71a79587c6d395c5121ddeca74d2f"
+      },
+      {
+        "code": "MBIO 3340",
+        "sha256": "31026d387042cd2cd9d8cd736f025437282f4ffdb57dace90d8b6635495b356a"
+      },
+      {
+        "code": "BIOL 3105",
+        "sha256": "6b48709d435eb333c532f2de1a811de89c225f7af2f30f2fc9c617613e2e68b0"
+      },
+      {
+        "code": "BIOL 3304",
+        "sha256": "40cd52dad39aa13c0dbac2291bd1db614f979982e04456c7bb009167e4453c53"
+      },
+      {
+        "code": "BIOL 3305",
+        "sha256": "3901afe90662158bf67ff835cd9d96b280f1e49bc1541e4a513cc3fca249bcfd"
+      },
+      {
+        "code": "BIOL 3307",
+        "sha256": "632e524bca7afe07a2a784b6ccab9622a0f9da44a312366086113d0ebe3b0496"
+      },
+      {
+        "code": "BIOL 3320",
+        "sha256": "ee5077b4f17d1ea2381ac2e6a258a53b74a44ef8b982dc003c1af496f65a7819"
+      },
+      {
+        "code": "BIOL 4303",
+        "sha256": "76641220d531746cb1840ac01e9c419a29f21c9cd35a6239e5ae9d9a02629675"
+      },
+      {
+        "code": "BIOL 4310",
+        "sha256": "7dfd864b711230e85d73447e3ff7a706bd168ec2472351f12bd81422261c4acd"
+      },
+      {
+        "code": "BIOL 4313",
+        "sha256": "48837261e0ca4291d2a85c923c2f140f0d106c97769ecb1aa2e7c01d1130022d"
+      },
+      {
+        "code": "BIOL 4113",
+        "sha256": "e5d5cab779afa8bfc76bd8da4285e77bd4459477e8a3e31d02652b619570871e"
+      },
+      {
+        "code": "BIOL 4305",
+        "sha256": "b47c47b984fafb6bb0bfe5443eaca4e5afb137ed46e61a2313a25e1a0442fae5"
+      },
+      {
+        "code": "MBIO 3320",
+        "sha256": "2a5430d60dadfa2505d7f1537c9b7ed19cdac22253092fb6dfd992c38657332c"
+      },
+      {
+        "code": "MBIO 4340",
+        "sha256": "2fac910cbd1135abf12975ac6111890c311dc9fd41a8bb969964b8ccf11c719a"
+      },
+      {
+        "code": "MBIO 4140",
+        "sha256": "432ddcfe99d636efea6455acb31d9648c2c6535257f01f25793a78214e1610ac"
+      }
+    ],
+    "degreePageFingerprints": [
+      {
+        "sourceUrl": "https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7092&returnto=2409",
+        "sha256": "710f61006df27124048c122bc08c029388f424eb62569bf682444d65894a7ea7"
+      }
+    ],
+    "remaining": [
+      "Verify missing credits from an authoritative same-edition source or retain blocked options.",
+      "Review prerequisite logic, cross-list exclusions, aliases and supplementary references.",
+      "Model degree requirements, reconcile credits and complete tests/browser QA before registration."
+    ]
+  }
+}

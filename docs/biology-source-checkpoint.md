@@ -100,3 +100,37 @@ high-impact/CURE alternatives), check allocation and complete browser QA before
 registering Biology. Source capture completeness is not catalog readiness.
 
 Validation: all five focused Biology tests and the tools typecheck passed; staged diff checks passed. The temporary loopback capture server was stopped. No runtime changes required a new build or browser UI test.
+
+## October 14, 2026: source-preserving Biology intake adapter
+
+Added `scripts/import-biology.ts` and generated the separate unpublished draft
+`data/drafts/biology-intake-2025-2026.json`. Reproduce from the project root with:
+
+```powershell
+node --experimental-strip-types scripts/import-biology.ts
+```
+
+The importer validates the catalog/program URL, all source fingerprints, inventory
+coverage and course identities before writing a temporary file and replacing the
+draft. It does not modify the captured source text or the active app catalog.
+
+- 82 course records imported: 31 source-identical shared courses and 51 new ones.
+- BIOL 3390, 4390 and 4399 remain explicit blocked options with no credit value
+  and no Course record. Their original panels and fingerprints are retained.
+- Empty presentation lines are normalized; BIOL 4302's multiline prerequisite is
+  joined. Six cross-list notices remain in both descriptions and panel metadata.
+- MBIO 3390's absent prerequisite statement remains unknown. CHEM 4344's inline
+  descriptive sentence stays in the original prerequisite text for later review.
+- All 82 records remain `needs-review`; no prerequisite graph edges are enabled.
+  Existing reviewed records are compared but not overwritten or automatically
+  copied. Shared review reuse is part of the next prerequisite-review phase.
+- Five missing prerequisite code mentions remain explicit: BIOL 3103, ENG 1302,
+  MBIO 4310, PSY 1303 and SOC 1303. They are not silently mapped to other codes.
+
+Next bounded phase: review the Biology prerequisite statements against the saved
+panels, reuse exact-match shared reviews with their dependencies, and investigate
+missing references/credits using same-edition sources where necessary. Keep
+ambiguous expressions unresolved. Degree requirement modeling, selector
+registration and browser QA remain later gates. No website deployment performed.
+
+Validation: all 138 tests passed, including six new importer tests. Tools typecheck, lint and staged diff checks passed. No UI/runtime files changed, so a new browser pass was not required for this intake-only checkpoint.

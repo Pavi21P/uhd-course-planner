@@ -184,3 +184,15 @@ need source/alias review. See biology-source-checkpoint.md for exact issues.
 Next bounded phase: Biology source adapter and prerequisite review. Do not add
 Biology to the selector yet; requirement modeling and local QA remain pending.
 No application behavior, active catalog or public deployment changed.
+
+### Biology intake adapter checkpoint (October 14, 2026)
+
+The source-preserving importer now generates a separate unpublished Biology
+intake with 82 unreviewed courses (31 matching shared records, 51 new). Three
+missing-credit options remain blocked without invented credits. Six cross-list
+notices and the multiline prerequisite are preserved; five missing prerequisite
+code mentions remain explicit. Raw captures and active catalogs are unchanged.
+
+Next bounded phase: prerequisite review and supplementary source resolution.
+Requirements, credit allocation, selector integration and browser QA follow.
+Reproduction command and detailed caveats are in biology-source-checkpoint.md.
