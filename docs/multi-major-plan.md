@@ -259,3 +259,15 @@ remains review-required. No requirement is marked completed from selection alone
 Next bounded phase: scoped Biology catalog assembly and integration validation.
 Keep the unresolved grouping/credit/prerequisite notices. Selector registration,
 browser QA, GitHub publication and deployment remain pending.
+
+### Biology scoped catalog assembly (October 15, 2026)
+
+Added the validated Biology catalog builder, preserving its 16-course/34-credit
+starter, choices, six integrated/content-area conditions, allocation metadata and
+both optional minors. Shared sources and prerequisite/credit-policy dependencies
+are closed without inheriting Chemistry degree requirements. A source-guarded
+MATH 0300 exclusion prevents developmental enrollment hours counting toward the
+degree. Unresolved prerequisite and credit/grouping notices remain visible data.
+
+Next bounded phase: local selector integration and browser QA with isolated saved
+plans. Biology is not yet registered; publication and deployment remain pending.

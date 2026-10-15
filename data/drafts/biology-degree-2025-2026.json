@@ -1082,6 +1082,17 @@
       ]
     },
     {
+      "id": "exclude-math-0300",
+      "kind": "degree-credit-exclusion",
+      "courseIds": [
+        "2025-2026:MATH 0300"
+      ],
+      "sourceIds": [
+        "chemistry-intake-37-6"
+      ],
+      "text": "MATH 0300 may not satisfy degree requirements; its 3 enrollment credits add no degree credits."
+    },
+    {
       "id": "biology-exclusive-pharmacology",
       "kind": "mutually-exclusive-credit",
       "courseIds": [
@@ -1285,13 +1296,13 @@
     }
   ],
   "remaining": [
-    "The Biology allocation audit checks explicit overlap, area-specific topic approvals, candidate coverage and reported research totals; catalog assembly and UI integration remain pending.",
+    "The Biology allocation audit checks explicit overlap, area-specific topic approvals, candidate coverage and reported research totals; UI integration remains pending.",
     "Clarify lecture/lab grouping and the MBIO 3320 OR MBIO 4340 with MBIO 4140 sequence before treating content-area selections as satisfied.",
     "BIOL 3107 explicitly lists 3 credits despite the course-numbering policy suggesting 1. Retain the direct published value pending UHD clarification; CURE pairs containing it total 4 credits.",
     "Do not assume CURE/high-impact work can also fill the 23-hour option pool or satisfy multiple content areas without review.",
     "Cross-list counterpart policies for MBIO 3350/3150/4313/4113 remain outside the imported degree pool.",
     "34 prerequisite interpretations remain unresolved; BIOL 3103 remains missing.",
-    "Scoped catalog assembly, local browser QA and publication verification remain pending."
+    "Scoped catalog assembly is tested; selector integration, local browser QA and publication verification remain pending."
   ],
   "notices": [
     "Course selections do not certify completion, allocation, prerequisites or graduation eligibility.",

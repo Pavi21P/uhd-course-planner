@@ -98,8 +98,12 @@ export async function buildBiologyDegreePlan(root: string, degreeCaptureInput?: 
   ]
   const contentAreaConditions = areas.map(area => ({ id: 'biology-area-' + area.id, label: area.label, minimumCourseCount: 1,
     requirementId: 'biology-upper-options', courseIds: ids(area.codes), sourceIds: [sourceId], addsSeparateCredits: false }))
+  if (!byId.get('2025-2026:MATH 0300')?.description.includes('This course may not be used to satisfy degree requirements.'))
+    throw new Error('MATH 0300 exclusion requires source re-review')
   const coursePolicies: CoursePolicy[] = [
     ...base.snapshot.coursePolicies.filter(policy => ['exclusive-phys-2401','exclusive-phys-2402'].includes(policy.id)),
+    { id: 'exclude-math-0300', kind: 'degree-credit-exclusion', courseIds: ids(['MATH 0300']), sourceIds: byId.get('2025-2026:MATH 0300')!.sourceIds,
+      text: 'MATH 0300 may not satisfy degree requirements; its 3 enrollment credits add no degree credits.' },
     { id: 'biology-exclusive-pharmacology', kind: 'mutually-exclusive-credit', courseIds: ids(['BIOL 4344','CHEM 4344']), sourceIds: [sourceId, ...intake.sources.filter(source => source.id.startsWith('biology-intake-')).map(source => source.id)], text: 'BIOL 4344 and CHEM 4344 are cross-listed; credit may only be earned for one.' },
     { id: 'biology-research-limit', kind: 'program-condition', courseIds: ids(['BIOL 3300','BIOL 4399']), sourceIds: [sourceId], text: 'At most six hours of undergraduate research may count toward the degree, across all research courses and repeat enrollments. These are the currently imported research choices, not an exhaustive research inventory.' },
     { id: 'biology-special-topics-approval', kind: 'program-condition', courseIds: ids(['BIOL 3390','BIOL 4390','MBIO 3390','MBIO 4390']), sourceIds: [sourceId], text: 'Special Topics requires approval for the relevant upper-level content area; course selection alone does not establish approval.' },
@@ -117,13 +121,13 @@ export async function buildBiologyDegreePlan(root: string, degreeCaptureInput?: 
     allocationRestrictions: [
       { code: 'BIOL 4302', incompatibleRequirementIds: ['biology-high-impact','biology-upper-options'], reason: 'Explicit if-not-used-above restriction.' },
     ],
-    remaining: ['The Biology allocation audit checks explicit overlap, area-specific topic approvals, candidate coverage and reported research totals; catalog assembly and UI integration remain pending.',
+    remaining: ['The Biology allocation audit checks explicit overlap, area-specific topic approvals, candidate coverage and reported research totals; UI integration remains pending.',
       'Clarify lecture/lab grouping and the MBIO 3320 OR MBIO 4340 with MBIO 4140 sequence before treating content-area selections as satisfied.',
       'BIOL 3107 explicitly lists 3 credits despite the course-numbering policy suggesting 1. Retain the direct published value pending UHD clarification; CURE pairs containing it total 4 credits.',
       'Do not assume CURE/high-impact work can also fill the 23-hour option pool or satisfy multiple content areas without review.',
       'Cross-list counterpart policies for MBIO 3350/3150/4313/4113 remain outside the imported degree pool.',
       intake.report.unresolved.length + ' prerequisite interpretations remain unresolved; BIOL 3103 remains missing.',
-      'Scoped catalog assembly, local browser QA and publication verification remain pending.'],
+      'Scoped catalog assembly is tested; selector integration, local browser QA and publication verification remain pending.'],
     notices: ['Course selections do not certify completion, allocation, prerequisites or graduation eligibility.',
       'Count each selected course once toward total credits. Integrated writing/ethics and content-area conditions add no separate credit blocks.',
       'No minor is mandated by the captured standard Biology BS page. Optional minors remain separate.'] }

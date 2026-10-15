@@ -323,3 +323,36 @@ catalog, retain unresolved notices, and prepare integration validation before
 adding the major to the selector. Browser QA and publication remain later gates.
 
 Validation: all 168 tests passed, including nine new allocation cases. Tools typecheck, lint and production build passed. No browser QA was needed for this unconnected data audit; Biology remains absent from the selector.
+
+### Biology scoped catalog checkpoint (October 15, 2026)
+
+Added `buildBiologyCatalog` in `src/data/biology-bs-catalog.ts` and a validated
+`biology-bs-planning-catalog` snapshot scope. Assembly combines the base catalog,
+reviewed Biology intake and shared Chemistry course records, then retains Biology
+requirements, optional Mathematics/Data Science minors, their dependencies and
+relevant credit exclusions. It does not carry over Chemistry degree requirements.
+The Biology starter remains exactly 16 fixed courses and 34 credits, with all
+choices unselected and a distinct per-major storage key.
+
+Shared records must agree on content, credits and reviewed prerequisites; source
+provenance is merged. Missing references, duplicate records, conflicting policies
+or sources, wrong editions, incomplete unresolved notices, foreign requirements,
+invalid conditions and broken allocation restrictions fail validation. The
+assembled model retains all six integrated/content-area conditions and the
+structured allocation model for the previous checkpoint's audit.
+
+MATH 1310, STAT 1312 and CHEM 1305 core options use the shared Chemistry intake.
+Dependency closure also exposes MATH 0300. Its explicit course-description
+exclusion is now source-guarded in the Biology degree builder: three enrollment
+credits contribute zero degree hours. The BIOL 3107 direct credit value and all
+policy-derived credit provenance remain intact. BIOL 3103 remains missing; no
+alias or graph edge was invented. Mandatory-before cycle and graph-closure checks
+pass. Ambiguous prerequisite expressions remain unconnected.
+
+Next bounded phase: integrate Biology into the local major selector and perform
+browser QA, including major switching, storage isolation, starter credits,
+choice areas and unresolved-rule notices. The allocation audit still needs a UI
+consumer; it must not be presented as an automatic degree audit. No selector
+registration, GitHub push or deployment occurred in this assembly checkpoint.
+
+Validation: all 175 tests passed, including seven new catalog-assembly cases. Tools typecheck, lint and production build passed. The source and graph audits passed; browser QA remains pending because Biology is not yet registered in the selector.
