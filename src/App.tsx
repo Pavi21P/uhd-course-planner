@@ -9,6 +9,9 @@ import { loadPlannerCatalog, type MinorSupplement } from './data/minor-catalog'
 import type { Course } from './data/catalog-schema'
 import { buildMathematicsCatalog, mathematics } from './data/math-bs-catalog'
 import { buildChemistryCatalog } from './data/chemistry-bs-catalog'
+import { buildBiologyCatalog } from './data/biology-bs-catalog'
+import biologyIntake from '../data/drafts/biology-intake-2025-2026.json'
+import biologyDegree from '../data/drafts/biology-degree-2025-2026.json'
 import chemistryIntake from '../data/drafts/chemistry-intake-2025-2026.json'
 import chemistryDegree from '../data/drafts/chemistry-degree-2025-2026.json'
 import { computerScience, programStarterIds, programStorageKey, type ProgramDefinition } from './data/program-definition'
@@ -25,8 +28,13 @@ import { ExportPicture } from './ExportPicture'
 import type { PictureInput } from './plan-picture'
 
 const catalogResult = loadPlannerCatalog(catalogData, minorData)
-// Local Chemistry integration retains source-review notices. Release status is tracked in docs/multi-major-plan.md.
-const availablePrograms = catalogResult.ok ? [{ definition: computerScience, ...catalogResult }, { definition: mathematics, ...buildMathematicsCatalog(catalogResult.snapshot, catalogResult.programs) }, buildChemistryCatalog(catalogResult.snapshot, catalogResult.programs, chemistryIntake, chemistryDegree)] : []
+// Local major integration retains source-review notices. Release status is tracked in docs/multi-major-plan.md.
+const availablePrograms = catalogResult.ok ? [
+  { definition: computerScience, ...catalogResult },
+  { definition: mathematics, ...buildMathematicsCatalog(catalogResult.snapshot, catalogResult.programs) },
+  buildChemistryCatalog(catalogResult.snapshot, catalogResult.programs, chemistryIntake, chemistryDegree),
+  buildBiologyCatalog(catalogResult.snapshot, catalogResult.programs, biologyIntake, biologyDegree, chemistryIntake),
+] : []
 type Theme = 'light' | 'dark'
 type CourseNode = Node<{ course: Course; option: boolean; selected?: boolean; onSelect?: (courseId: string, value: boolean) => void; reference?: boolean; connected?: boolean; taken?: boolean; onTaken?: (courseId: string, value: boolean) => void; onInfo: (course: Course, nodeId: string) => void }, 'course'>
 type LogicNode = Node<{ title: string; kind: string; onInfo: () => void }, 'logic'>
@@ -387,7 +395,7 @@ function Planner({ snapshot, minorPrograms, program, onProgramChange }: { snapsh
     <div className="workspace-bar"><div><h2>A little clarity for the road ahead.</h2><p>Drag a course to move its downstream branch, including hidden courses. Undo restores the whole branch. Double-click a course to connect it. Press Escape to cancel. AND means all inputs; OR means any input. Drag a badge to move it independently. Click a badge or course info for grades, timing, and conditions.</p></div><button onClick={() => setOverview(!overview)} aria-expanded={overview}>Requirements {overview ? '−' : '+'}</button></div>
     {overview && <section className="requirements" aria-label="Degree requirements">
       <p>{program.starterDescription}</p>
-      <ul>{catalog.requirements.map(group => <li key={group.id}><strong>{group.label}</strong><span>{group.id === 'free-electives' ? 'Balance to 120 hours' : `${group.minimumCredits} hours`}</span>{group.constraints.length > 0 && <details><summary>Conditions and choices</summary><ul>{group.constraints.map(note => <li key={note}>{note}</li>)}</ul>{group.courseIds.length > 0 && <p>{group.courseIds.map(id => catalog.courses.find(course => course.id === id)?.code).join(', ')}</p>}</details>}</li>)}</ul>
+      <ul>{catalog.requirements.map(group => <li key={group.id}><strong>{group.label}</strong><span>{group.id === 'free-electives' ? 'Balance to 120 hours' : `${group.minimumCredits} hours${group.courseSets ? " minimum; varies by choice" : ""}`}</span>{group.constraints.length > 0 && <details><summary>Conditions and choices</summary><ul>{group.constraints.map(note => <li key={note}>{note}</li>)}</ul>{group.courseIds.length > 0 && <p>{group.courseIds.map(id => catalog.courses.find(course => course.id === id)?.code).join(', ')}</p>}</details>}</li>)}</ul>
       <details><summary>Catalog coverage and unresolved prerequisites</summary><p>{snapshot.coverage.unimportedOptionCodes.length} core choices have names only and cannot be selected yet. {program.coverageDescription}</p><ul>{snapshot.coverage.unresolvedPrerequisites.map(issue => <li key={issue.courseId}>{issue.courseId.split(':')[1]}: {issue.reason}</li>)}</ul><a href={program.sourceUrl} target="_blank" rel="noreferrer">Official UHD degree requirements ↗</a></details>
     </section>}
     <div className="view-switcher" role="group" aria-label="Planner view">

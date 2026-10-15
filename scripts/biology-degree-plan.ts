@@ -127,7 +127,7 @@ export async function buildBiologyDegreePlan(root: string, degreeCaptureInput?: 
       'Do not assume CURE/high-impact work can also fill the 23-hour option pool or satisfy multiple content areas without review.',
       'Cross-list counterpart policies for MBIO 3350/3150/4313/4113 remain outside the imported degree pool.',
       intake.report.unresolved.length + ' prerequisite interpretations remain unresolved; BIOL 3103 remains missing.',
-      'Scoped catalog assembly is tested; selector integration, local browser QA and publication verification remain pending.'],
+      'Scoped catalog assembly, local selector integration and browser QA are complete; publication verification remains pending.'],
     notices: ['Course selections do not certify completion, allocation, prerequisites or graduation eligibility.',
       'Count each selected course once toward total credits. Integrated writing/ethics and content-area conditions add no separate credit blocks.',
       'No minor is mandated by the captured standard Biology BS page. Optional minors remain separate.'] }

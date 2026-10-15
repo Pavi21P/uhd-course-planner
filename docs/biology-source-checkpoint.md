@@ -356,3 +356,29 @@ consumer; it must not be presented as an automatic degree audit. No selector
 registration, GitHub push or deployment occurred in this assembly checkpoint.
 
 Validation: all 175 tests passed, including seven new catalog-assembly cases. Tools typecheck, lint and production build passed. The source and graph audits passed; browser QA remains pending because Biology is not yet registered in the selector.
+
+### Biology local selector and browser QA (October 15, 2026)
+
+Registered Biology BS beside CS, Mathematics and Chemistry in the local app.
+Requirements with complete course-set alternatives now label their hours as a
+minimum that varies by choice, including Biology's high-impact/CURE alternatives
+and physics pairs. The coverage disclosure explicitly shows the missing BIOL
+3103 reference, BIOL 3107 credit discrepancy and unresolved lecture/lab grouping.
+These notices do not imply graduation or registration eligibility.
+
+Browser QA used a fresh isolated localhost origin at port 5184, preserving
+existing site saves. Verified CS 54, Math 38, Chemistry 70 and Biology 34 starting
+hours. Adding BIOL 3107 produced 37; Undo restored 34 and Redo restored 37.
+Marking it Taken produced 3 completed and 34 remaining planned hours. Other majors
+retained their own totals, and Biology retained its changes after switching and
+reload. Removed the test selection/completion afterward, restoring Biology 34/0/34.
+Verified course information, high-impact/physics minimum labels, unresolved notices,
+Supporting/Electives/Minors sections, collapsed controls and light/dark rendering.
+Visual inspection at the browser's approximately 1034px laptop viewport passed;
+no browser warnings or errors were reported during these checks.
+
+Validation: all 175 tests, tools typecheck, lint and production build passed.
+The degree-draft reproducibility tests were rerun after updating checkpoint text.
+No deployment or GitHub push occurred. Next bounded phase: release verification
+and publication. The standalone allocation audit remains without an assignment
+editor; selecting a course never asserts completion of requirement slots.

@@ -12,7 +12,7 @@ export const biology: ProgramDefinition = {
   sourceUrl: 'https://catalog.uhd.edu/preview_program.php?catoid=37&poid=7092',
   supportingDescription: 'Choose writing, mathematics/computing, complete physics pairs, a seminar, and one high-impact course or two distinct CURE courses.',
   starterDescription: 'The starter selects 16 fixed science and Biology courses totaling 34 credits. Choices, core completion and optional minors remain separate. No completed courses are assumed.',
-  coverageDescription: 'Draft Biology plan: upper-level content areas, integrated writing/ethics, research limits and overlap require allocation review. Ambiguous prerequisites stay unconnected; grades, residency and graduation eligibility are not assessed.',
+  coverageDescription: 'Draft Biology plan: upper-level content areas, integrated writing/ethics, research limits and overlap require allocation review. Ambiguous prerequisites stay unconnected; grades, residency and graduation eligibility are not assessed. BIOL 3103 remains an unresolved catalog reference. BIOL 3107 explicitly lists 3 credits despite its numbering suggesting 1; retain the published value pending UHD clarification. Lecture/lab grouping and the MBIO 3320 OR MBIO 4340 with MBIO 4140 sequence need advising review.',
   minorPlaceholders: [{ id: 'math-minor', title: 'Optional Mathematics minor', subtitle: '18-hour minimum; degree/minor overlap requires review' },
     { id: 'data-minor', title: 'Optional Data Science minor', subtitle: '22/23 hours; no minor is preselected' }],
 }

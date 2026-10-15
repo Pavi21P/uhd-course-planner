@@ -271,3 +271,15 @@ degree. Unresolved prerequisite and credit/grouping notices remain visible data.
 
 Next bounded phase: local selector integration and browser QA with isolated saved
 plans. Biology is not yet registered; publication and deployment remain pending.
+
+### Biology local integration complete (October 15, 2026)
+
+Biology BS is now locally selectable with a 34-hour starter. Browser checks passed
+for all four majors, saved-plan isolation/reload, Biology add/undo/redo/Taken
+credits, course information, requirement notices, separate choice/minor sections,
+collapsed controls and both themes. Course-set totals are labeled as minimums that
+vary by choice. All 175 tests, tools typecheck, lint and production build passed.
+
+Next bounded phase: release verification and publication. No push or deployment
+occurred here; unresolved academic rules remain explicit draft notices. The
+allocation checker has no assignment editor and makes no completion claims.
