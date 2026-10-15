@@ -25,11 +25,21 @@
       },
       "prerequisiteText": "010 core complete and 040 core complete",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "010 core complete and 040 core complete"
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "010 core complete"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "040 core complete"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -46,11 +56,21 @@
       },
       "prerequisiteText": "Prerequisite: 010 core complete and 040 core complete.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Prerequisite: 010 core complete and 040 core complete."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "010 core complete"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "040 core complete"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -67,11 +87,21 @@
       },
       "prerequisiteText": "Prerequisite: 010 core complete and 040 core complete.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Prerequisite: 010 core complete and 040 core complete."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "010 core complete"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "040 core complete"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -88,11 +118,21 @@
       },
       "prerequisiteText": "Prerequisite: 010 core complete and 040 core complete.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Prerequisite: 010 core complete and 040 core complete."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "010 core complete"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "040 core complete"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -109,11 +149,21 @@
       },
       "prerequisiteText": "Prerequisite: 010 core complete and 040 core complete.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Prerequisite: 010 core complete and 040 core complete."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "010 core complete"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "040 core complete"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -151,11 +201,11 @@
       },
       "prerequisiteText": "Credit or enrollment in BIOL 1301.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in BIOL 1301."
+        "kind": "course",
+        "courseId": "2025-2026:BIOL 1301",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -172,11 +222,26 @@
       },
       "prerequisiteText": "BIOL 1101, BIOL 1301 and enrollment in BIOL 1102.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "BIOL 1101, BIOL 1301 and enrollment in BIOL 1102."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1101",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1301",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1102",
+            "timing": "concurrent"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -193,11 +258,21 @@
       },
       "prerequisiteText": "BIOL 1101 and credit or enrollment in BIOL 1302.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "BIOL 1101 and credit or enrollment in BIOL 1302."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1101",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1302",
+            "timing": "before-or-concurrent"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -235,11 +310,11 @@
       },
       "prerequisiteText": "Credit or enrollment in CHEM 1307.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in CHEM 1307."
+        "kind": "course",
+        "courseId": "2025-2026:CHEM 1307",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -256,11 +331,22 @@
       },
       "prerequisiteText": "A grade of C or better in CHEM 1307 and credit or enrollment in CHEM 1108.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "A grade of C or better in CHEM 1307 and credit or enrollment in CHEM 1108."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1307",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1108",
+            "timing": "before-or-concurrent"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -277,11 +363,21 @@
       },
       "prerequisiteText": "CHEM 1107 and credit or enrollment in CHEM 1308.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "CHEM 1107 and credit or enrollment in CHEM 1308."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1107",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1308",
+            "timing": "before-or-concurrent"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -298,11 +394,28 @@
       },
       "prerequisiteText": "A grade of C or better inMATH 1404 or MATH 1505 or placement by exam taken at UH-Downtown.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "A grade of C or better inMATH 1404 or MATH 1505 or placement by exam taken at UH-Downtown."
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1404",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1505",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement by exam taken at UH-Downtown"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -319,11 +432,28 @@
       },
       "prerequisiteText": "A grade of C or better in MATH 1404 or in MATH 1505 or placement by exam taken at UH-Downtown.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "A grade of C or better in MATH 1404 or in MATH 1505 or placement by exam taken at UH-Downtown."
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1404",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1505",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement by exam taken at UH-Downtown"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -340,11 +470,23 @@
       },
       "prerequisiteText": "A grade of C or better in MATH 2411 or MATH 2401.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "A grade of C or better in MATH 2411 or MATH 2401."
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2411",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 2401",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -361,11 +503,36 @@
       },
       "prerequisiteText": "Credit or enrollment in MATH 1404 or MATH 1505 or MATH 1306; and placement in ENG 1301 or above.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in MATH 1404 or MATH 1505 or MATH 1306; and placement in ENG 1301 or above."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1404",
+                "timing": "before-or-concurrent"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1505",
+                "timing": "before-or-concurrent"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1306",
+                "timing": "before-or-concurrent"
+              }
+            ]
+          },
+          {
+            "kind": "condition",
+            "category": "placement",
+            "text": "placement in ENG 1301 or above"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -382,11 +549,21 @@
       },
       "prerequisiteText": "Credit or enrollment in MATH 1404 or MATH 1505.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in MATH 1404 or MATH 1505."
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1404",
+            "timing": "before-or-concurrent"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1505",
+            "timing": "before-or-concurrent"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -403,11 +580,23 @@
       },
       "prerequisiteText": "A grade of C or better in MATH 1404 or MATH 1505.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "A grade of C or better in MATH 1404 or MATH 1505."
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1404",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:MATH 1505",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -445,11 +634,11 @@
       },
       "prerequisiteText": "Credit or enrollment in MBIO 2305.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in MBIO 2305."
+        "kind": "course",
+        "courseId": "2025-2026:MBIO 2305",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -466,11 +655,31 @@
       },
       "prerequisiteText": "Credit or enrollment in MATH 1302 or the equivalent, enrollment in PHYS 1107.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in MATH 1302 or the equivalent, enrollment in PHYS 1107."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 1302",
+                "timing": "before-or-concurrent"
+              },
+              {
+                "kind": "condition",
+                "category": "other",
+                "text": "Equivalent to MATH 1302"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 1107",
+            "timing": "concurrent"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -487,11 +696,11 @@
       },
       "prerequisiteText": "Credit or enrollment in PHYS 1307.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in PHYS 1307."
+        "kind": "course",
+        "courseId": "2025-2026:PHYS 1307",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -508,11 +717,31 @@
       },
       "prerequisiteText": "Credit in MATH 2402 (or MATH 2412) enrollment in PHYS 2101.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit in MATH 2402 (or MATH 2412) enrollment in PHYS 2101."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "any",
+            "items": [
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2402",
+                "timing": "before"
+              },
+              {
+                "kind": "course",
+                "courseId": "2025-2026:MATH 2412",
+                "timing": "before"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 2101",
+            "timing": "concurrent"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -529,11 +758,11 @@
       },
       "prerequisiteText": "Credit or enrollment in PHYS 2401.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in PHYS 2401."
+        "kind": "course",
+        "courseId": "2025-2026:PHYS 2401",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -550,11 +779,21 @@
       },
       "prerequisiteText": "PHYS 1307 and credit or enrollment in PHYS 1108.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "PHYS 1307 and credit or enrollment in PHYS 1108."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 1307",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 1108",
+            "timing": "before-or-concurrent"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -571,11 +810,11 @@
       },
       "prerequisiteText": "Credit or enrollment in PHYS 1308.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in PHYS 1308."
+        "kind": "course",
+        "courseId": "2025-2026:PHYS 1308",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -592,11 +831,22 @@
       },
       "prerequisiteText": "Grade of C or better in PHYS 2401 and credit or enrollment in PHYS 2102.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Grade of C or better in PHYS 2401 and credit or enrollment in PHYS 2102."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 2401",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:PHYS 2102",
+            "timing": "before-or-concurrent"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -613,11 +863,11 @@
       },
       "prerequisiteText": "Credit or enrollment in PHYS 2402.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in PHYS 2402."
+        "kind": "course",
+        "courseId": "2025-2026:PHYS 2402",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -676,11 +926,23 @@
       },
       "prerequisiteText": "A grade of C or better in CHEM 1308 and CHEM 1108. Enrollment in CHEM 2101 is recommended.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "A grade of C or better in CHEM 1308 and CHEM 1108. Enrollment in CHEM 2101 is recommended."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1308",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 1108",
+            "timing": "before",
+            "minimumGrade": "C"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -697,11 +959,22 @@
       },
       "prerequisiteText": "A letter grade of C or better in CHEM 2301 or enrollment in CHEM 2301.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "A letter grade of C or better in CHEM 2301 or enrollment in CHEM 2301."
+        "kind": "any",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 2301",
+            "timing": "before",
+            "minimumGrade": "C"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 2301",
+            "timing": "concurrent"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -718,11 +991,11 @@
       },
       "prerequisiteText": "BIOL 2303.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "BIOL 2303."
+        "kind": "course",
+        "courseId": "2025-2026:BIOL 2303",
+        "timing": "before"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -739,11 +1012,21 @@
       },
       "prerequisiteText": "Senior standing and majoring in an area of life science.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Senior standing and majoring in an area of life science."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "standing",
+            "text": "Senior standing"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "Majoring in an area of life science"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -782,10 +1065,10 @@
       "prerequisiteText": "Senior standing.",
       "prerequisites": {
         "kind": "condition",
-        "category": "other",
-        "text": "Senior standing."
+        "category": "standing",
+        "text": "Senior standing"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -802,11 +1085,26 @@
       },
       "prerequisiteText": "Approval by the Natural Sciences Department, minimum GPA of 2.0, and permission of instructor.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Approval by the Natural Sciences Department, minimum GPA of 2.0, and permission of instructor."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Approval by the Natural Sciences Department"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "Minimum GPA of 2.0"
+          },
+          {
+            "kind": "condition",
+            "category": "permission",
+            "text": "Permission of instructor"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -907,11 +1205,11 @@
       },
       "prerequisiteText": "Credit or enrollment in BIOL 3302.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in BIOL 3302."
+        "kind": "course",
+        "courseId": "2025-2026:BIOL 3302",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -928,11 +1226,11 @@
       },
       "prerequisiteText": "Credit or enrollment in BIOL 3304.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in BIOL 3304."
+        "kind": "course",
+        "courseId": "2025-2026:BIOL 3304",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -949,11 +1247,11 @@
       },
       "prerequisiteText": "Enrollment or credit in BIOL 3307",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Enrollment or credit in BIOL 3307"
+        "kind": "course",
+        "courseId": "2025-2026:BIOL 3307",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -970,11 +1268,11 @@
       },
       "prerequisiteText": "Credit or enrollment in BIOL 4310.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in BIOL 4310."
+        "kind": "course",
+        "courseId": "2025-2026:BIOL 4310",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -991,11 +1289,21 @@
       },
       "prerequisiteText": "General Genetics and laboratory (BIOL 2303/BIOL 2103)",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "General Genetics and laboratory (BIOL 2303/BIOL 2103)"
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 2303",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 2103",
+            "timing": "before"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -1012,11 +1320,21 @@
       },
       "prerequisiteText": "BIOL 2303and 6 hours of upper-level biology; credit for CHEM 2301 is recommended but not required.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "BIOL 2303and 6 hours of upper-level biology; credit for CHEM 2301 is recommended but not required."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 2303",
+            "timing": "before"
+          },
+          {
+            "kind": "condition",
+            "category": "other",
+            "text": "6 hours of upper-level biology"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -1054,11 +1372,11 @@
       },
       "prerequisiteText": "CHEM 4340.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "CHEM 4340."
+        "kind": "course",
+        "courseId": "2025-2026:CHEM 4340",
+        "timing": "before"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -1075,11 +1393,11 @@
       },
       "prerequisiteText": "CHEM 4340. Introduction to fundamental principles in pharmacology and toxicology.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "CHEM 4340. Introduction to fundamental principles in pharmacology and toxicology."
+        "kind": "course",
+        "courseId": "2025-2026:CHEM 4340",
+        "timing": "before"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -1096,11 +1414,11 @@
       },
       "prerequisiteText": "Credit or enrollment in CHEM 4340.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in CHEM 4340."
+        "kind": "course",
+        "courseId": "2025-2026:CHEM 4340",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -1117,11 +1435,31 @@
       },
       "prerequisiteText": "BIOL 1102 and BIOL 1302 and CHEM 2101 and CHEM 2301.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "BIOL 1102 and BIOL 1302 and CHEM 2101 and CHEM 2301."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1102",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1302",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 2101",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 2301",
+            "timing": "before"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -1140,7 +1478,7 @@
       "prerequisites": {
         "kind": "condition",
         "category": "other",
-        "text": "No prerequisite statement published in the captured panel; review required."
+        "text": "No prerequisite statement published; review required."
       },
       "review": "needs-review",
       "sourceIds": [
@@ -1180,11 +1518,11 @@
       },
       "prerequisiteText": "Credit or enrollment in MBIO 4320.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in MBIO 4320."
+        "kind": "course",
+        "courseId": "2025-2026:MBIO 4320",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -1264,11 +1602,11 @@
       },
       "prerequisiteText": "Credit or enrollment in BIOL 3330.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in BIOL 3330."
+        "kind": "course",
+        "courseId": "2025-2026:BIOL 3330",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -1306,11 +1644,11 @@
       },
       "prerequisiteText": "Credit or enrollment in BIOL 3310.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in BIOL 3310."
+        "kind": "course",
+        "courseId": "2025-2026:BIOL 3310",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -1348,11 +1686,11 @@
       },
       "prerequisiteText": "Credit or enrollment in BIOL 3340.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in BIOL 3340."
+        "kind": "course",
+        "courseId": "2025-2026:BIOL 3340",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -1474,11 +1812,11 @@
       },
       "prerequisiteText": "Credit or enrollment in BIOL 3305.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in BIOL 3305."
+        "kind": "course",
+        "courseId": "2025-2026:BIOL 3305",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -1642,11 +1980,11 @@
       },
       "prerequisiteText": "Credit or enrollment in BIOL 4313.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in BIOL 4313."
+        "kind": "course",
+        "courseId": "2025-2026:BIOL 4313",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -1663,11 +2001,21 @@
       },
       "prerequisiteText": "BIOL 1302 and CHEM 2301.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "BIOL 1302 and CHEM 2301."
+        "kind": "all",
+        "items": [
+          {
+            "kind": "course",
+            "courseId": "2025-2026:BIOL 1302",
+            "timing": "before"
+          },
+          {
+            "kind": "course",
+            "courseId": "2025-2026:CHEM 2301",
+            "timing": "before"
+          }
+        ]
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -1726,11 +2074,11 @@
       },
       "prerequisiteText": "Credit or enrollment in MBIO 4340.",
       "prerequisites": {
-        "kind": "condition",
-        "category": "other",
-        "text": "Credit or enrollment in MBIO 4340."
+        "kind": "course",
+        "courseId": "2025-2026:MBIO 4340",
+        "timing": "before-or-concurrent"
       },
-      "review": "needs-review",
+      "review": "verified",
       "sourceIds": [
         "biology-intake-37-1"
       ]
@@ -2249,78 +2597,204 @@
       "2025-2026:CHEM 4340"
     ],
     "newCourseCount": 51,
-    "verifiedCount": 0,
+    "verifiedCount": 50,
+    "reusedReviewIds": [
+      "2025-2026:TCOM 3302",
+      "2025-2026:TCOM 3325",
+      "2025-2026:TCOM 3326",
+      "2025-2026:TCOM 3329",
+      "2025-2026:TCOM 4306",
+      "2025-2026:BIOL 1101",
+      "2025-2026:BIOL 1302",
+      "2025-2026:BIOL 1102",
+      "2025-2026:CHEM 1107",
+      "2025-2026:CHEM 1308",
+      "2025-2026:CHEM 1108",
+      "2025-2026:MATH 2411",
+      "2025-2026:MATH 2401",
+      "2025-2026:MATH 2412",
+      "2025-2026:CS 1408",
+      "2025-2026:CS 1411",
+      "2025-2026:STAT 3311",
+      "2025-2026:PHYS 1307",
+      "2025-2026:PHYS 1107",
+      "2025-2026:PHYS 2401",
+      "2025-2026:PHYS 2101",
+      "2025-2026:PHYS 1308",
+      "2025-2026:PHYS 1108",
+      "2025-2026:PHYS 2402",
+      "2025-2026:PHYS 2102",
+      "2025-2026:CHEM 2301",
+      "2025-2026:CHEM 2101",
+      "2025-2026:CHEM 4140",
+      "2025-2026:CHEM 4340"
+    ],
+    "unresolved": [
+      {
+        "courseId": "2025-2026:BIOL 1301",
+        "reason": "Scope of credit-or-enrollment across the comma-separated list and English/core alternative needs clarification."
+      },
+      {
+        "courseId": "2025-2026:CHEM 1307",
+        "reason": "Timing and AND/OR scope of English/core and high-school chemistry versus CHEM 1305/1105 need clarification."
+      },
+      {
+        "courseId": "2025-2026:MBIO 2305",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 2303",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 2103",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:MBIO 4311",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 4302",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 4331",
+        "reason": "MBIO 4310 is absent from the available same-edition records. Retain the full OR choice until that reference is resolved."
+      },
+      {
+        "courseId": "2025-2026:BIOL 4332",
+        "reason": "BIOL 3103 is absent from the available same-edition records. Do not replace it with BIOL 2103 without evidence."
+      },
+      {
+        "courseId": "2025-2026:BIOL 4361",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 4330",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:MBIO 3390",
+        "reason": "No prerequisite statement is published in the captured panel; absence is not evidence of no prerequisites."
+      },
+      {
+        "courseId": "2025-2026:MBIO 4320",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:MBIO 4330",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:MBIO 4390",
+        "reason": "Prerequisites vary by topic; no specific offering requirements are supplied."
+      },
+      {
+        "courseId": "2025-2026:BIOL 3330",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 3310",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 3340",
+        "reason": "Slash grouping and the OR scope of credit or enrollment in BIOL 3140 require clarification."
+      },
+      {
+        "courseId": "2025-2026:BIOL 3302",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 4360",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 4340",
+        "reason": "Slash grouping is unresolved and ENG 1302 has no captured record; do not infer a course-code equivalency."
+      },
+      {
+        "courseId": "2025-2026:BIOL 4350",
+        "reason": "ENG 1302, PSY 1303 and SOC 1303 lack captured records; preserve the alternatives and standing/credit conditions without guessed aliases."
+      },
+      {
+        "courseId": "2025-2026:MBIO 3340",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 3304",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 3305",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 3307",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 3320",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 4303",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 4310",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:BIOL 4313",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:MBIO 3320",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      },
+      {
+        "courseId": "2025-2026:MBIO 4340",
+        "reason": "Slash-separated course pairs do not explicitly specify AND or OR. Retain the complete statement without partial prerequisite edges."
+      }
+    ],
+    "mandatoryBeforeCycles": [],
+    "dependencyCourseIds": [
+      "2025-2026:MATH 1300",
+      "2025-2026:MATH 1301",
+      "2025-2026:MATH 1302",
+      "2025-2026:MATH 1305",
+      "2025-2026:MATH 1306",
+      "2025-2026:MATH 1324",
+      "2025-2026:MATH 1404",
+      "2025-2026:MATH 1505",
+      "2025-2026:MATH 2402"
+    ],
     "prerequisiteReviewRequired": [
-      "TCOM 3302",
-      "TCOM 3325",
-      "TCOM 3326",
-      "TCOM 3329",
-      "TCOM 4306",
       "BIOL 1301",
-      "BIOL 1101",
-      "BIOL 1302",
-      "BIOL 1102",
       "CHEM 1307",
-      "CHEM 1107",
-      "CHEM 1308",
-      "CHEM 1108",
-      "MATH 2411",
-      "MATH 2401",
-      "MATH 2412",
-      "CS 1408",
-      "CS 1411",
-      "STAT 3311",
       "MBIO 2305",
-      "MBIO 2105",
-      "PHYS 1307",
-      "PHYS 1107",
-      "PHYS 2401",
-      "PHYS 2101",
-      "PHYS 1308",
-      "PHYS 1108",
-      "PHYS 2402",
-      "PHYS 2102",
       "BIOL 2303",
       "BIOL 2103",
-      "CHEM 2301",
-      "CHEM 2101",
-      "BIOL 3306",
-      "BIOL 4311",
       "MBIO 4311",
-      "SUST 4301",
-      "BIOL 3300",
       "BIOL 4302",
       "BIOL 4331",
       "BIOL 4332",
       "BIOL 4361",
-      "BIOL 3102",
-      "BIOL 3104",
-      "BIOL 3107",
-      "BIOL 4110",
-      "BIOL 3308",
-      "BIOL 4320",
       "BIOL 4330",
-      "BIOL 4344",
-      "CHEM 4344",
-      "CHEM 4140",
-      "CHEM 4340",
       "MBIO 3390",
       "MBIO 4320",
-      "MBIO 4120",
       "MBIO 4330",
       "MBIO 4390",
       "BIOL 3330",
-      "BIOL 3130",
       "BIOL 3310",
-      "BIOL 3110",
       "BIOL 3340",
-      "BIOL 3140",
       "BIOL 3302",
       "BIOL 4360",
       "BIOL 4340",
       "BIOL 4350",
       "MBIO 3340",
-      "BIOL 3105",
       "BIOL 3304",
       "BIOL 3305",
       "BIOL 3307",
@@ -2328,11 +2802,8 @@
       "BIOL 4303",
       "BIOL 4310",
       "BIOL 4313",
-      "BIOL 4113",
-      "BIOL 4305",
       "MBIO 3320",
-      "MBIO 4340",
-      "MBIO 4140"
+      "MBIO 4340"
     ],
     "missingReferencedCodes": [
       "BIOL 3103",

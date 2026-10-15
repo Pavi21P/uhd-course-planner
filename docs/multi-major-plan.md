@@ -196,3 +196,15 @@ code mentions remain explicit. Raw captures and active catalogs are unchanged.
 Next bounded phase: prerequisite review and supplementary source resolution.
 Requirements, credit allocation, selector integration and browser QA follow.
 Reproduction command and detailed caveats are in biology-source-checkpoint.md.
+
+### Biology prerequisite review checkpoint (October 14, 2026)
+
+The unpublished Biology intake now has 50 reviewed expressions: 29 reused from
+matching shared records and 21 reviewed against captured Biology course text.
+32 ambiguous or incomplete statements retain explicit reasons without graph
+edges. Three missing-credit options remain blocked. Shared dependency validation
+and mandatory-before cycle auditing pass; nine external math records are listed
+for future scoped catalog assembly. New interpretations are source-text guarded.
+
+Next: supplementary source review for missing references and credits, then
+Biology requirement modeling. No selector registration or deployment occurred.

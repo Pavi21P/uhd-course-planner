@@ -134,3 +134,46 @@ ambiguous expressions unresolved. Degree requirement modeling, selector
 registration and browser QA remain later gates. No website deployment performed.
 
 Validation: all 138 tests passed, including six new importer tests. Tools typecheck, lint and staged diff checks passed. No UI/runtime files changed, so a new browser pass was not required for this intake-only checkpoint.
+
+## October 14, 2026: Biology prerequisite interpretation checkpoint
+
+Reviewed the saved catalog-37 prerequisite statements and regenerated the intake:
+50 of 82 courses now have reviewed expressions, comprising 29 exact-match shared
+reviews and 21 new Biology/MBIO/CHEM/SUST interpretations. The other 32 records
+have explicit reasons and no prerequisite graph expressions. Three missing-credit
+options remain blocked outside the Course records.
+
+`scripts/biology-prerequisite-reviews.ts` binds every new interpretation or
+unresolved reason to its expected source text. A changed statement fails import
+and requires another review. Shared reviews are reused only after the importer
+compares titles, credits, descriptions and prerequisite text; their expressions
+are cloned without overwriting existing data or Biology source identities.
+
+The interpretations preserve before-or-concurrent lab timing, grade thresholds,
+standing, major, permission and credit-hour conditions. BIOL 3308 explicitly
+requires General Genetics AND its lab. BIOL 4320's recommended CHEM 2301 is not a
+required edge. CHEM 4344 retains its inline descriptive sentence in the source
+text, with CHEM 4340 as its prerequisite.
+
+Unresolved statements include slash-pair grouping, unclear AND/OR scope, missing
+code references, absent prerequisite text and topic-dependent prerequisites.
+These retain the entire original statement rather than creating partial edges.
+The five missing references and three missing credit values remain unresolved;
+no new external source retrieval was performed during this interpretation phase.
+Cross-list credit exclusions are preserved as metadata, pending degree modeling.
+
+The importer validates the merged same-edition records and source identities and
+checks mandatory-before cycles. No such cycle was found. This audit covers only
+mandatory before-enrollment edges in reviewed expressions; it does not establish
+registration eligibility or feasibility for unresolved alternatives. The draft
+reports nine external prerequisite records needed recursively by reviewed rules:
+MATH 1300, 1301, 1302, 1305, 1306, 1324, 1404, 1505 and 2402. These are existing
+shared records; no invented aliases or new source data were added.
+
+Next bounded phase: investigate same-edition sources for the five missing
+prerequisite references and three missing credit values. Preserve unresolved
+results explicitly. Then model Biology degree requirements, including
+high-impact/CURE choices and overlapping upper-level options, before selector
+integration and browser QA. Publication remains disabled.
+
+Validation: all 144 tests passed, including six new prerequisite semantic/review-guard tests. Tools typecheck, lint and staged diff checks passed. No application UI or active catalog changed.

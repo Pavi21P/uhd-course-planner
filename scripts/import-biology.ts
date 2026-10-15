@@ -1,10 +1,12 @@
-﻿import { createHash } from 'node:crypto'
+import { createHash } from 'node:crypto'
 import { readFile, writeFile, rename } from 'node:fs/promises'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { z } from 'zod'
 import { courseSchema, datasetSchema, sourceSchema, type Course } from '../src/data/catalog-schema.ts'
 import { parseCourseCapture } from './catalog-import.ts'
+import { reviewBiologyPrerequisites } from './biology-prerequisite-reviews.ts'
+import { auditMandatoryCycles } from './prerequisite-audit.ts'
 
 const panelSchema = z.object({ code: z.string().regex(/^[A-Z]+ \d{4}$/), sourceUrl: z.url(),
   text: z.string().min(1), sha256: z.string().regex(/^[a-f0-9]{64}$/) })
@@ -70,14 +72,12 @@ export async function buildBiologyIntake(root: string, captureInput?: unknown) {
       title: 'Biology BS degree page and course panels', catalogYear: capture.catalogYear,
       retrievedOn: capture.retrievedOn, role: 'catalog' }))
   const results = capture.courses.map(panel => parseBiologyPanel(panel, sources.find(source => source.url === panel.sourceUrl)!.id))
-  const courses = results.flatMap(result => result.course ? [result.course] : [])
+  let courses = results.flatMap(result => result.course ? [result.course] : [])
   const blockedCourses = results.flatMap(result => result.blocked ? [result.blocked] : [])
-  // Compare source fields only. Reusing prerequisite reviews is a separate, explicit gate.
-  const existing = new Map<string, Course>([
-    ...(await read('src/data/catalog-2025-2026.json')).catalog.courses,
-    ...(await read('src/data/minor-2025-2026.json')).courses,
-    ...(await read('data/drafts/chemistry-intake-2025-2026.json')).courses,
-  ].map((course: unknown) => { const checked = courseSchema.parse(course); return [checked.code, checked] }))
+  // Compare the source fields before reusing any exact-match prerequisite review.
+  const sharedDatasets = [(await read('src/data/catalog-2025-2026.json')).catalog,
+    await read('src/data/minor-2025-2026.json'), await read('data/drafts/chemistry-intake-2025-2026.json')]
+  const existing = new Map<string, Course>(sharedDatasets.flatMap(data => data.courses).map((course: unknown) => { const checked = courseSchema.parse(course); return [checked.code, checked] }))
   const sharedCourseIds: string[] = []
   for (const course of courses) {
     const prior = existing.get(course.code)
@@ -89,8 +89,32 @@ export async function buildBiologyIntake(root: string, captureInput?: unknown) {
       throw new Error(`Shared Biology course conflict: ${course.code}`)
     sharedCourseIds.push(course.id)
   }
+  const review = reviewBiologyPrerequisites(courses, existing)
+  courses = review.courses
+  const mergedCourses = new Map([...existing.values(), ...courses].map(course => [course.id, course]))
+  const mergedSources = new Map(sharedDatasets.flatMap(data => data.sources).concat(sources).map(source => [source.id, source]))
   datasetSchema.parse({ schemaVersion: 1, datasetVersion: 'biology-intake-' + capture.retrievedOn,
-    catalogYear: capture.catalogYear, synthetic: false, sources, courses, requirements: [] })
+    catalogYear: capture.catalogYear, synthetic: false, sources: [...mergedSources.values()],
+    courses: [...mergedCourses.values()], requirements: [] })
+  const mandatoryBeforeCycles = auditMandatoryCycles([...mergedCourses.values()])
+  if (mandatoryBeforeCycles.length) throw new Error('Biology import creates a mandatory-before cycle')
+  // Report the external records needed by reviewed expressions, recursively.
+  const ownIds = new Set(courses.map(course => course.id))
+  const dependencyIds = new Set<string>()
+  const seen = new Set<string>()
+  const visit = (id: string) => {
+    if (seen.has(id)) return
+    seen.add(id)
+    const record = mergedCourses.get(id)!
+    if (!ownIds.has(id)) dependencyIds.add(id)
+    if (record.review !== 'verified') return
+    const walk = (rule: Course['prerequisites']) => {
+      if (rule.kind === 'course') visit(rule.courseId)
+      else if (rule.kind === 'all' || rule.kind === 'any') rule.items.forEach(walk)
+    }
+    walk(record.prerequisites)
+  }
+  courses.forEach(course => visit(course.id))
   // Blocked options intentionally do not count as known course records.
   const known = new Set([...existing.keys(), ...courses.map(course => course.code)])
   const missingReferencedCodes = [...new Set(courses.flatMap(course => course.prerequisiteText.match(/[A-Z]{2,}\s*\d{4}/g) ?? [])
@@ -99,7 +123,10 @@ export async function buildBiologyIntake(root: string, captureInput?: unknown) {
     panelMetadata: results.map(result => result.metadata),
     report: { capturedPanelCount: capture.courses.length, courseCount: courses.length,
       blockedCourseCount: blockedCourses.length, sharedCourseIds, newCourseCount: courses.length - sharedCourseIds.length,
-      verifiedCount: 0, prerequisiteReviewRequired: courses.map(course => course.code), missingReferencedCodes,
+      verifiedCount: courses.filter(course => course.review === 'verified').length,
+      reusedReviewIds: review.reusedReviewIds, unresolved: review.unresolved, mandatoryBeforeCycles,
+      dependencyCourseIds: [...dependencyIds].sort(),
+      prerequisiteReviewRequired: courses.filter(course => course.review !== 'verified').map(course => course.code), missingReferencedCodes,
       sourceFingerprints: capture.courses.map(panel => ({ code: panel.code, sha256: panel.sha256 })),
       degreePageFingerprints: capture.pages.map(page => ({ sourceUrl: page.sourceUrl, sha256: page.sha256 })),
       remaining: ['Verify missing credits from an authoritative same-edition source or retain blocked options.',
@@ -113,7 +140,7 @@ async function main() {
   const target = resolve(root, 'data/drafts/biology-intake-2025-2026.json')
   await writeFile(`${target}.tmp`, JSON.stringify(draft, null, 2) + '\n', 'utf8')
   await rename(`${target}.tmp`, target)
-  console.log(`Biology intake: ${draft.report.courseCount} unreviewed courses; ${draft.report.blockedCourseCount} missing-credit options blocked. Publication disabled.`)
+  console.log(`Biology intake: ${draft.report.courseCount} courses; ${draft.report.verifiedCount} reviewed; ${draft.report.unresolved.length} unresolved; ${draft.report.blockedCourseCount} missing-credit options blocked. Publication disabled.`)
 }
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url))
   await main().catch(error => { console.error(error.message); process.exitCode = 1 })

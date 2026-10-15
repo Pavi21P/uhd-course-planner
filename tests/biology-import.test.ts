@@ -1,4 +1,4 @@
-﻿import assert from 'node:assert/strict'
+import assert from 'node:assert/strict'
 import test from 'node:test'
 import { readFile } from 'node:fs/promises'
 import { createHash } from 'node:crypto'
@@ -28,8 +28,12 @@ test('Biology intake is reproducible and accounts for every captured option with
     assert.ok(!('credits' in blocked))
     assert.match(blocked.reason, /No credit value/)
   }
-  assert.equal(intake.report.verifiedCount, 0)
-  for (const course of intake.courses) {
+  assert.equal(intake.report.verifiedCount, 50)
+  assert.equal(intake.report.reusedReviewIds.length, 29)
+  assert.equal(intake.report.unresolved.length, 32)
+  for (const issue of intake.report.unresolved) {
+    assert.ok(issue.reason)
+    const course = intake.courses.find(course => course.id === issue.courseId)!
     assert.equal(course.review, 'needs-review')
     assert.equal(graphPrerequisites(course), null)
   }
